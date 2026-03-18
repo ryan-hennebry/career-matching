@@ -1,0 +1,62 @@
+{
+  "title": "Founder Associate",
+  "company": "Duku AI",
+  "location": "London, England, UK",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": 36000,
+  "salary_max": 60000,
+  "currency": "GBP",
+  "job_url": "https://www.linkedin.com/jobs/view/4344764433",
+  "source": "linkedin",
+  "date_posted": "2025-12-18",
+  "active_status": "unverified",
+  "industry": "AI / Machine Learning",
+  "requirements_met": [
+    "Curiosity for AI, developer tooling, and autonomous systems",
+    "Analytical sharpness / first-principles thinking",
+    "Ability to operate in ambiguity and create structure",
+    "Cross-functional execution"
+  ],
+  "gaps": [
+    "Relentless execution at startup pace",
+    "Product ops / finance workflows / hiring loops",
+    "GTM operations experience"
+  ],
+  "preferred_met": [
+    "Startup or high-velocity environment experience",
+    "Passion for building innovative solutions"
+  ],
+  "score": 78,
+  "score_breakdown": {
+    "required_skills": {
+      "matched": 4,
+      "total": 7,
+      "points": 23,
+      "calculation": "40 * (4/7) = 22.9 rounded to 23"
+    },
+    "preferred_skills": {
+      "matched": 2,
+      "total": 2,
+      "points": 20,
+      "calculation": "20 * (2/2) = 20"
+    },
+    "experience_fit": {
+      "points": 10,
+      "calculation": "Overqualified by roughly one level = 10 points"
+    },
+    "industry_match": {
+      "points": 15,
+      "calculation": "Direct match with target industry = 15 points"
+    },
+    "location_match": {
+      "points": 10,
+      "calculation": "London matches user preference = 10 points"
+    },
+    "total": 78
+  },
+  "benefits": [],
+  "notes": "Duku AI builds an autonomous testing platform using AI agents.",
+  "run_date": "2026-02-08",
+  "verified_at": "2026-02-08"
+}

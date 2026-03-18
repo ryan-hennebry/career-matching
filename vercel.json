@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "functions": {
+    "api/*.py": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    { "source": "/api/:path", "destination": "/api/:path.py" },
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ]
+}

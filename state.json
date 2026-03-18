@@ -1,0 +1,43 @@
+{
+  "last_run_date": null,
+  "jobs": {},
+  "config": {
+    "version": "1.0",
+    "model": "claude-opus-4-6"
+  },
+  "roles": [],
+  "scoring": {
+    "weights": {
+      "required_skills": 40,
+      "preferred_skills": 20,
+      "experience": 15,
+      "industry": 15,
+      "location": 10
+    },
+    "minimum_presentation_score": 70,
+    "comparison_rule": "score >= 70"
+  },
+  "dashboard": {
+    "url": ""
+  },
+  "delivery": {
+    "email": "",
+    "subject_template": "Job Search Update — {run_date}",
+    "body_file_template": "output/digests/{run_date}-email.html",
+    "attachment_template": "output/briefs/briefs-{run_date}.html"
+  },
+  "constraints": {
+    "location": "",
+    "country": "",
+    "remote_preference": [],
+    "minimum_salary": 0,
+    "salary_currency": "",
+    "title_exclusions": [],
+    "ai_flag_keywords": ["AI agents", "context engineering", "prompt engineering", "Claude Code"]
+  },
+  "profile": {
+    "experience_years": 0,
+    "seniority": "",
+    "target_industries": []
+  }
+}

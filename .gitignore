@@ -1,0 +1,12 @@
+.env
+__pycache__/
+.claude/settings.local.json
+.playwright-mcp/
+*.png
+*.txt
+!requirements.txt
+.vercel
+output/*
+!output/*/
+output/*/*
+!output/*/.gitkeep

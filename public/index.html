@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Search Agent</title>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+<body>
+  <!-- Summary Strip (persistent top bar) -->
+  <header class="summary-strip" id="summary-strip">
+    <div class="summary-strip-inner">
+      <h1 class="summary-title">Job Search Agent</h1>
+      <hr class="summary-divider">
+      <span id="summary-date"></span>
+      <div class="summary-stats" id="summary-stats"></div>
+      <button class="btn btn-primary" id="run-now-btn">Run Now</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+        <span class="sidebar-label">Pipeline</span>
+        <div class="sidebar-item active" data-stage="all">All Jobs <span class="count" id="count-all"></span></div>
+        <div class="sidebar-item" data-stage="new">New <span class="count" id="count-new"></span></div>
+        <div class="sidebar-item" data-stage="reviewing">Reviewing <span class="count" id="count-reviewing"></span></div>
+        <div class="sidebar-item" data-stage="brief_requested">Brief Requested <span class="count" id="count-brief"></span></div>
+        <div class="sidebar-item" data-stage="applied">Applied <span class="count" id="count-applied"></span></div>
+        <div class="sidebar-item" data-stage="rejected">Rejected <span class="count" id="count-rejected"></span></div>
+      </div>
+      <div class="sidebar-section">
+        <span class="sidebar-label">Role Type</span>
+        <div id="role-type-filters"></div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content" id="content">
+      <div class="loading">Loading...</div>
+    </main>
+  </div>
+
+  <!-- Run Panel (hidden by default) -->
+  <div class="overlay" id="run-overlay" style="display:none;">
+    <div class="run-panel" id="run-panel">
+      <h2>Run Job Search</h2>
+      <p class="meta">Select role types to search via GitHub Actions (JobSpy only).</p>
+      <div id="role-type-checkboxes"></div>
+      <div class="run-panel-actions">
+        <button class="btn btn-primary" id="run-confirm-btn">Search</button>
+        <button class="btn btn-secondary" id="run-cancel-btn">Cancel</button>
+      </div>
+      <div id="run-status" style="display:none;"></div>
+    </div>
+  </div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/components.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
