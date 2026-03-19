@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 446.273125 1237.3999999999999" width="446.273125" height="1237.3999999999999" style="--bg:#ffffff;--fg:#1f2328;--line:#d1d9e0;--accent:#0969da;--muted:#59636e">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 457.42337499999985 1254.3" width="457.42337499999985" height="1254.3" style="--bg:#ffffff;--fg:#1f2328;--line:#d1d9e0;--accent:#0969da;--muted:#59636e;background:var(--bg)">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
   text { font-family: 'Inter', system-ui, sans-serif; }
@@ -26,78 +26,79 @@
     <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
   </marker>
 </defs>
-<g class="subgraph" data-id="SETUP" data-label="1) One-time setup in Claude">
-  <rect x="41.609874999999995" y="40" width="275.502" height="300.5" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <rect x="41.609874999999995" y="40" width="275.502" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <text x="53.609874999999995" y="54" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">1) One-time setup in Claude</text>
+<g class="subgraph" data-id="SETUP" data-label="1) Claude Code setup">
+  <rect x="41.08937500000002" y="40" width="277.7249999999999" height="300.5" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="41.08937500000002" y="40" width="277.7249999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="53.08937500000002" y="54" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">1) Claude Code setup</text>
 </g>
-<g class="subgraph" data-id="MATCHING" data-label="2) Matching run">
-  <rect x="62.72837499999999" y="400.5" width="343.54475" height="351.2" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <rect x="62.72837499999999" y="400.5" width="343.54475" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <text x="74.728375" y="414.5" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">2) Matching run</text>
+<g class="subgraph" data-id="MATCHING" data-label="2) Career matching runs">
+  <rect x="63.319374999999965" y="400.5" width="354.1039999999999" height="351.2" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="63.319374999999965" y="400.5" width="354.1039999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="75.31937499999997" y="414.5" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">2) Career matching runs</text>
 </g>
 <g class="subgraph" data-id="LOOP" data-label="3) Decision loop">
-  <rect x="63.469374999999985" y="880" width="308.903" height="317.4" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <rect x="63.469374999999985" y="880" width="308.903" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <text x="75.46937499999999" y="894" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">3) Decision loop</text>
+  <rect x="44.423875" y="880" width="335.76424999999995" height="334.3" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="44.423875" y="880" width="335.76424999999995" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="56.423875" y="894" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">3) Decision loop</text>
 </g>
-<polyline class="edge" data-from="C" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="179.360875,324.5 179.360875,444.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="G" data-to="H" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="253.33162499999997,735.7 253.331625,862 251.72175,862 251.72175,862 242.031375,862 242.031375,924" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="E" data-to="J" data-style="dotted" data-arrow-start="false" data-arrow-end="true" data-label="Keeps the shortlist current" points="145.81670833333334,498.3 145.81670833333334,510.3 105.390125,510.3 105.39012500000001,793.7 107,793.7 107,862 116.69037499999999,862 116.69037499999999,1108.5 146.06370833333332,1108.5 146.06370833333332,1144.5" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="179.360875,120.9 179.360875,168.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="179.360875,239.60000000000002 179.360875,287.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="E" data-to="F" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="212.90504166666668,498.3 212.90504166666668,510.3 253.331625,510.3 253.331625,546.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="F" data-to="G" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="253.331625,617 253.331625,665" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="H" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="242.031375,994.7 242.031375,1042.7" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="I" data-to="J" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="242.031375,1096.5 242.031375,1108.5 212.65804166666666,1108.5 212.65804166666666,1144.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<g class="edge-label" data-from="E" data-to="J" data-label="Keeps the shortlist current">
+<polyline class="edge" data-from="C" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="179.95187499999997,324.5 179.95187499999997,444.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G" data-to="H" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="257.44237499999997,735.7 257.44237499999997,862 252.90375,862 252.90375,862 245.030625,862 245.030625,924" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="K" data-style="dotted" data-arrow-start="false" data-arrow-end="true" data-label="Keeps the shortlist current" points="146.4077083333333,498.3 146.4077083333333,510.3 102.461375,510.3 102.461375,793.7 107,793.7 107,862 114.87312499999999,862 114.87312499999999,1108.5 140.10920833333333,1108.5 140.10920833333333,1144.5" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="179.95187499999997,137.8 179.95187499999997,185.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="179.95187499999997,239.60000000000002 179.95187499999997,287.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="F" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="213.49604166666666,498.3 213.49604166666666,510.3 257.44237499999997,510.3 257.44237499999997,546.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="F" data-to="G" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="257.44237499999997,617 257.44237499999997,665" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="H" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="245.030625,994.7 245.030625,1042.7" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="I" data-to="K" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="245.030625,1096.5 245.030625,1108.5 219.79454166666665,1108.5 219.79454166666665,1144.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="E" data-to="K" data-label="Keeps the shortlist current">
   <rect x="36" y="800.7" width="141.79600000000005" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
   <text x="106.89800000000002" y="815.85" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Keeps the shortlist current</text>
 </g>
-<g class="node" data-id="A" data-label="Paste one command in Terminal" data-shape="rectangle">
-  <rect x="67.24287500000003" y="84" width="224.23599999999993" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="179.360875" y="102.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Paste one command in Terminal</text>
+<g class="node" data-id="A" data-label="Paste the command from Quick start
+in your terminal" data-shape="rectangle">
+  <rect x="57.08937500000002" y="84" width="245.72499999999994" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="179.95187499999997" y="110.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="179.95187499999997" dy="-3.9000000000000012">Paste the command from Quick start</tspan><tspan x="179.95187499999997" dy="16.900000000000002">in your terminal</tspan></text>
 </g>
-<g class="node" data-id="B" data-label="Paste or upload your CV,
-then answer a few questions:
-roles, industries, location, salary" data-shape="rectangle">
-  <rect x="63.16737500000003" y="168.9" width="232.38699999999994" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="179.360875" y="204.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="179.360875" dy="-12.350000000000001">Paste or upload your CV,</tspan><tspan x="179.360875" dy="16.900000000000002">then answer a few questions:</tspan><tspan x="179.360875" dy="16.900000000000002">roles, industries, location, salary</tspan></text>
+<g class="node" data-id="B" data-label="Upload your CV, then answer
+onboarding questions" data-shape="rectangle">
+  <rect x="74.50287499999999" y="185.8" width="210.898" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="179.95187499999997" y="212.70000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="179.95187499999997" dy="-3.9000000000000012">Upload your CV, then answer</tspan><tspan x="179.95187499999997" dy="16.900000000000002">onboarding questions</tspan></text>
 </g>
-<g class="node" data-id="C" data-label="Profile and preferences are saved" data-shape="rectangle">
-  <rect x="57.609874999999995" y="287.6" width="243.502" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="179.360875" y="306.05" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Profile and preferences are saved</text>
+<g class="node" data-id="C" data-label="Your preferences are saved" data-shape="rectangle">
+  <rect x="74.873375" y="287.6" width="210.15699999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="179.95187499999997" y="306.05" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Your preferences are saved</text>
 </g>
 <g class="node" data-id="E" data-label="Agent searches job boards
 and career pages" data-shape="rectangle">
-  <rect x="78.728375" y="444.5" width="201.26500000000001" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="179.36087500000002" y="471.4" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="179.36087500000002" dy="-3.9000000000000012">Agent searches job boards</tspan><tspan x="179.36087500000002" dy="16.900000000000002">and career pages</tspan></text>
+  <rect x="79.31937499999997" y="444.5" width="201.26500000000001" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="179.95187499999997" y="471.4" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="179.95187499999997" dy="-3.9000000000000012">Agent searches job boards</tspan><tspan x="179.95187499999997" dy="16.900000000000002">and career pages</tspan></text>
 </g>
-<g class="node" data-id="F" data-label="Listings are verified and scored against
-skills, experience, industry,
-location, and salary" data-shape="rectangle">
-  <rect x="116.39012500000001" y="546.3" width="273.883" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="253.331625" y="581.65" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="253.331625" dy="-12.350000000000001">Listings are verified and scored against</tspan><tspan x="253.331625" dy="16.900000000000002">skills, experience, industry,</tspan><tspan x="253.331625" dy="16.900000000000002">location, and salary</tspan></text>
+<g class="node" data-id="F" data-label="Roles are scored on your
+experience, industry,
+location, salary, and more" data-shape="rectangle">
+  <rect x="161.62637499999994" y="546.3" width="191.63199999999998" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="257.4423749999999" y="581.65" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="257.4423749999999" dy="-12.350000000000001">Roles are scored on your</tspan><tspan x="257.4423749999999" dy="16.900000000000002">experience, industry,</tspan><tspan x="257.4423749999999" dy="16.900000000000002">location, salary, and more</tspan></text>
 </g>
 <g class="node" data-id="G" data-label="You receive ranked matches,
-can request briefs, and can get
-an optional email digest" data-shape="rectangle">
-  <rect x="143.066125" y="665" width="220.53099999999998" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="253.33162499999997" y="700.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="253.33162499999997" dy="-12.350000000000001">You receive ranked matches,</tspan><tspan x="253.33162499999997" dy="16.900000000000002">can request briefs, and can get</tspan><tspan x="253.33162499999997" dy="16.900000000000002">an optional email digest</tspan></text>
+can request briefs,
+and can receive email digests if configured" data-shape="rectangle">
+  <rect x="113.461375" y="665" width="287.9619999999999" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="257.44237499999997" y="700.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="257.44237499999997" dy="-12.350000000000001">You receive ranked matches,</tspan><tspan x="257.44237499999997" dy="16.900000000000002">can request briefs,</tspan><tspan x="257.44237499999997" dy="16.900000000000002">and can receive email digests if configured</tspan></text>
 </g>
 <g class="node" data-id="H" data-label="You request briefs,
-mark jobs applied or rejected,
-or refine preferences" data-shape="rectangle">
-  <rect x="135.100375" y="924" width="213.86199999999997" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="242.031375" y="959.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="242.031375" dy="-12.350000000000001">You request briefs,</tspan><tspan x="242.031375" dy="16.900000000000002">mark jobs applied or rejected,</tspan><tspan x="242.031375" dy="16.900000000000002">or refine preferences</tspan></text>
+say you've applied,
+or refine your preferences" data-shape="rectangle">
+  <rect x="145.880125" y="924" width="198.301" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="245.030625" y="959.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="245.030625" dy="-12.350000000000001">You request briefs,</tspan><tspan x="245.030625" dy="16.900000000000002">say you&#39;ve applied,</tspan><tspan x="245.030625" dy="16.900000000000002">or refine your preferences</tspan></text>
 </g>
-<g class="node" data-id="I" data-label="Agent updates the pipeline,
-saved state, and future rankings" data-shape="rectangle">
-  <rect x="127.69037499999999" y="1042.7" width="228.682" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="242.03137499999997" y="1069.6000000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="242.03137499999997" dy="-3.9000000000000012">Agent updates the pipeline,</tspan><tspan x="242.03137499999997" dy="16.900000000000002">saved state, and future rankings</tspan></text>
+<g class="node" data-id="I" data-label="Agent updates pipeline state,
+saved preferences, and rankings" data-shape="rectangle">
+  <rect x="125.87312499999999" y="1042.7" width="238.31499999999997" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="245.030625" y="1069.6000000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="245.030625" dy="-3.9000000000000012">Agent updates pipeline state,</tspan><tspan x="245.030625" dy="16.900000000000002">saved preferences, and rankings</tspan></text>
 </g>
-<g class="node" data-id="J" data-label="Next run is easier to review" data-shape="rectangle">
-  <rect x="79.46937499999999" y="1144.5" width="199.783" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="179.36087499999996" y="1162.95" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Next run is easier to review</text>
+<g class="node" data-id="K" data-label="Future runs become more tailored
+over time" data-shape="rectangle">
+  <rect x="60.423875" y="1144.5" width="239.05599999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="179.95187499999997" y="1171.4" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="179.95187499999997" dy="-3.9000000000000012">Future runs become more tailored</tspan><tspan x="179.95187499999997" dy="16.900000000000002">over time</tspan></text>
 </g>
 </svg>
