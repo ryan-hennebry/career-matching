@@ -1,0 +1,25 @@
+flowchart TB
+  subgraph SETUP["1) One-time setup in Claude"]
+    A["Paste one command in Terminal"]
+    B["Paste or upload your CV,<br/>then answer a few questions:<br/>roles, industries, location, salary"]
+    C["Profile and preferences are saved"]
+    A --> B --> C
+  end
+
+  subgraph MATCHING["2) Matching run"]
+    E["Agent searches job boards<br/>and career pages"]
+    F["Listings are verified and scored against<br/>skills, experience, industry,<br/>location, and salary"]
+    G["You receive ranked matches,<br/>can request briefs, and can get<br/>an optional email digest"]
+    E --> F --> G
+  end
+
+  subgraph LOOP["3) Decision loop"]
+    H["You request briefs,<br/>mark jobs applied or rejected,<br/>or refine preferences"]
+    I["Agent updates the pipeline,<br/>saved state, and future rankings"]
+    J["Next run is easier to review"]
+    H --> I --> J
+  end
+
+  C --> E
+  G --> H
+  E -. "Keeps the shortlist current" .-> J
