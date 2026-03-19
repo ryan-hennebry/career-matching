@@ -131,19 +131,14 @@ class TestCountBadges:
         assert "count-badge" in _read_components_js()
 
 
-class TestEmptyStateCTA:
-    def test_run_search_text(self) -> None:
-        assert "Run Search" in _read_components_js()
+class TestEmptyStateMessage:
+    def test_mentions_claude_code(self) -> None:
+        assert "Claude Code" in _read_components_js()
 
-    def test_empty_state_rendered_as_button(self) -> None:
+    def test_does_not_render_run_search_button(self) -> None:
         js = _read_components_js()
-        assert "button" in js.lower() or "btn" in js
-
-    def test_cta_uses_data_action_not_onclick(self) -> None:
-        js = _read_components_js()
-        assert 'data-action="trigger-search"' in js or "data-action" in js
-        # Verify no inline onclick for triggerSearch
-        assert 'onclick="triggerSearch()"' not in js
+        assert "Run Search" not in js
+        assert 'data-action="trigger-search"' not in js
 
 
 # --- index.html tests ---
@@ -208,11 +203,11 @@ class TestSectionDividers:
 
 class TestEnhancedEmptyState:
     def test_no_jobs_found_message(self) -> None:
-        assert "No jobs found" in _read_app_js()
+        assert "No jobs found" in _read_components_js()
 
-    def test_run_search_cta(self) -> None:
+    def test_mentions_claude_code_flow(self) -> None:
         js = _read_app_js()
-        assert "Run" in js and "search" in js.lower()
+        assert "Claude Code" in js
 
 
 class TestLoadingSpinner:

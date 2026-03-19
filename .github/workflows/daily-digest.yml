@@ -7,7 +7,7 @@ on:
 
 concurrency:
   group: jsa-daily-digest
-  cancel-in-progress: false  # Manual workflow_dispatch during scheduled run will queue (not cancel).
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -15,110 +15,90 @@ permissions:
 jobs:
   daily-digest:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install dependencies
-        working-directory: .
+
+      - name: Install Python dependencies
         run: |
-          pip install python-jobspy resend playwright
+          pip install -r requirements.txt python-jobspy resend playwright
           python -m playwright install chromium
-      - name: Install Claude Code
-        working-directory: .
-        run: |
-          npm install -g @anthropic-ai/claude-code
-          claude --version
-      - name: Load config
-        id: config
-        working-directory: .
-        run: |
-          config=$(cat .github/jsa-config.json)
-          echo "config<<CONFIGEOF" >> "$GITHUB_OUTPUT"
-          echo "$config" >> "$GITHUB_OUTPUT"
-          echo "CONFIGEOF" >> "$GITHUB_OUTPUT"
+
       - name: Create settings.local.json
-        working-directory: .
         run: |
           mkdir -p .claude
           cat > .claude/settings.local.json << 'SETTINGS_EOF'
           {
             "permissions": {
               "allow": [
-                "Bash(python3:*)",
-                "Bash(bash:*)",
-                "Bash(git pull:*)",
-                "Bash(git add:*)",
-                "Bash(git commit:*)",
-                "Bash(git push:*)",
-                "Bash(find:*)",
-                "Bash(test:*)",
-                "WebFetch(domain:web3.career)",
-                "WebFetch(domain:www.remote3.co)",
-                "WebFetch(domain:beincrypto.com)",
-                "WebFetch(domain:cryptocurrencyjobs.co)",
-                "WebFetch(domain:laborx.com)",
-                "WebFetch(domain:aijobs.app)",
-                "WebFetch(domain:aijobs.ai)",
-                "WebFetch(domain:theaijobboard.com)",
-                "WebFetch(domain:workinstartups.com)",
-                "WebFetch(domain:www.ukstartupjobs.com)",
-                "WebFetch(domain:www.jumpstart-uk.com)",
-                "WebFetch(domain:www.ycombinator.com)",
-                "WebFetch(domain:jobs.techstars.com)",
-                "WebFetch(domain:builtinlondon.uk)",
-                "WebFetch(domain:www.escapethecity.org)",
-                "WebSearch",
+                "Bash",
                 "Read",
                 "Write",
+                "Edit",
                 "Glob",
-                "Grep"
+                "Grep",
+                "WebFetch",
+                "WebSearch"
               ]
             }
           }
           SETTINGS_EOF
-      - name: Validate settings.local.json
-        working-directory: .
-        run: |
-          python3 -c "import json; json.load(open('.claude/settings.local.json'))" || { echo "FAIL: invalid settings.local.json"; exit 1; }
-          echo "settings.local.json is valid JSON"
+          python3 -c "import json; json.load(open('.claude/settings.local.json'))" && echo "Valid JSON"
+
       - name: Preflight checks
-        working-directory: .
-        run: bash scripts/preflight.sh
+        run: bash scripts/preflight.sh --env
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          SCHEDULED_RUN: "true"
+
       - name: Run scheduled digest
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          SCHEDULED_RUN: 'true'
-          JSA_CONFIG: ${{ steps.config.outputs.config }}
-        working-directory: .
-        run: |
-          claude --model claude-opus-4-6 --print "Run scheduled daily digest. SCHEDULED_RUN=true. Config: $JSA_CONFIG"
+        id: claude-run
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt: |
+            Run scheduled daily digest. SCHEDULED_RUN=true.
+            Working directory: .
+            Execute the full scheduled pipeline: startup -> Search -> Verify -> Dedup -> Present -> Deliver -> final checkpoint.
+          model: "claude-opus-4-6"
+          max_turns: "50"
+          allowed_tools: "Bash,Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_env: |
+            RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+            SCHEDULED_RUN: true
+
       - name: Commit state
-        working-directory: .
         run: |
           git config user.name "Job Search Agent"
           git config user.email "agent@autonomous.bot"
-          git add state.json output/session-state.md
+          git add state.json output/session-state.md output/verified/ output/_delta.json output/digests/ output/briefs/
           STAGED=$(git diff --staged --name-only)
-          for f in $STAGED; do
-            case "$f" in
-              state.json|output/session-state.md) ;;
-              *) echo "ERROR: unexpected staged file: $f" && exit 1 ;;
-            esac
-          done
+          if [ -z "$STAGED" ]; then
+            echo "No changes to commit"
+            exit 0
+          fi
           git diff --staged --quiet || git commit -m "chore(jsa): daily digest $(date +%Y-%m-%d)"
           git push origin main
-      - name: Post-deploy smoke test
-        if: success()
+
+      - name: Deploy dashboard to Vercel
+        if: always() && steps.claude-run.outcome == 'success'
         run: |
-          echo "Running smoke test..."
-          curl -sf "${VERCEL_URL:-https://jsa-dashboard.vercel.app}/api/jobs" || exit 1
+          npm install -g vercel
+          vercel link --project jsa-dashboard --yes && vercel --prod --yes
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+      - name: Post-deploy smoke test
+        if: always() && steps.claude-run.outcome == 'success'
+        run: |
+          curl -sf "${VERCEL_URL:-https://jsa-dashboard.vercel.app}/api/jobs" >/dev/null
           echo "Smoke test passed."
         env:
           VERCEL_URL: ${{ vars.VERCEL_URL }}

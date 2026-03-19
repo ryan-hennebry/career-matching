@@ -121,12 +121,12 @@ All 5 search channels MUST be dispatched on every run. No channel may be skipped
 4. **builtin** — search-verify subagent
 5. **google-jobs** — search-verify subagent
 
-Each dispatch includes HC-10 mandatory variables: `working_dir` (absolute, resolving to `03_agents/tests/v25/`), `output_directory`, `dashboard_url`.
+Each dispatch includes HC-10 mandatory variables: `working_dir` (absolute path to the repo root containing `context.md`, `scripts/`, and `output/`), `output_directory`, `dashboard_url`.
 
 Failure to dispatch all 5 channels is a pipeline violation. If a channel returns zero results, that is acceptable — the channel was still dispatched.
 
 **Common variables** (included in every channel's JSON blob):
-- `working_dir` — absolute path to the v25 directory
+- `working_dir` — absolute path to the repo root
 - `output_directory` — `output/verified/`
 - `dashboard_url` — from context.md `## Delivery` (HC10 mandatory)
 - `model` — `haiku`
@@ -185,7 +185,7 @@ Search-verify subagents MUST operate within a hard budget:
 
 ### Per-Channel Commit Gate (MANDATORY)
 
-After EACH channel's search-verify subagent returns, parent dispatches a gate-check subagent via Task tool (note: do NOT include `model:` as a Task tool parameter — model selection is handled by the agent definition, not dispatch):
+After EACH channel's search-verify subagent returns, parent dispatches a gate-check subagent via Task tool:
 
 ```
 prompt: '{"working_dir": "<abs_path>", "output_directory": "output/", "dashboard_url": "<url>", "command": "python3 scripts/manage_state.py verify-and-commit --phase-label search --output-dir output", "gate_name": "commit-gate-{channel-name}"}'
@@ -258,7 +258,7 @@ Gate-check subagent writes result to `.channels/schema-validation.done` with `{"
 2. `validate-schema` (Schema Validation Gate above) -- all verified JSONs have 10 required fields. MUST pass before proceeding. If gate-check fails: re-dispatch gate-check. Do NOT skip.
 3. `dedup` -- only after both gates above pass.
 
-> **Note:** Startup sequence must include reading agent-memory files (`.claude/regressions/jsa.md`, `.claude/decision-log/jsa-v24.md`) before dispatching any search channels. This is unchanged from V23 orchestration but noted here for regression awareness.
+> **Note:** Startup sequence must include reading the repo's current agent-memory files before dispatching any search channels.
 
 ### Entry Criteria
 
@@ -733,7 +733,7 @@ Search-verify, brief-generator, digest-email, and briefs-html templates already 
 
 ### Working Directory Validation (V19 compliance)
 
-All dispatch prompts MUST set `working_dir` to the absolute path resolving to `03_agents/tests/v25/`. NEVER use relative paths or previous version paths. Subagent dispatch prompts that contain `v24`, `v23`, or relative `./` paths are invalid — stop and fix before dispatching.
+All dispatch prompts MUST set `working_dir` to the absolute repo-root path. NEVER use versioned `tests/v*` paths or relative `./` paths in dispatch prompts.
 
 ---
 

@@ -92,19 +92,25 @@ def test_all_agents_have_background_true() -> None:
 
 
 def test_settings_local_json_preserves_existing_entries() -> None:
-    """settings.local.json merge must preserve pre-existing permission entries."""
+    """CI workflow should create a valid settings.local.json allow list."""
     import json
-    from pathlib import Path
-    settings_path = Path(__file__).resolve().parent.parent / ".claude" / "settings.local.json"
-    data = json.loads(settings_path.read_text(encoding="utf-8"))
+    import re
+
+    workflow_text = _workflow_text()
+    match = re.search(
+        r"SETTINGS_EOF'\n(.*?)\n\s*SETTINGS_EOF",
+        workflow_text,
+        re.DOTALL,
+    )
+    assert match, "daily-digest workflow must define settings.local.json via heredoc"
+    data = json.loads(match.group(1))
     allow = data.get("permissions", {}).get("allow", [])
-    # Core entries that must exist
     assert "Read" in allow
     assert "Write" in allow
     assert "WebFetch" in allow
-    # Verify it's a list (not accidentally overwritten to something else)
+    assert "WebSearch" in allow
     assert isinstance(allow, list)
-    assert len(allow) >= 10, f"Expected >= 10 permission entries, got {len(allow)}"
+    assert len(allow) >= 6, f"Expected >= 6 permission entries, got {len(allow)}"
 
 
 def test_no_model_parameter_in_dispatch_templates() -> None:
@@ -190,8 +196,8 @@ def test_phase5_uses_body_file_for_email() -> None:
 
 
 def _repo_root() -> Path:
-    """Return the repository root (4 levels up from v22/tests/)."""
-    return Path(__file__).resolve().parents[4]
+    """Return the repository root."""
+    return Path(__file__).resolve().parent.parent
 
 
 def _workflow_text() -> str:
@@ -220,18 +226,15 @@ class TestGitHubWorkflowUsesClaude:
             "Workflow must not contain active 'claude --print' (migrated to claude-code-base-action)"
         )
 
-    def test_references_v23(self):
+    def test_uses_repo_root_paths(self):
         text = _workflow_text()
-        assert "v23" in text, "Workflow must reference v23 working directory"
         for line in text.splitlines():
             stripped = line.strip()
             if stripped.startswith("#"):
                 continue
-            for old in ("v20", "v21", "v22"):
-                if f"tests/{old}" in stripped:
-                    pytest.fail(
-                        f"Active (non-comment) line references old version {old}: {stripped}"
-                    )
+            assert "tests/v" not in stripped, (
+                f"Workflow should use repo-root paths, not versioned test paths: {stripped}"
+            )
 
     def test_has_workflow_dispatch_trigger(self):
         text = _workflow_text()
