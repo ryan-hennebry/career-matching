@@ -1,6 +1,6 @@
 # Career Matching Agent
 
-Find live roles, rank them against your background, and get application briefs for matches worth pursuing.
+Find live roles, rank them against your background, and get application briefs for the matches worth pursuing.
 
 No coding experience required.
 
@@ -30,9 +30,9 @@ git clone https://github.com/ryan-hennebry/career-matching.git && cd career-matc
 
 ## What you receive
 
-Each time the agent runs it produces a shortlist with:
+Each run produces a shortlist with:
 
-- Job matches scored across required skills, preferred skills, experience, industry, location, and salary
+- Job matches scored across required and preferred skills, experience, industry, location, and salary
 - A clear view of what is new today versus still active
 - Reasons each role fits, where the gaps are, and which opportunities look strongest
 - Application briefs for the roles you choose, including CV tailoring, cover letter talking points, and outreach drafts
@@ -50,7 +50,7 @@ Keep working with the agent in Claude Code for deeper analysis:
 
 ## Optional delivery
 
-If you want ongoing updates on new roles that are a good fit:
+If you want ongoing updates:
 
 - **Receive an email digest:** when the agent asks, open [Resend](https://resend.com/api-keys), create an API key, and paste it into chat
 
@@ -59,7 +59,7 @@ If you want ongoing updates on new roles that are a good fit:
 - Ranked roles in a table showing score, title, company, location, and source links
 - A pipeline view of new, reviewing, brief-requested, applied, rejected, and expired jobs
 - Per-job detail views with requirements met, gaps, score breakdown, and the original listing
-- Application briefs including CV tailoring, cover letter talking points and outreach drafts
+- Application briefs with CV tailoring, cover letter talking points, outreach drafts, and application checklists
 - If configured, an email digest for ongoing updates on new roles that are a good fit
 
 ## How it works
