@@ -1,6 +1,6 @@
 # Career Matching Agent
 
-Find live job matches, rank them against your background, and get application briefs for the roles worth pursuing.
+Find live roles, rank them against your background, and get application briefs for matches worth pursuing.
 
 No coding experience required.
 
@@ -25,43 +25,42 @@ git clone https://github.com/ryan-hennebry/career-matching.git && cd career-matc
 - Add any skills that are missing from the CV
 - Choose the role types and industries you want to target
 - Set location preferences and minimum salary
-- Add your email for digests, and optionally a dashboard URL if you already have one
-- The agent searches job boards and career pages, ranks the results, and asks which roles you want briefs for
+- The agent searches job boards, ranks the results, and asks which roles you want application briefs for
+- If you want, you can set up email digests later in chat
 
 ## What you receive
 
-Each run produces a shortlist with:
+Each time the agent runs it produces a shortlist with:
 
-- Verified job matches scored across required skills, preferred skills, experience, industry, location, and salary
+- Job matches scored across required skills, preferred skills, experience, industry, location, and salary
 - A clear view of what is new today versus still active
 - Reasons each role fits, where the gaps are, and which opportunities look strongest
-- Application briefs for the roles you choose, including CV tailoring, cover letter talking points, outreach draft, and an application checklist
-- An optional email digest, plus an optional dashboard view if you have the included dashboard deployed
+- Application briefs for the roles you choose, including CV tailoring, cover letter talking points, and outreach drafts
+- If configured, an email digest delivered to your inbox
 
 ## Once your first output has been generated
 
-Keep working with the agent in Claude Code for faster triage:
+Keep working with the agent in Claude Code for deeper analysis:
 
 - "Show only the jobs that are new today."
 - "Which roles mention AI agents or Claude Code?"
 - "Why did this role score higher than the others?"
-- "Prepare briefs for jobs 1 and 3."
+- "Prepare application briefs for roles 1 and 3."
 - "Mark this one rejected and keep tracking the rest."
 
 ## Optional delivery
 
-Only set this up if you want ongoing updates:
+If you want ongoing updates on new roles that are a good fit:
 
-- **Email digest via Resend:** when the agent asks, open [Resend](https://resend.com/api-keys), create an API key, and paste it into chat
-- **Dashboard links:** if you already have the included dashboard deployed, paste its URL when the agent asks so digests can link back to it
+- **Receive an email digest:** when the agent asks, open [Resend](https://resend.com/api-keys), create an API key, and paste it into chat
 
 ## The agent's output
 
-- Ranked job tables showing score, title, company, location, and source links
+- Ranked roles in a table showing score, title, company, location, and source links
 - A pipeline view of new, reviewing, brief-requested, applied, rejected, and expired jobs
 - Per-job detail views with requirements met, gaps, score breakdown, and the original listing
-- Application briefs for selected roles
-- A digest email and browser dashboard view when those delivery options are configured
+- Application briefs including CV tailoring, cover letter talking points and outreach drafts
+- If configured, an email digest for ongoing updates on new roles that are a good fit
 
 ## How it works
 
