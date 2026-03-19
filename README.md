@@ -69,8 +69,6 @@ If you want ongoing updates:
   <img src="assets/how-it-works-light.svg" alt="How Career Matching Agent works" width="560" />
 </picture>
 
-*Diagram source: `assets/how-it-works.mmd`.*
-
 ## Project standards
 
 - [MIT License](LICENSE)
