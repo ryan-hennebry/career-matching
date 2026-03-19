@@ -1,6 +1,6 @@
 flowchart TB
   subgraph SETUP["1) Claude Code setup"]
-    A["Paste the command from Quick start<br/>in your terminal"]
+    A["Paste the Quick start<br/>command in your terminal"]
     B["Upload your CV, then answer<br/>onboarding questions"]
     C["Your preferences are saved"]
     A --> B --> C
@@ -9,14 +9,14 @@ flowchart TB
   subgraph MATCHING["2) Career matching runs"]
     E["Agent searches job boards<br/>and career pages"]
     F["Roles are scored on your<br/>experience, industry,<br/>location, salary, and more"]
-    G["You receive ranked matches,<br/>can request briefs,<br/>and can receive email digests if configured"]
+    G["You receive ranked matches,<br/>briefs on request,<br/>and optional email digests"]
     E --> F --> G
   end
 
   subgraph LOOP["3) Decision loop"]
-    H["You request briefs,<br/>say you've applied,<br/>or refine your preferences"]
+    H["You request briefs,<br/>say you've applied,<br/>or refine preferences"]
     I["Agent updates pipeline state,<br/>saved preferences, and rankings"]
-    K["Future runs become more tailored<br/>over time"]
+    K["Future runs become<br/>more tailored over time"]
     H --> I --> K
   end
 
