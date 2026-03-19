@@ -16,7 +16,7 @@ No coding experience required.
 git clone https://github.com/ryan-hennebry/career-matching.git && cd career-matching && claude --dangerously-skip-permissions
 ```
 
-2. In Claude Code, paste or upload your CV when the agent asks, then answer the onboarding questions one at a time.
+2. In Claude Code, upload your CV when the agent asks, then answer the onboarding questions one at a time.
 
 ## The onboarding flow
 
@@ -35,7 +35,7 @@ Each run produces a shortlist with:
 - Job matches scored across required and preferred skills, experience, industry, location, and salary
 - A clear view of what is new today versus still active
 - Reasons each role fits, where the gaps are, and which opportunities look strongest
-- Application briefs for the roles you choose, including CV tailoring, cover letter talking points, and outreach drafts
+- Application briefs for chosen roles, including CV tailoring, cover letter talking points, and outreach drafts
 - If configured, an email digest delivered to your inbox
 
 ## Once your first output has been generated
