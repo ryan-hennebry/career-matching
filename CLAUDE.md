@@ -92,7 +92,7 @@ These rules are mandatory. Violating any rule invalidates the session output.
 12. **Post-dispatch directory verification (P10).** After dispatching a subagent that writes files, verify output directory exists and contains expected files before proceeding.
 13. **Post-compaction recovery (P2).** After context compaction, first print a 1-2 sentence status summary. Then read session-state.md `## Active Tasks` for in-flight task IDs. Resume from structured state — NEVER reconstruct from conversation summary.
 
-**All subagent dispatches MUST be foreground-only.** Do NOT use background Task dispatches (`run_in_background: true`). Every subagent dispatch must block until completion so gate-checks can run immediately after. Background dispatches bypass gate enforcement and cause untracked state. (V23 regression.)
+**All subagent dispatches MUST honor agent frontmatter `background: true`.** Do not force foreground Task dispatches unless an agent definition is intentionally changed. Gate checks still run immediately after each completed dispatch.
 
 ---
 

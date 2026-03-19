@@ -23,11 +23,10 @@ function renderCountBadge(count) {
   return `<span class="count-badge">${count}</span>`;
 }
 
-/** Empty state with optional CTA button (uses data-action, not onclick). */
-function renderEmptyState(showCTA = true) {
+/** Empty state for a dashboard that is populated by Claude Code runs. */
+function renderEmptyState() {
   return `<div class="empty-state">
-    <p>No jobs found. Run a search to get started.</p>
-    ${showCTA ? '<button class="btn empty-state-cta" data-action="trigger-search">Run Search</button>' : ''}
+    <p>No jobs found yet. Run the agent in Claude Code to populate the dashboard.</p>
   </div>`;
 }
 

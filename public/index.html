@@ -15,7 +15,6 @@
       <hr class="summary-divider">
       <span id="summary-date"></span>
       <div class="summary-stats" id="summary-stats"></div>
-      <button class="btn btn-primary" id="run-now-btn">Run Now</button>
     </div>
   </header>
 
@@ -42,21 +41,6 @@
       <div class="loading">Loading...</div>
     </main>
   </div>
-
-  <!-- Run Panel (hidden by default) -->
-  <div class="overlay" id="run-overlay" style="display:none;">
-    <div class="run-panel" id="run-panel">
-      <h2>Run Job Search</h2>
-      <p class="meta">Select role types to search via GitHub Actions (JobSpy only).</p>
-      <div id="role-type-checkboxes"></div>
-      <div class="run-panel-actions">
-        <button class="btn btn-primary" id="run-confirm-btn">Search</button>
-        <button class="btn btn-secondary" id="run-cancel-btn">Cancel</button>
-      </div>
-      <div id="run-status" style="display:none;"></div>
-    </div>
-  </div>
-
   <script src="/js/api.js"></script>
   <script src="/js/components.js"></script>
   <script src="/js/app.js"></script>

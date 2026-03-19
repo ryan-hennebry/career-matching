@@ -1,4 +1,4 @@
-"""POST /api/run — Trigger GitHub Actions search (authenticated).
+"""POST /api/run — Trigger an authenticated workflow run.
 GET /api/run — Poll workflow run status (public).
 
 Security: POST requires Authorization: Bearer {JSA_RUN_SECRET} header.
@@ -18,7 +18,7 @@ GITHUB_OWNER = os.environ.get("GITHUB_OWNER", "")
 GITHUB_REPO = os.environ.get("GITHUB_REPO", "")
 GITHUB_PAT = os.environ.get("GITHUB_PAT", "")
 JSA_RUN_SECRET = os.environ.get("JSA_RUN_SECRET", "")
-WORKFLOW_FILE = "jsa-search.yml"
+WORKFLOW_FILE = os.environ.get("GITHUB_WORKFLOW_FILE", "daily-digest.yml")
 
 
 class handler(BaseHTTPRequestHandler):
@@ -40,19 +40,15 @@ class handler(BaseHTTPRequestHandler):
             return
 
         content_length = int(self.headers.get("Content-Length", 0))
-        body = json.loads(self.rfile.read(content_length))
+        body = json.loads(self.rfile.read(content_length)) if content_length else {}
         role_types = body.get("role_types", [])
-
-        if not role_types:
-            json_response(self, {"error": "role_types required"}, 400)
-            return
 
         # Dispatch GitHub Actions workflow
         url = f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}/actions/workflows/{WORKFLOW_FILE}/dispatches"
-        payload = json.dumps({
-            "ref": "main",
-            "inputs": {"role_types": ",".join(role_types)},
-        }).encode()
+        payload_dict = {"ref": "main"}
+        if role_types:
+            payload_dict["inputs"] = {"role_types": ",".join(role_types)}
+        payload = json.dumps(payload_dict).encode()
 
         req = Request(url, data=payload, method="POST")
         req.add_header("Authorization", f"Bearer {GITHUB_PAT}")

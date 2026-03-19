@@ -21,7 +21,6 @@ const App = (() => {
   async function init() {
     await loadData();
     setupSidebar();
-    setupRunButton();
     window.addEventListener('hashchange', route);
     route();
   }
@@ -78,100 +77,6 @@ const App = (() => {
     });
   }
 
-  /** Set up Run Now button. */
-  function setupRunButton() {
-    const btn = document.getElementById('run-now-btn');
-    const overlay = document.getElementById('run-overlay');
-    const cancelBtn = document.getElementById('run-cancel-btn');
-    const confirmBtn = document.getElementById('run-confirm-btn');
-    const checkboxContainer = document.getElementById('role-type-checkboxes');
-
-    if (!btn || !overlay) return;
-
-    btn.addEventListener('click', async () => {
-      // Get unique role types from loaded jobs
-      const roleTypes = [...new Set(allJobs.map(j => j.role_type).filter(Boolean))];
-      if (checkboxContainer) {
-        checkboxContainer.innerHTML = Components.runPanel(roleTypes);
-      }
-      overlay.style.display = 'flex';
-    });
-
-    if (cancelBtn) {
-      cancelBtn.addEventListener('click', () => {
-        overlay.style.display = 'none';
-      });
-    }
-
-    if (confirmBtn) {
-      confirmBtn.addEventListener('click', async () => {
-        const checked = overlay.querySelectorAll('input[type="checkbox"]:checked');
-        const selected = Array.from(checked).map(cb => cb.value);
-        if (selected.length === 0) return;
-
-        const secret = prompt('Enter your JSA run secret:');
-        if (!secret) return;
-
-        const statusEl = document.getElementById('run-status');
-        if (statusEl) {
-          statusEl.style.display = 'block';
-          statusEl.textContent = 'Dispatching search...';
-        }
-
-        const result = await API.triggerRun(selected, secret);
-        if (result.error) {
-          if (statusEl) statusEl.textContent = `Error: ${result.error}`;
-        } else {
-          if (statusEl) statusEl.textContent = 'Workflow dispatched. Polling status...';
-          pollRunStatus(statusEl, overlay);
-        }
-      });
-    }
-
-    // Close overlay on background click
-    overlay.addEventListener('click', (e) => {
-      if (e.target === overlay) overlay.style.display = 'none';
-    });
-  }
-
-  /** Poll GitHub Actions run status until complete. */
-  async function pollRunStatus(statusEl, overlay) {
-    let attempts = 0;
-    const maxAttempts = 60; // 5 minutes at 5s intervals
-
-    const poll = async () => {
-      attempts++;
-      if (attempts > maxAttempts) {
-        if (statusEl) statusEl.textContent = 'Timed out waiting for workflow. Check GitHub Actions.';
-        return;
-      }
-
-      const status = await API.getRunStatus();
-      if (status.error) {
-        if (statusEl) statusEl.textContent = `Poll error: ${status.error}`;
-        return;
-      }
-
-      if (status.conclusion === 'success') {
-        if (statusEl) statusEl.textContent = 'Search complete. Refreshing...';
-        overlay.style.display = 'none';
-        await loadData();
-        route();
-        return;
-      }
-
-      if (status.conclusion === 'failure') {
-        if (statusEl) statusEl.textContent = 'Workflow failed. Check GitHub Actions for details.';
-        return;
-      }
-
-      if (statusEl) statusEl.textContent = `Status: ${status.status || 'pending'}... (${attempts * 5}s)`;
-      setTimeout(poll, 5000);
-    };
-
-    setTimeout(poll, 5000);
-  }
-
   /** Route based on hash. */
   function route() {
     const hash = window.location.hash || '#digest';
@@ -198,8 +103,7 @@ const App = (() => {
       : allJobs.filter(j => j.stage === currentStage);
 
     if (filtered.length === 0) {
-      // No jobs found — use enhanced empty state with CTA
-      container.innerHTML = renderEmptyState(true);
+      container.innerHTML = renderEmptyState();
       return;
     }
 
@@ -231,7 +135,7 @@ const App = (() => {
       return Components.jobList(jobs, stage.replace('_', ' '));
     }).join('');
 
-    container.innerHTML = sections || Components.emptyState('No Jobs', 'Run a search to populate the pipeline.');
+    container.innerHTML = sections || Components.emptyState('No Jobs', 'Run the agent in Claude Code to populate the pipeline.');
   }
 
   /** Render detail view for a single job. */
@@ -300,15 +204,6 @@ const App = (() => {
       Components.sidebarCounts(state.counts);
     }
   }
-
-  // Event delegation for data-action attributes (components.js emits these, app.js binds them)
-  document.addEventListener('click', function(e) {
-    const actionEl = e.target.closest('[data-action]');
-    if (!actionEl) return;
-    if (actionEl.dataset.action === 'trigger-search') {
-      window.dispatchEvent(new CustomEvent('jsa:trigger-search'));
-    }
-  });
 
   // Boot on DOMContentLoaded
   document.addEventListener('DOMContentLoaded', init);

@@ -1,10 +1,10 @@
 # Career Matching Agent
 
-Find live roles, rank them against your background, and get application briefs for the matches worth pursuing.
+Find live roles that fit your background, rank the strongest matches, and get application briefs only for the ones worth pursuing.
 
 No coding experience required.
 
-<img src="assets/cli-demo-full.gif" alt="Career Matching CLI onboarding, ranked matches, brief selection, and digest demo" width="896" />
+<img src="assets/cli-demo-full.gif" alt="Career Matching CLI onboarding, ranked matches, and application brief preview demo" width="896" />
 
 ## Quick start
 
@@ -17,6 +17,8 @@ git clone https://github.com/ryan-hennebry/career-matching.git && cd career-matc
 ```
 
 2. In Claude Code, upload your CV when the agent asks, then answer the onboarding questions one at a time.
+
+The Claude Code flow works on its own. The dashboard in this repo is an optional companion, not required for first use.
 
 ## The onboarding flow
 
@@ -52,15 +54,20 @@ Keep working with the agent in Claude Code for deeper analysis:
 
 If you want ongoing updates:
 
-- **Receive an email digest:** when the agent asks, open [Resend](https://resend.com/api-keys), create an API key, and paste it into chat
+- **Receive an email digest:** if you choose digests later, the agent walks you through a one-time [Resend](https://resend.com/api-keys) setup
 
 ## The agent's output
 
+In Claude Code you get:
+
 - Ranked roles in a table showing score, title, company, location, and source links
-- A pipeline view of new, reviewing, brief-requested, applied, rejected, and expired jobs
-- Per-job detail views with requirements met, gaps, score breakdown, and the original listing
 - Application briefs with CV tailoring, cover letter talking points, outreach drafts, and application checklists
 - If configured, an email digest for ongoing updates on new roles that are a good fit
+
+If you deploy the optional dashboard in this repo, you also get:
+
+- A pipeline view of new, reviewing, brief-requested, applied, rejected, and expired jobs
+- Per-job detail views with requirements met, gaps, score breakdown, and the original listing
 
 ## How it works
 
@@ -68,6 +75,8 @@ If you want ongoing updates:
   <source media="(prefers-color-scheme: dark)" srcset="assets/how-it-works-dark.svg">
   <img src="assets/how-it-works-light.svg" alt="How Career Matching Agent works" width="560" />
 </picture>
+
+*Diagram source: `assets/how-it-works.mmd`.*
 
 ## Project standards
 

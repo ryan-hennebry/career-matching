@@ -160,30 +160,14 @@ if [[ "$RUN_ENV" == "true" ]]; then
         warn "WARNING: Missing reference files: ${MISSING_REFS[*]}"
     fi
 
-    # 3. No stale version references in GH Actions workflow
+    # 3. No stale version-path references in repo-local workflows
     if [[ -d ".github/workflows" ]]; then
         for wf in .github/workflows/*.yml .github/workflows/*.yaml; do
             [[ -f "$wf" ]] || continue
-            if grep -qE "v[0-9]+[^0-9]" "$wf" 2>/dev/null; then
-                # Check for references to old versions (not v22)
-                if grep -E "v[0-9]+" "$wf" | grep -vq "v22" 2>/dev/null; then
-                    warn "WARNING: Possible stale version references in $wf"
-                fi
+            if grep -v '^\s*#' "$wf" | grep -qE 'tests/v[0-9]+' 2>/dev/null; then
+                warn "WARNING: Workflow still references versioned tests/ paths in $wf"
             fi
         done
-    fi
-
-    # 4. Repo-root workflow references current version directory
-    REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || true)"
-    REPO_ROOT_WF="${REPO_ROOT}/.github/workflows/daily-digest.yml"
-    if [[ -n "$REPO_ROOT" && -f "$REPO_ROOT_WF" ]]; then
-        CURRENT_VERSION="v22"
-        if grep -v '^\s*#' "$REPO_ROOT_WF" | grep -qE 'tests/v[0-9]+' && \
-           ! grep -v '^\s*#' "$REPO_ROOT_WF" | grep -q "tests/${CURRENT_VERSION}"; then
-            warn "WARNING: .github/workflows/daily-digest.yml does not reference ${CURRENT_VERSION} — update working-directory"
-        fi
-    else
-        warn "WARNING: .github/workflows/daily-digest.yml not found at repo root"
     fi
 fi
 

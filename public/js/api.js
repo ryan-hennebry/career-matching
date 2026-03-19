@@ -66,7 +66,7 @@ const API = (() => {
       return request(`/context${qs}`);
     },
 
-    /** POST /api/run — Trigger GitHub Actions search. */
+    /** POST /api/run — Trigger an authenticated workflow run. */
     triggerRun(roleTypes, secret) {
       return request('/run', {
         method: 'POST',

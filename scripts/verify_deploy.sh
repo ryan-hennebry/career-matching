@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # verify_deploy.sh — Consolidated pre-deploy and post-deploy verification
-# Run from the repo root: bash 03_agents/tests/v23/scripts/verify_deploy.sh
+# Run from the repo root: bash scripts/verify_deploy.sh
 # Exits non-zero if any check fails.
 
 set -euo pipefail
@@ -9,7 +9,7 @@ set -euo pipefail
 # Path setup — resolve repo root relative to this script's location
 # ---------------------------------------------------------------------------
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-# scripts/ -> v23/ -> tests/ -> 03_agents/ -> worktree root
+# scripts/ -> repo root
 AGENT_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
 REPO_ROOT="$(cd "${SCRIPT_DIR}/../../../.." && pwd)"
 
