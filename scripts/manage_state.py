@@ -1464,6 +1464,64 @@ def _cli_check_dispatch_budget(args: argparse.Namespace) -> None:
 
 
 # ---------------------------------------------------------------------------
+# validate-url-type subcommand
+# ---------------------------------------------------------------------------
+
+# Patterns that indicate a direct source (company ATS or career page)
+_SOURCE_PATTERNS: dict[str, re.Pattern[str]] = {
+    "greenhouse": re.compile(r"greenhouse\.io", re.IGNORECASE),
+    "ashby": re.compile(r"ashbyhq\.com", re.IGNORECASE),
+    "lever": re.compile(r"lever\.co", re.IGNORECASE),
+    "workable": re.compile(r"workable\.com", re.IGNORECASE),
+    "rippling": re.compile(r"rippling\.com", re.IGNORECASE),
+    "breezy": re.compile(r"breezy\.hr", re.IGNORECASE),
+    "jazz": re.compile(r"jazz\.co", re.IGNORECASE),
+    "applytojob": re.compile(r"applytojob\.com", re.IGNORECASE),
+    "smartrecruiters": re.compile(r"smartrecruiters\.com", re.IGNORECASE),
+    "recruitee": re.compile(r"recruitee\.com", re.IGNORECASE),
+    "bamboohr": re.compile(r"bamboohr\.com", re.IGNORECASE),
+    "personio": re.compile(r"personio\.de|personio\.com", re.IGNORECASE),
+    "icims": re.compile(r"icims\.com", re.IGNORECASE),
+    "taleo": re.compile(r"taleo\.net", re.IGNORECASE),
+    "successfactors": re.compile(r"successfactors\.com|successfactors\.eu", re.IGNORECASE),
+    "myworkday": re.compile(r"myworkday\.com|myworkdayjobs\.com|wd\d+\.myworkdaysite\.com", re.IGNORECASE),
+}
+
+# Patterns that indicate an aggregator (job board)
+_AGGREGATOR_PATTERNS: dict[str, re.Pattern[str]] = {
+    "indeed": re.compile(r"indeed\.com", re.IGNORECASE),
+    "linkedin": re.compile(r"linkedin\.com", re.IGNORECASE),
+    "glassdoor": re.compile(r"glassdoor\.com|glassdoor\.co", re.IGNORECASE),
+    "studysmarter": re.compile(r"studysmarter\.co", re.IGNORECASE),
+    "ziprecruiter": re.compile(r"ziprecruiter\.com", re.IGNORECASE),
+    "monster": re.compile(r"monster\.com", re.IGNORECASE),
+    "simplyhired": re.compile(r"simplyhired\.com", re.IGNORECASE),
+}
+
+
+def classify_url(url: str) -> dict[str, str]:
+    """Classify a URL as source, aggregator, or unknown.
+
+    Returns a dict with keys: url, type, pattern_matched.
+    """
+    for name, pattern in _SOURCE_PATTERNS.items():
+        if pattern.search(url):
+            return {"url": url, "type": "source", "pattern_matched": name}
+
+    for name, pattern in _AGGREGATOR_PATTERNS.items():
+        if pattern.search(url):
+            return {"url": url, "type": "aggregator", "pattern_matched": name}
+
+    return {"url": url, "type": "unknown", "pattern_matched": "unknown"}
+
+
+def _cli_validate_url_type(args: argparse.Namespace) -> None:
+    """CLI validate-url-type subcommand: classify a URL as source/aggregator/unknown."""
+    result = classify_url(args.url)
+    print(json.dumps(result))
+
+
+# ---------------------------------------------------------------------------
 # CLI entrypoint
 # ---------------------------------------------------------------------------
 
@@ -1820,6 +1878,18 @@ def main() -> None:
         default=25,
     )
     cdb_parser.set_defaults(func=_cli_check_dispatch_budget)
+
+    # --- validate-url-type ---
+    vut_parser = subparsers.add_parser(
+        "validate-url-type",
+        help="Classify a URL as source (ATS), aggregator, or unknown",
+    )
+    vut_parser.add_argument(
+        "--url",
+        required=True,
+        help="The URL to classify",
+    )
+    vut_parser.set_defaults(func=_cli_validate_url_type)
 
     args = parser.parse_args()
     args.func(args)
