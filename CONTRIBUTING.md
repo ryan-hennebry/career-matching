@@ -13,7 +13,7 @@ Thanks for improving this project.
 Run before opening a PR:
 
 ```bash
-cd /Users/ryanhennebry/Projects/autonomous1/03_agents/career-matching
+cd /Users/ryanhennebry/Projects/autonomous/03_agents/career-matching
 python3 -m pytest
 bash scripts/preflight.sh --structure
 ```
