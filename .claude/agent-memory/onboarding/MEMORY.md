@@ -1,0 +1,1 @@
+- [Ryan Hennebry — user profile](user_ryan_hennebry.md) — Mid-level marketing/community professional, ex-Minima first employee, Web3/AI/startups background, open to London

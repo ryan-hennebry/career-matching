@@ -2,67 +2,98 @@
 
 ## Profile
 
-- **Name:** [Your Name]
-- **Location:** [City, Country]
-- **Summary:** [Brief professional summary — 2-3 sentences covering your experience level, key domains, and standout achievements]
+- **Name:** Ryan Hennebry
+- **Location:** Cambridge, UK · Open to London
+- **Summary:** First employee at Minima, working directly with the founders for 4+ years as the company scaled from seed to Series A. Took ownership wherever needed across fundraising, operations, marketing, and community-led growth. Now building AI agents with Claude Code to automate startup workflows.
 
 ## Skills
 
-- [Skill 1]
-- [Skill 2]
-- [Skill 3]
-<!-- Add all relevant skills. Include both hard skills and domain expertise. -->
-<!-- Mark self-reported skills with (self-reported) if not evidenced in CV -->
+- Go-to-market strategy
+- Community building (Discord, Telegram)
+- Content marketing (blog, YouTube, social)
+- Email lifecycle marketing (segmentation, A/B testing)
+- PR and media relations
+- Event sponsorship and partnerships
+- Presale and token launch execution
+- Investor relations and pitch deck preparation
+- Market research
+- Data analysis
+- AI agent development (Claude Code)
+- Ambassador programmes
+- Developer hackathon programmes
+- Startup operations
 
 ## Experience
 
-- **[Title]** — [Company], [Location] ([Start] - [End], [Duration])
-  - [Key achievement with metrics]
-  - [Key achievement with metrics]
-<!-- List all roles reverse-chronologically. Include metrics where possible. -->
+- **Career Break / Independent AI Agent Builder** — Self-directed, Cambridge, UK / Remote (Aug 2023 – Present)
+  - Sabbatical: Travelled solo through Asia after four and a half years scaling Minima.
+  - AI Agents: Built agents for competitor-intel, growth-experiments, and career-matching, turning repetitive workflows into structured research, scoring, and recommendation systems.
+- **Marketing Manager** — Minima, London, UK / Remote (Mar 2021 – Aug 2023)
+  - GTM: Delivered $4.5m from a community-led presale on a $300k budget (15× ROI); led the go-to-market and defined positioning and messaging.
+  - Events: Secured event sponsorships and keynote slots that connected founders with investors, contributing to Minima's $6.5m Series A raise.
+  - Lifecycle: Generated 5k presale conversions from a 50k community email list via segmentation, A/B testing, and targeted messaging.
+  - Content: Built and grew Minima's content engine across the blog (30k visitors), YouTube (5k subscribers), and X (40k followers).
+  - PR: Managed PR agencies and distributed content that reached 2m views (Bloomberg, Yahoo Finance, HackerNoon).
+- **Community Manager** — Minima, London, UK / Remote (Apr 2020 – Mar 2021)
+  - Developer Community: Grew Discord and Telegram to 100k members via an ambassador programme and developer hackathon series.
+  - Programme Delivery: Implemented Minima's Incentive Programme, onboarding 50k node runners and scaling to 75k nodes on the network.
+- **Founder's Associate** — Minima, London, UK / Remote (Mar 2019 – Apr 2020)
+  - Fundraising: Supported Minima's $2.5m seed round by handling investor enquiries, building pitch decks, and delivering investor updates.
+  - Operations: Drafted communications on the founders' behalf, supported day-to-day operations, and conducted market research.
+  - Ownership: Took ownership of founder-led workstreams across fundraising, operations, market research, and communications.
+- **Content Marketer** — Blockchain Board of Derivatives, Cambridge, UK (Oct 2018 – Mar 2019)
+  - User Growth: Acquired 20k exchange users through technical content creation and distribution.
+- **Data Analyst** — Amazon Alexa, Cambridge, UK (Oct 2017 – Oct 2018)
+  - Performance: Analysed Alexa failures, identified patterns, and improved the success rate to 98%.
 
-**Total experience:** [X] years
-**Seniority:** [Junior / Mid-level / Senior]
-**Education:** [Degree, Institution (Grade, Year)]
+**Total experience:** 9 years
+**Seniority:** Mid-level
+**Education:** Business Management, University of Leeds (Upper Second Class Honours, 2:1, 2017)
 
 ## Target
 
-- [Target Role 1]
-- [Target Role 2]
-- [Target Role 3]
+- Founders Associate
+- Founding Operator
+- Founding GTM
+- Founding Marketer
+- Founding Community
+- Founding Growth
+- Founding Chief of Staff
+- Chief of Staff
 
-**Focus:** [Industry or company type focus]
+**Focus:** AI / AI agent startups — flag prominently. Any stage, early-stage preferred. Founding-team-shaped roles preferred.
 **Agentic AI flag:** If a company works on AI agents / agentic AI, flag prominently — this is the user's preference
 
 ## Industries
 
-- [Industry 1]
-- [Industry 2]
+- AI / AI agents (preferred)
+- AI
 
 ## Constraints
 
-- **Location:** [Remote / Hybrid / In-person — City or Region]
-- **Country:** [Country]
-- **Remote preference:** [remote, hybrid, in-person]
-- **Minimum salary:** [Amount with currency symbol]
-- **Title exclusions:** [Titles to exclude, e.g. Senior, Lead, Director]
-- **AI flag:** Highlight jobs mentioning AI agents, context engineering, prompt engineering, or Claude Code
+- **Location:** Remote (UK or global) · Hybrid (London / Cambridge) · In-person (London / Cambridge)
+- **Country:** UK (or remote-friendly global)
+- **Remote preference:** remote, hybrid, in-person
+- **Minimum salary:** £40,000
+- **Title exclusions:** Senior, Lead, Principal, Director, VP, Head of, Staff (Chief excluded ONLY when not "Chief of Staff")
+- **AI flag:** Highlight jobs mentioning AI agents, agentic AI, Claude, Claude Code, LLM agents, autonomous agents, context engineering, prompt engineering
 
 ## Sources
 
-Strategy: [Describe your search strategy — what career pages and job boards to prioritise based on your target industries and roles]
+Strategy: Prioritise AI / AI-agent startup hiring channels — early-stage VC portfolio job boards (YC, Sequoia, a16z), AI-focused boards (AI Jobs, Mercor, AIJobs.net), and direct careers pages of leading AI agent companies (Anthropic, OpenAI, Adept, Sierra, Cognition, etc.). Augment with JobSpy across LinkedIn/Indeed for "Founding" + AI keyword combinations.
 
 | Source | URL | Method | Category |
 |--------|-----|--------|----------|
-| [Company] Careers | [URL] | webfetch | direct-careers |
-| [Job Board] | [URL] | webfetch | [category] |
+| Y Combinator Work at a Startup | https://www.workatastartup.com/jobs | webfetch | direct-careers |
+| AI Jobs | https://aijobs.net | webfetch | industry-board |
+| Wellfound (AngelList Talent) | https://wellfound.com/jobs | webfetch | industry-board |
 | LinkedIn (via JobSpy) | https://linkedin.com/jobs | jobspy | major-board |
 | Indeed (via JobSpy) | https://indeed.com/jobs | jobspy | major-board |
 
 ## Delivery
 
-- **Email:** [your@email.com]
-- **Dashboard:** [Dashboard URL if deployed]
+- **Email:** ryanhennebry@gmail.com
+- **Dashboard:** (none)
 
 ## Search Progress
 
@@ -76,8 +107,16 @@ Companies with known career pages in the user's target industries. Populated fro
 
 | Company | Career URL |
 |---------|-----------|
-| [Company 1] | [URL] |
-| [Company 2] | [URL] |
+| Anthropic | https://www.anthropic.com/careers |
+| OpenAI | https://openai.com/careers |
+| Sierra | https://sierra.ai/careers |
+| Cognition | https://www.cognition.ai/careers |
+| Adept | https://www.adept.ai/careers |
+| Perplexity | https://www.perplexity.ai/hub/careers |
+| Mistral | https://mistral.ai/careers |
+| Inflection | https://inflection.ai/careers |
+| Imbue | https://imbue.com/careers |
+| Decagon | https://decagon.ai/careers |
 
 ### Industry Job Boards
 
@@ -85,8 +124,10 @@ Industry-specific job boards matching the user's target industries.
 
 | Board | URL | Industries |
 |-------|-----|-----------|
-| [Board 1] | [URL] | [Industry] |
-| [Board 2] | [URL] | [Industry] |
+| YC Work at a Startup | https://www.workatastartup.com/jobs | AI / AI agents, startups |
+| AI Jobs | https://aijobs.net | AI / AI agents |
+| Wellfound | https://wellfound.com/jobs | AI / AI agents, startups |
+| AIJobs.net | https://www.aijobs.net | AI / AI agents |
 
 ### JobSpy Aggregator
 
@@ -94,26 +135,36 @@ Keyword queries for `scripts/jobspy_search.py` across LinkedIn/Indeed/Glassdoor.
 
 | Query | Sites | Notes |
 |-------|-------|-------|
-| "[industry]" [role type] | linkedin,indeed,glassdoor | [Notes] |
+| "Founder's Associate" AI | linkedin,indeed,glassdoor | Core founding-team role |
+| "Founding Operator" | linkedin,indeed,glassdoor | Core founding-team role |
+| "Founding GTM" AI | linkedin,indeed,glassdoor | GTM-shaped founding role |
+| "Founding Marketer" AI | linkedin,indeed,glassdoor | Marketing-shaped founding role |
+| "Founding Community" AI | linkedin,indeed,glassdoor | Community-shaped founding role |
+| "Chief of Staff" AI startup | linkedin,indeed,glassdoor | Early-stage CoS only |
+| "Founding Growth" AI | linkedin,indeed,glassdoor | Growth-shaped founding role |
+| "Founding" AI agents | linkedin,indeed,glassdoor | Catch-all AI agents founding |
 
 ### Niche Newsletters
 
 Discovery-based channel. No static list — each run uses WebSearch to find the latest issues of relevant newsletters.
 
 **Known newsletters (always check latest issue):**
-- [Newsletter Name]: [URL]
+- AI Tidbits: https://aitidbits.substack.com
+- The Rundown AI: https://www.therundown.ai
+- Latent Space Jobs: https://www.latent.space
 
 **Example discovery queries:**
-- "[industry] jobs newsletter {current month year}"
-- "who is hiring {month} {year}"
+- "AI agents startup hiring founding 2026"
+- "who is hiring AI agents May 2026"
 
 ### Web Search Discovery
 
 Open-ended queries adapted to Industries + Target each run. Designed to find roles not listed on standard boards.
 
 **Example queries:**
-- "[industry] company hiring [role type] {year}"
-- "new [industry] companies hiring {year}"
+- "AI agent startup hiring founding operator 2026"
+- "new AI agent company hiring 2026 UK"
+- "agentic AI startup chief of staff hiring"
 
 ## Scoring & Algorithms
 
