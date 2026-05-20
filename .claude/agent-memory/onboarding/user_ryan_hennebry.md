@@ -8,6 +8,10 @@ Ryan Hennebry is a mid-level marketing and community professional based in Cambr
 
 Since August 2023 he has been on a career break, including solo travel in Asia and building AI agents with Claude Code (competitor-intel, growth-experiments, career-matching).
 
+**CV versioning note (2026-05-20):** Ryan uploaded a CV titled "Ryan Hennebry – CV – Neutreeno.pdf". No Neutreeno role appears in the CV body — the filename most likely indicates a tailored CV prepared for Neutreeno as a target company. The CV content is substantively identical to the May 2026 profile. Minor wording differences: the AI Agents bullet omits the career-matching agent; Community Manager bullet uses "node-runner programme" instead of "Incentive Programme".
+
+**CV re-upload note (2026-05-20):** Ryan uploaded "Ryan Hennebry – CV.pdf" (no company name in filename). Content is substantively identical to both the prior profile and the Neutreeno CV. Same two minor differences persist: AI Agents bullet omits career-matching agent; Community Manager bullet uses "node-runner programme" / "Technical Onboarding" label rather than "Incentive Programme" / "Programme Delivery". All metrics, employers, dates, and education unchanged. No update to context.md required.
+
 **Inferred target roles:** Marketing Manager, Community Manager, Growth Marketing Manager, GTM Manager, Founder's Associate / Chief of Staff
 
 **Inferred target industries:** Crypto/Web3, AI/Agents, Developer tools, Startups/Scale-ups

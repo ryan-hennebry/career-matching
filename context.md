@@ -60,6 +60,8 @@
 - Founding Growth
 - Founding Chief of Staff
 - Chief of Staff
+- Founding Generalist
+- Forward Deployed AI Operator
 
 **Focus:** AI / AI agent startups — flag prominently. Any stage, early-stage preferred. Founding-team-shaped roles preferred.
 **Agentic AI flag:** If a company works on AI agents / agentic AI, flag prominently — this is the user's preference
