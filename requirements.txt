@@ -1,0 +1,2 @@
+upstash-redis>=1.0.0
+markdown>=3.5

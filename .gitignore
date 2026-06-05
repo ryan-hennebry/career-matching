@@ -1,0 +1,13 @@
+.env
+# Live run state — seeded empty/scrubbed once, then ignored (jsa rewrites it each run)
+state.json
+output/jobs/*.json
+__pycache__/
+output/briefs/*.pdf
+output/digests/*.pdf
+.claude/settings.local.json
+.playwright-mcp/
+*.png
+*.txt
+!requirements.txt
+.vercel
