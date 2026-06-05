@@ -1,0 +1,2 @@
+- [Ryan Hennebry — user profile](user_ryan_hennebry.md) — Mid-level marketing/community professional, ex-Minima first employee, Web3/AI/startups background, open to London
+- [Prior-session roles 2026-05-20](prior_session_roles_2026-05-20.md) — Roles previously surfaced; applied vs still-open candidates. Dedupe against this list.
