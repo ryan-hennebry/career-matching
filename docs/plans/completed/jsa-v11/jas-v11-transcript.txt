@@ -1,0 +1,1425 @@
+
+ ▐▛███▜▌   Claude Code v2.1.31
+▝▜█████▛▘  Opus 4.5 · Claude Max
+  ▘▘ ▝▝    ~/Projects/autonomous1/03_agents/tests/v11
+
+❯ hi 
+
+⏺ Hi! How can I help you today?
+
+❯ start 
+
+⏺ I'll start by reading the context and current state.
+
+⏺ Searched for 1 pattern, read 1 file (ctrl+o to expand)
+
+⏺ Profile is empty, no session state exists, and output directories are clean.
+  Time to begin onboarding.
+
+  I'm your job search agent. I find relevant opportunities, prepare application 
+  briefs, and track your pipeline — so you focus on interviews and decisions, 
+  not discovery and prep.
+
+  Let's get your profile set up. Do you have a CV you can upload or paste?
+
+❯ '/Users/ryanhennebry/Downloads/Ryan Hennebry — CV — CommonAI (1).docx' 
+
+⏺ Let me read your CV.
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ Let me convert it to extract the text.
+
+⏺ Bash(python3 -c "
+      import zipfile, xml.etree.ElementTree as ET, sys…)
+  ⎿ Ryan Hennebry
+    Ely, Cambridgeshire, UK | Email | LinkedIn
+    Community and marketing manager with 5 years at tech startups. First hi
+    … +50 lines (ctrl+o to expand)
+
+
+⏺ Got it. Here's what I extracted from your CV:
+
+  Profile:
+  - Ryan Hennebry, based in Ely, Cambridgeshire, UK
+  - Community and marketing manager with 5+ years at tech startups
+  - First hire at Minima — grew a 140K member community, led social strategy,
+  organised events that helped secure a $2M investment
+  - Sabbatical in 2024 to travel
+
+  Skills:
+  - Community management (Discord, Telegram, X)
+  - Content marketing (blog, newsletter, YouTube)
+  - Social media strategy (X, LinkedIn)
+  - Event marketing & organisation
+  - Public relations & press distribution
+  - Data analytics (Google Analytics, Hootsuite)
+  - Ambassador programme design
+  - Investor relations & pitch decks
+
+  Experience:
+  - ~7 years total (2017–2024)
+  - Marketing Manager, Minima (2021–2024)
+  - Community Manager, Minima (2019–2021)
+  - Founder's Associate, Minima (2019)
+  - Content Marketing Manager, BBOD (2018–2019)
+  - Data Analyst, Amazon Alexa (2017–2018)
+  - Seniority: Mid-level
+
+  Education:
+  - BA Business, 2:1, University of Leeds (2017)
+
+  Does this look right, or would you like to correct anything?
+
+❯ looks good 
+
+⏺ Great. What skills do you have that aren't on your CV?
+
+❯ AI agents, claude code  
+
+⏺ Got it — I'll add those as self-reported skills. Now let me continue
+  onboarding.
+
+  What types of roles are you targeting?
+
+❯ marketing manager/associate, community manager/associate, founder's       
+  associate, product marketing associate, growth marketing associate        
+
+⏺ Got it. What industries interest you?
+
+❯ crypto, ai and tech startups 
+
+⏺ What are your location preferences? (Remote, hybrid, in-person — and any
+  specific cities?)
+
+❯ remote, hybrid or in-person, london, cambridge (uk) 
+
+⏺ What's your minimum salary?
+
+❯ £35,000 
+
+⏺ What email address would you like digests sent to?
+
+❯ ryanhennebry@gmail.com 
+
+⏺ Now let me derive constraints from everything you've shared and write your
+  profile. Here's what I've got:
+
+  Target roles: Marketing Manager, Marketing Associate, Community Manager,
+  Community Associate, Founder's Associate, Product Marketing Associate, Growth
+  Marketing Associate
+
+  Industries: Crypto, AI, Tech Startups
+
+  Location: Remote, Hybrid, or In-person — London, Cambridge (UK)
+
+  Country: UK
+
+  Minimum salary: £35,000
+
+  Title exclusions: senior, lead, head, director, vp, principal, chief, staff
+  (based on mid-level seniority)
+
+  Scoring weights: Required skills 40, Preferred 20, Experience 15, Industry 15,
+   Location 10
+
+  Does this all look right?
+
+❯ yes 
+
+⏺ Let me write your profile to context.md and then research job sources for your
+   industries.
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ Write(context.md)
+  ⎿  Added 44 lines, removed 9 lines
+       2                                                                 
+       3  ## Profile                                                     
+       4                                                                 
+       5 -<!-- Filled from CV during onboarding -->                      
+       5 +Ryan Hennebry, based in Ely, Cambridgeshire, UK. Community and 
+         + marketing manager with 5+ years at tech startups. First hire  
+         +at Minima — grew a 140K member community, led social strategy, 
+         + organised events that helped secure a $2M investment.         
+         +Sabbatical in 2024 to travel. BA Business (2:1), University of 
+         + Leeds (2017).                                                 
+       6                                                                 
+       7  ## Skills                                                      
+       8                                                                 
+       9 -<!-- From CV + self-reported skills -->                        
+       9 +- Community management (Discord, Telegram, X)                  
+      10 +- Content marketing (blog, newsletter, YouTube)                
+      11 +- Social media strategy (X, LinkedIn)                          
+      12 +- Event marketing & organisation                               
+      13 +- Public relations & press distribution                        
+      14 +- Data analytics (Google Analytics, Hootsuite)                 
+      15 +- Ambassador programme design                                  
+      16 +- Investor relations & pitch decks                             
+      17 +- AI agents (self-reported)                                    
+      18 +- Claude Code (self-reported)                                  
+      19                                                                 
+      20  ## Experience                                                  
+      21                                                                 
+      22 -<!-- From CV; derived: total_years, seniority_level -->        
+      22 +- Marketing Manager, Minima (Sep 2021 – Sep 2024,              
+         +London/Remote)                                                 
+      23 +- Community Manager, Minima (Sep 2019 – Sep 2021, London)      
+      24 +- Founder's Associate, Minima (Mar 2019 – Sep 2019, London)    
+      25 +- Content Marketing Manager, BBOD (Apr 2018 – Mar 2019,        
+         +Cambridge)                                                     
+      26 +- Data Analyst, Amazon Alexa (Oct 2017 – Apr 2018, Cambridge)  
+      27                                                                 
+      28 +total_years: 7                                                 
+      29 +seniority_level: mid                                           
+      30 +                                                               
+      31  ## Target                                                      
+      32                                                                 
+      33 -<!-- Roles and seniority level -->                             
+      33 +- Marketing Manager                                            
+      34 +- Marketing Associate                                          
+      35 +- Community Manager                                            
+      36 +- Community Associate                                          
+      37 +- Founder's Associate                                          
+      38 +- Product Marketing Associate                                  
+      39 +- Growth Marketing Associate                                   
+      40                                                                 
+      41  ## Industries                                                  
+      42                                                                 
+      43 -<!-- Target industries -->                                     
+      43 +- Crypto                                                       
+      44 +- AI                                                           
+      45 +- Tech Startups                                                
+      46                                                                 
+      47  ## Constraints                                                 
+      48                                                                 
+      49 -<!-- Location, country, salary, remote preference, title       
+         -exclusions -->                                                 
+      49 +- Location: Remote, Hybrid, or In-person                       
+      50 +- Cities: London, Cambridge                                    
+      51 +- Country: UK                                                  
+      52 +- Salary minimum: £35,000                                      
+      53 +- Remote preference: remote, hybrid, in-person                 
+      54 +- Title exclusions: senior lead head director vp principal     
+         +chief staff                                                    
+      55                                                                 
+      56  ## Sources                                                     
+      57                                                                 
+      58  ### Job Boards                                                 
+      59  <!-- Agent curates during onboarding, mapped to role types --> 
+      60 -<!-- Format: - [Name](url) - description (serves: role type 1, 
+         - role type 2) -->                                              
+      60                                                                 
+      61  ### Newsletters                                                
+      62 -<!-- Same format -->                                           
+      62 +<!-- Agent curates during onboarding -->                       
+      63                                                                 
+      64  ## Delivery                                                    
+      65                                                                 
+      66 -<!-- Email and format preferences -->                          
+      66 +- Email: ryanhennebry@gmail.com                                
+      67                                                                 
+      68  ## Search Progress                                             
+      69                                                                 
+     ...
+      43                                                                 
+      44  | Role Type | Status | Source(s) | Jobs Found | Verified |     
+          Date |                                                         
+      45  |-----------|--------|-----------|------------|----------|---- 
+          --|                                                            
+      46 +| Marketing Manager | not started | | | | |                    
+      47 +| Marketing Associate | not started | | | | |                  
+      48 +| Community Manager | not started | | | | |                    
+      49 +| Community Associate | not started | | | | |                  
+      50 +| Founder's Associate | not started | | | | |                  
+      51 +| Product Marketing Associate | not started | | | | |          
+      52 +| Growth Marketing Associate | not started | | | | |           
+      53                                                                 
+      54  ## Scoring & Algorithms                                        
+      55                                                                 
+
+⏺ Profile saved. Now let me research the best job sources for crypto, AI, and
+  tech startups.
+
+⏺ 2 Task agents finished (ctrl+o to expand)
+   ├─ Research crypto job boards · 14 tool uses · 33.7k tokens
+   │  ⎿  Done
+   └─ Research AI/tech startup job boards · 11 tool uses · 32.5k tokens
+      ⎿  Done
+
+⏺ Good research. Let me update context.md with the curated sources.
+
+⏺ Update(context.md)
+  ⎿  Added 18 lines, removed 3 lines
+      55                                                                 
+      56  ## Sources                                                     
+      57                                                                 
+      58 -### Job Boards                                                 
+      59 -<!-- Agent curates during onboarding, mapped to role types --> 
+      58 +### Job Boards — Crypto/Web3                                   
+      59 +- [Web3.career](https://web3.career) - Largest web3 job board, 
+         + 71K+ listings, strong remote (serves: all role types)         
+      60 +- [CryptoJobsList](https://cryptojobslist.com) - Long-running  
+         +crypto board, daily updates (serves: Community Manager,        
+         +Marketing Manager, Marketing Associate, Community Associate,   
+         +Growth Marketing Associate, Product Marketing Associate)       
+      61 +- [Remote3.co](https://www.remote3.co) - 22K+ web3 listings,   
+         +all remote, Telegram alerts (serves: Community Manager,        
+         +Marketing Manager, Marketing Associate, Community Associate,   
+         +Growth Marketing Associate)                                    
+      62 +- [CryptoJobs.com](https://www.cryptojobs.com) - Crypto job    
+         +portal, full-time/part-time/contract (serves: Community        
+         +Manager, Marketing Manager, Marketing Associate, Community     
+         +Associate)                                                     
+      63 +- [CryptocurrencyJobs.co](https://cryptocurrencyjobs.co) -     
+         +Remote marketing & growth sections, DeFi/Web3 focus (serves:   
+         +Marketing Manager, Marketing Associate, Growth Marketing       
+         +Associate, Product Marketing Associate)                        
+      64 +- [Thirdwork](https://www.thirdwork.xyz) - Ecosystem &         
+         +community-focused web3 roles (serves: Community Manager,       
+         +Community Associate, Growth Marketing Associate)               
+      65                                                                 
+      66 +### Job Boards — AI & Tech Startups                            
+      67 +- [Work in Startups](https://workinstartups.com/) - UK's #1    
+         +startup job search engine (serves: all role types)             
+      68 +- [Wellfound](https://wellfound.com/location/united-kingdom) - 
+         + Formerly AngelList, direct-to-founder, salary transparency    
+         +(serves: all role types)                                       
+      69 +- [Y Combinator                                                
+         +Jobs](https://www.ycombinator.com/jobs/location/london) -      
+         +YC-funded startups, strong London presence (serves: all role   
+         +types, especially Founder's Associate)                         
+      70 +- [Startup                                                     
+         +Jobs](https://startup.jobs/locations/united-kingdom) - 100K+   
+         +startup jobs across all functions (serves: all role types)     
+      71 +- [Escape the City](https://www.escapethecity.org/search/jobs) 
+         + - 500K+ community, curated startup roles (serves: all role    
+         +types)                                                         
+      72 +- [AI Jobs](https://aijobs.ai/) - AI-specific board, marketing 
+         + & community at AI companies (serves: Marketing Manager,       
+         +Marketing Associate, Community Manager)                        
+      73 +- [Remotive](https://remotive.com/remote-ai-jobs) -            
+         +Remote-first, AI/ML section (serves: all role types, remote)   
+      74 +- [Built In London](https://builtinlondon.uk/) - London tech   
+         +scene, startups & scale-ups (serves: Marketing Manager,        
+         +Product Marketing Associate, Growth Marketing Associate)       
+      75 +                                                               
+      76  ### Newsletters                                                
+      77 -<!-- Agent curates during onboarding -->                       
+      77 +<!-- To be added as discovered -->                             
+      78                                                                 
+      79  ## Delivery                                                    
+      80                                                                 
+
+⏺ Profile and sources saved. Here's a summary:
+
+  14 sources curated across crypto/web3 and AI/tech startups, mapped to your 7
+  target role types.
+
+  Crypto/Web3: Web3.career, CryptoJobsList, Remote3.co, CryptoJobs.com,
+  CryptocurrencyJobs.co, Thirdwork
+
+  AI & Tech Startups: Work in Startups, Wellfound, YC Jobs, Startup Jobs, Escape
+   the City, AI Jobs, Remotive, Built In London
+
+  Onboarding is complete. Ready to start searching — shall I go ahead?
+
+✻ Cooked for 2m 0s
+
+❯ yes, but aren't you meant to check jobspy as well? 
+
+⏺ You're right — let me check what jobspy offers. It searches major boards like
+  Indeed, LinkedIn, etc.
+
+⏺ Searched for 2 patterns, read 2 files (ctrl+o to expand)
+
+⏺ You're right — the subagent template uses jobspy_search.py as step 1 to search
+   Indeed, LinkedIn, and Glassdoor before hitting the specialty sources. That's
+  built into the workflow already.
+
+  Let me also read the other references before dispatching.
+
+⏺ Searched for 2 patterns, read 2 files (ctrl+o to expand)
+
+⏺ Good — all scripts and references are in place. Let me capture the run date
+  and start dispatching subagents.
+
+⏺ Bash(date +%Y-%m-%d)
+  ⎿  2026-02-05
+
+⏺ Now let me prepare the template variables and dispatch the first batch. I'll
+  do 3 role types at a time. Starting with Marketing Manager, Community Manager,
+   and Marketing Associate.
+
+⏺ 3 Task agents launched (ctrl+o to expand)
+   ├─ Search Marketing Manager jobs
+   │  ⎿  Running in the background (↓ to manage)
+   ├─ Search Community Manager jobs
+   │  ⎿  Running in the background (↓ to manage)
+   └─ Search Marketing Associate jobs
+      ⎿  Running in the background (↓ to manage)
+
+⏺ Batch 1 is running — searching Marketing Manager, Community Manager, and
+  Marketing Associate across JobSpy (Indeed, LinkedIn, Glassdoor) plus the
+  specialty sources.
+
+  Searched 3 of 7 role types so far. I'll dispatch the next batch (Community
+  Associate, Founder's Associate, Product Marketing Associate) once this batch
+  completes, then the final one (Growth Marketing Associate).
+
+  This takes a few minutes per batch — I'll update you as results come in.
+
+✻ Churned for 1m 45s
+
+⏺ Agent "Search Marketing Associate jobs" completed
+
+⏺ Marketing Associate search complete — 4 verified jobs (scores 73-79). Waiting
+  on Marketing Manager and Community Manager to finish, then I'll dispatch the
+  next batch.
+
+⏺ Agent "Search Marketing Manager jobs" completed
+
+⏺ Marketing Manager search complete — 8 verified jobs (scores 63-88). Strong
+  crypto/web3 results. Still waiting on Community Manager, then I'll launch
+  batch 2.
+
+  Let me check on the Community Manager progress.
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ Community Manager subagent is still running — it's verifying jobs from
+  web3.career (Crypto.com IRL Community Manager). It's deep into the
+  verification phase. Should finish shortly.
+
+  While we wait, here's the running tally:
+
+  - Marketing Manager: 8 verified jobs (scores 63-88) ✓
+  - Marketing Associate: 4 verified jobs (scores 73-79) ✓
+  - Community Manager: In progress...
+  - Community Associate, Founder's Associate, Product Marketing Associate,
+  Growth Marketing Associate — queued for batch 2
+
+⏺ Agent "Search Community Manager jobs" completed
+
+⏺ Batch 1 complete. Let me update context.md and launch batch 2.
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ Update(context.md)
+  ⎿  Added 3 lines, removed 3 lines
+      86                                                                 
+      87  | Role Type | Status | Source(s) | Jobs Found | Verified |     
+          Date |                                                         
+      88  |-----------|--------|-----------|------------|----------|---- 
+          --|                                                            
+      89 -| Marketing Manager | not started | | | | |                    
+      90 -| Marketing Associate | not started | | | | |                  
+      91 -| Community Manager | not started | | | | |                    
+      89 +| Marketing Manager | verified | JobSpy, Web3.career,          
+         +CryptocurrencyJobs.co, YC Jobs | 25 | 8 | 2026-02-05 |         
+      90 +| Marketing Associate | verified | JobSpy, Web3.career,        
+         +CryptocurrencyJobs.co | 25 | 4 | 2026-02-05 |                  
+      91 +| Community Manager | verified | JobSpy, Web3.career | 25 | 5  
+         +| 2026-02-05 |                                                 
+      92  | Community Associate | not started | | | | |                  
+      93  | Founder's Associate | not started | | | | |                  
+      94  | Product Marketing Associate | not started | | | | |          
+
+⏺ Now launching batch 2: Community Associate, Founder's Associate, and Product 
+  Marketing Associate.
+
+⏺ 3 Task agents launched (ctrl+o to expand)
+   ├─ Search Community Associate jobs
+   │  ⎿  Running in the background (↓ to manage)
+   ├─ Search Founders Associate jobs
+   │  ⎿  Running in the background (↓ to manage)
+   └─ Search Product Marketing Associate
+      ⎿  Running in the background (↓ to manage)
+
+⏺ Batch 2 is running — searching Community Associate, Founder's Associate, and
+  Product Marketing Associate. All three are active. I'll launch the final role
+  type (Growth Marketing Associate) once this batch wraps up.
+
+  Progress so far:
+  - Marketing Manager: 8 verified ✓
+  - Marketing Associate: 4 verified ✓
+  - Community Manager: 5 verified ✓
+  - Community Associate: searching...
+  - Founder's Associate: searching...
+  - Product Marketing Associate: searching...
+  - Growth Marketing Associate: queued
+
+✻ Cogitated for 1m 15s
+
+❯ ok 
+
+⏺ Sitting tight — all three batch 2 agents are still working through their
+  searches and verifications. I'll update you as each completes.
+
+⏺ Agent "Search Community Associate jobs" completed
+
+⏺ Community Associate complete — 1 verified job (TikTok, score 83). Slim
+  pickings as expected — "Community Associate" is a less common title in
+  crypto/AI. Still waiting on Founder's Associate and Product Marketing
+  Associate.
+
+⏺ Agent "Search Product Marketing Associate" completed
+
+⏺ Product Marketing Associate complete — 6 verified jobs (scores 80-95). Strong
+  results including BlakBear (AI food tech) and Triptease. Still waiting on
+  Founder's Associate, then I'll launch the final search (Growth Marketing
+  Associate).
+
+⏺ Agent "Search Founders Associate jobs" completed
+
+⏺ Batch 2 complete. Let me update context.md and launch the final search.
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ Good — the subagents already updated context.md for Founder's Associate and
+  Product Marketing Associate. Now launching the final search.
+
+⏺ Task(Search Growth Marketing Associate)
+  ⎿  Backgrounded agent (↓ to manage · ctrl+o to expand)
+
+⏺ Final search launched — Growth Marketing Associate. That's 6 of 7 role types
+  done:
+
+  - Marketing Manager: 8 verified (scores 63-88) ✓
+  - Community Manager: 5 verified (scores 71-87) ✓
+  - Marketing Associate: 4 verified (scores 73-79) ✓
+  - Founder's Associate: 18 verified (scores 38-90) ✓
+  - Product Marketing Associate: 6 verified (scores 80-95) ✓
+  - Community Associate: 1 verified (score 83) ✓
+  - Growth Marketing Associate: searching...
+
+  Founder's Associate was by far the richest category — lots of AI startups
+  hiring. I'll present all results for your review once the last search
+  completes.
+
+✻ Sautéed for 50s
+
+❯ Don't take any action on this whatsoever - I just want to note that       
+  despite the subagents which appear to be working well, we are still       
+  running into context engineering issues - we've used up 45% thus far      
+  despite the sub agents (I will use this comment to improve the agent, no  
+  action needed)                                                            
+  ⎿  [Image #1]
+
+⏺ Noted — good observation. The main context drain is likely the large subagent
+  template prompts being assembled inline here rather than being read/filled by
+  the subagents themselves. Something to optimize in the next version.
+
+⏺ Agent "Search Growth Marketing Associate" completed
+
+⏺ All 7 role types are now searched and verified. Let me update context.md and
+  then present results.
+
+⏺ Update(context.md)
+  ⎿  Added 1 line, removed 1 line
+      92  | Community Associate | verified | JobSpy, Web3.career,        
+          CryptoJobs.com, CryptocurrencyJobs.co | 25 | 1 | 2026-02-05 |  
+      93  | Founder's Associate | verified | JobSpy, YC Jobs,            
+          Web3.career | 25 | 18 | 2026-02-05 |                           
+      94  | Product Marketing Associate | verified | JobSpy,             
+          CryptocurrencyJobs.co, Web3.career, YC Jobs, BuiltInLondon |   
+          25 | 6 | 2026-02-05 |                                          
+      95 -| Growth Marketing Associate | not started | | | | |           
+      95 +| Growth Marketing Associate | verified | JobSpy, Web3.career, 
+         + CryptocurrencyJobs.co | 20 | 6 | 2026-02-05 |                 
+      96                                                                 
+      97  ## Scoring & Algorithms                                        
+      98                                                                 
+
+⏺ All 7 role types verified. Here are your results, ranked by score within each
+  category.
+
+  ---
+  Marketing Manager (8 jobs)
+  Score: 88
+  Title: Marketing Manager - DeFi
+  Company: Re7 Capital
+  Location: Remote (within 3hrs CET)
+  ────────────────────────────────────────
+  Score: 86
+  Title: Web3 Social Media and Marketing Manager
+  Company: Genies
+  Location: Remote
+  ────────────────────────────────────────
+  Score: 84
+  Title: Value Marketing Manager
+  Company: Deliveroo
+  Location: London
+  ────────────────────────────────────────
+  Score: 80
+  Title: Product Marketing Manager, Crypto - International
+  Company: Robinhood
+  Location: London
+  ────────────────────────────────────────
+  Score: 80
+  Title: Marketing Manager
+  Company: WildBrain
+  Location: London (Hybrid)
+  ────────────────────────────────────────
+  Score: 78
+  Title: Web3 Product Marketing Manager
+  Company: Alchemy
+  Location: Remote
+  ────────────────────────────────────────
+  Score: 68
+  Title: Brand and Reputation Manager - TikTok LIVE
+  Company: TikTok
+  Location: London
+  ────────────────────────────────────────
+  Score: 63
+  Title: B2C Product Marketing Manager
+  Company: Mercuryo
+  Location: Remote
+  Community Manager (5 jobs)
+  ┌───────┬──────────────────────────────────┬────────────┬─────────────────┐
+  │ Score │              Title               │  Company   │    Location     │
+  ├───────┼──────────────────────────────────┼────────────┼─────────────────┤
+  │ 87    │ Social Media & Community Manager │ Mintago    │ London (Hybrid) │
+  ├───────┼──────────────────────────────────┼────────────┼─────────────────┤
+  │ 85    │ Community Manager                │ eight&four │ London (Hybrid) │
+  ├───────┼──────────────────────────────────┼────────────┼─────────────────┤
+  │ 80    │ Freelance Community Manager      │ Mumsnet    │ London (Remote) │
+  ├───────┼──────────────────────────────────┼────────────┼─────────────────┤
+  │ 78    │ IRL Community Manager - EMEA     │ Crypto.com │ London (Hybrid) │
+  ├───────┼──────────────────────────────────┼────────────┼─────────────────┤
+  │ 71    │ Community Manager                │ Eucalyptus │ London (Hybrid) │
+  └───────┴──────────────────────────────────┴────────────┴─────────────────┘
+  Founder's Associate (18 jobs)
+  ┌───────┬─────────────────────────┬─────────────┬─────────────────────┐
+  │ Score │          Title          │   Company   │      Location       │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 90    │ Founder Associate       │ Greenpixie  │ London (Hybrid)     │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 90    │ Founders Associate      │ Linda AI    │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 88    │ Founder's Associate     │ MAGIC AI    │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 85    │ Founder's Associate     │ Anima       │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 83    │ Founder Associate       │ Duku AI     │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 82    │ Founder's Associate     │ Seamflow    │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 75    │ Founder's Associate     │ Emma        │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 72    │ Founder's Associate     │ Zendo       │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 67    │ Founder's Associate     │ Avant Arte  │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 62    │ Founder Associate       │ Humaans     │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 58    │ FA at VC Backed Startup │ Jumpstart   │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 57    │ Founder's Associate     │ Brickwise   │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 55    │ FA - Growth             │ Gopuff      │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 55    │ Founder's Associate     │ NOVA        │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 52    │ Stealth Startup - FA    │ fittest.    │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 45    │ Founder's Associate     │ Jack & Jill │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 38    │ FA (CEO Office)         │ Fuse Energy │ London              │
+  ├───────┼─────────────────────────┼─────────────┼─────────────────────┤
+  │ 0     │ Founder's Associate     │ amicable    │ London (unverified) │
+  └───────┴─────────────────────────┴─────────────┴─────────────────────┘
+  Product Marketing Associate (6 jobs)
+  ┌───────┬────────────────────────────────────┬──────────────┬────────────────┐
+  │ Score │               Title                │   Company    │    Location    │
+  ├───────┼────────────────────────────────────┼──────────────┼────────────────┤
+  │ 95    │ Junior Marketing & Operations      │ BlakBear     │ London         │
+  │       │ Associate                          │              │                │
+  ├───────┼────────────────────────────────────┼──────────────┼────────────────┤
+  │ 90    │ Associate Product Marketing        │ Triptease    │ London         │
+  │       │ Manager (Entry-Level)              │              │ (Hybrid)       │
+  ├───────┼────────────────────────────────────┼──────────────┼────────────────┤
+  │ 90    │ Product Marketing Specialist       │ YunoJuno     │ Cambridge      │
+  │       │                                    │              │ (Remote)       │
+  ├───────┼────────────────────────────────────┼──────────────┼────────────────┤
+  │ 83    │ B2C Product Marketing Manager      │ Mercuryo     │ Remote         │
+  ├───────┼────────────────────────────────────┼──────────────┼────────────────┤
+  │ 82    │ Product Marketing Associate        │ ApprovalMax  │ London         │
+  ├───────┼────────────────────────────────────┼──────────────┼────────────────┤
+  │ 80    │ Product Marketing Manager -        │ Skin         │ London         │
+  │       │ Patients and Services              │ Analytics    │ (Hybrid)       │
+  └───────┴────────────────────────────────────┴──────────────┴────────────────┘
+  Marketing Associate (4 jobs)
+  Score: 79
+  Title: Analyst, Digital Marketing
+  Company: Grayscale Investments
+  Location: Remote
+  ────────────────────────────────────────
+  Score: 78
+  Title: Growth Marketing Associate
+  Company: DIA
+  Location: Remote (CET pref)
+  ────────────────────────────────────────
+  Score: 74
+  Title: Web3 Marketing Assistant
+  Company: Aztec
+  Location: Remote (London HQ)
+  ────────────────────────────────────────
+  Score: 73
+  Title: Growth Marketing Executive
+  Company: Treatwell
+  Location: London
+  Growth Marketing Associate (6 jobs)
+  ┌───────┬─────────────────────────────────┬─────────────────────┬────────────┐
+  │ Score │              Title              │       Company       │  Location  │
+  ├───────┼─────────────────────────────────┼─────────────────────┼────────────┤
+  │ 87    │ Growth Marketing Associate,     │ Guardian Jobs       │ London     │
+  │       │ BRIGHTERBOX                     │                     │            │
+  ├───────┼─────────────────────────────────┼─────────────────────┼────────────┤
+  │ 87    │ Junior Marketing & Operations   │ BlakBear            │ London     │
+  │       │ Associate                       │                     │            │
+  ├───────┼─────────────────────────────────┼─────────────────────┼────────────┤
+  │ 81    │ Web3 Growth Marketing Associate │ Serotonin           │ Remote     │
+  ├───────┼─────────────────────────────────┼─────────────────────┼────────────┤
+  │ 78    │ Growth Marketing Associate      │ DIA                 │ Remote     │
+  │       │                                 │                     │ (CET)      │
+  ├───────┼─────────────────────────────────┼─────────────────────┼────────────┤
+  │ 77    │ Growth Marketing Associate      │ Private Equity      │ London     │
+  │       │                                 │ Insights            │            │
+  ├───────┼─────────────────────────────────┼─────────────────────┼────────────┤
+  │ 77    │ Web3 Growth Marketing Intern    │ Blockchain          │ London     │
+  └───────┴─────────────────────────────────┴─────────────────────┴────────────┘
+  Community Associate (1 job)
+  ┌───────┬─────────────────────────────────────────────┬─────────┬──────────┐
+  │ Score │                    Title                    │ Company │ Location │
+  ├───────┼─────────────────────────────────────────────┼─────────┼──────────┤
+  │ 83    │ Social & Community Strategist - TikTok LIVE │ TikTok  │ London   │
+  └───────┴─────────────────────────────────────────────┴─────────┴──────────┘
+  ---
+  Total: 48 verified jobs across 7 role types.
+
+  Top highlights: Re7 Capital (88), Mintago (87), Greenpixie (90), Linda AI
+  (90), MAGIC AI (88), BlakBear (95), Triptease (90), YunoJuno (90).
+
+  Which jobs would you like me to prepare application briefs for? You can pick
+  individual ones, whole categories, or a score threshold (e.g., "everything
+  80+").
+
+❯ everything 90+ 
+
+⏺ Let me identify the 90+ jobs and prepare briefs. I need to read the verified
+  JSON files for each.
+
+⏺ Read 5 files (ctrl+o to expand)
+
+⏺ Now let me also grab the MAGIC AI file, then dispatch brief subagents for all
+  5.
+
+⏺ Searched for 1 pattern, read 1 file (ctrl+o to expand)
+
+⏺ Wait — MAGIC AI scored 88, not 90+. The 90+ jobs are:
+
+  1. Greenpixie — Founder Associate (90)
+  2. Linda AI — Founders Associate (90)
+  3. BlakBear — Junior Marketing & Operations Associate (95)
+  4. Triptease — Associate Product Marketing Manager (90)
+  5. YunoJuno — Product Marketing Specialist (90)
+
+  Before I dispatch briefs, a few flags worth noting:
+  - BlakBear (95): Junior role, salary £28-35K — only meets your £35K minimum at
+   the top end
+  - Triptease (90): Entry-level, salary £25-35K — same issue
+  - YunoJuno (90): 1-month part-time contract, not permanent
+
+  Do you still want briefs for all 5, or would you like to drop any?
+
+❯ all 5 
+
+⏺ Let me read the brief template and the profile sections, then dispatch all 5
+  brief subagents.
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ Now let me build the profile extract and dispatch all 5 brief subagents. I'll
+  keep the prompts concise — pointing subagents to read the files themselves
+  rather than inlining everything.
+
+⏺ 3 Task agents launched (ctrl+o to expand)
+   ├─ Brief for Greenpixie FA
+   │  ⎿  Running in the background (↓ to manage)
+   ├─ Brief for Linda AI FA
+   │  ⎿  Running in the background (↓ to manage)
+   └─ Brief for BlakBear marketing
+      ⎿  Running in the background (↓ to manage)
+
+⏺ First 3 briefs are running (Greenpixie, Linda AI, BlakBear). Let me launch the
+   remaining 2 now.
+
+⏺ 2 Task agents launched (ctrl+o to expand)
+   ├─ Brief for Triptease PMM
+   │  ⎿  Running in the background (↓ to manage)
+   └─ Brief for YunoJuno PMM
+      ⎿  Running in the background (↓ to manage)
+
+⏺ All 5 brief subagents are running:
+
+  1. Greenpixie — Founder Associate (90)
+  2. Linda AI — Founders Associate (90)
+  3. BlakBear — Junior Marketing & Operations Associate (95)
+  4. Triptease — Associate Product Marketing Manager (90)
+  5. YunoJuno — Product Marketing Specialist (90)
+
+  Each agent is researching the company, then writing the full 6-section brief.
+  I'll let you know as they complete.
+
+✻ Cooked for 46s
+
+⏺ Agent "Brief for Greenpixie FA" completed
+
+⏺ Greenpixie brief done — written to
+  output/briefs/greenpixie-founder-associate-brief.md. Hiring manager
+  identified: John Ridd (CEO). 4 more briefs in progress.
+
+⏺ Agent "Brief for Triptease PMM" completed
+
+⏺ Triptease brief done — written to
+  output/briefs/triptease-associate-product-marketing-manager-entry-brief.md.
+  Glassdoor rating 4.5/5. 3 more briefs in progress.
+
+⏺ Agent "Brief for Linda AI FA" completed
+
+⏺ Linda AI brief done — written to
+  output/briefs/linda-ai-founders-associate-brief.md. Founders identified (India
+   & Portia Healy O'Connor), fresh €2.6M raise in Feb 2026. 2 more briefs in
+  progress (BlakBear, YunoJuno).
+
+⏺ Agent "Brief for BlakBear marketing" completed
+
+⏺ BlakBear brief done — written to
+  output/briefs/blakbear-junior-marketing-operations-associate-brief.md. CEO Dr.
+   Max Grell identified. 1 more brief in progress (YunoJuno).
+
+⏺ Agent "Brief for YunoJuno PMM" completed
+
+⏺ All 5 briefs are done. Let me save session state.
+
+⏺ Write(output/session-state.md)
+  ⎿  Wrote 34 lines to output/session-state.md
+     # Session State
+
+     ## Run Date
+     2026-02-05
+
+     ## Phase
+     Briefs complete for 90+ jobs. Awaiting user feedback on remaining
+     jobs.
+
+     ## Search Progress
+     All 7 role types verified:
+     … +24 lines (ctrl+o to expand)
+
+⏺ All 5 application briefs are ready:
+  Brief: BlakBear — Junior Marketing & Ops Associate
+  Score: 95
+  File: output/briefs/blakbear-junior-marketing-operations-associate-brief.md
+  ────────────────────────────────────────
+  Brief: Greenpixie — Founder Associate
+  Score: 90
+  File: output/briefs/greenpixie-founder-associate-brief.md
+  ────────────────────────────────────────
+  Brief: Linda AI — Founders Associate
+  Score: 90
+  File: output/briefs/linda-ai-founders-associate-brief.md
+  ────────────────────────────────────────
+  Brief: Triptease — Associate PMM
+  Score: 90
+  File:
+  output/briefs/triptease-associate-product-marketing-manager-entry-brief.md
+  ────────────────────────────────────────
+  Brief: YunoJuno — Product Marketing Specialist
+  Score: 90
+  File: output/briefs/yunojuno-product-marketing-specialist-brief.md
+  Each brief includes: role summary with score breakdown, company research, CV
+  tailoring advice, cover letter talking points, outreach draft (where hiring
+  manager was found), and an application checklist.
+
+  Would you like to:
+  - Review any of the briefs here?
+  - Generate briefs for more jobs (e.g., everything 80+)?
+  - Anything else?
+
+❯ can you provide a daily digest that covers them all? 
+
+⏺ Searched for 1 pattern, read 5 files (ctrl+o to expand)
+
+⏺ Now let me write the digest.
+
+⏺ Write(output/digests/2026-02-05.md)
+  ⎿  Wrote 166 lines to output/digests/2026-02-05.md
+     # Job Search Digest — 2026-02-05
+
+     ## Summary
+
+     Searched **7 role types** across 14 sources (JobSpy + specialty
+     boards). Found **48 verified jobs**, generated **5 application 
+     briefs** for your top matches (score 90+).
+
+     ---
+
+     ## Top Opportunities (Briefs Ready)
+
+     … +156 lines (ctrl+o to expand)
+
+⏺ Digest written to output/digests/2026-02-05.md.
+
+  It covers all 48 verified jobs across 7 role types, with detailed writeups for
+   your 5 briefed opportunities (90+), full tables for every category, and
+  recommendations on where to focus first.
+
+  My recommendations:
+  - Apply first: Linda AI and Greenpixie (FA roles, strongest fit)
+  - Quick win: YunoJuno contract (starts Feb 16, low commitment, builds AI PMM
+  cred)
+  - Next briefs? Re7 Capital (88), MAGIC AI (88), Mintago (87) if you want to
+  widen the net
+
+  Want me to generate briefs for any more, or anything else?
+
+✻ Churned for 1m 16s
+
+❯ can you email the brief to me, but make sure to include hyperlinks to     
+  each role so I can easily inspect it further - please do this always      
+  moving forwards                                                           
+
+⏺ Let me check the email script first.
+
+⏺ Searched for 2 patterns, read 1 file (ctrl+o to expand)
+
+⏺ The digest currently uses plain text links in the tables — I need to make sure
+   the hyperlinks render properly in the email. The script supports --html mode
+  which converts markdown to HTML. Let me update the digest to ensure all job
+  titles are hyperlinked, then send it.
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ I need to add hyperlinks to all job titles in the tables. Let me pull the URLs
+   from the verified JSON files quickly, then update the digest.
+
+⏺ Bash(for f in output/verified/marketing-manager/*.json; do [ "$(basename
+      "$f")" = "_status.json" ] && continue; python3 -c "import json,sys;
+      d=json.load(open('$f'));…)
+  ⎿ Alchemy | Web3 Product Marketing Manager | https://web3.career/product-
+    marketing-manager-alchemy/9269
+    Deliveroo | Value Marketing Manager | https://www.linkedin.com/jobs/vie
+    … +14 lines (ctrl+o to expand)
+
+
+
+⏺ Bash(for f in output/verified/community-manager/*.json; do [ "$(basename
+      "$f")" = "_status.json" ] && continue; python3 -c "import json,sys;
+      d=json.load(open('$f'));…)
+  ⎿ Crypto.com | IRL Community Manager - EMEA | https://web3.career/irl-com
+    munity-manager-emea-crypto-com/144100
+    eight&four | Community Manager | https://www.linkedin.com/jobs/view/436
+    … +7 lines (ctrl+o to expand)
+
+
+
+⏺ Bash(for f in output/verified/founders-associate/*.json; do [ "$(basename
+      "$f")" = "_status.json" ] && continue; python3 -c "import json,sys;
+      d=json.load(open('$f'))…)
+  ⎿ amicable | Founder's Associate | https://www.linkedin.com/jobs/view/432
+    1372741
+    Anima | Founder's Associate | https://www.linkedin.com/jobs/view/426219
+    … +33 lines (ctrl+o to expand)
+
+
+
+⏺ Bash(for f in output/verified/product-marketing-associate/*.json; do [
+      "$(basename "$f")" = "_status.json" ] && continue; python3 -c "import
+      json,sys; d=json.load(op…)
+  ⎿ ApprovalMax | Product Marketing Associate | https://www.linkedin.com/jo
+    bs/view/4365322829
+    BlakBear | Junior Marketing & Operations Associate | https://www.linked
+    … +9 lines (ctrl+o to expand)
+
+
+
+⏺ Bash(for f in output/verified/marketing-associate/*.json; do [ "$(basename
+      "$f")" = "_status.json" ] && continue; python3 -c "import json,sys;
+      d=json.load(open('$f')…)
+  ⎿ Aztec | Web3 Marketing Assistant | https://web3.career/marketing-assist
+    ant-aztec/141683
+    DIA | Growth Marketing Associate | https://cryptocurrencyjobs.co/market
+    … +5 lines (ctrl+o to expand)
+
+
+
+⏺ Bash(for f in output/verified/growth-marketing-associate/*.json; do [
+      "$(basename "$f")" = "_status.json" ] && continue; python3 -c "import
+      json,sys; d=json.load(ope…)
+  ⎿ BlakBear | Junior Marketing & Operations Associate | https://www.linked
+    in.com/jobs/view/4346476443
+    Blockchain | Web3 Growth Marketing Intern | https://web3.career/growth-
+    … +9 lines (ctrl+o to expand)
+
+
+
+⏺ Bash(for f in output/verified/community-associate/*.json; do [ "$(basename
+      "$f")" = "_status.json" ] && continue; python3 -c "import json,sys;
+      d=json.load(open('$f')…)
+  ⎿ TikTok | Social & Community Strategist - TikTok LIVE - London (12-month
+     Fixed-Term Contract) | https://www.linkedin.com/jobs/view/4331940009
+
+
+⏺ Good, I have all the URLs. Now let me rewrite the digest with hyperlinked
+  titles throughout.
+
+⏺ Write(output/digests/2026-02-05.md)
+  ⎿  Added 53 lines, removed 63 lines
+       8                                                                 
+       9  ## Top Opportunities (Briefs Ready)                            
+      10                                                                 
+      11 -### 1. BlakBear — Junior Marketing & Operations Associate      
+         - (95/100)                                                      
+      11 +### 1. BlakBear — [Junior Marketing & Operations Associate     
+         +](https://www.linkedin.com/jobs/view/4346476443) (95/100)      
+      12                                                                 
+      13  - **What:** AI-powered food tech startup building smart        
+          freshness sensors. Seed stage, ~£2.3M raised. London,          
+          office-based.                                                  
+      14  - **Salary:** £28-35K + 0.05-0.1% equity                       
+     ...
+      16  - **Watch out:** Junior role — you're significantly            
+          overqualified with 7 years. Salary only meets your minimum at  
+          the top end. 200+ applicants.                                  
+      17  - **Hiring manager:** Dr. Max Grell (CEO)                      
+      18  - **Action:** Address overqualification head-on. Lead with the 
+           deep-tech marketing parallel to Minima. Equity story matters  
+          here.                                                          
+      19 -- **Apply:** https://www.linkedin.com/jobs/view/4346476443     
+      20 -- **Brief:** `output/briefs/blakbear-junior-marketing-operatio 
+         -ns-associate-brief.md`                                         
+      19                                                                 
+      20 -### 2. Greenpixie — Founder Associate (90/100)                 
+      20 +### 2. Greenpixie — [Founder Associate                         
+         +](https://www.linkedin.com/jobs/view/4369015711) (90/100)      
+      21                                                                 
+      22  - **What:** Sustainability tech startup building GPX Data for  
+          cloud carbon measurement. Seed-funded, ~19 people. London,     
+          hybrid (Mon/Wed in-office).                                    
+      23  - **Salary:** £45,000                                          
+     ...
+      27  - **Watch out:** Sustainability sector (not your core          
+          industries). Asks for 2-5 years (you have 7).                  
+      28  - **Hiring manager:** John Ridd (CEO)                          
+      29  - **Action:** Strongest salary and role-title match. Lead with 
+           "I was literally a Founder's Associate before."               
+          Sustainability gap is minor — you're still a tech startup      
+          generalist.                                                    
+      30 -- **Apply:** https://www.linkedin.com/jobs/view/4369015711     
+      31 -- **Brief:**                                                   
+         -`output/briefs/greenpixie-founder-associate-brief.md`          
+      30                                                                 
+      31 -### 3. Linda AI — Founders Associate (90/100)                  
+      31 +### 3. Linda AI — [Founders Associate                          
+         +](https://www.linkedin.com/jobs/view/4359793193) (90/100)      
+      32                                                                 
+      33  - **What:** AI healthcare startup building autonomous voice    
+          agents for dental practices. Pre-seed, €2.6M raised Feb 2026.  
+          London, in-person.                                             
+      34  - **Salary:** Not listed (predicted £36-60K). Competitive      
+          salary + equity.                                               
+     ...
+      38  - **Watch out:** Targets early-career professionals. In-person 
+           daily (London or Dublin). No salary listed.                   
+      39  - **Hiring manager:** India Healy O'Connor (CEO, co-founder)   
+      40  - **Action:** Your strongest AI-industry match. Lead with the  
+          FA-at-Minima parallel and your AI agents experience. The €2.6M 
+           raise means they're building the team now — timing is ideal.  
+      41 -- **Apply:** https://www.linkedin.com/jobs/view/4359793193     
+      42 -- **Brief:**                                                   
+         -`output/briefs/linda-ai-founders-associate-brief.md`           
+      41                                                                 
+      42 -### 4. Triptease — Associate Product Marketing Manager,        
+         -Entry-Level (90/100)                                           
+      42 +### 4. Triptease — [Associate Product Marketing Manager (      
+         +Entry-Level)](https://www.linkedin.com/jobs/view/4342643296)   
+         + (90/100)                                                      
+      43                                                                 
+      44  - **What:** Travel tech SaaS platform helping hotels increase  
+          direct bookings. Series B, ~136 employees, $7.3M revenue.      
+          London, hybrid.                                                
+      45  - **Salary:** £25-35K + equity/share options                   
+     ...
+      49  - **Watch out:** Entry-level title with 7 years experience.    
+          Salary range is tight (£25-35K). Travel tech, not your target  
+          industries. Posted Nov 2024 — may be stale.                    
+      50  - **Hiring manager:** Not identified                           
+      51  - **Action:** Frame as intentional career pivot into product   
+          marketing. Your Amazon Alexa data analyst background + AI      
+          skills differentiate you. Negotiate for top of salary range.   
+      52 -- **Apply:** https://www.linkedin.com/jobs/view/4342643296     
+      53 -- **Brief:** `output/briefs/triptease-associate-product-market 
+         -ing-manager-entry-brief.md`                                    
+      52                                                                 
+      53 -### 5. YunoJuno — Product Marketing Specialist (90/100)        
+      53 +### 5. YunoJuno — [Product Marketing Specialist                
+         +](https://www.linkedin.com/jobs/view/4368980692) (90/100)      
+      54                                                                 
+      55  - **What:** 1-month part-time freelance contract for an        
+          unnamed AI voice company based in Cambridge. Listed through    
+          YunoJuno marketplace.                                          
+      56  - **Salary:** Rate TBC                                         
+     ...
+      60  - **Watch out:** Short-term contract (1 month, part-time).     
+          Company unnamed. Not a permanent role.                         
+      61  - **Hiring manager:** Not identified (unnamed company)         
+      62  - **Action:** Low-commitment way to get AI product marketing   
+          on your CV. Apply quickly — start date is Feb 16th. Can run    
+          alongside permanent job search.                                
+      63 -- **Apply:** https://www.linkedin.com/jobs/view/4368980692     
+      64 -- **Brief:**                                                   
+         -`output/briefs/yunojuno-product-marketing-specialist-brief.md` 
+      63                                                                 
+      64  ---                                                            
+      65                                                                 
+     ...
+       71                                                                
+       72  | Score | Title | Company | Location |                        
+       73  |-------|-------|---------|----------|                        
+       74 -| 88 | Marketing Manager - DeFi | Re7 Capital | Remote |      
+       75 -| 86 | Web3 Social Media and Marketing Manager                
+          - | Genies | Remote |                                          
+       76 -| 84 | Value Marketing Manager | Deliveroo | London |         
+       77 -| 80 | Product Marketing Manager, Crypto - International      
+          - | Robinhood | London |                                       
+       78 -| 80 | Marketing Manager | WildBrain | London (Hybrid) |      
+       79 -| 78 | Web3 Product Marketing Manager | Alchemy | Remote |    
+       80 -| 68 | Brand and Reputation Manager - TikTok LIVE             
+          - | TikTok | London |                                          
+       81 -| 63 | B2C Product Marketing Manager | Mercuryo | Remote |    
+       74 +| 88 | [Marketing Manager - DeFi](https://cryptocurrencyjobs. 
+          +co/marketing/re7-capital-marketing-manager-defi/) | Re7       
+          +Capital | Remote |                                            
+       75 +| 86 | [Web3 Social Media and Marketing Manager               
+          +](https://web3.career/social-media-and-marketing-manager-genie
+          +s/143525) | Genies | Remote |                                 
+       76 +| 84 | [Value Marketing Manager                               
+          +](https://www.linkedin.com/jobs/view/4325890799)              
+          + | Deliveroo | London |                                       
+       77 +| 80 | [Product Marketing Manager, Crypto - International     
+          +](https://web3.career/product-marketing-manager-crypto-interna
+          +tional-robinhood/143807) | Robinhood | London |               
+       78 +| 80 | [Marketing Manager                                     
+          +](https://www.linkedin.com/jobs/view/4362793434)              
+          + | WildBrain | London (Hybrid) |                              
+       79 +| 78 | [Web3 Product Marketing Manager                        
+          +](https://web3.career/product-marketing-manager-alchemy/9269) 
+          + | Alchemy | Remote |                                         
+       80 +| 68 | [Brand and Reputation Manager - TikTok LIVE            
+          +](https://www.linkedin.com/jobs/view/4359032027)              
+          + | TikTok | London |                                          
+       81 +| 63 | [B2C Product Marketing Manager](https://cryptocurrency 
+          +jobs.co/marketing/mercuryo-b2c-product-marketing-manager/) |  
+          +Mercuryo | Remote |                                           
+       82                                                                
+       83  ### Community Manager (5 jobs)                                
+       84                                                                
+       85  | Score | Title | Company | Location |                        
+       86  |-------|-------|---------|----------|                        
+       87 -| 87 | Social Media & Community Manager                       
+          - | Mintago | London (Hybrid) |                                
+       88 -| 85 | Community Manager | eight&four | London (Hybrid) |     
+       89 -| 80 | Freelance Community Manager                            
+          - | Mumsnet | London (Remote) |                                
+       90 -| 78 | IRL Community Manager - EMEA                           
+          - | Crypto.com | London (Hybrid) |                             
+       91 -| 71 | Community Manager | Eucalyptus | London (Hybrid) |     
+       87 +| 87 | [Social Media & Community Manager                      
+          +](https://www.linkedin.com/jobs/view/4339422679)              
+          + | Mintago | London (Hybrid) |                                
+       88 +| 85 | [Community Manager                                     
+          +](https://www.linkedin.com/jobs/view/4362410803)              
+          + | eight&four | London (Hybrid) |                             
+       89 +| 80 | [Freelance Community Manager                           
+          +](https://www.linkedin.com/jobs/view/4368632624)              
+          + | Mumsnet | London (Remote) |                                
+       90 +| 78 | [IRL Community Manager - EMEA                          
+          +](https://web3.career/irl-community-manager-emea-crypto-com/14
+          +4100) | Crypto.com | London (Hybrid) |                        
+       91 +| 71 | [Community Manager                                     
+          +](https://www.linkedin.com/jobs/view/4321149749)              
+          + | Eucalyptus | London (Hybrid) |                             
+       92                                                                
+       93  ### Founder's Associate (18 jobs)                             
+       94                                                                
+       95  | Score | Title | Company | Location |                        
+       96  |-------|-------|---------|----------|                        
+       97 -| 90 | Founder Associate | Greenpixie | London (Hybrid) |     
+       98 -| 90 | Founders Associate | Linda AI | London |               
+       99 -| 88 | Founder's Associate | MAGIC AI | London (Hybrid) |     
+      100 -| 85 | Founder's Associate | Anima | London |                 
+      101 -| 83 | Founder Associate | Duku AI | London |                 
+      102 -| 82 | Founder's Associate | Seamflow | London |              
+      103 -| 75 | Founder's Associate | Emma | London |                  
+      104 -| 72 | Founder's Associate | Zendo | London |                 
+      105 -| 67 | Founder's Associate | Avant Arte | London |            
+      106 -| 62 | Founder Associate | Humaans | London |                 
+      107 -| 58 | FA at VC Backed Startup | Jumpstart | London |         
+      108 -| 57 | Founder's Associate | Brickwise | London |             
+      109 -| 55 | FA - Growth | Gopuff | London |                        
+      110 -| 55 | Founder's Associate | NOVA | London |                  
+      111 -| 52 | Stealth Startup - FA | fittest. | London |             
+      112 -| 45 | Founder's Associate | Jack & Jill | London |           
+      113 -| 38 | FA (CEO Office) | Fuse Energy | London |               
+      114 -| 0 | Founder's Associate | amicable | London (unverified) |  
+       97 +| 90 | [Founder Associate                                     
+          +](https://www.linkedin.com/jobs/view/4369015711)              
+          + | Greenpixie | London (Hybrid) |                             
+       98 +| 90 | [Founders Associate                                    
+          +](https://www.linkedin.com/jobs/view/4359793193)              
+          + | Linda AI | London |                                        
+       99 +| 88 | [Founder's Associate                                   
+          +](https://www.linkedin.com/jobs/view/4359417874)              
+          + | MAGIC AI | London (Hybrid) |                               
+      100 +| 85 | [Founder's Associate                                   
+          +](https://www.linkedin.com/jobs/view/4262194365)              
+          + | Anima | London |                                           
+      101 +| 83 | [Founder Associate                                     
+          +](https://www.linkedin.com/jobs/view/4344764433)              
+          + | Duku AI | London |                                         
+      102 +| 82 | [Founder's Associate                                   
+          +](https://www.linkedin.com/jobs/view/4341275325)              
+          + | Seamflow | London |                                        
+      103 +| 75 | [Founder's Associate                                   
+          +](https://www.linkedin.com/jobs/view/4351976009)              
+          + | Emma | London |                                            
+      104 +| 72 | [Founder's Associate                                   
+          +](https://www.linkedin.com/jobs/view/4360691050)              
+          + | Zendo | London |                                           
+      105 +| 67 | [Founder's Associate                                   
+          +](https://www.linkedin.com/jobs/view/4364974428)              
+          + | Avant Arte | London |                                      
+      106 +| 62 | [Founder Associate                                     
+          +](https://www.linkedin.com/jobs/view/4367952509)              
+          + | Humaans | London |                                         
+      107 +| 58 | [FA at VC Backed Startup                               
+          +](https://www.linkedin.com/jobs/view/4354684785)              
+          + | Jumpstart | London |                                       
+      108 +| 57 | [Founder's Associate                                   
+          +](https://www.linkedin.com/jobs/view/4329792650)              
+          + | Brickwise | London |                                       
+      109 +| 55 | [FA - Growth                                           
+          +](https://www.linkedin.com/jobs/view/4358732935)              
+          + | Gopuff | London |                                          
+      110 +| 55 | [Founder's Associate                                   
+          +](https://www.linkedin.com/jobs/view/4339907793)              
+          + | NOVA | London |                                            
+      111 +| 52 | [Stealth Startup - FA                                  
+          +](https://www.linkedin.com/jobs/view/4369116205)              
+          + | fittest. | London |                                        
+      112 +| 45 | [Founder's Associate                                   
+          +](https://www.linkedin.com/jobs/view/4368483138)              
+          + | Jack & Jill | London |                                     
+      113 +| 38 | [FA (CEO Office)                                       
+          +](https://www.linkedin.com/jobs/view/4342020356)              
+          + | Fuse Energy | London |                                     
+      114 +| 0 | [Founder's Associate                                    
+          +](https://www.linkedin.com/jobs/view/4321372741)              
+          + | amicable | London (unverified) |                           
+      115                                                                
+      116  ### Product Marketing Associate (6 jobs)                      
+      117                                                                
+      118  | Score | Title | Company | Location |                        
+      119  |-------|-------|---------|----------|                        
+      120 -| 95 | Junior Marketing & Operations Associate                
+          - | BlakBear | London |                                        
+      121 -| 90 | Associate Product Marketing Manager (Entry-Level)      
+          - | Triptease | London (Hybrid) |                              
+      122 -| 90 | Product Marketing Specialist                           
+          - | YunoJuno | Cambridge (Remote) |                            
+      123 -| 83 | B2C Product Marketing Manager | Mercuryo | Remote |    
+      124 -| 82 | Product Marketing Associate | ApprovalMax | London |   
+      125 -| 80 | Product Marketing Manager - Patients and Services      
+          - | Skin Analytics | London (Hybrid) |                         
+      120 +| 95 | [Junior Marketing & Operations Associate               
+          +](https://www.linkedin.com/jobs/view/4346476443)              
+          + | BlakBear | London |                                        
+      121 +| 90 | [Associate Product Marketing Manager (Entry-Level)     
+          +](https://www.linkedin.com/jobs/view/4342643296)              
+          + | Triptease | London (Hybrid) |                              
+      122 +| 90 | [Product Marketing Specialist                          
+          +](https://www.linkedin.com/jobs/view/4368980692)              
+          + | YunoJuno | Cambridge (Remote) |                            
+      123 +| 83 | [B2C Product Marketing Manager](https://cryptocurrency 
+          +jobs.co/marketing/mercuryo-b2c-product-marketing-manager/) |  
+          +Mercuryo | Remote |                                           
+      124 +| 82 | [Product Marketing Associate                           
+          +](https://www.linkedin.com/jobs/view/4365322829)              
+          + | ApprovalMax | London |                                     
+      125 +| 80 | [Product Marketing Manager - Patients and Services     
+          +](https://www.linkedin.com/jobs/view/4354072495)              
+          + | Skin Analytics | London (Hybrid) |                         
+      126                                                                
+      127  ### Marketing Associate (4 jobs)                              
+      128                                                                
+      129  | Score | Title | Company | Location |                        
+      130  |-------|-------|---------|----------|                        
+      131 -| 79 | Analyst, Digital Marketing                             
+          - | Grayscale Investments | Remote |                           
+      132 -| 78 | Growth Marketing Associate | DIA | Remote (CET) |      
+      133 -| 74 | Web3 Marketing Assistant | Aztec | Remote (London HQ) |
+      134 -| 73 | Growth Marketing Executive | Treatwell | London |      
+      131 +| 79 | [Analyst, Digital Marketing                            
+          +](https://web3.career/analyst-digital-marketing-grayscaleinves
+          +tments/95739) | Grayscale Investments | Remote |              
+      132 +| 78 | [Growth Marketing Associate](https://cryptocurrencyjob 
+          +s.co/marketing/dia-growth-marketing-associate/) | DIA |       
+          +Remote (CET) |                                                
+      133 +| 74 | [Web3 Marketing Assistant                              
+          +](https://web3.career/marketing-assistant-aztec/141683)       
+          + | Aztec | Remote (London HQ) |                               
+      134 +| 73 | [Growth Marketing Executive                            
+          +](https://www.linkedin.com/jobs/view/4366184176)              
+          + | Treatwell | London |                                       
+      135                                                                
+      136  ### Growth Marketing Associate (6 jobs)                       
+      137                                                                
+      138  | Score | Title | Company | Location |                        
+      139  |-------|-------|---------|----------|                        
+      140 -| 87 | Growth Marketing Associate, BRIGHTERBOX                
+          - | Guardian Jobs | London |                                   
+      141 -| 87 | Junior Marketing & Operations Associate                
+          - | BlakBear | London |                                        
+      142 -| 81 | Web3 Growth Marketing Associate | Serotonin | Remote | 
+      143 -| 78 | Growth Marketing Associate | DIA | Remote (CET) |      
+      144 -| 77 | Growth Marketing Associate                             
+          - | Private Equity Insights | London |                         
+      145 -| 77 | Web3 Growth Marketing Intern | Blockchain | London |   
+      140 +| 87 | [Growth Marketing Associate, BRIGHTERBOX               
+          +](https://www.linkedin.com/jobs/view/4330747124)              
+          + | Guardian Jobs | London |                                   
+      141 +| 87 | [Junior Marketing & Operations Associate               
+          +](https://www.linkedin.com/jobs/view/4346476443)              
+          + | BlakBear | London |                                        
+      142 +| 81 | [Web3 Growth Marketing Associate                       
+          +](https://web3.career/growth-marketing-associate-serotonin/140
+          +919) | Serotonin | Remote |                                   
+      143 +| 78 | [Growth Marketing Associate](https://cryptocurrencyjob 
+          +s.co/marketing/dia-growth-marketing-associate/) | DIA |       
+          +Remote (CET) |                                                
+      144 +| 77 | [Growth Marketing Associate                            
+          +](https://www.linkedin.com/jobs/view/4262439617)              
+          + | Private Equity Insights | London |                         
+      145 +| 77 | [Web3 Growth Marketing Intern                          
+          +](https://web3.career/growth-marketing-intern-blockchain/14473
+          +1) | Blockchain | London |                                    
+      146                                                                
+      147  ### Community Associate (1 job)                               
+      148                                                                
+      149  | Score | Title | Company | Location |                        
+      150  |-------|-------|---------|----------|                        
+      151 -| 83 | Social & Community Strategist - TikTok LIVE            
+          - | TikTok | London |                                          
+      151 +| 83 | [Social & Community Strategist - TikTok LIVE           
+          +](https://www.linkedin.com/jobs/view/4331940009)              
+          + | TikTok | London |                                          
+      152                                                                
+      153  ---                                                           
+      154                                                                
+
+⏺ Digest updated with hyperlinks on every job title. Now let me set up the .env
+  and send the email. I need a Resend API key — do you have one, or do you have
+  one stored somewhere I should check?
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ Bash(printenv RESEND_API_KEY 2>/dev/null | head -c 5)
+  ⎿  re_Ds
+
+⏺ API key is in the environment. Let me check that the markdown library is
+  available for HTML conversion, then send.
+
+⏺ Bash(python3 -c "import markdown; print('ok')" 2>&1 && python3 -c "import
+      resend; print('ok')" 2>&1)
+  ⎿  ok
+     ok
+
+⏺ Good — both libraries are available. Sending the digest as HTML email so
+  hyperlinks are clickable.
+
+⏺ Bash(python3 scripts/send_email.py --to "ryanhennebry@gmail.com" --subject
+      "Job Search Digest — 2026-02-05 (48 jobs, 5 briefs)" --file
+      output/digests/2026-02-05.md -…)
+  ⎿  Email sent successfully. ID: 4748c18f-bed0-411c-b8d7-729751676159
+
+⏺ Digest emailed to ryanhennebry@gmail.com. All job titles are hyperlinked so
+  you can click through to the listings directly. I'll include hyperlinks on all
+   digests going forward.
+
+  Anything else?
+
+✻ Cogitated for 1m 53s
+
+❯ what else can you do for me? 
+
+⏺ Based on where we are, here's what I can do next:
+
+  Expand your pipeline:
+  - Generate briefs for more jobs (e.g., everything 80+, or specific ones like
+  Re7 Capital, MAGIC AI, Mintago)
+  - Re-run searches with different parameters if you want to adjust (e.g., add
+  new role types, change industries, expand locations)
+
+  Help you apply:
+  - Tailor your CV for a specific role
+  - Draft a cover letter based on a brief
+  - Draft outreach messages to hiring managers
+
+  Manage your search:
+  - Track which jobs you've applied to, rejected, or want to revisit
+  - Record feedback signals (e.g., "I passed on X because Y") to improve future
+  searches
+  - Update your profile if anything changes (new skills, salary expectations,
+  etc.)
+
+  What would be most useful right now?
+
+❯ can you send the briefs to me via email also 
+
+⏺ Bash(python3 scripts/send_email.py --to "ryanhennebry@gmail.com" --subject
+      "Brief: BlakBear — Junior Marketing & Operations Associate (95/100)"
+      --file output/briefs/…)
+  ⎿  Email sent successfully. ID: 8af16564-c321-4464-8773-53ec12204b57
+
+⏺ Bash(python3 scripts/send_email.py --to "ryanhennebry@gmail.com" --subject
+      "Brief: Greenpixie — Founder Associate (90/100)" --file
+      output/briefs/greenpixie-founder-a…)
+  ⎿  Email sent successfully. ID: 6e9cb4d6-74ab-4f7e-84df-48f113dfd145
+
+⏺ Bash(python3 scripts/send_email.py --to "ryanhennebry@gmail.com" --subject
+      "Brief: Linda AI — Founders Associate (90/100)" --file
+      output/briefs/linda-ai-founders-ass…)
+  ⎿  Email sent successfully. ID: b4c25fc8-e61d-46ae-a272-5955502446d0
+
+⏺ Bash(python3 scripts/send_email.py --to "ryanhennebry@gmail.com" --subject
+      "Brief: Triptease — Associate Product Marketing Manager (90/100)" --file
+      output/briefs/tri…)
+  ⎿  Email sent successfully. ID: 25d4eeaf-983a-40ae-90ee-1d192a7e36dc
+
+⏺ Bash(python3 scripts/send_email.py --to "ryanhennebry@gmail.com" --subject
+      "Brief: YunoJuno — Product Marketing Specialist (90/100)" --file
+      output/briefs/yunojuno-pr…)
+  ⎿  Email sent successfully. ID: ab5de7bf-62f8-4ca2-ae6d-88671e71b642
+
+⏺ All 5 briefs sent. You should have 6 emails total:
+
+  1. Digest — Job Search Digest (overview of all 48 jobs)
+  2. BlakBear — Junior Marketing & Operations Associate (95/100)
+  3. Greenpixie — Founder Associate (90/100)
+  4. Linda AI — Founders Associate (90/100)
+  5. Triptease — Associate Product Marketing Manager (90/100)
+  6. YunoJuno — Product Marketing Specialist (90/100)
+
+  All in HTML with clickable links. Anything else?
