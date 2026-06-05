@@ -1,0 +1,66 @@
+{
+  "agent": {
+    "version": "v21",
+    "model": "claude-opus-4-6"
+  },
+  "roles": [
+    {
+      "title": "Community Manager",
+      "slug": "community-manager",
+      "skills": ["Community Management", "Discord", "Telegram", "X/Twitter", "Ambassador Programme Design", "Event Marketing"],
+      "sources": ["web3.career", "remote3.co", "beincrypto.com", "cryptocurrencyjobs.co", "laborx.com", "aijobs.app", "theaijobboard.com", "workinstartups.com", "ukstartupjobs.com", "ycombinator.com", "linkedin", "indeed", "glassdoor"]
+    },
+    {
+      "title": "Marketing Manager",
+      "slug": "marketing-manager",
+      "skills": ["Content Marketing", "Social Media Strategy", "Event Marketing", "Public Relations", "Data Analytics", "Content Calendar Management"],
+      "sources": ["web3.career", "remote3.co", "beincrypto.com", "cryptocurrencyjobs.co", "laborx.com", "aijobs.app", "aijobs.ai", "theaijobboard.com", "workinstartups.com", "ukstartupjobs.com", "jumpstart-uk.com", "ycombinator.com", "techstars.com", "builtinlondon.uk", "escapethecity.org", "linkedin", "indeed", "glassdoor"]
+    },
+    {
+      "title": "Marketing Associate",
+      "slug": "marketing-associate",
+      "skills": ["Content Marketing", "Social Media Strategy", "Data Analytics", "Stakeholder Reporting"],
+      "sources": ["web3.career", "remote3.co", "beincrypto.com", "cryptocurrencyjobs.co", "aijobs.ai", "workinstartups.com", "ukstartupjobs.com", "ycombinator.com", "techstars.com", "escapethecity.org", "linkedin", "indeed", "glassdoor"]
+    },
+    {
+      "title": "Founder's Associate",
+      "slug": "founders-associate",
+      "skills": ["Investor Relations", "Stakeholder Reporting", "Data Analytics", "Content Marketing"],
+      "sources": ["workinstartups.com", "ukstartupjobs.com", "jumpstart-uk.com", "ycombinator.com", "techstars.com", "escapethecity.org", "linkedin", "indeed", "glassdoor"]
+    }
+  ],
+  "scoring": {
+    "weights": {
+      "required_skills": 40,
+      "preferred_skills": 20,
+      "experience": 15,
+      "industry": 15,
+      "location": 10
+    },
+    "minimum_presentation_score": 70,
+    "comparison_rule": "score >= 70"
+  },
+  "dashboard": {
+    "url": "https://jsa-dashboard.vercel.app/#digest"
+  },
+  "delivery": {
+    "email": "ryanhennebry@gmail.com",
+    "subject_template": "Job Search Update — {run_date}",
+    "body_file_template": "output/digests/{run_date}-email.html",
+    "attachment_template": "output/briefs/briefs-{run_date}.html"
+  },
+  "constraints": {
+    "location": "Remote, Hybrid, or In-person — Cambridge or London, UK",
+    "country": "United Kingdom",
+    "remote_preference": ["remote", "hybrid", "in-person"],
+    "minimum_salary": 40000,
+    "salary_currency": "GBP",
+    "title_exclusions": ["Senior", "Lead", "Head of", "Director", "VP", "Chief", "Principal", "Staff", "Intern", "Junior"],
+    "ai_flag_keywords": ["AI agents", "context engineering", "prompt engineering", "Claude Code"]
+  },
+  "profile": {
+    "experience_years": 7,
+    "seniority": "Mid-level",
+    "target_industries": ["Crypto / Web3", "AI / Machine Learning", "Tech Startups"]
+  }
+}

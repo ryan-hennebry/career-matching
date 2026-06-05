@@ -1,0 +1,105 @@
+# Scheduled run disabled 2026-06-05 — jsa runs manually via Claude Code CLI. Re-enable cron when ready.
+name: Daily Job Search Digest
+
+on:
+  # schedule:
+  #   - cron: '0 6 * * 1-5'  # 06:00 UTC = 7am BST. During GMT (winter) this runs at 6am local.
+  workflow_dispatch: {}
+
+concurrency:
+  group: jsa-daily-digest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  daily-digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt python-jobspy resend playwright
+          python -m playwright install chromium
+
+      - name: Create settings.local.json
+        run: |
+          mkdir -p .claude
+          cat > .claude/settings.local.json << 'SETTINGS_EOF'
+          {
+            "permissions": {
+              "allow": [
+                "Bash",
+                "Read",
+                "Write",
+                "Edit",
+                "Glob",
+                "Grep",
+                "WebFetch",
+                "WebSearch"
+              ]
+            }
+          }
+          SETTINGS_EOF
+          python3 -c "import json; json.load(open('.claude/settings.local.json'))" && echo "Valid JSON"
+
+      - name: Preflight checks
+        run: bash scripts/preflight.sh --env
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          SCHEDULED_RUN: "true"
+
+      - name: Run scheduled digest
+        id: claude-run
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt: |
+            Run scheduled daily digest. SCHEDULED_RUN=true.
+            Working directory: .
+            Execute the full scheduled pipeline: startup -> Search -> Verify -> Dedup -> Present -> Deliver -> final checkpoint.
+          model: "claude-opus-4-6"
+          max_turns: "50"
+          allowed_tools: "Bash,Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_env: |
+            RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+            SCHEDULED_RUN: true
+
+      - name: Commit state
+        run: |
+          git config user.name "Job Search Agent"
+          git config user.email "agent@autonomous.bot"
+          git add state.json output/session-state.md output/verified/ output/_delta.json output/digests/ output/briefs/
+          STAGED=$(git diff --staged --name-only)
+          if [ -z "$STAGED" ]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git diff --staged --quiet || git commit -m "chore(jsa): daily digest $(date +%Y-%m-%d)"
+          git push origin main
+
+      - name: Deploy dashboard to Vercel
+        if: always() && steps.claude-run.outcome == 'success'
+        run: |
+          npm install -g vercel
+          vercel link --project jsa-dashboard --yes && vercel --prod --yes
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+      - name: Post-deploy smoke test
+        if: always() && steps.claude-run.outcome == 'success'
+        run: |
+          curl -sf "${VERCEL_URL:-https://jsa-dashboard.vercel.app}/api/jobs" >/dev/null
+          echo "Smoke test passed."
+        env:
+          VERCEL_URL: ${{ vars.VERCEL_URL }}
