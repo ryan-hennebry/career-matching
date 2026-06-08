@@ -43,5 +43,25 @@
   },
   "benefits": ["Flexible hybrid working", "Rapid career growth"],
   "notes": "Tomoro: applied-AI consultancy building LLM-based agents with client engineers; technical team is client-facing front of house. Non-senior variant (distinct from Senior listing). Confirmed active via tomoro.ai/careers.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 38,
+    "tier": "Unlikely",
+    "must_haves": [
+      {"req": "Own, design and build cutting-edge AI/LLM solutions hands-on (Solution ENGINEER)", "verdict": "PARTIAL", "note": "Ryan builds agents with Claude Code but at operator level; the role is engineering-titled, expecting hands-on build/fine-tuning of LLM solutions with engineering rigour."},
+      {"req": "Mentor and guide junior engineers, elevate skills and standards", "verdict": "FAILS", "note": "Implies engineering seniority and a track record of leading engineers — Ryan has no SWE roles or engineering reports."},
+      {"req": "Tackle complex technical obstacles; rigorous testing and validation; fine-tuning of foundational models", "verdict": "PARTIAL", "note": "Requires genuine technical-implementation depth (fine-tuning, validation rigour) beyond operator-level prompting."},
+      {"req": "Client-facing — understand business challenges, demonstrate AI applications", "verdict": "MEETS", "note": "Strong client/founder-facing communication and AI-solution articulation."}
+    ],
+    "hard_blockers": [
+      "Role is an engineering position ('Solution Engineer') that mentors junior engineers — requires professional software-engineering depth Ryan does not have (no SWE roles, non-technical degree, operator-level coding only).",
+      "Salary band actually £70-90K (listing), with engineering rigour expected front-of-house."
+    ],
+    "met_strengths": [
+      "Genuine applied-AI / LLM-agent building interest and current hands-on agent work",
+      "Excellent client-facing communication",
+      "UK-wide hybrid, UK work auth fine"
+    ],
+    "one_line_verdict": "An engineering-titled role that mentors junior engineers and expects production SWE/fine-tuning depth — Ryan's operator-level agent building does not clear this technical bar, so genuinely unlikely despite strong client-facing fit."
+  }
 }

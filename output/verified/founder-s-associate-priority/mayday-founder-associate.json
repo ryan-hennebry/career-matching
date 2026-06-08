@@ -64,5 +64,26 @@
   },
   "benefits": [],
   "notes": "Mayday builds automation and AI tools to eliminate manual spreadsheet accounting for in-house finance teams (mid-market SMBs); ~GBP 1m ARR, partners with Xero. Role spans demos/sales, internal finance, ops projects, partnerships, product insight. Core gap: role wants an accounting/finance background which Ryan does not have.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 30,
+    "tier": "Unlikely",
+    "must_haves": [
+      {"req": "First-hand experience of the problem: you've worked as an accountant or finance professional, fluent in debits and credits, genuinely enjoy accounting", "verdict": "FAILS", "note": "Ryan has fundraising/budget exposure but is NOT an accountant or finance professional; no accounting discipline background — this is the explicit lead must-have"},
+      {"req": "Highly organised and detail-oriented, juggle many moving parts", "verdict": "MEETS", "note": "Ran multiple workstreams as first employee"},
+      {"req": "Excited by sales and customer conversations", "verdict": "MEETS", "note": "Led GTM, community-led presale, demos to community"},
+      {"req": "Strong relationship builder across customers, partners, stakeholders", "verdict": "MEETS", "note": "Ambassador programmes, investor intros, PR-agency management"},
+      {"req": "Curious/enthusiastic about software products and finance-team transformation", "verdict": "PARTIAL", "note": "Strong product/AI curiosity but no finance-tooling domain"},
+      {"req": "Proactive, self-starting, hungry to learn", "verdict": "MEETS", "note": "Self-directed career-break AI-agent building"}
+    ],
+    "hard_blockers": [
+      "Lead must-have is an accounting/finance-professional background ('fluent in debits and credits') — Ryan does not have it; Mayday explicitly wants a domain practitioner to sell to and build for finance teams"
+    ],
+    "met_strengths": [
+      "Founder-associate scope and sales/relationship/operations skills all match the secondary requirements",
+      "London hybrid (1-2 days) fits well",
+      "AI-applied fintech is an interesting domain fit on the surface"
+    ],
+    "one_line_verdict": "Operationally a great FA match but gated by an explicit accountant/finance-practitioner requirement Ryan clearly fails — likely screened out at the domain question."
+  }
 }

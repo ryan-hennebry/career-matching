@@ -68,5 +68,25 @@
   },
   "benefits": [],
   "notes": "Corgi Insurance (YC S24): AI financial infrastructure company vertically integrating insurance - designs, underwrites, prices, issues insurance directly using AI. AI-native operator.",
+  "interview_match": {
+    "interview_likelihood": 82,
+    "tier": "Strong",
+    "must_haves": [
+      {"req": "Track record of building things / side projects", "verdict": "MEETS", "note": "Builds AI agents with Claude Code (competitor-intel, growth-experiments); $4.5m community presale built from scratch"},
+      {"req": "Move fast and execute without instructions", "verdict": "MEETS", "note": "First employee at Minima; turned ambiguous founder priorities into workstreams"},
+      {"req": "Comfort with unglamorous ops work (chasing vendors, logistics, HMRC)", "verdict": "MEETS", "note": "Managed PR agencies, internal updates, cross-functional execution; FA role was exactly this"},
+      {"req": "Structural thinking — messy problems to actionable plans", "verdict": "MEETS", "note": "Built metric dashboards, segmented 50k email list, Alexa failure analysis"},
+      {"req": "Clear written and verbal communication", "verdict": "MEETS", "note": "Content engine, PR (2m views), investor updates"},
+      {"req": "Low ego, high agency", "verdict": "MEETS", "note": "First employee took ownership of whatever was needed across functions"}
+    ],
+    "hard_blockers": [],
+    "met_strengths": [
+      "Role explicitly open to ANY experience level incl new grads — no years gate",
+      "No insurance/regulatory domain requirement for candidate (insurance is the company, not a skill gate)",
+      "Bonus points: early-stage startup + high-intensity background + AI-to-enhance-output — Ryan hits all three",
+      "UK-based, no US visa needed"
+    ],
+    "one_line_verdict": "Best fit of the cluster: every must-have met, no domain/years gate, three bonus-points hit; only friction is the 6-7 day in-office cadence (lifestyle, not a screening blocker)."
+  },
   "verified_at": "2026-06-08"
 }

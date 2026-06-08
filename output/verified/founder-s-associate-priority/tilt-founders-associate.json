@@ -43,5 +43,26 @@
   },
   "benefits": [],
   "notes": "Tilt: ex-Revolut founders building net-new way to buy/sell online; CEO Office role spanning OS, fundraising, AI automations, shipping code. Confirmed active via Ashby + startup.jobs.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 52,
+    "tier": "Stretch",
+    "must_haves": [
+      {"req": "Operate directly with CEO on company OS, fundraising/IR, special projects", "verdict": "MEETS", "note": "Founder-facing generalist; supported $2.5m seed + $6.5m Series A, investor enquiries, decks, IR updates"},
+      {"req": "Build AI automations", "verdict": "MEETS", "note": "Currently building AI agents with Claude Code — direct, current overlap"},
+      {"req": "Ship code in production", "verdict": "FAILS", "note": "Ryan is builder-leaning (AI-agent orchestration) but NOT a production software engineer; no programming languages or SWE roles on CV"},
+      {"req": "Excellent written/verbal/visual communication; rapid self-directed learning", "verdict": "MEETS", "note": "Content/PR/deck-building track record; self-directed AI-agent learning"},
+      {"req": "On-site 5 days/week, King's Cross London", "verdict": "PARTIAL", "note": "UK-authorized and relocating to London, but Cambridge-based and role is 5-day in-office"},
+      {"req": "Thrives in ambiguity, pressure, high-expectation founder environment", "verdict": "MEETS", "note": "Seed-to-Series-A first-employee experience"}
+    ],
+    "hard_blockers": [
+      "'Ship code in production' is in-scope and the ex-quant/data-scientist founders set a high technical bar; Ryan's non-SWE profile risks screen-out for the build half of the role"
+    ],
+    "met_strengths": [
+      "Founder-facing CEO-office + fundraising/IR experience is a clean match",
+      "Current AI-automation building aligns with role's build mandate",
+      "Consumer-tech / commerce domain is accessible (not regulated/specialist)"
+    ],
+    "one_line_verdict": "Strong operator+AI-automation fit undercut by an explicit production-coding expectation from highly technical ex-Revolut founders — plausible only if they weight operating over engineering; live FA listing no longer on Tilt's Ashby board."
+  }
 }

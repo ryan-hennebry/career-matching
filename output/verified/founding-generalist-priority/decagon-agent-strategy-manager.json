@@ -45,5 +45,26 @@
   "benefits": [],
   "notes": "Decagon: leading conversational AI agent platform (Avis, Cash App, Chime, Oura). Backed by a16z, Accel, Bain Capital Ventures, Coatue, Index Ventures. In-office London. Agentic AI = Ryan's top-choice category. Different role from prior-tracked Decagon Implementation Strategist.",
   "run_date_field": "2026-06-08",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 58,
+    "tier": "Stretch",
+    "must_haves": [
+      {"req": "4+ yrs customer-facing in a technical AND customer-facing role in B2B SaaS", "verdict": "PARTIAL", "note": "Ryan has 4.4 yrs founder/investor/community-facing at a crypto protocol, but NOT classic B2B SaaS enterprise customer-facing/deployment work. This is the core gate."},
+      {"req": "Proven experience managing large customers + driving highly visible multi-stakeholder projects", "verdict": "PARTIAL", "note": "Ran large multi-workstream programmes (presale, ambassador, node-runner) and investor relationships, but not enterprise customer accounts like Avis/Chime/Cash App."},
+      {"req": "Excellent communication; simplify complex concepts for non-technical audiences", "verdict": "MEETS", "note": "PR (2M views, Bloomberg/Yahoo), 40K X following, keynotes, investor comms — clear strength."},
+      {"req": "Business understanding of GTM sales teams and processes", "verdict": "MEETS", "note": "Led GTM, positioning, messaging end-to-end at Minima."},
+      {"req": "Strong technical acumen + passion for agent-building (ability to code NOT required)", "verdict": "MEETS", "note": "Explicitly no coding needed; Ryan actively builds AI agents with Claude Code — strong agent-building passion signal."}
+    ],
+    "hard_blockers": [
+      "No B2B SaaS enterprise customer-success / deployment track record — the listing's primary background requirement. Community-led/investor-facing growth is adjacent, not the same as managing enterprise SaaS accounts through deployment."
+    ],
+    "met_strengths": [
+      "Agent-building fluency (Claude Code) directly matches 'passion for the agent building process'",
+      "Strategic-advisor / relationship orientation from founder-facing GTM",
+      "London-based, in-office friendly; UK work auth fine (English-only variant)",
+      "Polymath/0-1 generalist explicitly matches Decagon's stated values"
+    ],
+    "one_line_verdict": "No SWE gate (coding explicitly not required) and excellent comms + agent-building fit, but the 4+ yrs B2B SaaS enterprise-customer-facing requirement is a genuine partial gate — a credible stretch where his agent fluency and GTM story carry the application."
+  }
 }

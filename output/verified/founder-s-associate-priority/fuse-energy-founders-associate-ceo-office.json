@@ -42,5 +42,26 @@
   },
   "benefits": [],
   "notes": "Fuse Energy: renewable energy startup, raised $170M (Balderton, Accel, Lakestar, Lowercarbon). CEO Office FA spanning strategy, finance, ops, product, market evaluations. Confirmed active via Built In London.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 28,
+    "tier": "Unlikely",
+    "must_haves": [
+      {"req": "Bachelor's degree from a TOP university in STEM with coding or analytical experience", "verdict": "FAILS", "note": "Ryan holds a 2:1 BA Business Management from Leeds — non-top-tier, non-STEM, no formal coding; this is the first stated requirement and a hard credential gate"},
+      {"req": "Demonstrated track record of exceptional achievement", "verdict": "MEETS", "note": "$4.5m presale 15x ROI, 100k community, contributed to $6.5m Series A"},
+      {"req": "Break down complex problems and execute quickly; relentless, operational mindset", "verdict": "MEETS", "note": "First-employee operator turning ambiguous priorities into workstreams"},
+      {"req": "Analyse trading, supply economics, pricing/forecasting/business models", "verdict": "FAILS", "note": "Heavy quantitative/financial-modelling and energy-trading scope; Ryan's analytics are growth/funnel/community, not power-trading or financial modelling"},
+      {"req": "Learn fast, context-switch, work with limited guidance", "verdict": "MEETS", "note": "Self-directed across functions and self-taught AI agents"}
+    ],
+    "hard_blockers": [
+      "Explicit 'top university in STEM with coding/analytical experience' degree gate — Ryan fails on tier, field, and coding",
+      "Quantitative energy-trading/financial-modelling scope favours an ex-quant/IB/consulting analytical profile, not a community-led GTM operator"
+    ],
+    "met_strengths": [
+      "Genuine founder-facing CEO-office operating experience",
+      "High-agency, fast-execution, ambiguity-comfortable",
+      "London-based role fits UK authorization"
+    ],
+    "one_line_verdict": "Two hard gates — top-tier STEM+coding degree and quant trading/modelling scope — make screen-out very likely despite strong operator instincts."
+  }
 }

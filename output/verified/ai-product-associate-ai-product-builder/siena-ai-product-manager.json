@@ -42,5 +42,27 @@
   },
   "benefits": [],
   "notes": "Siena AI: operating system of AI agents for customer experience (support, shopping, voice, social). Small distributed high-leverage team. Ashby page JS-rendered; active status confirmed via Ashby listing existence. Requirements partially inferred from company/role signal.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 52,
+    "tier": "Stretch",
+    "must_haves": [
+      {"req": "3+ yrs in PM / solutions engineering / implementation / TAM / CS engineering / sales engineering / solutions consulting / product ops", "verdict": "PARTIAL", "note": "Listing welcomes 'the operator who wants to build', but its named paths are all technical-implementation/PM roles Ryan hasn't held by title. His operator/builder profile fits the spirit but not the literal list."},
+      {"req": "AI-native mindset — live in Claude, Cursor, v0, max out daily LLM limits", "verdict": "MEETS", "note": "Direct hit — Ryan self-directedly builds AI agents with Claude Code daily since Aug 2023. His single strongest match across all 5 roles."},
+      {"req": "Technical fluency — scope webhook systems, OAuth flows, complex integrations", "verdict": "PARTIAL", "note": "Operator-level technical literacy via agent building, but no evidence of scoping production webhook/OAuth integrations."},
+      {"req": "Builder mentality — ship features, write docs, run demos, measure what matters", "verdict": "MEETS", "note": "Strong builder/GTM/content track record; demonstrably ships."},
+      {"req": "Customer confidence — demos, co-selling alongside sales", "verdict": "MEETS", "note": "Founder-facing, investor-facing, community-facing comms strength."},
+      {"req": "Hands-on case study: vibe-code a small AI feature with live link + Loom", "verdict": "MEETS", "note": "Plays directly to Ryan's Claude Code agent-building — he can clear the gating case study."}
+    ],
+    "hard_blockers": [
+      "No prior SE/implementation/TAM/CS-engineering background — the role's literal experience paths; he applies as 'operator who wants to build', an accepted but riskier lane.",
+      "Geography: the Ashby record surfaced as London but the role's primary location is New York and the related Forward-Deployed PM is US/Canada — UK-only work authorization may be a constraint; verify London eligibility before applying."
+    ],
+    "met_strengths": [
+      "Best AI-native fit of all five roles — daily Claude Code agent building is exactly what Siena prizes",
+      "Vibe-code case study + trial week reward demonstrable building over credentials, favouring Ryan",
+      "Builder + customer-facing + ships-fast profile aligns with stated values"
+    ],
+    "one_line_verdict": "The most culture-aligned of the five for an AI-native builder and the hands-on case study favours Ryan, but the named 3+ yrs SE/PM/implementation paths and likely-US geography keep it a genuine stretch — verify London authorization."
+  }
 }

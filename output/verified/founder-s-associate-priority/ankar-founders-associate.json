@@ -70,5 +70,25 @@
     "Substantial equity package"
   ],
   "notes": "Ankar (Atomico/Index backed) builds an AI platform for IP/R&D teams supporting patent prosecution, protection and generation. Founder's Associate is a true generalist force-multiplier role across hiring, growth/marketing and operations - strong match for Ryan's first-employee profile.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 82,
+    "tier": "Strong",
+    "must_haves": [
+      {"req": "Highly organised systematic operator with execution discipline / create order from ambiguity", "verdict": "MEETS", "note": "First employee at Minima; brought structure to early-stage chaos across multiple workstreams seed-to-Series-A"},
+      {"req": "True generalist who moves across workstreams (growth/marketing, hiring, operations)", "verdict": "MEETS", "note": "Owned community, GTM, fundraising support, content, PR — textbook generalist operator"},
+      {"req": "Force multiplier; high agency; operates without heavy direction; comfort with founders", "verdict": "MEETS", "note": "~4.4 yrs working directly with Minima founders; took ownership wherever needed"},
+      {"req": "Support growth/GTM incl. events, conferences, LinkedIn content & distribution", "verdict": "MEETS", "note": "Led GTM/positioning, $4.5m community presale (15x ROI), built content engine (blog 30k, X 40k), secured event/keynote slots"},
+      {"req": "Operations: automate manual workflows, build repeatable scalable processes", "verdict": "PARTIAL", "note": "Built community/ambassador/node-runner programmes from scratch; current AI-agent automation work is directly relevant, but no enterprise-process-engineering track record"},
+      {"req": "Hiring support: screening calls, candidate coordination, employer brand (ideal, not strict)", "verdict": "PARTIAL", "note": "Coordinated cross-functional teams as company scaled 1→30 but no explicit recruiting/talent-ops experience"}
+    ],
+    "hard_blockers": [],
+    "met_strengths": [
+      "Exact first-hire/founder-associate profile the role describes",
+      "AI-company domain (IP/R&D platform) — Ryan's AI-agent building narrative resonates",
+      "London / 3-days Shoreditch hybrid fits UK authorization & relocation plan",
+      "GTM + events + content is an unusually strong overlap with the role's growth pillar"
+    ],
+    "one_line_verdict": "Near-ideal generalist-FA match with no hard gates — strongest of the five; hiring/process-engineering are the only soft gaps."
+  }
 }

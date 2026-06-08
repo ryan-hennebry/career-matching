@@ -70,5 +70,22 @@
   },
   "benefits": [],
   "notes": "Corgi Insurance (YC S24): AI financial infrastructure company rebuilding the insurance industry with AI. Strategic Projects Associate works on high-leverage cross-functional initiatives - strong founding-generalist fit.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 22,
+    "tier": "Unlikely",
+    "must_haves": [
+      {"req": "Location: based in Chicago, IL; in office 6-7 days/week", "verdict": "FAILS", "note": "Live Ashby API shows this role is Chicago-only (the only Corgi London role is Full Stack SW Engineer). Ryan is UK-only authorized; no US visa, no sponsorship mentioned"},
+      {"req": "Strong researcher and clear written communicator", "verdict": "MEETS", "note": "Content/PR/investor-update writing background"},
+      {"req": "Translate ambiguous problems into structured recommendations", "verdict": "MEETS", "note": "Founder-facing generalist; turned ambiguity into workstreams"},
+      {"req": "High ownership, manage multiple priorities, work through ambiguity", "verdict": "MEETS", "note": "First employee, cross-functional ownership"},
+      {"req": "Curious, intellectually driven, fast learner", "verdict": "MEETS", "note": "Self-taught AI-agent building"}
+    ],
+    "hard_blockers": [
+      "Role is Chicago, US — Ryan has UK-only work authorization (verified JSON's 'London/Chicago' is inaccurate; live API = Chicago only)",
+      "In-office 6-7 days/week in Chicago"
+    ],
+    "met_strengths": ["Excellent functional/skills match for the work itself", "Generalist + research + writing + high ownership", "AI-fintech domain interest"],
+    "one_line_verdict": "Skills match is outstanding but the role is Chicago-only with no sponsorship and Ryan is UK-authorized — a geographic/visa hard blocker screens him out despite the fit."
+  }
 }

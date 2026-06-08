@@ -44,5 +44,26 @@
   },
   "benefits": [],
   "notes": "Fuse Energy AI Operations Manager: build internal AI tools, redesign processes, deploy AI across trading/energy networks/internal workflows. Distinct role from CEO-office FA at same company. Confirmed active via Built In London.",
+  "interview_match": {
+    "interview_likelihood": 45,
+    "tier": "Stretch",
+    "must_haves": [
+      {"req": "Bachelor's degree in STEM", "verdict": "FAILS", "note": "Ryan holds a non-technical BA Business Management (2:1, Leeds) — explicit STEM requirement not met"},
+      {"req": "Coding experience", "verdict": "PARTIAL", "note": "Self-directed AI-agent building with Claude Code shows applied coding fluency, but no formal software-engineering / professional programming background"},
+      {"req": "Identify high-impact AI opportunities & redesign processes to be AI-first", "verdict": "MEETS", "note": "Operator who builds AI agents/automations; strong process-redesign instinct"},
+      {"req": "Build internal AI tools to supercharge teams", "verdict": "MEETS", "note": "Hands-on AI-agent builder for growth/intel use cases"},
+      {"req": "Problem-solving mindset", "verdict": "MEETS", "note": "Alexa failure analysis, growth experiments, ambiguity navigation"}
+    ],
+    "hard_blockers": [
+      "Explicit STEM degree requirement — Ryan's degree is non-technical Business Management",
+      "Coding experience stated as a requirement; Ryan's is applied/self-taught (Claude Code) not professional SWE — likely below their bar given STEM framing",
+      "Energy/trading-network domain ramp-up (secondary)"
+    ],
+    "met_strengths": [
+      "Genuine AI-agent-builder fit for the 'AI as operational backbone' mandate",
+      "London-based, no visa gate"
+    ],
+    "one_line_verdict": "Strong on the AI-builder mandate but the explicit STEM-degree + coding-experience requirements are a screening gate Ryan doesn't formally clear — stretch unless they weight applied AI-agent work over credentials."
+  },
   "verified_at": "2026-06-08"
 }

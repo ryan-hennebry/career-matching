@@ -46,5 +46,27 @@
   "benefits": [],
   "notes": "Sierra: enterprise AI agent platform co-founded by Bret Taylor (OpenAI board chair, ex-Salesforce co-CEO) and Clay Bavor (ex-Google Labs). Agent Strategist scopes/builds/ships AI agents with PMs and engineers - agentic AI = Ryan's top-choice. London office, in-person.",
   "run_date_field": "2026-06-08",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 48,
+    "tier": "Stretch",
+    "must_haves": [
+      {"req": "Strong understanding of software development, product management AND engineering principles", "verdict": "PARTIAL", "note": "Ryan builds agents at operator level (Claude Code) but has no formal SWE or PM-title background. The listing wants genuine software-dev + PM + eng grounding to act as strategic technical partner."},
+      {"req": "Outstanding communication conveying complex technical info to non-technical stakeholders", "verdict": "MEETS", "note": "PR/content/keynote strength; strong communicator."},
+      {"req": "Drive execution of complex, high-visibility multi-project delivery", "verdict": "MEETS", "note": "Ran presale, ambassador programme, node-runner network end-to-end."},
+      {"req": "Coordinate technical + non-technical stakeholders across full agent-dev lifecycle", "verdict": "MEETS", "note": "6 yrs cross-functional across dev/marketing/ops/founders."},
+      {"req": "Leadership/team management; manage multiple projects, lead teams", "verdict": "PARTIAL", "note": "Programme/functional leadership, but no documented people-management headcount or formal team-lead role."},
+      {"req": "Degree in CS/Eng/Maths or equivalent (strong plus); MBA (strong plus)", "verdict": "PARTIAL", "note": "Listed as 'strong plus' not hard-required; Ryan has non-technical BA. Equivalent practical experience is allowed but his is operator-level, not technical-depth."}
+    ],
+    "hard_blockers": [
+      "Bar for 'strong understanding of software development AND engineering principles' implies real technical/PM depth to partner with Agent Engineers; Ryan's agent-building is operator-level, not professional software engineering.",
+      "Building conversational agents handling thousands of conversations/day at enterprise scale — no prior enterprise agent-development track record."
+    ],
+    "met_strengths": [
+      "Direct, current AI-agent-building experience (Claude Code) — genuinely on-point for an agent-development role",
+      "Excellent communication and multi-workstream execution",
+      "London office; in-person/intensity culture acceptable; UK work auth fine"
+    ],
+    "one_line_verdict": "His agent-building and communication fit the spirit of the role, but the explicit software-development + PM + engineering-principles bar (degree a 'strong plus', enterprise-scale agent dev expected) makes this an honest stretch rather than a plausible match."
+  }
 }

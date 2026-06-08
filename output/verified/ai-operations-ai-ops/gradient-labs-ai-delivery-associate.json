@@ -66,5 +66,26 @@
   },
   "benefits": [],
   "notes": "Gradient Labs builds an AI agent for financial services (customer support automation). AI Delivery Associate owns onboarding/implementation delivery, configures the AI agent, monitors performance - a strong AI-ops fit for Ryan's ops + AI-agent-building background. Agentic AI (TOP choice). Note: prior agent-memory flagged Gradient Labs as engineering-only - this Delivery Associate role is the exception (non-engineering delivery/ops).",
+  "interview_match": {
+    "interview_likelihood": 70,
+    "tier": "Plausible",
+    "must_haves": [
+      {"req": "Some experience in project coordination / implementation / customer-facing ops, ideally at a tech company", "verdict": "PARTIAL", "note": "Ryan has community/GTM/founder-ops coordination, not classic delivery/implementation; transferable but not a direct match to onboarding-delivery archetype"},
+      {"req": "Organizational skills — track moving parts, follow through, communicate proactively", "verdict": "MEETS", "note": "Ran ambassador programmes, hackathon series, investor updates, cross-functional workstreams"},
+      {"req": "Comfortable with ambiguity, sound judgment without defined processes", "verdict": "MEETS", "note": "6 yrs bringing structure to early-stage chaos as first employee"},
+      {"req": "Technical literacy — comfortable learning APIs/integrations, hold a conversation with technical teams", "verdict": "MEETS", "note": "Builds AI agents with Claude Code, node-runner network ops, Alexa data analysis — literacy not expertise, which is exactly what's asked"},
+      {"req": "Data competency — dashboards and spreadsheets to track performance", "verdict": "MEETS", "note": "Built metric dashboards, segmentation/A/B testing, Alexa query analysis"},
+      {"req": "Clear communication tailored to audiences", "verdict": "MEETS", "note": "Content, PR, investor-facing comms across audiences"},
+      {"req": "Customer-focused mindset", "verdict": "MEETS", "note": "Community-led growth = deep user-facing orientation"}
+    ],
+    "hard_blockers": [],
+    "met_strengths": [
+      "Explicitly entry/early-career — no years gate; engineering NOT required (literacy only)",
+      "Financial-services domain NOT required",
+      "UK-remote, no visa gate — Ryan UK-authorized",
+      "AI-agent configuration is a core task and Ryan actively builds/configures agents"
+    ],
+    "one_line_verdict": "Strong skills overlap and no hard blockers; the one soft gap is that 'implementation/delivery at a tech company' archetype differs from Ryan's community/GTM ops background — credible interview, not a lock."
+  },
   "verified_at": "2026-06-08"
 }

@@ -47,5 +47,25 @@
   "benefits": ["Equity stock grant", "Comprehensive health insurance", "Path to leading growth/revops or running a business unit"],
   "notes": "Wing Assistant: managed-assistant / AI-automation company. Founder's Associate, Growth & Operations works directly with founders on churn, onboarding, funnel analytics, recruitment ops. London. Net-new — not in any dedup list (distinct from Wing Assistant's other Lever 'Product & Growth Associate'). Salary penalty applied; top of band reaches £50k floor on negotiation.",
   "run_date_confirmed": "2026-06-08",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 68,
+    "tier": "Plausible",
+    "must_haves": [
+      {"req": "Entrepreneurial operator working directly with founding team; think like a founder", "verdict": "MEETS", "note": "Founder's Associate at Minima — held this exact title and operated founder-facing seed-to-Series-A"},
+      {"req": "Analytical & structured — spot patterns in funnel data, turn into solutions", "verdict": "PARTIAL", "note": "Growth/lifecycle analytics (segmentation, A/B testing, conversions) + Alexa error-analysis; less classic sales-funnel/RevOps analytics, no SQL evidence"},
+      {"req": "Hands-on builder — personally create sales collateral, decks, onboarding guides, playbooks", "verdict": "MEETS", "note": "Built content engine, presale collateral, ambassador/onboarding programmes from scratch"},
+      {"req": "Communicative — join/lead client calls, executive presence", "verdict": "MEETS", "note": "Investor-facing, PR, community-facing communication"},
+      {"req": "Tool-savvy with productivity/CRM tools (HubSpot, Notion, Asana etc.)", "verdict": "PARTIAL", "note": "Marketing/lifecycle tooling and Notion-style ops implied; specific CRM stack not evidenced"},
+      {"req": "Adaptable in fast-paced shifting-priority environment", "verdict": "MEETS", "note": "Multi-workstream first-employee track record"}
+    ],
+    "hard_blockers": [],
+    "met_strengths": [
+      "Exact 'Founder's Associate' title and founder-facing operating history",
+      "No degree/domain/visa gates; London role, UK-authorized",
+      "Builder-of-collateral + GTM enablement overlaps the role's core mandate",
+      "Preferred consulting/SQL are nice-to-haves, not blockers"
+    ],
+    "one_line_verdict": "No hard gates and a literal title match; main risk is the sales-enablement/RevOps-funnel emphasis and £33-55k band sitting at/below his £50k floor — a realistic interview shot."
+  }
 }

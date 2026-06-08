@@ -66,5 +66,19 @@
   },
   "benefits": [],
   "notes": "Cognition is an applied AI lab building end-to-end software agents (makers of Devin). Role is 'equal parts Engineering, Product, and GTM - perfect for a former founder or aspiring one.' AGENTIC AI - user's top choice.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 47,
+    "tier": "Stretch",
+    "must_haves": [
+      {"req": "Strong engineering foundation (e.g. CS, Mathematics, or related technical discipline)", "verdict": "PARTIAL", "note": "Self-taught Claude Code agent-builder + Amazon Alexa data-analyst, but BA Management not a CS/Maths degree and no professional SWE role"},
+      {"req": "2+ years experience OR equivalent startup/founder exposure", "verdict": "MEETS", "note": "Years gate explicitly satisfiable via founder exposure — Ryan has 4+ yrs founder-facing"},
+      {"req": "Own end-to-end implementations / translate pain into product improvements (not just shipping code)", "verdict": "PARTIAL", "note": "Strong ownership + GTM, but customer implementations for a developer-agent (Devin) product lean technical"},
+      {"req": "Founder mindset, high agency, end-to-end ownership", "verdict": "MEETS", "note": "First employee, owned multiple workstreams seed-to-Series-A"},
+      {"req": "Willingness to travel up to 25% to client sites", "verdict": "MEETS", "note": "No stated constraint"}
+    ],
+    "hard_blockers": [],
+    "met_strengths": ["Founder/operator profile is the explicit target persona", "GTM + product breadth", "AI-agent building with Claude Code", "Years requirement met via founder exposure"],
+    "one_line_verdict": "Persona fit is excellent (former founder, equal-parts GTM) but the 'strong engineering foundation' requirement on a developer-agent implementation role is a real, if soft, gate for a non-SWE operator — plausible-to-stretch, hinges on how technical they screen."
+  }
 }

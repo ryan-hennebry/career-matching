@@ -45,6 +45,26 @@
   },
   "benefits": ["Birthday time off", "Quarterly events", "Performance reviews"],
   "notes": "32Co: AI healthtech (Balderton-backed) enabling generalist clinicians to deliver specialist-level care at scale; founders ex-Oxford doctor + ex-BCG. Score capped at 90 vs raw 100: role leans toward AI infrastructure/deployment standards (platform-level) and healthcare domain is new. Net-new — not in any dedup list.",
+  "interview_match": {
+    "interview_likelihood": 52,
+    "tier": "Stretch",
+    "must_haves": [
+      {"req": "Design, build & maintain core AI infrastructure (model hosting, orchestration, data pipelines, evaluation frameworks)", "verdict": "PARTIAL", "note": "Ryan builds agent-app level with Claude Code; no evidence of platform/MLOps infra, data-pipeline engineering, or model-hosting/orchestration depth"},
+      {"req": "Create reusable tools and platforms; establish performance KPIs / eval feedback loops", "verdict": "PARTIAL", "note": "Has run KPIs/dashboards in growth context; platform/eval-framework engineering is a stretch"},
+      {"req": "Evaluate emerging AI technologies and vendors", "verdict": "MEETS", "note": "Self-directed AI-agent tooling exploration since 2023; evaluates AI tech actively"},
+      {"req": "Operations & strategy ownership in ambiguous early-stage env", "verdict": "MEETS", "note": "6 yrs founder-facing generalist, seed-to-Series-A at Minima"},
+      {"req": "Cross-functional partnering with product/engineering", "verdict": "MEETS", "note": "Ran multiple workstreams across functions at early-stage startup"}
+    ],
+    "hard_blockers": [
+      "Role core is AI-infrastructure/platform engineering depth (orchestration, data pipelines, eval frameworks) — Ryan is operator/app-level, not infra/MLOps; likely screened on technical depth"
+    ],
+    "met_strengths": [
+      "Associate-level title and ops/strategy ambiguity fit Ryan's profile well",
+      "AI-tooling fluency and emerging-tech evaluation is genuine",
+      "London, no visa gate"
+    ],
+    "one_line_verdict": "Title reads operator but the JD core is AI-infrastructure engineering (pipelines, orchestration, eval frameworks) plus a new healthcare domain — Ryan's ops+AI-app strengths only partially cover the technical bar, so a stretch."
+  },
   "run_date_confirmed": "2026-06-08",
   "verified_at": "2026-06-08"
 }

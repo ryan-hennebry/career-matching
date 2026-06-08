@@ -1,0 +1,115 @@
+{
+  "name": "Ryan Hennebry",
+  "location": "Cambridge, UK · Relocating to London",
+  "contact": {
+    "email": "(hyperlinked as 'Email' in PDF, not shown as plain text)",
+    "phone": null,
+    "linkedin": "(hyperlinked as 'LinkedIn' in PDF, URL not shown as plain text)",
+    "github": "(hyperlinked as 'GitHub' in PDF, URL not shown as plain text)",
+    "portfolio": null
+  },
+  "summary": "First employee at Minima, working directly with the founders for 4+ years as the company scaled from seed to Series A. Took ownership wherever needed across fundraising, operations, go-to-market, and community-led growth. Now building AI agents to create leverage for startup teams.",
+  "skills": [],
+  "experience": [
+    {
+      "company": "Career Break",
+      "title": "Career Break",
+      "dates": "Aug 2023 – Present",
+      "location": "Cambridge, UK/Remote",
+      "bullets": [
+        "Sabbatical: Travelled solo through Asia after 4+ years at Minima, from seed to Series A.",
+        "AI Agents: Built agents with Claude Code for competitor-intel and growth-experiments, turning market signals into clear recommendations for startup teams."
+      ]
+    },
+    {
+      "company": "Minima",
+      "title": "First employee (overall tenure)",
+      "dates": "Mar 2019 – Aug 2023",
+      "location": "London, UK/Remote",
+      "bullets": [
+        "First employee: Worked directly with founders as Minima scaled from 1 to 30 people."
+      ]
+    },
+    {
+      "company": "Minima",
+      "title": "Marketing Manager",
+      "dates": "Mar 2021 – Aug 2023",
+      "location": "London, UK/Remote",
+      "bullets": [
+        "GTM: Delivered $4.5m from a community-led presale on a $300k budget (15× ROI); led go-to-market and defined Minima's positioning and messaging.",
+        "Events: Secured sponsorships and keynote slots that connected founders with investors, contributing to Minima's $6.5m Series A raise.",
+        "Lifecycle: Generated 5k presale conversions from a 50k community email list via segmentation, A/B testing, and targeted messaging.",
+        "Content: Built and grew Minima's content engine across the blog (30k visitors), YouTube (5k subscribers), and X (40k followers).",
+        "PR: Managed PR agencies and distributed content that reached 2m views (Bloomberg, Yahoo Finance, HackerNoon)."
+      ]
+    },
+    {
+      "company": "Minima",
+      "title": "Community Manager",
+      "dates": "Apr 2020 – Mar 2021",
+      "location": "London, UK/Remote",
+      "bullets": [
+        "Community Growth: Grew Discord and Telegram to 100k members via an ambassador programme and developer hackathon series.",
+        "User Onboarding: Implemented Minima's node-runner programme, onboarding 50k users and scaling the network to 75k nodes."
+      ]
+    },
+    {
+      "company": "Minima",
+      "title": "Founder's Associate",
+      "dates": "Mar 2019 – Apr 2020",
+      "location": "London, UK/Remote",
+      "bullets": [
+        "Fundraising: Supported Minima's $2.5m seed round by handling investor enquiries, building pitch decks, and delivering investor updates.",
+        "Founder Support: Turned ambiguous founder priorities into workstreams across operations, fundraising, and market research.",
+        "Operations: Managed internal updates, team coordination, and cross-functional execution across fast-moving priorities."
+      ]
+    },
+    {
+      "company": "Blockchain Board of Derivatives",
+      "title": "Content Marketer",
+      "dates": "Oct 2018 – Mar 2019",
+      "location": "Cambridge, UK",
+      "bullets": [
+        "User Growth: Acquired 20k exchange users through technical content creation and distribution."
+      ]
+    },
+    {
+      "company": "Amazon Alexa",
+      "title": "Data Analyst",
+      "dates": "Oct 2017 – Oct 2018",
+      "location": "Cambridge, UK",
+      "bullets": [
+        "Error Analysis: Identified Alexa failure patterns and improved query success rate to 98%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Leeds",
+      "degree": "Business Management",
+      "grade": "Upper Second Class Honours (2:1)",
+      "dates": "2017"
+    }
+  ],
+  "other_sections": {
+    "certifications": [],
+    "projects": [
+      "AI Agents (Career Break): Built agents with Claude Code for competitor-intel and growth-experiments, turning market signals into clear recommendations for startup teams."
+    ],
+    "publications": [],
+    "languages": [],
+    "notes": "No standalone Skills section on the CV. Skills are implied within experience bullets only. Contact details (email, LinkedIn, GitHub) are hyperlinks in the PDF; underlying URLs/addresses are not exposed as plain text."
+  },
+  "requirement_match_signals": {
+    "degree": "Bachelor's degree — BA/BSc Business Management, University of Leeds, 2:1 (Upper Second Class Honours), 2017. Non-technical degree.",
+    "programming_languages": "No formal programming languages or proficiency levels listed. Technical literacy signalled via 'Built agents with Claude Code' (AI agent building / prompt-and-tool orchestration), node-runner network operations, and a Data Analyst role at Amazon Alexa (query analysis). No evidence of professional software engineering in Python/JS/etc.",
+    "leadership_scope": "No explicit direct-report team-size stated. Was first employee as company scaled 1→30 people; led cross-functional GTM, managed PR agencies, ran ambassador programmes and a developer hackathon series. Leadership is functional/programme ownership rather than documented people-management headcount.",
+    "fundraising_finance": "Strong, repeated fundraising exposure: supported $2.5m seed round (investor enquiries, pitch decks, investor updates); contributed to $6.5m Series A via investor-connecting events; delivered $4.5m community-led presale on $300k budget (15× ROI). Investor-facing and revenue/budget-accountable.",
+    "customer_facing_delivery": "Heavy community-facing and user-facing growth: grew Discord/Telegram to 100k members, onboarded 50k node-runner users, acquired 20k exchange users. Investor-facing and PR-facing. Community-led GTM rather than classic B2B enterprise sales/delivery; no explicit enterprise account or implementation-delivery experience stated.",
+    "domain_expertise": "Crypto / blockchain / Web3 (Minima is a blockchain protocol; Blockchain Board of Derivatives is a crypto exchange). Early-stage startup operations and go-to-market. Emerging AI-agent / Claude Code tooling. Not fintech-regulated, legal, or healthtech.",
+    "work_authorization": "Based Cambridge, UK; relocating to London. UK work history throughout. Strong UK work-authorization signal; no explicit visa/citizenship statement on the CV. No US/EU authorization indicated.",
+    "tailored_to": "Filename references 'Mozart AI', but the CV body contains NO Mozart AI mentions or company-specific tailoring. It is a generic startup-operator/founding-generalist CV positioned around 'building AI agents to create leverage for startup teams'. Treat as a general-purpose CV, not a Mozart-AI-tailored document."
+  },
+  "total_years": "~8.7 years total professional history (Oct 2017 – present), of which ~6.4 years are working experience and ~1.8 years (Aug 2023–present) is a career break that includes self-directed AI-agent building. ~4.4 years at Minima.",
+  "seniority": "Mid-level startup operator / founding-generalist. Founder-adjacent (Founder's Associate + first employee working directly with founders), with manager-level functional titles (Marketing Manager, Community Manager) but no documented director/VP/head-of title or explicit people-management headcount."
+}

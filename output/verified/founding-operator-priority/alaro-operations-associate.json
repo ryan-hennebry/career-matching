@@ -66,5 +66,21 @@
   },
   "benefits": [],
   "notes": "Alaro: AI-native law firm where associates execute legal matters end-to-end using playbooks and collaborate with AI agents for drafting/extraction/analysis. Law degree explicitly NOT required. Daily Claude/ChatGPT use is core - strong fit for Ryan's AI-agent-building and ops/analytics background. AI-native operator role (priority type).",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 72,
+    "tier": "Plausible",
+    "must_haves": [
+      {"req": "Comfort working with AI as a teammate - Claude/ChatGPT daily", "verdict": "MEETS", "note": "Builds AI agents with Claude Code daily — exceeds bar"},
+      {"req": "1-2 years out of university in high-throughput operational/GTM role (BDR/SDR/AE/CS/Ops/strategy)", "verdict": "PARTIAL", "note": "Has ops/GTM throughput experience but is ~6.4 yrs out, well above the stated band — overqualification/level-mismatch risk"},
+      {"req": "Systems-thinker - find the bottleneck and fix it", "verdict": "MEETS", "note": "Built community infra, dashboards; Alexa failure analysis to 98%"},
+      {"req": "Precision - follow detailed instructions, clean output", "verdict": "MEETS", "note": "Data-analyst rigor + operational discipline"},
+      {"req": "Speed - done-well over done-perfectly", "verdict": "MEETS", "note": "Ran multiple workstreams in early-stage chaos"},
+      {"req": "Law degree", "verdict": "MEETS", "note": "Explicitly NOT required and NOT preferred"},
+      {"req": "In-person London (Holborn), full-time", "verdict": "MEETS", "note": "Ryan relocating to London / UK-authorized"}
+    ],
+    "hard_blockers": [],
+    "met_strengths": ["Daily Claude Code / AI-agent fluency is a standout match", "Systems-thinking + data-analyst precision", "No law degree needed", "London + UK work auth", "High-ownership operator profile"],
+    "one_line_verdict": "Best fit of the five — no hard blockers, AI-fluency requirement is a genuine differentiator for Ryan; only risk is reading as overqualified vs the '1-2 yrs out of uni' target band."
+  }
 }

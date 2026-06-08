@@ -67,6 +67,27 @@
   },
   "benefits": [],
   "notes": "Numeral (Benchmark + YC backed, founded 2023) self-describes as the largest, fastest-growing AI-native tax solution; role owns end-to-end international launches using RPA, SQL and AI agents.",
+  "interview_match": {
+    "interview_likelihood": 48,
+    "tier": "Stretch",
+    "must_haves": [
+      {"req": "5+ years operations experience at fintech / SaaS / compliance-focused startups", "verdict": "PARTIAL", "note": "Ryan ~6.4 yrs total but ops was a fraction of mixed Minima roles (FA→Community→Marketing); not 5+ yrs of dedicated ops, and domain is crypto/Web3 not fintech-compliance"},
+      {"req": "Build structured processes in early-stage ambiguous environments", "verdict": "MEETS", "note": "First employee at Minima; built workstreams from scratch"},
+      {"req": "Process-automation familiarity (Sheets, AppScript, RPA, AI agents)", "verdict": "MEETS", "note": "Builds AI agents with Claude Code; strong data/automation instinct"},
+      {"req": "Strong stakeholder and vendor management", "verdict": "MEETS", "note": "Managed PR agencies, investor relations, founder-facing coordination"},
+      {"req": "2+ years remote in globally distributed teams", "verdict": "PARTIAL", "note": "Minima was London/Remote; remote-distributed depth not explicitly evidenced"}
+    ],
+    "hard_blockers": [
+      "Indirect-tax (VAT/GST) compliance is the heart of the role (research, registration, repeatable VAT/GST processes) — entirely absent from Ryan's crypto/community background",
+      "5+ yrs dedicated ops at fintech/SaaS/compliance is a years+domain gate Ryan only partially clears"
+    ],
+    "met_strengths": [
+      "Early-stage process-building and automation/AI-agent fluency are genuine fits",
+      "EMEA-remote, UK-authorized — no visa gate",
+      "Stakeholder/vendor management transferable"
+    ],
+    "one_line_verdict": "Process-building and AI-automation strengths fit, but the VAT/GST indirect-tax domain core plus a 5+ yr fintech-ops gate make this a domain-specialist screen Ryan is unlikely to pass on paper."
+  },
   "run_date_field": "2026-06-08",
   "verified_at": "2026-06-08"
 }

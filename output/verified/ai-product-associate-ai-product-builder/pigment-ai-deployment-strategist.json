@@ -65,5 +65,27 @@
   },
   "benefits": [],
   "notes": "Pigment: AI-powered business planning platform. AI Deployment Strategist designs/deploys custom AI agents for customers, translating business problems into Pigment models. AI-agent work is a match for Ryan's interests, but the role's formal CS/engineering-degree + technical-implementation-depth requirements are the main gap. Biggest fit gap: top-tier CS/engineering degree + deep data-modeling/implementation track record.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 28,
+    "tier": "Unlikely",
+    "must_haves": [
+      {"req": "Engineering or computer science degree from top-tier institution", "verdict": "FAILS", "note": "Ryan has a non-technical BA Business Management (2:1, Leeds). Hard-listed under 'Required'."},
+      {"req": "2-5 yrs in a technical/client-facing/implementation role (FDE, Data Scientist/AI Engineer, Solutions Architect/Engineer, Implementation Consultant)", "verdict": "FAILS", "note": "Ryan has no roles of this type — his background is GTM/community/founder's-associate, not technical implementation/solutions engineering."},
+      {"req": "Data modeling, analytics, or business-logic design + AI/ML concepts", "verdict": "PARTIAL", "note": "Some analytics (Amazon Alexa query analysis, GA) and AI tooling, but no professional data-modeling/business-logic-design depth."},
+      {"req": "Programming (Python/SQL a plus); formulas/structured modeling", "verdict": "PARTIAL", "note": "Operator-level coding via Claude Code; no formal Python/SQL production proficiency."},
+      {"req": "Manage multiple stakeholders/projects in fast-paced environments", "verdict": "MEETS", "note": "Strong multi-workstream startup operator track record."}
+    ],
+    "hard_blockers": [
+      "Top-tier CS/Engineering degree explicitly REQUIRED — Ryan does not have one.",
+      "2-5 yrs in a named technical-implementation role (FDE/Data Scientist/Solutions Architect/Implementation Consultant) explicitly REQUIRED — Ryan has none of these.",
+      "Domain is enterprise FP&A / business-planning modeling (Unilever/Siemens), not Ryan's crypto/GTM domain."
+    ],
+    "met_strengths": [
+      "Genuine interest and hands-on agentic-AI building",
+      "Stakeholder/project management in fast-paced settings",
+      "London-based, UK work auth fine"
+    ],
+    "one_line_verdict": "Two explicit hard-required gates (top-tier CS/Eng degree + 2-5 yrs in a technical-implementation role) that Ryan does not meet; despite genuine agent interest this is the weakest fit of the five."
+  }
 }

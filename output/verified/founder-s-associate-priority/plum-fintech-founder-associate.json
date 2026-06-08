@@ -42,5 +42,23 @@
   },
   "benefits": ["Stock options", "Private health insurance", "Flexible remote work", "Generous holiday"],
   "notes": "Plum: AI-powered saving/investing app, 2M+ users across 10 European markets, GBP 2bn saved. FA on leadership team focused on TAM expansion, new geographies, acquisitions. European language requirement is the key gap.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 18,
+    "tier": "Unlikely",
+    "must_haves": [
+      {"req": "Proven track record in investment banking or corporate finance, ideally within financial services", "verdict": "FAILS", "note": "Ryan has fundraising-support exposure but no IB/corporate-finance role"},
+      {"req": "Demonstrated excellence in analytical and financial modelling", "verdict": "FAILS", "note": "Not a core skill; no formal financial-modeling track record"},
+      {"req": "Fluency in a continental European language in addition to English", "verdict": "FAILS", "note": "No EU language listed on CV"},
+      {"req": "Lead due diligence on acquisitions / build financial models & business cases", "verdict": "PARTIAL", "note": "Investor-facing fundraising support, but no M&A diligence or modeling"},
+      {"req": "Entrepreneurial mindset, thrive in ambiguity", "verdict": "MEETS", "note": "6yr founder-facing startup operator"}
+    ],
+    "hard_blockers": [
+      "IB / corporate finance background required",
+      "Financial modeling excellence required",
+      "Continental European language fluency required"
+    ],
+    "met_strengths": ["Entrepreneurial / founder-facing mindset", "Fintech mission alignment (consumer money)", "Ambiguity tolerance"],
+    "one_line_verdict": "Three independent hard gates (IB/corp-finance, financial modeling, EU language) each screen Ryan out — this is a finance-analyst FA, not a generalist FA."
+  }
 }

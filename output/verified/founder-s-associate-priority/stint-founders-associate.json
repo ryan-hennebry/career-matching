@@ -71,5 +71,21 @@
     "Free snacks and meals"
   ],
   "notes": "STINT: AI-driven hospitality staffing platform. Founder's Associate is finance-leaning (financial modeling, fundraising, due diligence) and explicitly seeks 1+ yr IB/consulting/PE - the financial-modeling requirement is Ryan's biggest gap. 5d/wk Camden office is the most commute-intensive of the set from Cambridge.",
-  "verified_at": "2026-06-08"
+  "verified_at": "2026-06-08",
+  "interview_match": {
+    "interview_likelihood": 38,
+    "tier": "Unlikely",
+    "must_haves": [
+      {"req": "1+ years in investment banking, consulting or PE with strong financial modeling", "verdict": "FAILS", "note": "No IB/consulting/PE role; fundraising support is adjacent, not equivalent. Per recorded JD; live Pinpoint page is JS-rendered and could not be re-fetched this run"},
+      {"req": "Support high-stakes projects incl. fundraising and due diligence", "verdict": "MEETS", "note": "Supported $2.5m seed (pitch decks, investor updates), $6.5m Series A"},
+      {"req": "Entrepreneurial mindset, fast-moving environments", "verdict": "MEETS", "note": "First employee, scaled Minima seed to Series A"},
+      {"req": "Clear communication / cross-departmental alignment", "verdict": "MEETS", "note": "PR, content, investor updates, cross-functional workstreams"},
+      {"req": "Partner directly with CEO", "verdict": "MEETS", "note": "4+ yrs working directly with founders"}
+    ],
+    "hard_blockers": [
+      "IB/consulting/PE + financial-modeling background (typical elite-FA gate)"
+    ],
+    "met_strengths": ["Direct founder partnership", "Fundraising support track record", "Generalist execution across workstreams"],
+    "one_line_verdict": "Strong founder-facing generalist fit, but the elite IB/consulting/PE + financial-modeling gate likely screens Ryan out at CV stage; borderline-Unlikely. Note: live JD not re-fetched (JS-rendered Pinpoint page)."
+  }
 }
