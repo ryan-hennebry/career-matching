@@ -2,7 +2,7 @@
   "job_id": "jobspy-indeed-8277b4fc643ea3d8",
   "title": "AI Delivery Associate",
   "company": "Gradient Labs",
-  "job_url": "https://uk.indeed.com/viewjob?jk=8277b4fc643ea3d8",
+  "job_url": "https://jobs.ashbyhq.com/gradient-labs/40338f3c-d2cc-4859-8efd-8aacd4680c7e",
   "role_type": "ai-operations-ai-ops",
   "score": 87,
   "source_channel": "jobspy-aggregator",
@@ -33,12 +33,35 @@
     "Monitor performance data and identify improvements: failure/data analysis background"
   ],
   "score_breakdown": {
-    "required_skills": {"matched": 5, "total": 5, "points": 40, "calculation": "40 * (5/5) = 40"},
-    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
-    "experience_fit": {"points": 12, "calculation": "Role is pitched early-career; Ryan at ~8yrs is above the band but strongly qualified for the delivery/ops content = 12/15"},
-    "industry_match": {"points": 15, "calculation": "Gradient Labs builds an AI agent for financial services - genuine agentic AI company = 15"},
-    "location_match": {"points": 0, "calculation": "London hybrid; within user's accepted modes - conservatively scored to reflect commute; (hybrid would normally earn 10)"},
-    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "required_skills": {
+      "matched": 5,
+      "total": 5,
+      "points": 40,
+      "calculation": "40 * (5/5) = 40"
+    },
+    "preferred_skills": {
+      "matched": 2,
+      "total": 2,
+      "points": 20,
+      "calculation": "20 * (2/2) = 20"
+    },
+    "experience_fit": {
+      "points": 12,
+      "calculation": "Role is pitched early-career; Ryan at ~8yrs is above the band but strongly qualified for the delivery/ops content = 12/15"
+    },
+    "industry_match": {
+      "points": 15,
+      "calculation": "Gradient Labs builds an AI agent for financial services - genuine agentic AI company = 15"
+    },
+    "location_match": {
+      "points": 0,
+      "calculation": "London hybrid; within user's accepted modes - conservatively scored to reflect commute; (hybrid would normally earn 10)"
+    },
+    "salary_penalty": {
+      "applied": false,
+      "points": 0,
+      "reason": "No salary listed"
+    },
     "total": 87
   },
   "benefits": [],

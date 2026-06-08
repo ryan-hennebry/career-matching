@@ -33,12 +33,35 @@
     "Willingness to operate across engineering, product and GTM"
   ],
   "score_breakdown": {
-    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32"},
-    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
-    "experience_fit": {"points": 15, "calculation": "Role aimed at founder/operator level; Ryan's 6yr founder-facing startup track record is an exact match"},
-    "industry_match": {"points": 15, "calculation": "Cognition builds AI software agents (Devin) - direct match to user's TOP choice (AI agent startups)"},
-    "location_match": {"points": 10, "calculation": "London hybrid; user open to hybrid in London"},
-    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "required_skills": {
+      "matched": 4,
+      "total": 5,
+      "points": 32,
+      "calculation": "40 * (4/5) = 32"
+    },
+    "preferred_skills": {
+      "matched": 2,
+      "total": 2,
+      "points": 20,
+      "calculation": "20 * (2/2) = 20"
+    },
+    "experience_fit": {
+      "points": 15,
+      "calculation": "Role aimed at founder/operator level; Ryan's 6yr founder-facing startup track record is an exact match"
+    },
+    "industry_match": {
+      "points": 15,
+      "calculation": "Cognition builds AI software agents (Devin) - direct match to user's TOP choice (AI agent startups)"
+    },
+    "location_match": {
+      "points": 10,
+      "calculation": "London hybrid; user open to hybrid in London"
+    },
+    "salary_penalty": {
+      "applied": false,
+      "points": 0,
+      "reason": "No salary listed"
+    },
     "total": 92
   },
   "benefits": [],

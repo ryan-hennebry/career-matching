@@ -2,7 +2,7 @@
   "job_id": "jobspy-indeed-fcde10acfaffe465",
   "title": "AI Deployment Strategist",
   "company": "Pigment",
-  "job_url": "https://uk.indeed.com/viewjob?jk=fcde10acfaffe465",
+  "job_url": "https://jobs.lever.co/pigment/6cbc9f93-5034-4838-84b0-13fbcd742163",
   "role_type": "ai-product-associate-ai-product-builder",
   "score": 74,
   "source_channel": "jobspy-aggregator",
@@ -32,12 +32,35 @@
     "Additional European languages: not held"
   ],
   "score_breakdown": {
-    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32 (missing formal CS/engineering degree + 2-5yr technical implementation depth)"},
-    "preferred_skills": {"matched": 0, "total": 3, "points": 2, "calculation": "20 * (~0.1/3) - minimal nice-to-have coverage (no FP&A, no Pigment experience, no extra languages) = 2"},
-    "experience_fit": {"points": 10, "calculation": "Years align with 2-5yr band but the role is technical-implementation/strategist with formal modeling depth Ryan lacks = 10/15"},
-    "industry_match": {"points": 15, "calculation": "Pigment is an AI-powered business planning platform deploying custom AI agents - genuine AI company = 15"},
-    "location_match": {"points": 10, "calculation": "London; user open to London hybrid/in-person = 10"},
-    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "required_skills": {
+      "matched": 4,
+      "total": 5,
+      "points": 32,
+      "calculation": "40 * (4/5) = 32 (missing formal CS/engineering degree + 2-5yr technical implementation depth)"
+    },
+    "preferred_skills": {
+      "matched": 0,
+      "total": 3,
+      "points": 2,
+      "calculation": "20 * (~0.1/3) - minimal nice-to-have coverage (no FP&A, no Pigment experience, no extra languages) = 2"
+    },
+    "experience_fit": {
+      "points": 10,
+      "calculation": "Years align with 2-5yr band but the role is technical-implementation/strategist with formal modeling depth Ryan lacks = 10/15"
+    },
+    "industry_match": {
+      "points": 15,
+      "calculation": "Pigment is an AI-powered business planning platform deploying custom AI agents - genuine AI company = 15"
+    },
+    "location_match": {
+      "points": 10,
+      "calculation": "London; user open to London hybrid/in-person = 10"
+    },
+    "salary_penalty": {
+      "applied": false,
+      "points": 0,
+      "reason": "No salary listed"
+    },
     "total": 74
   },
   "benefits": [],

@@ -34,12 +34,35 @@
     "SQL / relational database proficiency: covered by data analytics background (partial)"
   ],
   "score_breakdown": {
-    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32 (tax/compliance domain is the unmet req)"},
-    "preferred_skills": {"matched": 2, "total": 5, "points": 8, "calculation": "20 * (2/5) = 8"},
-    "experience_fit": {"points": 10, "calculation": "Role 5+yr; Ryan ~8yr = one-level stretch up / overqualified (10)"},
-    "industry_match": {"points": 15, "calculation": "Self-described largest AI-native tax solution = direct AI industry match"},
-    "location_match": {"points": 10, "calculation": "EMEA remote; Ryan UK and open to remote (10)"},
-    "salary_penalty": {"applied": false, "points": 0, "reason": "$55k-$75k (~£43k-£59k) overlaps £50k minimum"},
+    "required_skills": {
+      "matched": 4,
+      "total": 5,
+      "points": 32,
+      "calculation": "40 * (4/5) = 32 (tax/compliance domain is the unmet req)"
+    },
+    "preferred_skills": {
+      "matched": 2,
+      "total": 5,
+      "points": 8,
+      "calculation": "20 * (2/5) = 8"
+    },
+    "experience_fit": {
+      "points": 10,
+      "calculation": "Role 5+yr; Ryan ~8yr = one-level stretch up / overqualified (10)"
+    },
+    "industry_match": {
+      "points": 15,
+      "calculation": "Self-described largest AI-native tax solution = direct AI industry match"
+    },
+    "location_match": {
+      "points": 10,
+      "calculation": "EMEA remote; Ryan UK and open to remote (10)"
+    },
+    "salary_penalty": {
+      "applied": false,
+      "points": 0,
+      "reason": "$55k-$75k (~\u00a343k-\u00a359k) overlaps \u00a350k minimum"
+    },
     "total": 75
   },
   "benefits": [],

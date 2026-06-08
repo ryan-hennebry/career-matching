@@ -2,7 +2,7 @@
   "job_id": "jobspy-indeed-7d05cd8a3552157e",
   "title": "Operations Associate",
   "company": "Alaro",
-  "job_url": "https://uk.indeed.com/viewjob?jk=7d05cd8a3552157e",
+  "job_url": "https://jobs.ashbyhq.com/alaro/203da5a7-a95e-4406-9a47-b730fd2d06db",
   "role_type": "founding-operator-priority",
   "score": 89,
   "source_channel": "jobspy-aggregator",
@@ -33,12 +33,35 @@
     "Track metrics (throughput, accuracy, revisions): built metric dashboards and ran data/failure analysis"
   ],
   "score_breakdown": {
-    "required_skills": {"matched": 5, "total": 5, "points": 40, "calculation": "40 * (5/5) = 40"},
-    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
-    "experience_fit": {"points": 14, "calculation": "Operator profile is an exact fit; Ryan slightly above the 1-2yr band stated = 14/15"},
-    "industry_match": {"points": 15, "calculation": "Alaro is an AI-native law firm executing legal work with AI agents - genuine AI-native operator = 15"},
-    "location_match": {"points": 0, "calculation": "London Holborn in-person required; within user's accepted modes but conservatively scored to reflect full in-office commute from Cambridge"},
-    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "required_skills": {
+      "matched": 5,
+      "total": 5,
+      "points": 40,
+      "calculation": "40 * (5/5) = 40"
+    },
+    "preferred_skills": {
+      "matched": 2,
+      "total": 2,
+      "points": 20,
+      "calculation": "20 * (2/2) = 20"
+    },
+    "experience_fit": {
+      "points": 14,
+      "calculation": "Operator profile is an exact fit; Ryan slightly above the 1-2yr band stated = 14/15"
+    },
+    "industry_match": {
+      "points": 15,
+      "calculation": "Alaro is an AI-native law firm executing legal work with AI agents - genuine AI-native operator = 15"
+    },
+    "location_match": {
+      "points": 0,
+      "calculation": "London Holborn in-person required; within user's accepted modes but conservatively scored to reflect full in-office commute from Cambridge"
+    },
+    "salary_penalty": {
+      "applied": false,
+      "points": 0,
+      "reason": "No salary listed"
+    },
     "total": 89
   },
   "benefits": [],

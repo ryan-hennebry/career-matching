@@ -35,12 +35,35 @@
     "Proficiency using AI to increase output: builds AI agents with Claude Code"
   ],
   "score_breakdown": {
-    "required_skills": {"matched": 6, "total": 6, "points": 40, "calculation": "40 * (6/6) = 40"},
-    "preferred_skills": {"matched": 3, "total": 3, "points": 20, "calculation": "20 * (3/3) = 20"},
-    "experience_fit": {"points": 15, "calculation": "Role open to any level incl new grads; user mid-level early-stage operator is an exact fit for the operator profile = 15"},
-    "industry_match": {"points": 15, "calculation": "Corgi is an AI financial infrastructure company - genuine AI company = 15"},
-    "location_match": {"points": 10, "calculation": "London in-person; user open to in-person London = 10"},
-    "salary_penalty": {"applied": false, "points": 0, "reason": "GBP 50-70K range overlaps user GBP 50K minimum"},
+    "required_skills": {
+      "matched": 6,
+      "total": 6,
+      "points": 40,
+      "calculation": "40 * (6/6) = 40"
+    },
+    "preferred_skills": {
+      "matched": 3,
+      "total": 3,
+      "points": 20,
+      "calculation": "20 * (3/3) = 20"
+    },
+    "experience_fit": {
+      "points": 15,
+      "calculation": "Role open to any level incl new grads; user mid-level early-stage operator is an exact fit for the operator profile = 15"
+    },
+    "industry_match": {
+      "points": 15,
+      "calculation": "Corgi is an AI financial infrastructure company - genuine AI company = 15"
+    },
+    "location_match": {
+      "points": 10,
+      "calculation": "London in-person; user open to in-person London = 10"
+    },
+    "salary_penalty": {
+      "applied": false,
+      "points": 0,
+      "reason": "GBP 50-70K range overlaps user GBP 50K minimum"
+    },
     "total": 100
   },
   "benefits": [],

@@ -2,7 +2,7 @@
   "job_id": "corgi-insurance-strategic-projects-associate-2026-06-08",
   "title": "Strategic Projects Associate",
   "company": "Corgi Insurance",
-  "job_url": "https://www.ycombinator.com/companies/corgi-insurance/jobs/wdBTpwK-strategic-projects-associate",
+  "job_url": "https://jobs.ashbyhq.com/corgi/59ce4714-a929-441b-a1d3-bcf687ad10bb",
   "role_type": "founding-generalist-priority",
   "score": 95,
   "source_channel": "industry-job-boards",
@@ -37,12 +37,35 @@
     "Cross-functional collaboration: worked across ops, product, marketing, fundraising"
   ],
   "score_breakdown": {
-    "required_skills": {"matched": 6, "total": 6, "points": 40, "calculation": "40 * (6/6) = 40"},
-    "preferred_skills": {"matched": 3, "total": 4, "points": 15, "calculation": "20 * (3/4) = 15"},
-    "experience_fit": {"points": 15, "calculation": "Generalist associate role; user mid-level founder-facing generalist is an exact fit = 15"},
-    "industry_match": {"points": 15, "calculation": "AI financial infrastructure company - genuine AI company = 15"},
-    "location_match": {"points": 10, "calculation": "London (also Chicago) in-person; user open to in-person London = 10"},
-    "salary_penalty": {"applied": false, "points": 0, "reason": "USD 125-200K well above user GBP 50K minimum"},
+    "required_skills": {
+      "matched": 6,
+      "total": 6,
+      "points": 40,
+      "calculation": "40 * (6/6) = 40"
+    },
+    "preferred_skills": {
+      "matched": 3,
+      "total": 4,
+      "points": 15,
+      "calculation": "20 * (3/4) = 15"
+    },
+    "experience_fit": {
+      "points": 15,
+      "calculation": "Generalist associate role; user mid-level founder-facing generalist is an exact fit = 15"
+    },
+    "industry_match": {
+      "points": 15,
+      "calculation": "AI financial infrastructure company - genuine AI company = 15"
+    },
+    "location_match": {
+      "points": 10,
+      "calculation": "London (also Chicago) in-person; user open to in-person London = 10"
+    },
+    "salary_penalty": {
+      "applied": false,
+      "points": 0,
+      "reason": "USD 125-200K well above user GBP 50K minimum"
+    },
     "total": 95
   },
   "benefits": [],

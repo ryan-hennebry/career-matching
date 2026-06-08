@@ -2,7 +2,7 @@
   "job_id": "jobspy-indeed-46ac45123525e293",
   "title": "Founder's Associate",
   "company": "STINT",
-  "job_url": "https://uk.indeed.com/viewjob?jk=46ac45123525e293",
+  "job_url": "https://stint.pinpointhq.com/postings/b62a377e-0c3a-4dbe-9506-40528284a8c4",
   "role_type": "founder-s-associate-priority",
   "score": 72,
   "source_channel": "jobspy-aggregator",
@@ -32,15 +32,44 @@
     "Comfort partnering directly with CEO: 6 years working directly with founders"
   ],
   "score_breakdown": {
-    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32 (missing IB/consulting/PE financial-modeling requirement)"},
-    "preferred_skills": {"matched": 2, "total": 3, "points": 13, "calculation": "20 * (2/3) = 13"},
-    "experience_fit": {"points": 12, "calculation": "Founder-facing generalist fit, but role is finance-heavy (financial models, due diligence) which is adjacent not core for Ryan = 12/15"},
-    "industry_match": {"points": 15, "calculation": "STINT is an AI hospitality staffing platform - genuine AI company = 15"},
-    "location_match": {"points": 0, "calculation": "London Camden 5 days/week in-office; user is open to in-person but 5d/wk from Cambridge is the most demanding mode = 0 (within-spec but full commute load). Conservatively scored low to reflect commute intensity"},
-    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "required_skills": {
+      "matched": 4,
+      "total": 5,
+      "points": 32,
+      "calculation": "40 * (4/5) = 32 (missing IB/consulting/PE financial-modeling requirement)"
+    },
+    "preferred_skills": {
+      "matched": 2,
+      "total": 3,
+      "points": 13,
+      "calculation": "20 * (2/3) = 13"
+    },
+    "experience_fit": {
+      "points": 12,
+      "calculation": "Founder-facing generalist fit, but role is finance-heavy (financial models, due diligence) which is adjacent not core for Ryan = 12/15"
+    },
+    "industry_match": {
+      "points": 15,
+      "calculation": "STINT is an AI hospitality staffing platform - genuine AI company = 15"
+    },
+    "location_match": {
+      "points": 0,
+      "calculation": "London Camden 5 days/week in-office; user is open to in-person but 5d/wk from Cambridge is the most demanding mode = 0 (within-spec but full commute load). Conservatively scored low to reflect commute intensity"
+    },
+    "salary_penalty": {
+      "applied": false,
+      "points": 0,
+      "reason": "No salary listed"
+    },
     "total": 72
   },
-  "benefits": ["Private medical insurance", "Gym membership", "Ownership shares", "Dog-friendly office", "Free snacks and meals"],
+  "benefits": [
+    "Private medical insurance",
+    "Gym membership",
+    "Ownership shares",
+    "Dog-friendly office",
+    "Free snacks and meals"
+  ],
   "notes": "STINT: AI-driven hospitality staffing platform. Founder's Associate is finance-leaning (financial modeling, fundraising, due diligence) and explicitly seeks 1+ yr IB/consulting/PE - the financial-modeling requirement is Ryan's biggest gap. 5d/wk Camden office is the most commute-intensive of the set from Cambridge.",
   "verified_at": "2026-06-08"
 }
