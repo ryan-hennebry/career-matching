@@ -5,11 +5,13 @@
   "run_date": "2026-06-08",
   "raw_jobspy_count": 129,
   "verified_count": 1,
+  "reverified": "2026-06-08 (full schema re-verification; active_status confirmed)",
   "verified_jobs": [
     {
       "title": "AI Delivery Associate",
       "company": "Gradient Labs",
-      "score": 87
+      "score": 87,
+      "active_status": "confirmed"
     }
   ]
 }

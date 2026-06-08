@@ -4,9 +4,44 @@
   "company": "Metaview",
   "job_url": "https://www.linkedin.com/jobs/view/4421894972",
   "role_type": "founding-operator-priority",
-  "score": 88,
+  "score": 90,
   "source_channel": "jobspy-aggregator",
   "run_date": "2026-06-08",
   "location": "London, UK",
-  "status": "verified"
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "LinkedIn",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / AI recruiting platform (agentic AI / automations)",
+  "requirements_met": [
+    "AI-native builder shipping AI agents and automations: Ryan builds AI agents (competitor intel, growth, career-matching) with Claude Code, plan-build-test-iterate",
+    "Identify high-leverage workflows across non-engineering teams: ran cross-functional ops/community/GTM workstreams at Minima",
+    "Strong commercial acumen: led GTM, $4.5m presale (15x ROI), $6.5m Series A support",
+    "World-class communication: PR (2M views), content (40K followers), investor updates",
+    "High execution velocity and deep commitment: 6 years first-employee intensity scaling Minima"
+  ],
+  "gaps": [
+    "Role is positioned as entry-level reporting to the CEO and demands bleeding-edge AI-building velocity; Ryan's AI-agent portfolio is strong but relatively recent (since Feb 2025) vs candidates with longer dedicated AI-automation track records"
+  ],
+  "preferred_met": [
+    "Establish company-wide AI standards / build-vs-buy decisions: systems-thinking + tooling fluency",
+    "Diagnose operational constraints: data/failure analysis background (Amazon Alexa, Minima dashboards)"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 5, "total": 5, "points": 40, "calculation": "40 * (5/5) = 40"},
+    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
+    "experience_fit": {"points": 15, "calculation": "Role is for an AI-native builder/operator reporting to CEO - exact match for Ryan's first-employee + AI-agent-building profile = 15"},
+    "industry_match": {"points": 15, "calculation": "Metaview is an AI recruiting platform shipping AI agents/automations ($50m raised, 5x YoY) - genuine AI company, agentic = 15"},
+    "location_match": {"points": 10, "calculation": "London (Metaview HQ, hybrid team); user open to hybrid/in-person London = 10"},
+    "salary_penalty": {"applied": false, "points": -10, "reason": "No salary disclosed; well-funded company ($50m+), no penalty applied"},
+    "total": 90
+  },
+  "benefits": [],
+  "notes": "Metaview: AI recruiting platform founded by ex-Uber/Palantir leaders, $50m+ raised, 5x YoY growth (Brex, Affirm clients). AI Operator ships AI-native solutions that permanently change how teams operate, reports directly to CEO. Exact match to Ryan building AI agents - agentic AI, user's TOP choice. Active: posted 6 days ago, 77 applicants.",
+  "verified_at": "2026-06-08"
 }

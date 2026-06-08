@@ -5,21 +5,25 @@
   "run_date": "2026-06-08",
   "raw_jobspy_count": 73,
   "verified_count": 3,
+  "reverified": "2026-06-08 (full schema re-verification; active_status confirmed for all)",
   "verified_jobs": [
     {
       "title": "Founder's Associate",
       "company": "Ankar",
-      "score": 95
+      "score": 95,
+      "active_status": "confirmed"
     },
     {
       "title": "Forward-Deployed AI Product Associate",
       "company": "Euphoric Global",
-      "score": 93
+      "score": 90,
+      "active_status": "confirmed"
     },
     {
       "title": "Founder's Associate",
       "company": "STINT",
-      "score": 78
+      "score": 72,
+      "active_status": "confirmed"
     }
   ]
 }

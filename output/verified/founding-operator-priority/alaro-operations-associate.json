@@ -8,5 +8,40 @@
   "source_channel": "jobspy-aggregator",
   "run_date": "2026-06-08",
   "location": "London, UK (Holborn, in-person)",
-  "status": "verified"
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "In-person",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "Indeed",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / AI-native law firm",
+  "requirements_met": [
+    "Daily comfort using AI tools like Claude or ChatGPT: Ryan builds AI agents with Claude Code daily and is fluent in LLM tooling",
+    "Systems-thinking to identify and solve workflow bottlenecks: built community infrastructure, metric dashboards, failure analysis at Amazon Alexa (98% success rate)",
+    "Precision following detailed instructions with clean outputs: data analyst rigor at Amazon Alexa + operational discipline at Minima",
+    "Speed - optimise for done-well over done-perfectly: ran multiple workstreams in early-stage chaos without slowing execution",
+    "Collaborate with AI agents for drafting/extraction/analysis: actively builds agentic extraction/analysis workflows"
+  ],
+  "gaps": [
+    "Listing targets 1-2 years post-university in high-throughput roles (BDR/SDR, AE, CS, ops); Ryan at ~8 years is above the stated experience band, though comfortably qualified"
+  ],
+  "preferred_met": [
+    "High-throughput operations background: scaled community ops and incentive programmes",
+    "Track metrics (throughput, accuracy, revisions): built metric dashboards and ran data/failure analysis"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 5, "total": 5, "points": 40, "calculation": "40 * (5/5) = 40"},
+    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
+    "experience_fit": {"points": 14, "calculation": "Operator profile is an exact fit; Ryan slightly above the 1-2yr band stated = 14/15"},
+    "industry_match": {"points": 15, "calculation": "Alaro is an AI-native law firm executing legal work with AI agents - genuine AI-native operator = 15"},
+    "location_match": {"points": 0, "calculation": "London Holborn in-person required; within user's accepted modes but conservatively scored to reflect full in-office commute from Cambridge"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "total": 89
+  },
+  "benefits": [],
+  "notes": "Alaro: AI-native law firm where associates execute legal matters end-to-end using playbooks and collaborate with AI agents for drafting/extraction/analysis. Law degree explicitly NOT required. Daily Claude/ChatGPT use is core - strong fit for Ryan's AI-agent-building and ops/analytics background. AI-native operator role (priority type).",
+  "verified_at": "2026-06-08"
 }

@@ -8,5 +8,40 @@
   "source_channel": "jobspy-aggregator",
   "run_date": "2026-06-08",
   "location": "London, UK (Hybrid)",
-  "status": "verified"
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "Indeed",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / agentic AI for financial services",
+  "requirements_met": [
+    "Early-career delivery experience in tech project coordination or operations: ran ops/community workstreams and project delivery at Minima",
+    "Strong organizational skills and proactive communication: coordinated cross-functional programmes, investor updates, PR",
+    "Comfortable with ambiguity / works without fully defined processes: 6 years bringing structure to early-stage chaos",
+    "Data literacy with dashboards and spreadsheets: built metric dashboards, data analysis at Amazon Alexa (98% success)",
+    "Clear written and verbal communication: content, PR, investor relations"
+  ],
+  "gaps": [
+    "Listing values technical curiosity around APIs and integrations; Ryan has hands-on AI-agent building (Python/TS) but limited formal enterprise API-integration delivery experience"
+  ],
+  "preferred_met": [
+    "Configuring the AI agent for specific use cases: actively builds and configures AI agents with Claude Code",
+    "Monitor performance data and identify improvements: failure/data analysis background"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 5, "total": 5, "points": 40, "calculation": "40 * (5/5) = 40"},
+    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
+    "experience_fit": {"points": 12, "calculation": "Role is pitched early-career; Ryan at ~8yrs is above the band but strongly qualified for the delivery/ops content = 12/15"},
+    "industry_match": {"points": 15, "calculation": "Gradient Labs builds an AI agent for financial services - genuine agentic AI company = 15"},
+    "location_match": {"points": 0, "calculation": "London hybrid; within user's accepted modes - conservatively scored to reflect commute; (hybrid would normally earn 10)"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "total": 87
+  },
+  "benefits": [],
+  "notes": "Gradient Labs builds an AI agent for financial services (customer support automation). AI Delivery Associate owns onboarding/implementation delivery, configures the AI agent, monitors performance - a strong AI-ops fit for Ryan's ops + AI-agent-building background. Agentic AI (TOP choice). Note: prior agent-memory flagged Gradient Labs as engineering-only - this Delivery Associate role is the exception (non-engineering delivery/ops).",
+  "verified_at": "2026-06-08"
 }

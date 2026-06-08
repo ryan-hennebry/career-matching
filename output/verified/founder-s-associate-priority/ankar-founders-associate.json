@@ -8,5 +8,41 @@
   "source_channel": "jobspy-aggregator",
   "run_date": "2026-06-08",
   "location": "London, UK",
-  "status": "verified"
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "Indeed",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / AI IP & R&D platform (patent prosecution, generation)",
+  "requirements_met": [
+    "Highly organised systematic operator with execution discipline: first employee at Minima, brought structure to early-stage chaos and ran multiple workstreams without slowing execution",
+    "Generalist across multiple workstreams (hiring, growth/marketing, operations): Ryan owned community, ops, GTM, fundraising support across his Minima tenure",
+    "Drive growth and GTM initiatives incl. events and LinkedIn content: led GTM/positioning/messaging, $4.5m presale (15x ROI), content marketing (blog 30K, X 40K)",
+    "Build and improve operational processes for scalability: built community infrastructure, metric dashboards, incentive/ambassador programmes",
+    "Strong communication and comfort working with founders: 6 years working directly with Minima founders seed-to-Series-A"
+  ],
+  "gaps": [
+    "Listing mentions hiring/recruiting exposure as ideal; Ryan has limited direct recruiting experience, though he has coordinated cross-functional teams"
+  ],
+  "preferred_met": [
+    "Early-stage company experience: 6 years scaling Minima seed to Series A",
+    "Operations building: built community ops infrastructure and processes from scratch",
+    "GTM knowledge: led product marketing and go-to-market at Minima"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 5, "total": 5, "points": 40, "calculation": "40 * (5/5) = 40"},
+    "preferred_skills": {"matched": 3, "total": 3, "points": 20, "calculation": "20 * (3/3) = 20"},
+    "experience_fit": {"points": 15, "calculation": "Founder's Associate role aimed at generalist operator; Ryan's 6yr founder-facing track record is an exact match = 15"},
+    "industry_match": {"points": 15, "calculation": "Ankar is an AI platform for IP/R&D teams (Atomico/Index backed) - genuine AI company = 15"},
+    "location_match": {"points": 10, "calculation": "London hybrid (3d/wk Shoreditch); user open to hybrid in London = 10"},
+    "salary_penalty": {"applied": false, "points": -5, "reason": "No salary listed; 'competitive salaries' + substantial equity, no penalty applied"},
+    "total": 95
+  },
+  "benefits": ["Competitive salary", "Substantial equity package"],
+  "notes": "Ankar (Atomico/Index backed) builds an AI platform for IP/R&D teams supporting patent prosecution, protection and generation. Founder's Associate is a true generalist force-multiplier role across hiring, growth/marketing and operations - strong match for Ryan's first-employee profile.",
+  "verified_at": "2026-06-08"
 }

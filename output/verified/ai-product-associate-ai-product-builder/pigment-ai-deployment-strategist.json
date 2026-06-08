@@ -4,9 +4,43 @@
   "company": "Pigment",
   "job_url": "https://uk.indeed.com/viewjob?jk=fcde10acfaffe465",
   "role_type": "ai-product-associate-ai-product-builder",
-  "score": 79,
+  "score": 74,
   "source_channel": "jobspy-aggregator",
   "run_date": "2026-06-08",
   "location": "London, UK",
-  "status": "verified"
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "Indeed",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / AI-powered business planning platform",
+  "requirements_met": [
+    "Design and deploy custom AI agents for customer workflows: Ryan builds AI agents end-to-end with Claude Code",
+    "Partner with stakeholders / bridge customers and product/engineering: ran cross-functional GTM and community feedback loops at Minima",
+    "Programming (Python/SQL preferred): Ryan is self-taught in Python, TypeScript, Rust, SQL",
+    "Familiarity with SaaS platforms and data concepts: data analytics (Google Analytics, Amazon Alexa) + AI tooling"
+  ],
+  "gaps": [
+    "Listing requires an engineering or computer-science degree from a top-tier institution plus 2-5 years in technical/implementation roles with strong data-modeling depth - Ryan is self-taught (BA Management, Leeds) and his technical depth is recent/AI-agent-focused rather than formal data-modeling/implementation experience"
+  ],
+  "preferred_met": [
+    "Background in FP&A or financial modeling: partial - fundraising support exposure but not FP&A",
+    "Additional European languages: not held"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32 (missing formal CS/engineering degree + 2-5yr technical implementation depth)"},
+    "preferred_skills": {"matched": 0, "total": 3, "points": 2, "calculation": "20 * (~0.1/3) - minimal nice-to-have coverage (no FP&A, no Pigment experience, no extra languages) = 2"},
+    "experience_fit": {"points": 10, "calculation": "Years align with 2-5yr band but the role is technical-implementation/strategist with formal modeling depth Ryan lacks = 10/15"},
+    "industry_match": {"points": 15, "calculation": "Pigment is an AI-powered business planning platform deploying custom AI agents - genuine AI company = 15"},
+    "location_match": {"points": 10, "calculation": "London; user open to London hybrid/in-person = 10"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "total": 74
+  },
+  "benefits": [],
+  "notes": "Pigment: AI-powered business planning platform. AI Deployment Strategist designs/deploys custom AI agents for customers, translating business problems into Pigment models. AI-agent work is a match for Ryan's interests, but the role's formal CS/engineering-degree + technical-implementation-depth requirements are the main gap. Biggest fit gap: top-tier CS/engineering degree + deep data-modeling/implementation track record.",
+  "verified_at": "2026-06-08"
 }

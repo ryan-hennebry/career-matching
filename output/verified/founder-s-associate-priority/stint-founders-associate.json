@@ -4,9 +4,43 @@
   "company": "STINT",
   "job_url": "https://uk.indeed.com/viewjob?jk=46ac45123525e293",
   "role_type": "founder-s-associate-priority",
-  "score": 78,
+  "score": 72,
   "source_channel": "jobspy-aggregator",
   "run_date": "2026-06-08",
   "location": "London, UK (Camden, office 5d/wk)",
-  "status": "verified"
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "In-person",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "Indeed",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / AI hospitality staffing platform",
+  "requirements_met": [
+    "Entrepreneurial mindset with comfort in fast-moving environments: 6 years as first employee scaling Minima seed to Series A",
+    "Clear communication abilities: PR, content, investor updates",
+    "Support high-stakes projects incl. fundraising and due diligence: supported $2.5m seed round, pitch decks, investor inquiries, $6.5m Series A support",
+    "Foster cross-departmental alignment: coordinated across community, ops, marketing workstreams"
+  ],
+  "gaps": [
+    "Role requires 1+ years in investment banking, consulting or PE with strong financial modeling skills - Ryan has fundraising support experience but no IB/consulting/PE background or formal financial-modeling track record"
+  ],
+  "preferred_met": [
+    "Familiarity with legal/compliance basics for scaling companies: exposure via fundraising support and early-stage ops",
+    "Comfort partnering directly with CEO: 6 years working directly with founders"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32 (missing IB/consulting/PE financial-modeling requirement)"},
+    "preferred_skills": {"matched": 2, "total": 3, "points": 13, "calculation": "20 * (2/3) = 13"},
+    "experience_fit": {"points": 12, "calculation": "Founder-facing generalist fit, but role is finance-heavy (financial models, due diligence) which is adjacent not core for Ryan = 12/15"},
+    "industry_match": {"points": 15, "calculation": "STINT is an AI hospitality staffing platform - genuine AI company = 15"},
+    "location_match": {"points": 0, "calculation": "London Camden 5 days/week in-office; user is open to in-person but 5d/wk from Cambridge is the most demanding mode = 0 (within-spec but full commute load). Conservatively scored low to reflect commute intensity"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "total": 72
+  },
+  "benefits": ["Private medical insurance", "Gym membership", "Ownership shares", "Dog-friendly office", "Free snacks and meals"],
+  "notes": "STINT: AI-driven hospitality staffing platform. Founder's Associate is finance-leaning (financial modeling, fundraising, due diligence) and explicitly seeks 1+ yr IB/consulting/PE - the financial-modeling requirement is Ryan's biggest gap. 5d/wk Camden office is the most commute-intensive of the set from Cambridge.",
+  "verified_at": "2026-06-08"
 }

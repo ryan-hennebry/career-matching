@@ -5,11 +5,13 @@
   "run_date": "2026-06-08",
   "raw_jobspy_count": 137,
   "verified_count": 1,
+  "reverified": "2026-06-08 (full schema re-verification; active_status confirmed)",
   "verified_jobs": [
     {
       "title": "AI Deployment Strategist",
       "company": "Pigment",
-      "score": 79
+      "score": 74,
+      "active_status": "confirmed"
     }
   ]
 }
