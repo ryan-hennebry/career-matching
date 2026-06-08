@@ -1,0 +1,46 @@
+{
+  "job_id": "glean-ai-outcomes-manager-london-2026-06-08",
+  "title": "AI Outcomes Manager, London",
+  "company": "Glean",
+  "job_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4613925005",
+  "role_type": "ai-product-associate-ai-product-builder",
+  "score": 85,
+  "source_channel": "direct-career-pages",
+  "run_date": "2026-06-08",
+  "location": "London, United Kingdom",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": null,
+  "source": "Glean Careers (Greenhouse)",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "Enterprise AI / AI agents (work assistant platform)",
+  "requirements_met": [
+    "Craft effective prompts and ship AI agent outcomes: building AI agents with Claude Code, plan-build-test-iterate loop",
+    "Understanding of LLM capabilities, limitations, cost-effectiveness: hands-on AI agent builder",
+    "Product sense and user empathy: product marketing and GTM across functions",
+    "Hands-on experience with modern AI platforms (OpenAI, Claude, Mistral, Cohere): builds with Claude / Claude Code"
+  ],
+  "gaps": [
+    "5+ years in business-technology roles 'blending business and technology (product, analytics, data, engineering, solutions)'; Ryan's background is weighted toward marketing/community/operations rather than classic solutions/product consulting, though analytics (Amazon Alexa) and AI-agent building are adjacent"
+  ],
+  "preferred_met": [
+    "Customer-facing consultative experience (community/ambassador programmes, GTM)",
+    "Ability to analyze usage signals and customer feedback for adoption (community metric dashboards, failure analysis)"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32"},
+    "preferred_skills": {"matched": 2, "total": 3, "points": 13, "calculation": "20 * (2/3) = 13.3"},
+    "experience_fit": {"points": 15, "calculation": "Requires 5+ years; Ryan has ~8 years. Individual-contributor 'Manager' (not in title exclusions) - good fit"},
+    "industry_match": {"points": 15, "calculation": "Glean is an enterprise AI work-assistant building AI agents - direct AI match"},
+    "location_match": {"points": 10, "calculation": "London, 1 day/week in office; user open to London hybrid"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "total": 85
+  },
+  "benefits": [],
+  "notes": "Glean builds an enterprise AI work assistant and AI agents. Forward-deployed/AI-outcomes role: design and build AI agents for customers, craft prompts, drive measurable business outcomes. 5+ yrs, 1 day/week London office.",
+  "verified_at": "2026-06-08"
+}

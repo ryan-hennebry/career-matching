@@ -1,0 +1,48 @@
+{
+  "job_id": "specter-founders-associate-2026-06-08",
+  "title": "Founder's Associate",
+  "company": "Specter",
+  "job_url": "https://spectertech.notion.site/Specter-is-Hiring-5ef937c8a5584a3ba85d138339cc5eff",
+  "role_type": "founder-s-associate-priority",
+  "score": 95,
+  "source_channel": "web-search-discovery",
+  "run_date": "2026-06-08",
+  "location": "London, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": 42000,
+  "salary_max": 77000,
+  "currency": "GBP",
+  "source": "Specter Careers (specter.careers) via WebSearch discovery",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / Private market data & deal sourcing platform (AI-powered)",
+  "requirements_met": [
+    "Influence across product, sales, community, operations, research, hiring: Ryan is a strong generalist (GTM, ops, community, fundraising support, content, data analytics)",
+    "Partner directly with founders on strategic projects: Ryan was first employee at Minima, founder-facing",
+    "Drive community efforts / events / investor & client engagement: Ryan has community + fundraising support experience",
+    "Digitally savvy, comfortable with tools, workflows and technical products: Ryan builds AI agents with Claude Code",
+    "Naturally curious / high ownership startup mindset: matches ex-Minima first-employee profile"
+  ],
+  "gaps": [
+    "Role nominally targets 1-2 years VC/startup experience; Ryan has ~8 years (overqualified, but high-exposure FA role still attractive for AI-agent-building generalists)"
+  ],
+  "preferred_met": [
+    "1-2 years in VC or fast-growing startup: Ryan's Minima tenure as first employee qualifies and exceeds",
+    "Comfortable diving into technical products: builds AI agents"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 5, "total": 5, "points": 40, "calculation": "40 * (5/5) = 40"},
+    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
+    "experience_fit": {"points": 10, "calculation": "Role targets 1-2yr; Ryan ~8yr = overqualified (10)"},
+    "industry_match": {"points": 15, "calculation": "AI-powered data/deal-sourcing platform = direct AI industry match"},
+    "location_match": {"points": 10, "calculation": "London hybrid; Ryan based Cambridge/London, open to hybrid (10)"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "Salary range £42k-£77k overlaps £50k minimum"},
+    "total": 95
+  },
+  "benefits": [],
+  "notes": "Specter is a bootstrapped, AI-powered startup-data and deal-sourcing platform (HQ London). FA role is high-exposure across product/sales/community/ops/research/hiring; apply via careers@tryspecter.com.",
+  "run_date_field": "2026-06-08",
+  "verified_at": "2026-06-08"
+}

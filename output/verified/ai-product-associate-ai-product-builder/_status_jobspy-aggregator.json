@@ -1,0 +1,15 @@
+{
+  "role_type": "ai-product-associate-ai-product-builder",
+  "channel": "jobspy-aggregator",
+  "status": "completed",
+  "run_date": "2026-06-08",
+  "raw_jobspy_count": 137,
+  "verified_count": 1,
+  "verified_jobs": [
+    {
+      "title": "AI Deployment Strategist",
+      "company": "Pigment",
+      "score": 79
+    }
+  ]
+}

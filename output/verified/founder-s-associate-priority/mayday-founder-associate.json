@@ -1,0 +1,68 @@
+{
+  "job_id": "mayday-founder-associate-2026-06-08",
+  "title": "Founder Associate",
+  "company": "Mayday",
+  "job_url": "https://www.getmayday.com/careers/founder-associate-uk",
+  "role_type": "founder-s-associate-priority",
+  "score": 87,
+  "source_channel": "niche-newsletters",
+  "run_date": "2026-06-08",
+  "location": "Central London (1-2 days/week in-person)",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": 50000,
+  "salary_max": 80000,
+  "currency": "GBP",
+  "source": "Early & Exec newsletter (early-roles 16th February) -> Mayday careers page",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / Fintech (AI + automation tools for in-house finance teams)",
+  "requirements_met": [
+    "Strong organizational skills: managed multiple workstreams and brought structure to early-stage chaos at Minima",
+    "Comfort with sales conversations: led GTM, positioning and a community-led presale ($4.5m, 15x ROI)",
+    "Relationship-building / partnerships: built ambassador programmes, investor introductions, PR agency relationships",
+    "Self-starter mentality: 6 years founder-facing at Minima from seed to Series A, took ownership across functions"
+  ],
+  "gaps": [
+    "Accounting or finance professional background: NOT held -- this is a core required skill given Mayday's finance-tools product (primary gap)"
+  ],
+  "preferred_met": [
+    "No separate preferred/nice-to-have section in listing"
+  ],
+  "score_breakdown": {
+    "required_skills": {
+      "matched": 4,
+      "total": 5,
+      "points": 32,
+      "calculation": "40 * (4/5) = 32 -- missing accounting/finance background"
+    },
+    "preferred_skills": {
+      "matched": 0,
+      "total": 0,
+      "points": 20,
+      "calculation": "No preferred section in listing -> award full 20 (no requirements to fail on)"
+    },
+    "experience_fit": {
+      "points": 15,
+      "calculation": "Founder Associate role; Ryan was a Founder's Associate at Minima + ~8 yrs early-stage generalist experience -- exact/overqualified match"
+    },
+    "industry_match": {
+      "points": 10,
+      "calculation": "Mayday builds automation and AI tools for finance teams (AI-native/AI-applying company, fintech) -- related to AI target industry"
+    },
+    "location_match": {
+      "points": 10,
+      "calculation": "Central London hybrid (1-2 days in-person); Ryan open to London hybrid"
+    },
+    "salary_penalty": {
+      "applied": false,
+      "points": 0,
+      "reason": "Salary range GBP 50-80k overlaps/meets GBP 50k minimum"
+    },
+    "total": 87
+  },
+  "benefits": [],
+  "notes": "Mayday builds automation and AI tools to eliminate manual spreadsheet accounting for in-house finance teams (mid-market SMBs); ~GBP 1m ARR, partners with Xero. Role spans demos/sales, internal finance, ops projects, partnerships, product insight. Core gap: role wants an accounting/finance background which Ryan does not have.",
+  "verified_at": "2026-06-08"
+}

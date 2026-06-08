@@ -1,0 +1,47 @@
+{
+  "job_id": "cognition-special-projects-engineer-europe-2026-06-08",
+  "title": "Special Projects Engineer - Europe",
+  "company": "Cognition",
+  "job_url": "https://jobs.ashbyhq.com/cognition/ca087c5e-b6e8-4852-90f0-f820c8f5f7ed",
+  "role_type": "founding-operator-priority",
+  "score": 92,
+  "source_channel": "direct-career-pages",
+  "run_date": "2026-06-08",
+  "location": "London, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": null,
+  "source": "Cognition Careers (Ashby)",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI agents (autonomous software agents / Devin)",
+  "requirements_met": [
+    "High agency and initiative / end-to-end ownership: 6 years as first employee at Minima bringing structure to early-stage chaos and owning multiple workstreams",
+    "Equal parts Product and GTM: led GTM, positioning, messaging; $4.5m presale (15x ROI); $6.5m Series A support",
+    "Customer-facing / implementation orientation: scaled community to 100K+, ran ambassador and incentive programmes",
+    "Suited to a former founder or aspiring one: founder's associate background working directly with founders seed-to-Series-A"
+  ],
+  "gaps": [
+    "Role requests a strong engineering foundation (CS, Mathematics or related technical discipline); Ryan is self-taught (Python/TypeScript/Rust via Claude Code) with a BA Management rather than a formal CS/Maths degree",
+    "Up to 25% travel to client sites"
+  ],
+  "preferred_met": [
+    "Former founder / startup generalist profile",
+    "Willingness to operate across engineering, product and GTM"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32"},
+    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
+    "experience_fit": {"points": 15, "calculation": "Role aimed at founder/operator level; Ryan's 6yr founder-facing startup track record is an exact match"},
+    "industry_match": {"points": 15, "calculation": "Cognition builds AI software agents (Devin) - direct match to user's TOP choice (AI agent startups)"},
+    "location_match": {"points": 10, "calculation": "London hybrid; user open to hybrid in London"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "total": 92
+  },
+  "benefits": [],
+  "notes": "Cognition is an applied AI lab building end-to-end software agents (makers of Devin). Role is 'equal parts Engineering, Product, and GTM - perfect for a former founder or aspiring one.' AGENTIC AI - user's top choice.",
+  "verified_at": "2026-06-08"
+}

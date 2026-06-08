@@ -1,0 +1,15 @@
+{
+  "role_type": "ai-operations-ai-ops",
+  "channel": "jobspy-aggregator",
+  "status": "completed",
+  "run_date": "2026-06-08",
+  "raw_jobspy_count": 129,
+  "verified_count": 1,
+  "verified_jobs": [
+    {
+      "title": "AI Delivery Associate",
+      "company": "Gradient Labs",
+      "score": 87
+    }
+  ]
+}

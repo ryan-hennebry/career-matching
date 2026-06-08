@@ -1,0 +1,47 @@
+{
+  "job_id": "lightning-ai-forward-deployed-engineer-2026-06-08",
+  "title": "Forward Deployed Engineer",
+  "company": "Lightning AI",
+  "job_url": "https://www.gravityer.com/jobs/forward-deployed-engineer-lightning-ai",
+  "role_type": "ai-product-associate-ai-product-builder",
+  "score": 60,
+  "source_channel": "industry-job-boards",
+  "run_date": "2026-06-08",
+  "location": "London",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": null,
+  "source": "Gravity Engineering (Lightning AI listing)",
+  "date_posted": "2026-06-02",
+  "active_status": "confirmed",
+  "industry": "AI / AI infrastructure platform",
+  "requirements_met": [
+    "Python programming: Python is a stated CV skill, builds AI agents in Python",
+    "Customer-facing technical engagement: community/GTM/ambassador programme experience plus technical building",
+    "Technical communication: content marketing, technical content acquired 20K users"
+  ],
+  "gaps": [
+    "Production systems development at scale - not in CV",
+    "AI/ML pipeline familiarity (vLLM, TensorRT, Ray, LangGraph) - not in CV",
+    "Cloud deployment and operations (Docker, Kubernetes, GPU workloads) - not in CV",
+    "Advanced degree (Master's/PhD) preferred - user has BA"
+  ],
+  "preferred_met": [
+    "Startup experience: 6 years at early-stage Minima"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 3, "total": 7, "points": 17, "calculation": "40 * (3/7) = 17.1"},
+    "preferred_skills": {"matched": 1, "total": 6, "points": 3, "calculation": "20 * (1/6) = 3.3"},
+    "experience_fit": {"points": 15, "calculation": "Role requires 3+ years; user ~8 years - within range = 15"},
+    "industry_match": {"points": 15, "calculation": "Lightning AI is an AI infrastructure platform (from PyTorch Lightning) - genuine AI company = 15"},
+    "location_match": {"points": 10, "calculation": "London hybrid; user open to hybrid London = 10"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary listed"},
+    "total": 60
+  },
+  "benefits": [],
+  "notes": "Lightning AI: end-to-end platform for developing, training, deploying AI systems (from PyTorch Lightning, merged with Voltage Park). FDE role is heavily ML-infra/engineering focused - below threshold for user's generalist/operator profile despite AI fit.",
+  "verified_at": "2026-06-08"
+}

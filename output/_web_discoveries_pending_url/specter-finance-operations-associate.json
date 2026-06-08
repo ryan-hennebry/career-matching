@@ -1,0 +1,47 @@
+{
+  "job_id": "specter-finance-operations-associate-2026-06-08",
+  "title": "Finance & Operations Associate",
+  "company": "Specter",
+  "job_url": "https://spectertech.notion.site/Specter-is-Hiring-5ef937c8a5584a3ba85d138339cc5eff",
+  "role_type": "founding-generalist-priority",
+  "score": 88,
+  "source_channel": "web-search-discovery",
+  "run_date": "2026-06-08",
+  "location": "London, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": 30000,
+  "salary_max": 60000,
+  "currency": "GBP",
+  "source": "Specter Careers (specter.careers) via WebSearch discovery",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / Private market data & deal sourcing platform (AI-powered)",
+  "requirements_met": [
+    "Generalist operations at a fast-growing startup: Ryan ex-Minima first employee, strong generalist",
+    "Digitally savvy / comfortable with tools and technical products: Ryan builds AI agents",
+    "Support founders / cross-functional projects: Ryan founder-facing at Minima",
+    "Data analytics for operational decisions: Ryan has data analytics background"
+  ],
+  "gaps": [
+    "Finance-leaning specialization (the 'Finance' half of the role) is adjacent rather than core to Ryan's generalist/GTM/ops profile; fundraising support is the nearest match"
+  ],
+  "preferred_met": [
+    "Startup / VC exposure: Ryan ex-Minima first employee, founder-facing",
+    "Comfortable diving into technical products and workflows: builds AI agents"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 4, "total": 4, "points": 40, "calculation": "40 * (4/4) = 40 (operations generalist core met)"},
+    "preferred_skills": {"matched": 2, "total": 3, "points": 13, "calculation": "20 * (2/3) = 13.3 (finance specialization is the unmet preferred)"},
+    "experience_fit": {"points": 10, "calculation": "Associate role; Ryan ~8yr = overqualified (10)"},
+    "industry_match": {"points": 15, "calculation": "AI-powered data/deal-sourcing platform = direct AI industry match"},
+    "location_match": {"points": 10, "calculation": "London hybrid; Ryan based Cambridge/London (10)"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "£30k-£60k range overlaps £50k minimum"},
+    "total": 88
+  },
+  "benefits": [],
+  "notes": "Specter (bootstrapped, AI-powered startup-data/deal-sourcing platform, HQ London) generalist finance + ops associate working closely with founders. Apply via careers@tryspecter.com.",
+  "run_date_field": "2026-06-08",
+  "verified_at": "2026-06-08"
+}

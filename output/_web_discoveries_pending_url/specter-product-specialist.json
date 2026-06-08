@@ -1,0 +1,47 @@
+{
+  "job_id": "specter-product-specialist-2026-06-08",
+  "title": "Product Specialist",
+  "company": "Specter",
+  "job_url": "https://spectertech.notion.site/Specter-is-Hiring-5ef937c8a5584a3ba85d138339cc5eff",
+  "role_type": "ai-product-associate-ai-product-builder",
+  "score": 92,
+  "source_channel": "web-search-discovery",
+  "run_date": "2026-06-08",
+  "location": "London, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": 39000,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "Specter Careers (specter.careers) via WebSearch discovery",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / Private market data & deal sourcing platform (AI-powered)",
+  "requirements_met": [
+    "Customer onboarding & success across calls/email/chat: Ryan has GTM and customer-facing experience",
+    "Technical problem-solving / guide users on integrations & advanced features: Ryan builds AI agents, technically literate",
+    "Bridge between customers and product/engineering teams (product feedback): Ryan generalist with product exposure",
+    "Work directly with investors and operators: Ryan has fundraising support + founder-facing background"
+  ],
+  "gaps": [
+    "Role is customer-success-leaning; a pure 'product builder/APM' would do more roadmap ownership than this position implies"
+  ],
+  "preferred_met": [
+    "Comfort with technical products and integrations: Ryan builds AI agents with Claude Code",
+    "Cross-functional GTM + product collaboration: Ryan's generalist background"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 4, "total": 4, "points": 40, "calculation": "40 * (4/4) = 40"},
+    "preferred_skills": {"matched": 2, "total": 3, "points": 12, "calculation": "20 * (2/3) = 13.3, rounded conservatively to reflect CS-leaning emphasis"},
+    "experience_fit": {"points": 10, "calculation": "Specialist/associate level; Ryan ~8yr = overqualified (10)"},
+    "industry_match": {"points": 15, "calculation": "AI-powered data/deal-sourcing platform = direct AI industry match"},
+    "location_match": {"points": 10, "calculation": "London hybrid; Ryan Cambridge/London (10)"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "From £39k but open-ended range; overlaps £50k minimum"},
+    "total": 92
+  },
+  "benefits": [],
+  "notes": "Specter Product Specialist = part customer success, part technical problem-solving, part product feedback; bridges customers and product/eng. AI-powered platform, HQ London. Apply via careers@tryspecter.com.",
+  "run_date_field": "2026-06-08",
+  "verified_at": "2026-06-08"
+}

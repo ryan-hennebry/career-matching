@@ -1,5 +1,13 @@
 # Agent Memory
 
+## Index (topic files)
+- [Founding Operator direct-careers](founding_operator_direct_careers.md) — Jun 2026: big AI cos don't use founder titles; target Special Projects Eng / FDE / AI Outcomes Mgr. Cognition 92, Glean 85.
+- [ATS endpoints June 2026](ats_endpoints_june2026.md) — working Greenhouse/Ashby/Lever/Workable slugs; correct gleanwork, perplexity, Sierra slugs.
+- [Web Search Discovery Jun 2026](web-search-discovery-jun-2026.md) — Specter (AI Specter=specter.careers, NOT ashby/specter=Aerospace) 3 strong London roles via Notion hub (no per-role URL, fails schema gate); Numeral/Dwelly verified; Founding Operator=SF-only.
+
+## Industry Job Boards (AI operator/generalist roles, Jun 2026)
+See industry-job-boards-jun2026.md for detail. Key: Corgi Insurance (YC S24 AI fintech) is the standout — London Operations Associate (£50-70K, score 100) + Strategic Projects Associate (score 95), both in-office 6-7 days/wk. Lightning AI FDE London = ML-infra heavy, score 60. Excluded: HappyRobot/Nowadays (US), Natter FA (closed), Brickwise (FA gone), AgentMail/Gradient Labs (Lead title only). YC company /jobs pages + api.ashbyhq.com/posting-api/job-board/{co} are reliable; ashbyhq.com HTML + gradient-labs.ai JS-rendered.
+
 ## Source Effectiveness (Marketing Manager roles, Feb 2026)
 - **Web3.Career**: Best source for crypto/web3 marketing roles. Returns structured data with salary estimates.
 - **CryptocurrencyJobs**: Good supplementary source. Some roles overlap with Web3.Career.
@@ -540,3 +548,4 @@ See [re-verification-march-2026.md](re-verification-march-2026.md) for full deta
 - **Ineffable Intelligence**: Already in memory. Ashby returns empty. Research-only stage.
 - **Ralio**: 5 employees, engineering-only. Too early for marketing hire.
 - **Channel verdict**: VC portfolio deep sweep is LOW YIELD due to JS-rendering of all major VC job boards. True value is discovering portfolio company names and going directly to their career pages. Best method: fetch VC portfolio pages for company names → batch-check Ashby API for each company slug. Index Ventures, Atomico, and Balderton are the most productive VCs for London AI companies, but company-by-company checks are required. All major London AI companies from these portfolios now covered in direct-career-pages channel.
+- [Newsletter channel Jun 2026](newsletter_channel_jun2026.md) — Mayday FA (87) only UK hit; Tracebit/Electric Twin now closed; E&E latest still Feb 16; generalist.world ~90%% US

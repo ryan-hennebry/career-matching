@@ -1,0 +1,20 @@
+{
+  "role_type": "founding-operator-priority",
+  "channel": "jobspy-aggregator",
+  "status": "completed",
+  "run_date": "2026-06-08",
+  "raw_jobspy_count": 82,
+  "verified_count": 2,
+  "verified_jobs": [
+    {
+      "title": "Operations Associate",
+      "company": "Alaro",
+      "score": 89
+    },
+    {
+      "title": "AI Operator",
+      "company": "Metaview",
+      "score": 88
+    }
+  ]
+}

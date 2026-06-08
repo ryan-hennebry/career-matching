@@ -1,0 +1,25 @@
+{
+  "role_type": "founder-s-associate-priority",
+  "channel": "jobspy-aggregator",
+  "status": "completed",
+  "run_date": "2026-06-08",
+  "raw_jobspy_count": 73,
+  "verified_count": 3,
+  "verified_jobs": [
+    {
+      "title": "Founder's Associate",
+      "company": "Ankar",
+      "score": 95
+    },
+    {
+      "title": "Forward-Deployed AI Product Associate",
+      "company": "Euphoric Global",
+      "score": 93
+    },
+    {
+      "title": "Founder's Associate",
+      "company": "STINT",
+      "score": 78
+    }
+  ]
+}

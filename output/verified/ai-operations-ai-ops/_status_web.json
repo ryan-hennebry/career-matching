@@ -1,0 +1,10 @@
+{
+  "role_type": "ai-operations-ai-ops",
+  "channel": "web-search-discovery",
+  "status": "complete",
+  "total_searched": 8,
+  "total_verified": 2,
+  "verified_pending_url": 0,
+  "zero_result_retry": false,
+  "run_date": "2026-06-08"
+}

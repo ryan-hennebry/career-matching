@@ -1,0 +1,51 @@
+{
+  "job_id": "corgi-insurance-strategic-projects-associate-2026-06-08",
+  "title": "Strategic Projects Associate",
+  "company": "Corgi Insurance",
+  "job_url": "https://www.ycombinator.com/companies/corgi-insurance/jobs/wdBTpwK-strategic-projects-associate",
+  "role_type": "founding-generalist-priority",
+  "score": 95,
+  "source_channel": "industry-job-boards",
+  "run_date": "2026-06-08",
+  "location": "London, England / Chicago, IL",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "In-person",
+  "salary_min": 125000,
+  "salary_max": 200000,
+  "currency": "USD",
+  "source": "Y Combinator Jobs",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / AI financial infrastructure",
+  "requirements_met": [
+    "Research and analytical capabilities: data analytics, failure analysis at Amazon Alexa (98% success rate)",
+    "Strong written communication: content marketing, PR, investor updates",
+    "Organization and attention to detail: managed multiple workstreams at early-stage Minima",
+    "Ability to manage multiple priorities: cross-functional ownership across GTM, ops, community, fundraising",
+    "Independent problem-solving: brought structure to early-stage chaos without slowing execution",
+    "High ownership mentality: took ownership of whatever was necessary as first employee"
+  ],
+  "gaps": [
+    "No direct regulatory/compliance background (a preferred item)",
+    "In-office 6-7 days per week - intense commitment from Cambridge",
+    "Listed jointly with Chicago; confirm London headcount"
+  ],
+  "preferred_met": [
+    "Intellectual curiosity and rapid learning: self-taught AI agent building, multiple languages",
+    "Comfort navigating ambiguity: 6 years in early-stage startup environment",
+    "Cross-functional collaboration: worked across ops, product, marketing, fundraising"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 6, "total": 6, "points": 40, "calculation": "40 * (6/6) = 40"},
+    "preferred_skills": {"matched": 3, "total": 4, "points": 15, "calculation": "20 * (3/4) = 15"},
+    "experience_fit": {"points": 15, "calculation": "Generalist associate role; user mid-level founder-facing generalist is an exact fit = 15"},
+    "industry_match": {"points": 15, "calculation": "AI financial infrastructure company - genuine AI company = 15"},
+    "location_match": {"points": 10, "calculation": "London (also Chicago) in-person; user open to in-person London = 10"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "USD 125-200K well above user GBP 50K minimum"},
+    "total": 95
+  },
+  "benefits": [],
+  "notes": "Corgi Insurance (YC S24): AI financial infrastructure company rebuilding the insurance industry with AI. Strategic Projects Associate works on high-leverage cross-functional initiatives - strong founding-generalist fit.",
+  "verified_at": "2026-06-08"
+}

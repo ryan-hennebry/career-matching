@@ -1,0 +1,47 @@
+{
+  "job_id": "dwelly-operations-manager-payments-2026-06-08",
+  "title": "Operations Manager — Payments",
+  "company": "Dwelly",
+  "job_url": "https://job-boards.eu.greenhouse.io/dwelly/jobs/4858477101",
+  "role_type": "ai-operations-ai-ops",
+  "score": 58,
+  "source_channel": "web-search-discovery",
+  "run_date": "2026-06-08",
+  "location": "London, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "Dwelly EU Greenhouse via AI Operators newsletter (WebSearch discovery)",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI-enabled lettings & property management (AI-native operator)",
+  "requirements_met": [
+    "Fast-growing, operationally intensive environment: Ryan ex-Minima first employee",
+    "Strong Excel and BI skills: Ryan has data analytics background",
+    "Build/own operational processes: Ryan generalist ops experience"
+  ],
+  "gaps": [
+    "5+ years payments or finance operations at scale: Ryan's ops is generalist, not payments-specialist",
+    "Direct line management of 20-30+ people across multiple sites: not in Ryan's background",
+    "Complex payment escalation handling: payments domain not held"
+  ],
+  "preferred_met": [
+    "RPA or low-code automation exposure: Ryan builds AI agents with Claude Code"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 3, "total": 5, "points": 24, "calculation": "40 * (3/5) = 24"},
+    "preferred_skills": {"matched": 1, "total": 5, "points": 4, "calculation": "20 * (1/5) = 4"},
+    "experience_fit": {"points": 10, "calculation": "Role 5+yr; Ryan ~8yr = overqualified on tenure (10)"},
+    "industry_match": {"points": 10, "calculation": "AI-enabled (AI used to run the business, not the product) = related industry (10)"},
+    "location_match": {"points": 10, "calculation": "London; Ryan based Cambridge/London (10)"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "No salary disclosed (competitive + equity)"},
+    "total": 58
+  },
+  "benefits": [],
+  "notes": "Dwelly is an AI-enabled lettings/property-management platform that acquires estate agencies and automates tenant management, payments and maintenance. Role is payments-ops-management specific (people leadership of 20-30+), a weaker fit for a generalist; included for coverage. Below 60 threshold.",
+  "run_date_field": "2026-06-08",
+  "verified_at": "2026-06-08"
+}

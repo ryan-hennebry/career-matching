@@ -1,0 +1,49 @@
+{
+  "job_id": "numeral-business-operations-manager-international-2026-06-08",
+  "title": "Business Operations Manager (International)",
+  "company": "Numeral",
+  "job_url": "https://jobs.ashbyhq.com/numeral/4c978745-da0b-43f6-9932-955da541eead",
+  "role_type": "ai-operations-ai-ops",
+  "score": 75,
+  "source_channel": "web-search-discovery",
+  "run_date": "2026-06-08",
+  "location": "EMEA (Remote)",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Remote",
+  "salary_min": 55000,
+  "salary_max": 75000,
+  "currency": "USD",
+  "source": "Numeral Ashby job board via AI Operators newsletter (WebSearch discovery)",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI-native tax compliance / fintech SaaS",
+  "requirements_met": [
+    "5+ years operations experience at fintech/SaaS/compliance startups: Ryan ~8yr incl. ops at early-stage Minima",
+    "Build structured processes in early-stage environments: Ryan was first employee at Minima",
+    "Process automation familiarity (Sheets, AppScript, RPA, AI agents): Ryan builds AI agents with Claude Code, strong data analytics",
+    "Strong stakeholder and vendor management: Ryan has GTM/founder-facing experience",
+    "2+ years remote in globally distributed teams: Ryan open to remote (partial evidence)"
+  ],
+  "gaps": [
+    "Indirect tax (VAT/GST) compliance domain knowledge not in Ryan's background",
+    "Accounting/finance/tax degree preferred and not held"
+  ],
+  "preferred_met": [
+    "AI tool / automation agent implementation experience: Ryan builds AI agents",
+    "SQL / relational database proficiency: covered by data analytics background (partial)"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32 (tax/compliance domain is the unmet req)"},
+    "preferred_skills": {"matched": 2, "total": 5, "points": 8, "calculation": "20 * (2/5) = 8"},
+    "experience_fit": {"points": 10, "calculation": "Role 5+yr; Ryan ~8yr = one-level stretch up / overqualified (10)"},
+    "industry_match": {"points": 15, "calculation": "Self-described largest AI-native tax solution = direct AI industry match"},
+    "location_match": {"points": 10, "calculation": "EMEA remote; Ryan UK and open to remote (10)"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "$55k-$75k (~£43k-£59k) overlaps £50k minimum"},
+    "total": 75
+  },
+  "benefits": [],
+  "notes": "Numeral (Benchmark + YC backed, founded 2023) self-describes as the largest, fastest-growing AI-native tax solution; role owns end-to-end international launches using RPA, SQL and AI agents.",
+  "run_date_field": "2026-06-08",
+  "verified_at": "2026-06-08"
+}
