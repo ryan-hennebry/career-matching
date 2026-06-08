@@ -1,0 +1,48 @@
+{
+  "job_id": "fuse-energy-ai-operations-manager-2026-06-08",
+  "title": "AI Operations Manager",
+  "company": "Fuse Energy",
+  "job_url": "https://apply.workable.com/fuseenergy/",
+  "url_note": "Direct per-job Workable code not extractable from JS-rendered board; this is Fuse Energy's own Workable ATS board where the live AI Operations Manager posting appears. BuiltIn London mirror (reposted 7 days ago) confirms role active.",
+  "role_type": "ai-operations-ai-ops",
+  "score": 80,
+  "source_channel": "jobspy-aggregator",
+  "run_date": "2026-06-08",
+  "location": "London, England, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "In-person",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "JobSpy (LinkedIn) + Built In London direct",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "Renewable energy tech (AI operations)",
+  "requirements_met": [
+    "Identify opportunities for AI implementation across business: matches Ryan building AI agents/automations",
+    "Redesign operational processes with AI: ops generalist + AI tooling",
+    "Construct internal AI tools to boost efficiency: hands-on AI builder",
+    "Drive automation and decision-making across workflows: operator background"
+  ],
+  "gaps": [
+    "Trading/energy-network domain context may need ramp-up",
+    "In-office London 5 days/week"
+  ],
+  "preferred_met": [
+    "Comfort turning AI from tools into operational backbone",
+    "Cross-functional operations span (trading, networks, internal workflows)"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32"},
+    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
+    "experience_fit": {"points": 13, "calculation": "Manager title but operator-IC scope; mid-level builder fits AI-ops mandate"},
+    "industry_match": {"points": 11, "calculation": "Energy tech with AI as operational backbone - strong AI tooling, energy domain adjacency"},
+    "location_match": {"points": 9, "calculation": "London in-office; Ryan covers London (Cambridge friction)"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "Salary not listed; well-funded startup, role likely above GBP 50k floor"},
+    "total": 80
+  },
+  "benefits": [],
+  "notes": "Fuse Energy AI Operations Manager: build internal AI tools, redesign processes, deploy AI across trading/energy networks/internal workflows. Distinct role from CEO-office FA at same company. Confirmed active via Built In London.",
+  "verified_at": "2026-06-08"
+}

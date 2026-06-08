@@ -1,0 +1,49 @@
+{
+  "job_id": "decagon-agent-strategy-manager-2026-06-08",
+  "title": "Agent Strategy Manager",
+  "company": "Decagon",
+  "job_url": "https://jobs.ashbyhq.com/decagon/ac14f2e8-950e-4668-a6ff-41f80181f006",
+  "role_type": "founding-generalist-priority",
+  "score": 89,
+  "source_channel": "industry-job-boards",
+  "run_date": "2026-06-08",
+  "location": "London",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "In-person",
+  "salary_min": 105000,
+  "salary_max": 140000,
+  "currency": "GBP",
+  "source": "Decagon Ashby (vc-talent-boards-wave2: a16z/Accel/Index portfolio)",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / Conversational AI agents (enterprise)",
+  "requirements_met": [
+    "Strategic advisor / relationship management: 6 yrs founder-facing at Minima building partnerships, investor and community relationships",
+    "Deployment / project execution: ran GTM, presale, ambassador programmes end-to-end across multiple workstreams",
+    "AI industry expertise: actively building AI agents with Claude Code, deep current AI context",
+    "Cross-functional work with product/eng: coordinated dev, marketing, ops at early-stage startup",
+    "Outstanding communication: PR (2M views), content (40K followers), keynotes/investor comms"
+  ],
+  "gaps": [
+    "No direct enterprise customer success / SaaS deployment management track record (customers like Avis, Cash App, Chime are large enterprises)",
+    "In-office company (London) - fine for Ryan but no remote flexibility"
+  ],
+  "preferred_met": [
+    "Thrives in fast-paced 0-1 environment laying groundwork for a new function",
+    "Polymath / generalist orientation matches Decagon's stated values"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32"},
+    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20 (no separate hard preferred list; full credit)"},
+    "experience_fit": {"points": 12, "calculation": "Mid-level 8 yrs vs 'Manager' role expecting some enterprise CS depth; strong generalist but enterprise-deployment depth partial"},
+    "industry_match": {"points": 15, "calculation": "Agentic AI (top-choice category) - conversational AI agents platform"},
+    "location_match": {"points": 10, "calculation": "London in-person; Ryan open to London hybrid/in-person"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "GBP 105-140K well above GBP 50K floor"},
+    "total": 89
+  },
+  "benefits": [],
+  "notes": "Decagon: leading conversational AI agent platform (Avis, Cash App, Chime, Oura). Backed by a16z, Accel, Bain Capital Ventures, Coatue, Index Ventures. In-office London. Agentic AI = Ryan's top-choice category. Different role from prior-tracked Decagon Implementation Strategist.",
+  "run_date_field": "2026-06-08",
+  "verified_at": "2026-06-08"
+}

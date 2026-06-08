@@ -1,0 +1,50 @@
+{
+  "job_id": "sierra-strategist-agent-development-2026-06-08",
+  "title": "Strategist, Agent Development",
+  "company": "Sierra",
+  "job_url": "https://jobs.ashbyhq.com/sierra/548eccd8-85c7-4cfa-a145-1c6ba5c17dc2",
+  "role_type": "ai-product-associate-ai-product-builder",
+  "score": 87,
+  "source_channel": "industry-job-boards",
+  "run_date": "2026-06-08",
+  "location": "London",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "In-person",
+  "salary_min": 125000,
+  "salary_max": 245000,
+  "currency": "GBP",
+  "source": "Sierra Ashby (vc-talent-boards-wave2: Sequoia/Benchmark/ICONIQ portfolio)",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / Conversational AI agents (enterprise)",
+  "requirements_met": [
+    "Product strategy + customer insight: led GTM, positioning, messaging at Minima; user-facing product marketing",
+    "Coordinate technical + non-technical stakeholders: worked across dev, marketing, ops, founders for 6 yrs",
+    "Outstanding communication: PR (Bloomberg/Yahoo, 2M views), 40K X following, keynotes",
+    "Drive execution of complex multi-workstream projects: ran presale ($4.5M), ambassador programme (75K nodes)",
+    "Direct exposure to building AI agents: currently building agents with Claude Code (conversational/agentic)"
+  ],
+  "gaps": [
+    "Strong software-development understanding expected; Ryan codes (Python/TS) but is not a professional engineer",
+    "No prior conversational-AI-agent design at enterprise scale (thousands of conversations/day)",
+    "In-person San Francisco-primary culture; London office exists but intensity/in-person expectation high"
+  ],
+  "preferred_met": [
+    "Data-driven strategic insight: data analytics background (Amazon Alexa failure analysis, GA)",
+    "Trusted-advisor / customer-facing orientation from founder-facing GTM work"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 5, "total": 5, "points": 40, "calculation": "40 * (5/5) = 40 (communication, stakeholder coordination, execution, product strategy, agent exposure all met)"},
+    "preferred_skills": {"matched": 1, "total": 2, "points": 10, "calculation": "20 * (1/2) = 10 (data-driven yes; deep software-dev expertise partial)"},
+    "experience_fit": {"points": 12, "calculation": "8 yrs generalist fits; enterprise agent-development depth partial relative to role expectations"},
+    "industry_match": {"points": 15, "calculation": "Agentic AI (top-choice) - Sierra is a leading AI agent platform (Bret Taylor / Clay Bavor)"},
+    "location_match": {"points": 10, "calculation": "London office; Ryan open to London in-person"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "GBP 125-245K far above GBP 50K floor"},
+    "total": 87
+  },
+  "benefits": [],
+  "notes": "Sierra: enterprise AI agent platform co-founded by Bret Taylor (OpenAI board chair, ex-Salesforce co-CEO) and Clay Bavor (ex-Google Labs). Agent Strategist scopes/builds/ships AI agents with PMs and engineers - agentic AI = Ryan's top-choice. London office, in-person.",
+  "run_date_field": "2026-06-08",
+  "verified_at": "2026-06-08"
+}

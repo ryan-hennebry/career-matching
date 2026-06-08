@@ -1,0 +1,46 @@
+{
+  "job_id": "siena-ai-product-manager-2026-06-08",
+  "title": "Product Manager",
+  "company": "Siena AI",
+  "job_url": "https://jobs.ashbyhq.com/siena/886bddc1-1fc7-4869-aa4a-563229ffa12c",
+  "role_type": "ai-product-associate-ai-product-builder",
+  "score": 74,
+  "source_channel": "jobspy-aggregator",
+  "run_date": "2026-06-08",
+  "location": "London, England, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Remote",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": null,
+  "source": "JobSpy (LinkedIn) + Ashby direct",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI agents for customer experience",
+  "requirements_met": [
+    "Own product for AI agents across customer touchpoints: matches Ryan building AI agents",
+    "Operate in small high-leverage distributed team: startup generalist + builder",
+    "Translate AI capabilities into product: AI builder + founder-facing background"
+  ],
+  "gaps": [
+    "Dedicated PM craft (roadmapping, discovery rituals) not Ryan's primary title history - adjacent generalist",
+    "Full requirements list not extractable (Ashby JS-rendered) - scored on role/company signal"
+  ],
+  "preferred_met": [
+    "Comfort with ambiguity in small startup",
+    "AI-native product intuition"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 3, "total": 4, "points": 30, "calculation": "40 * (3/4) = 30"},
+    "preferred_skills": {"matched": 1, "total": 2, "points": 10, "calculation": "20 * (1/2) = 10"},
+    "experience_fit": {"points": 12, "calculation": "Mid-level builder/generalist fits PM-at-startup; dedicated PM track record is partial gap"},
+    "industry_match": {"points": 15, "calculation": "AI agents operating system for CX - exact AI-native alignment"},
+    "location_match": {"points": 7, "calculation": "Distributed/remote team; location not explicitly UK-confirmed but listing surfaced for London"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "Salary not listed; venture-backed AI startup PM role typically above GBP 50k floor"},
+    "total": 74
+  },
+  "benefits": [],
+  "notes": "Siena AI: operating system of AI agents for customer experience (support, shopping, voice, social). Small distributed high-leverage team. Ashby page JS-rendered; active status confirmed via Ashby listing existence. Requirements partially inferred from company/role signal.",
+  "verified_at": "2026-06-08"
+}

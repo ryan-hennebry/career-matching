@@ -1,0 +1,51 @@
+{
+  "job_id": "wing-assistant-founders-associate-growth-operations-2026-06-08",
+  "title": "Founder's Associate, Growth & Operations",
+  "company": "Wing Assistant",
+  "job_url": "https://jobs.lever.co/getwingapp/0d89d775-cbdc-4f07-8165-d73fa3664c9d",
+  "role_type": "founder-s-associate-priority",
+  "score": 82,
+  "source_channel": "industry-job-boards",
+  "run_date": "2026-06-08",
+  "location": "London, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "In-person",
+  "salary_min": 33000,
+  "salary_max": 55000,
+  "currency": "GBP",
+  "source": "ATS sweep (Lever) — jobs.lever.co/getwingapp",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / Automation (managed assistants)",
+  "requirements_met": [
+    "Work directly with founders across functions: 1 yr Founder's Associate at Minima + 6 yrs founder-facing",
+    "Comfort with ambiguity / entrepreneurial operator: brought structure to early-stage chaos at Minima",
+    "Funnel analytics / investigate churn & drop-off: GA, failure analysis at Amazon Alexa, metric dashboards",
+    "Sales enablement & onboarding optimisation: GTM and community-led presale ($4.5m, 15x ROI)",
+    "Cross-functional execution across growth & ops: ran multiple workstreams seed-to-Series-A"
+  ],
+  "gaps": [
+    "Salary range bottom (£33k) below £50k floor — only top of band reaches floor; negotiation needed",
+    "No formal management consulting background (listed as preferred)",
+    "Wing's AI/automation positioning is assistant-services led, not a core AI-agent product company"
+  ],
+  "preferred_met": [
+    "Startup experience",
+    "SQL proficiency",
+    "Design skills (partial — content/marketing design)"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 5, "total": 5, "points": 40, "calculation": "40 * (5/5) = 40 — founder-facing, ambiguity, funnel analytics, sales enablement/onboarding, cross-functional ops all matched"},
+    "preferred_skills": {"matched": 3, "total": 4, "points": 15, "calculation": "20 * (3/4) = 15 — startup yes, SQL yes, design partial; consulting no"},
+    "experience_fit": {"points": 15, "calculation": "Founder's Associate role; Ryan held this exact title at Minima — ideal fit"},
+    "industry_match": {"points": 12, "calculation": "AI/automation managed-assistant company — AI-adjacent, not core AI-agent product"},
+    "location_match": {"points": 10, "calculation": "London — within target"},
+    "salary_penalty": {"applied": true, "points": -10, "reason": "Stated range £33k-£55k; bottom is below £50k minimum — penalty applied per rubric"},
+    "total": 82
+  },
+  "benefits": ["Equity stock grant", "Comprehensive health insurance", "Path to leading growth/revops or running a business unit"],
+  "notes": "Wing Assistant: managed-assistant / AI-automation company. Founder's Associate, Growth & Operations works directly with founders on churn, onboarding, funnel analytics, recruitment ops. London. Net-new — not in any dedup list (distinct from Wing Assistant's other Lever 'Product & Growth Associate'). Salary penalty applied; top of band reaches £50k floor on negotiation.",
+  "run_date_confirmed": "2026-06-08",
+  "verified_at": "2026-06-08"
+}

@@ -1,0 +1,47 @@
+{
+  "job_id": "tilt-founders-associate-2026-06-08",
+  "title": "Founders Associate",
+  "company": "Tilt",
+  "job_url": "https://jobs.ashbyhq.com/tilt/0d5fad5b-1fea-4f4f-b0c5-3fd47e282e60",
+  "role_type": "founder-s-associate-priority",
+  "score": 92,
+  "source_channel": "jobspy-aggregator",
+  "run_date": "2026-06-08",
+  "location": "London, England, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "In-person",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "JobSpy (Indeed) + Ashby direct",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "Consumer tech / commerce (AI-enabled)",
+  "requirements_met": [
+    "Work directly with CEO on company OS, fundraising/IR, special projects: matches ex-Minima founder-facing generalist experience",
+    "Build AI automations: matches Ryan's current work building AI agents",
+    "Create decks and operate across functions: generalist operator background",
+    "Comfort with ambiguity in fast-scaling startup: founder-facing generalist"
+  ],
+  "gaps": [
+    "Ship code in production is in-scope (nothing out of scope) - Ryan is builder-leaning but not a full-time SWE",
+    "On-site 5 days/week in King's Cross London - workable from London but not Cambridge-friendly"
+  ],
+  "preferred_met": [
+    "Wants to build as well as operate within fast-scaling company",
+    "Investor relations / fundraising exposure"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 4, "total": 5, "points": 32, "calculation": "40 * (4/5) = 32"},
+    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
+    "experience_fit": {"points": 15, "calculation": "Mid-level ~8yr founder-facing generalist matches associate-to-CEO scope well"},
+    "industry_match": {"points": 15, "calculation": "AI-enabled consumer commerce startup; builds AI automations - strong AI alignment"},
+    "location_match": {"points": 10, "calculation": "London-based, Ryan covers London"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "Salary not listed; CEO-office FA roles at funded startups typically exceed GBP 50k floor"},
+    "total": 92
+  },
+  "benefits": [],
+  "notes": "Tilt: ex-Revolut founders building net-new way to buy/sell online; CEO Office role spanning OS, fundraising, AI automations, shipping code. Confirmed active via Ashby + startup.jobs.",
+  "verified_at": "2026-06-08"
+}

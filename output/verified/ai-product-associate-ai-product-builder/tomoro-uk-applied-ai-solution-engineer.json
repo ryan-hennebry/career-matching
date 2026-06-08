@@ -1,0 +1,47 @@
+{
+  "job_id": "tomoro-uk-applied-ai-solution-engineer-2026-06-08",
+  "title": "UK Applied AI Solution Engineer",
+  "company": "Tomoro",
+  "job_url": "https://tomoro.ai/careers/uk-applied-ai-solution-engineer",
+  "role_type": "ai-product-associate-ai-product-builder",
+  "score": 78,
+  "source_channel": "jobspy-aggregator",
+  "run_date": "2026-06-08",
+  "location": "London, England, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": 60000,
+  "salary_max": 80000,
+  "currency": "GBP",
+  "source": "JobSpy (LinkedIn) + Tomoro careers direct",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "Applied AI / LLM agents consultancy",
+  "requirements_met": [
+    "Design, build and deploy AI applications / agents around LLMs: directly matches Ryan building AI agents",
+    "Client-facing - understand business challenges and explain AI solutions: founder-facing communication strength",
+    "Own design and build of AI solutions hands-on: builder profile",
+    "Stay current with AI/ML developments: actively building in AI"
+  ],
+  "gaps": [
+    "Deeper SWE/engineering rigour expected (technical team is front-of-house) - Ryan is builder-leaning, not a career SWE",
+    "Mentoring junior engineers implies engineering seniority"
+  ],
+  "preferred_met": [
+    "Excellent client communication skills",
+    "Comfort solving complex technical problems with LLMs"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 3, "total": 4, "points": 30, "calculation": "40 * (3/4) = 30"},
+    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
+    "experience_fit": {"points": 12, "calculation": "Non-senior Applied AI SE; Ryan's agent-building + client-facing fits, engineering depth is partial gap"},
+    "industry_match": {"points": 15, "calculation": "Pure applied-AI / LLM-agent consultancy - exact industry alignment"},
+    "location_match": {"points": 10, "calculation": "UK-wide hybrid, Ryan covers London/UK"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "GBP 60-80k exceeds GBP 50k floor"},
+    "total": 78
+  },
+  "benefits": ["Flexible hybrid working", "Rapid career growth"],
+  "notes": "Tomoro: applied-AI consultancy building LLM-based agents with client engineers; technical team is client-facing front of house. Non-senior variant (distinct from Senior listing). Confirmed active via tomoro.ai/careers.",
+  "verified_at": "2026-06-08"
+}

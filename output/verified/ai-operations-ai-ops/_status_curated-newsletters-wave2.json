@@ -1,0 +1,11 @@
+{
+  "role_type": "ai-operations-ai-ops",
+  "channel": "curated-newsletters-wave2",
+  "status": "complete",
+  "total_searched": 9,
+  "total_verified": 0,
+  "above_70": 0,
+  "zero_result_retry": false,
+  "run_date": "2026-06-08",
+  "note": "All UK/remote-eligible AI operator roles found on curated newsletter/operator-community boards were already in exclusion/prior-runs dedup sets. Other curated-board roles were US/Paris/Berlin/Doha-based or wrong-fit/senior."
+}

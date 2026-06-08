@@ -22,6 +22,13 @@
 
 All 5 channels cover all 5 role types. Sentinels in output/.channels/{channel}.done.
 
+### Wave 2 (high-leverage sources + deep jobspy) — dispatched 2026-06-08
+- ac40b6c463d745a54: curated-newsletters-wave2 (Lenny's/MKT1/Next Play/generalist.world/On Deck/Pallet)
+- a0f3de1c3df872877: vc-talent-boards-wave2 (a16z/Index/Balderton/Atomico/Air Street/EF/Seedcamp/Getro)
+- abc0267ca9b75ce6c: ats-sweep-wave2 (Ashby/Greenhouse/Lever/Workable/Pinpoint + YC WaaS)
+- a4e8ab49278081810: jobspy-deep-wave2 (broad query matrix, raised counts, direct-URL resolution)
+All dedup against the 12 current finds + output/_prior_runs_dedup.md (user's prior sheet).
+
 ## Search Progress
 
 | Role Type | Status |

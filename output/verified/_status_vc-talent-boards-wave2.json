@@ -1,0 +1,18 @@
+{
+  "channel": "vc-talent-boards-wave2",
+  "status": "complete",
+  "role_types": [
+    "founder-s-associate-priority",
+    "founding-operator-priority",
+    "founding-generalist-priority",
+    "ai-operations-ai-ops",
+    "ai-product-associate-ai-product-builder"
+  ],
+  "total_net_new_verified": 2,
+  "above_70": 2,
+  "net_new_jobs": [
+    {"company": "Decagon", "title": "Agent Strategy Manager", "score": 89, "role_type": "founding-generalist-priority", "location": "London", "job_url": "https://jobs.ashbyhq.com/decagon/ac14f2e8-950e-4668-a6ff-41f80181f006"},
+    {"company": "Sierra", "title": "Strategist, Agent Development", "score": 87, "role_type": "ai-product-associate-ai-product-builder", "location": "London", "job_url": "https://jobs.ashbyhq.com/sierra/548eccd8-85c7-4cfa-a145-1c6ba5c17dc2"}
+  ],
+  "run_date": "2026-06-08"
+}

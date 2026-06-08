@@ -1,0 +1,20 @@
+{
+  "channel": "ats-sweep-wave2",
+  "status": "complete",
+  "role_types": [
+    "founder-s-associate-priority",
+    "founding-operator-priority",
+    "founding-generalist-priority",
+    "ai-operations-ai-ops",
+    "ai-product-associate-ai-product-builder"
+  ],
+  "total_searched": 30,
+  "total_verified": 2,
+  "above_70": 2,
+  "net_new": [
+    {"company": "32Co", "title": "AI, Operations & Strategy Associate", "score": 90, "role_type": "ai-operations-ai-ops", "url": "https://jobs.lever.co/32Co/5d26db2b-c7af-431e-9473-462708580db9"},
+    {"company": "Wing Assistant", "title": "Founder's Associate, Growth & Operations", "score": 82, "role_type": "founder-s-associate-priority", "url": "https://jobs.lever.co/getwingapp/0d89d775-cbdc-4f07-8165-d73fa3664c9d"}
+  ],
+  "zero_result_retry": false,
+  "run_date": "2026-06-08"
+}

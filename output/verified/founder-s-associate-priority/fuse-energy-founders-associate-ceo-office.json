@@ -1,0 +1,46 @@
+{
+  "job_id": "fuse-energy-founders-associate-ceo-office-2026-06-08",
+  "title": "Founder's Associate (CEO Office)",
+  "company": "Fuse Energy",
+  "job_url": "https://apply.workable.com/fuseenergy/j/D1150E2D86/",
+  "role_type": "founder-s-associate-priority",
+  "score": 84,
+  "source_channel": "jobspy-aggregator",
+  "run_date": "2026-06-08",
+  "location": "London, England, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "In-person",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "Fuse Energy Workable (company ATS), resolved from BuiltIn London",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "Renewable energy tech (AI/automation-enabled)",
+  "requirements_met": [
+    "Collaborate with leadership on strategy, finance, operations, product development: founder-facing generalist scope",
+    "Drive critical initiatives and support market evaluations: strategy + ops generalist",
+    "Thrive in fast-paced first-principles startup: ex-Minima founder-facing background"
+  ],
+  "gaps": [
+    "Finance-heavy scope (real-time power trading context) may favour quantitative background",
+    "In-office London 5 days/week - not Cambridge-friendly"
+  ],
+  "preferred_met": [
+    "Comfortable across strategy, ops and product simultaneously",
+    "Builder mindset in cutting-edge tech environment"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 3, "total": 4, "points": 30, "calculation": "40 * (3/4) = 30"},
+    "preferred_skills": {"matched": 2, "total": 2, "points": 20, "calculation": "20 * (2/2) = 20"},
+    "experience_fit": {"points": 14, "calculation": "Mid-level generalist fits CEO-office FA scope strongly"},
+    "industry_match": {"points": 11, "calculation": "Energy tech with AI/automation backbone - adjacent rather than pure AI product"},
+    "location_match": {"points": 9, "calculation": "London in-office; Ryan covers London (Cambridge commute friction)"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "Salary not listed; $170M-funded startup CEO-office role likely above GBP 50k floor"},
+    "total": 84
+  },
+  "benefits": [],
+  "notes": "Fuse Energy: renewable energy startup, raised $170M (Balderton, Accel, Lakestar, Lowercarbon). CEO Office FA spanning strategy, finance, ops, product, market evaluations. Confirmed active via Built In London.",
+  "verified_at": "2026-06-08"
+}

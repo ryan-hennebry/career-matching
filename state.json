@@ -243,6 +243,217 @@
       "user_action": null,
       "expired_date": null,
       "reappeared": false
+    },
+    "founder-s-associate-priority/wing-assistant-founders-associate-growth-operations": {
+      "title": "Founder's Associate, Growth & Operations",
+      "company": "Wing Assistant",
+      "score": 82,
+      "role_type": "founder-s-associate-priority",
+      "source": "ATS sweep (Lever) \u2014 jobs.lever.co/getwingapp",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "active_status": "confirmed",
+      "job_url": "https://jobs.lever.co/getwingapp/0d89d775-cbdc-4f07-8165-d73fa3664c9d",
+      "location": "London, UK",
+      "requirements_met": [
+        "Work directly with founders across functions: 1 yr Founder's Associate at Minima + 6 yrs founder-facing",
+        "Comfort with ambiguity / entrepreneurial operator: brought structure to early-stage chaos at Minima",
+        "Funnel analytics / investigate churn & drop-off: GA, failure analysis at Amazon Alexa, metric dashboards",
+        "Sales enablement & onboarding optimisation: GTM and community-led presale ($4.5m, 15x ROI)",
+        "Cross-functional execution across growth & ops: ran multiple workstreams seed-to-Series-A"
+      ],
+      "user_action": null,
+      "expired_date": null,
+      "reappeared": false
+    },
+    "founder-s-associate-priority/tilt-founders-associate": {
+      "title": "Founders Associate",
+      "company": "Tilt",
+      "score": 92,
+      "role_type": "founder-s-associate-priority",
+      "source": "JobSpy (Indeed) + Ashby direct",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "active_status": "confirmed",
+      "job_url": "https://jobs.ashbyhq.com/tilt/0d5fad5b-1fea-4f4f-b0c5-3fd47e282e60",
+      "location": "London, England, UK",
+      "requirements_met": [
+        "Work directly with CEO on company OS, fundraising/IR, special projects: matches ex-Minima founder-facing generalist experience",
+        "Build AI automations: matches Ryan's current work building AI agents",
+        "Create decks and operate across functions: generalist operator background",
+        "Comfort with ambiguity in fast-scaling startup: founder-facing generalist"
+      ],
+      "user_action": null,
+      "expired_date": null,
+      "reappeared": false
+    },
+    "founder-s-associate-priority/fuse-energy-founders-associate-ceo-office": {
+      "title": "Founder's Associate (CEO Office)",
+      "company": "Fuse Energy",
+      "score": 84,
+      "role_type": "founder-s-associate-priority",
+      "source": "Fuse Energy Workable (company ATS), resolved from BuiltIn London",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "active_status": "confirmed",
+      "job_url": "https://apply.workable.com/fuseenergy/j/D1150E2D86/",
+      "location": "London, England, UK",
+      "requirements_met": [
+        "Collaborate with leadership on strategy, finance, operations, product development: founder-facing generalist scope",
+        "Drive critical initiatives and support market evaluations: strategy + ops generalist",
+        "Thrive in fast-paced first-principles startup: ex-Minima founder-facing background"
+      ],
+      "user_action": null,
+      "expired_date": null,
+      "reappeared": false
+    },
+    "founder-s-associate-priority/plum-fintech-founder-associate": {
+      "title": "Founder Associate",
+      "company": "Plum Fintech",
+      "score": 72,
+      "role_type": "founder-s-associate-priority",
+      "source": "JobSpy (Indeed) + Workable direct",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "active_status": "confirmed",
+      "job_url": "https://jobs.workable.com/view/jYk5awnGkGbc9zVzgt8Vau/hybrid-founder-associate-in-london-at-plum-fintech",
+      "location": "London, England, UK",
+      "requirements_met": [
+        "Work directly with founder on high-impact strategic initiatives: founder-facing generalist background",
+        "Entrepreneurial mindset, thrive in ambiguous fast-moving situations: ex-Minima founder-facing generalist",
+        "Identify opportunities to expand TAM / new product verticals: strategy + ops generalist"
+      ],
+      "user_action": null,
+      "expired_date": null,
+      "reappeared": false
+    },
+    "founding-generalist-priority/decagon-agent-strategy-manager": {
+      "title": "Agent Strategy Manager",
+      "company": "Decagon",
+      "score": 89,
+      "role_type": "founding-generalist-priority",
+      "source": "Decagon Ashby (vc-talent-boards-wave2: a16z/Accel/Index portfolio)",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "active_status": "confirmed",
+      "job_url": "https://jobs.ashbyhq.com/decagon/ac14f2e8-950e-4668-a6ff-41f80181f006",
+      "location": "London",
+      "requirements_met": [
+        "Strategic advisor / relationship management: 6 yrs founder-facing at Minima building partnerships, investor and community relationships",
+        "Deployment / project execution: ran GTM, presale, ambassador programmes end-to-end across multiple workstreams",
+        "AI industry expertise: actively building AI agents with Claude Code, deep current AI context",
+        "Cross-functional work with product/eng: coordinated dev, marketing, ops at early-stage startup",
+        "Outstanding communication: PR (2M views), content (40K followers), keynotes/investor comms"
+      ],
+      "user_action": null,
+      "expired_date": null,
+      "reappeared": false
+    },
+    "ai-operations-ai-ops/32co-ai-operations-strategy-associate": {
+      "title": "AI, Operations & Strategy Associate",
+      "company": "32Co",
+      "score": 90,
+      "role_type": "ai-operations-ai-ops",
+      "source": "ATS sweep (Lever) \u2014 jobs.lever.co/32Co",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "active_status": "confirmed",
+      "job_url": "https://jobs.lever.co/32Co/5d26db2b-c7af-431e-9473-462708580db9",
+      "location": "London",
+      "requirements_met": [
+        "Operations & strategy ownership: 6 years founder-facing generalist at Minima across ops, GTM, fundraising",
+        "AI tools / AI infrastructure: building AI agents with Claude Code; evaluates emerging AI tech",
+        "Cross-functional partnering with product and engineering: managed multiple workstreams at early-stage startup",
+        "Data governance / analytics: Data Analyst at Amazon Alexa, GA, metric dashboards",
+        "Comfort with ambiguity at an early-stage, Tier-1-backed startup: 6 yrs seed-to-Series-A"
+      ],
+      "user_action": null,
+      "expired_date": null,
+      "reappeared": false
+    },
+    "ai-operations-ai-ops/fuse-energy-ai-operations-manager": {
+      "title": "AI Operations Manager",
+      "company": "Fuse Energy",
+      "score": 80,
+      "role_type": "ai-operations-ai-ops",
+      "source": "JobSpy (LinkedIn) + Built In London direct",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "active_status": "confirmed",
+      "job_url": "https://apply.workable.com/fuseenergy/",
+      "location": "London, England, UK",
+      "requirements_met": [
+        "Identify opportunities for AI implementation across business: matches Ryan building AI agents/automations",
+        "Redesign operational processes with AI: ops generalist + AI tooling",
+        "Construct internal AI tools to boost efficiency: hands-on AI builder",
+        "Drive automation and decision-making across workflows: operator background"
+      ],
+      "user_action": null,
+      "expired_date": null,
+      "reappeared": false
+    },
+    "ai-product-associate-ai-product-builder/sierra-strategist-agent-development": {
+      "title": "Strategist, Agent Development",
+      "company": "Sierra",
+      "score": 87,
+      "role_type": "ai-product-associate-ai-product-builder",
+      "source": "Sierra Ashby (vc-talent-boards-wave2: Sequoia/Benchmark/ICONIQ portfolio)",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "active_status": "confirmed",
+      "job_url": "https://jobs.ashbyhq.com/sierra/548eccd8-85c7-4cfa-a145-1c6ba5c17dc2",
+      "location": "London",
+      "requirements_met": [
+        "Product strategy + customer insight: led GTM, positioning, messaging at Minima; user-facing product marketing",
+        "Coordinate technical + non-technical stakeholders: worked across dev, marketing, ops, founders for 6 yrs",
+        "Outstanding communication: PR (Bloomberg/Yahoo, 2M views), 40K X following, keynotes",
+        "Drive execution of complex multi-workstream projects: ran presale ($4.5M), ambassador programme (75K nodes)",
+        "Direct exposure to building AI agents: currently building agents with Claude Code (conversational/agentic)"
+      ],
+      "user_action": null,
+      "expired_date": null,
+      "reappeared": false
+    },
+    "ai-product-associate-ai-product-builder/tomoro-uk-applied-ai-solution-engineer": {
+      "title": "UK Applied AI Solution Engineer",
+      "company": "Tomoro",
+      "score": 78,
+      "role_type": "ai-product-associate-ai-product-builder",
+      "source": "JobSpy (LinkedIn) + Tomoro careers direct",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "active_status": "confirmed",
+      "job_url": "https://tomoro.ai/careers/uk-applied-ai-solution-engineer",
+      "location": "London, England, UK",
+      "requirements_met": [
+        "Design, build and deploy AI applications / agents around LLMs: directly matches Ryan building AI agents",
+        "Client-facing - understand business challenges and explain AI solutions: founder-facing communication strength",
+        "Own design and build of AI solutions hands-on: builder profile",
+        "Stay current with AI/ML developments: actively building in AI"
+      ],
+      "user_action": null,
+      "expired_date": null,
+      "reappeared": false
+    },
+    "ai-product-associate-ai-product-builder/siena-ai-product-manager": {
+      "title": "Product Manager",
+      "company": "Siena AI",
+      "score": 74,
+      "role_type": "ai-product-associate-ai-product-builder",
+      "source": "JobSpy (LinkedIn) + Ashby direct",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "active_status": "confirmed",
+      "job_url": "https://jobs.ashbyhq.com/siena/886bddc1-1fc7-4869-aa4a-563229ffa12c",
+      "location": "London, England, UK",
+      "requirements_met": [
+        "Own product for AI agents across customer touchpoints: matches Ryan building AI agents",
+        "Operate in small high-leverage distributed team: startup generalist + builder",
+        "Translate AI capabilities into product: AI builder + founder-facing background"
+      ],
+      "user_action": null,
+      "expired_date": null,
+      "reappeared": false
     }
   },
   "expired_jobs": {}

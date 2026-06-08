@@ -1,0 +1,26 @@
+{
+  "channel": "jobspy-deep-wave2",
+  "status": "complete",
+  "run_date": "2026-06-08",
+  "queries_run": 21,
+  "sites": ["linkedin", "indeed", "glassdoor"],
+  "glassdoor_status": "failed (location not parsed on all queries)",
+  "raw_counts_by_role": {
+    "founder-s-associate-priority": {"merged_unique": 179, "filtered": 122},
+    "founding-operator-priority": {"merged_unique": 115, "filtered": 81},
+    "founding-generalist-priority": {"merged_unique": 145, "filtered": 81},
+    "ai-operations-ai-ops": {"merged_unique": 189, "filtered": 127},
+    "ai-product-associate-ai-product-builder": {"merged_unique": 332, "filtered": 241}
+  },
+  "net_new_verified": 6,
+  "verified_jobs": [
+    {"company": "Tilt", "title": "Founders Associate", "score": 92, "role_type": "founder-s-associate-priority"},
+    {"company": "Fuse Energy", "title": "Founder's Associate (CEO Office)", "score": 84, "role_type": "founder-s-associate-priority"},
+    {"company": "Fuse Energy", "title": "AI Operations Manager", "score": 80, "role_type": "ai-operations-ai-ops"},
+    {"company": "Tomoro", "title": "UK Applied AI Solution Engineer", "score": 78, "role_type": "ai-product-associate-ai-product-builder"},
+    {"company": "Siena AI", "title": "Product Manager", "score": 74, "role_type": "ai-product-associate-ai-product-builder"},
+    {"company": "Plum Fintech", "title": "Founder Associate", "score": 72, "role_type": "founder-s-associate-priority"}
+  ],
+  "jobspy_failures": ["glassdoor: location not parsed (all 21 queries) - linkedin+indeed compensated"],
+  "schema_validation": "22 files validated, 22 passed, 0 failed"
+}

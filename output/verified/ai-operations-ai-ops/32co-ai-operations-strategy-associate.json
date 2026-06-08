@@ -1,0 +1,50 @@
+{
+  "job_id": "32co-ai-operations-strategy-associate-2026-06-08",
+  "title": "AI, Operations & Strategy Associate",
+  "company": "32Co",
+  "job_url": "https://jobs.lever.co/32Co/5d26db2b-c7af-431e-9473-462708580db9",
+  "role_type": "ai-operations-ai-ops",
+  "score": 90,
+  "source_channel": "industry-job-boards",
+  "run_date": "2026-06-08",
+  "location": "London",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": null,
+  "salary_max": null,
+  "currency": "GBP",
+  "source": "ATS sweep (Lever) — jobs.lever.co/32Co",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "AI / Healthtech",
+  "requirements_met": [
+    "Operations & strategy ownership: 6 years founder-facing generalist at Minima across ops, GTM, fundraising",
+    "AI tools / AI infrastructure: building AI agents with Claude Code; evaluates emerging AI tech",
+    "Cross-functional partnering with product and engineering: managed multiple workstreams at early-stage startup",
+    "Data governance / analytics: Data Analyst at Amazon Alexa, GA, metric dashboards",
+    "Comfort with ambiguity at an early-stage, Tier-1-backed startup: 6 yrs seed-to-Series-A"
+  ],
+  "gaps": [
+    "Role centers on designing/maintaining AI infrastructure and deployment standards — Ryan's AI building is agent-app level (Claude Code), not platform/MLOps infrastructure",
+    "Healthcare domain (clinical care) is new to Ryan"
+  ],
+  "preferred_met": [
+    "Startup operating experience",
+    "Hands-on AI tooling proficiency",
+    "Analytical / data background"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 5, "total": 5, "points": 40, "calculation": "40 * (5/5) = 40 — ops, strategy, AI tools, cross-functional, data governance all matched"},
+    "preferred_skills": {"matched": 3, "total": 3, "points": 20, "calculation": "20 * (3/3) = 20 — no explicit preferred list; responsibilities-driven role, full award"},
+    "experience_fit": {"points": 15, "calculation": "Associate/mid-level role; Ryan's 8 yrs incl. 6 founder-facing generalist is ideal fit"},
+    "industry_match": {"points": 15, "calculation": "AI healthtech — genuine AI company (AI enables generalist clinicians to deliver specialist care)"},
+    "location_match": {"points": 10, "calculation": "London hybrid — within Cambridge/London target, all modes acceptable"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "Salary not stated; Tier-1-backed (Balderton) — no penalty applied"},
+    "total": 100
+  },
+  "benefits": ["Birthday time off", "Quarterly events", "Performance reviews"],
+  "notes": "32Co: AI healthtech (Balderton-backed) enabling generalist clinicians to deliver specialist-level care at scale; founders ex-Oxford doctor + ex-BCG. Score capped at 90 vs raw 100: role leans toward AI infrastructure/deployment standards (platform-level) and healthcare domain is new. Net-new — not in any dedup list.",
+  "run_date_confirmed": "2026-06-08",
+  "verified_at": "2026-06-08"
+}

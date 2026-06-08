@@ -1,0 +1,46 @@
+{
+  "job_id": "plum-fintech-founder-associate-2026-06-08",
+  "title": "Founder Associate",
+  "company": "Plum Fintech",
+  "job_url": "https://jobs.workable.com/view/jYk5awnGkGbc9zVzgt8Vau/hybrid-founder-associate-in-london-at-plum-fintech",
+  "role_type": "founder-s-associate-priority",
+  "score": 72,
+  "source_channel": "jobspy-aggregator",
+  "run_date": "2026-06-08",
+  "location": "London, England, UK",
+  "status": "new",
+  "job_type": "Full-time",
+  "work_arrangement": "Hybrid",
+  "salary_min": 50000,
+  "salary_max": 70000,
+  "currency": "EUR",
+  "source": "JobSpy (Indeed) + Workable direct",
+  "date_posted": null,
+  "active_status": "confirmed",
+  "industry": "Fintech (AI-enabled saving/investing)",
+  "requirements_met": [
+    "Work directly with founder on high-impact strategic initiatives: founder-facing generalist background",
+    "Entrepreneurial mindset, thrive in ambiguous fast-moving situations: ex-Minima founder-facing generalist",
+    "Identify opportunities to expand TAM / new product verticals: strategy + ops generalist"
+  ],
+  "gaps": [
+    "Demonstrated excellence in analytical and financial modelling - not Ryan's core strength",
+    "Fluency in a continental European language required - likely a hard gap",
+    "M&A due diligence experience not in profile"
+  ],
+  "preferred_met": [
+    "Passion for fintech / consumer money mission"
+  ],
+  "score_breakdown": {
+    "required_skills": {"matched": 3, "total": 5, "points": 24, "calculation": "40 * (3/5) = 24"},
+    "preferred_skills": {"matched": 1, "total": 2, "points": 10, "calculation": "20 * (1/2) = 10"},
+    "experience_fit": {"points": 13, "calculation": "Mid-level generalist fits FA scope; financial-modelling lean reduces slightly"},
+    "industry_match": {"points": 15, "calculation": "Fintech using AI automation - good AI alignment"},
+    "location_match": {"points": 10, "calculation": "London hybrid (2 days/week), Ryan covers London"},
+    "salary_penalty": {"applied": false, "points": 0, "reason": "EUR 50-70k range overlaps GBP 50k floor"},
+    "total": 72
+  },
+  "benefits": ["Stock options", "Private health insurance", "Flexible remote work", "Generous holiday"],
+  "notes": "Plum: AI-powered saving/investing app, 2M+ users across 10 European markets, GBP 2bn saved. FA on leadership team focused on TAM expansion, new geographies, acquisitions. European language requirement is the key gap.",
+  "verified_at": "2026-06-08"
+}
