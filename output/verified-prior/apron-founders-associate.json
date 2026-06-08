@@ -1,0 +1,23 @@
+{
+  "company": "Apron",
+  "title": "Founder Associate (FinCrime & Fraud)",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/apron/d67c2e2f-8b75-43c8-b905-2fa94ce5cb56",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 48,
+  "tier": "Stretch",
+  "must_haves": [
+    "Analytical mindset and strong program-management skills",
+    "Passion for AI automation; experience building automations/internal tools/agent workflows valued",
+    "Fintech risk / payments / fraud-FinCrime exposure explicitly NOT required"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Builds AI agents with Claude Code (directly matches the 'agent workflows / AI-first' framing)",
+    "Founder-facing generalist with operational/analytical execution",
+    "High agency across ambiguous workstreams"
+  ],
+  "one_line_verdict": "Open and notably does NOT require fintech/FinCrime background while explicitly rewarding AI-agent-building - Ryan's strongest of the gated-domain roles, but it is a risk/ops-infrastructure mandate (fintech context, program-management heavy) rather than community-led GTM, so a genuine stretch.",
+  "fetch_note": "Confirmed open via Ashby + StudySmarter/SimplyHired mirrors. Apron = payments fintech (founded 2021, ~100 staff, $50m raised, Index/Bessemer/Tony Fadell). Role owns FinCrime/fraud infrastructure; predicted EUR60-80k. AI-automation valued, domain exp not required."
+}

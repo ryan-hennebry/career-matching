@@ -1,0 +1,28 @@
+{
+  "company": "Model ML",
+  "title": "Data, Strategy, & Ops",
+  "location": "London, England",
+  "direct_url": "https://www.workatastartup.com/jobs/95186",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 33,
+  "tier": "Unlikely",
+  "must_haves": [
+    "6+ years experience",
+    "Data / strategy / operations capability for an enterprise AI workflow platform",
+    "Comfort with the rigour expected by major financial institutions (Model ML's customers)",
+    "In-person London"
+  ],
+  "hard_blockers": [
+    "Customer base is major financial institutions; role likely expects finance/data-analytical rigour and an IB/consulting/quant-adjacent profile that Ryan lacks",
+    "'Data' framing implies SQL/quantitative analysis depth not evidenced in Ryan's CV",
+    "Enterprise B2B / fintech domain rather than crypto/Web3 community-led growth"
+  ],
+  "met_strengths": [
+    "6+ years met (~6.4 yrs); UK auth, London",
+    "Founder-adjacent strategy & ops ownership, fundraising support, cross-functional execution",
+    "Agentic-AI builder"
+  ],
+  "one_line_verdict": "Meets the 6+ year bar and London, but a 'Data, Strategy & Ops' role serving major financial institutions skews toward analytical/finance rigour and an IB/consulting profile — a stretch for an operator with no quant/data-engineering depth.",
+  "fetch_note": "Confirmed open via YC Work at a Startup (job 95186, £90-130K, 6+ yrs, London, no visa). Full must-haves not exposed on the listing; degree not stated. Direct apply via workatastartup.com/jobs/95186."
+}

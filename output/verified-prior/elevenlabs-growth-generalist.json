@@ -1,0 +1,27 @@
+{
+  "company": "ElevenLabs",
+  "title": "Growth Generalist",
+  "location": "Remote (global; optional London office) — UK eligible",
+  "direct_url": "https://elevenlabs.io/careers/19d9a7a0-10d9-41d8-b515-a61f1d85f186/growth-generalist",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 72,
+  "tier": "Plausible",
+  "must_haves": [
+    "Great copywriting skills",
+    "Extremely organized; juggle multiple projects with constant context-switching",
+    "Able to write SQL queries, build dashboards and spreadsheet models",
+    "Learn new tools quickly; creative problem-solving",
+    "Support B2B marketing team turning spend into pipeline"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Deep copywriting/content/lifecycle marketing track record (content engine, 50k email list, A/B testing, segmentation)",
+    "Fully remote globally with London office — no visa/eligibility block for UK-based Ryan",
+    "AI-native product company; Ryan builds AI agents and is an AI power user",
+    "Proven multi-project generalist as founding-era operator"
+  ],
+  "hard_blockers_note": "None hard. Soft gap: explicit SQL/dashboard/spreadsheet-model expectation — Ryan is data-confident (Amazon Alexa analyst, lifecycle A/B testing) but no stated SQL.",
+  "one_line_verdict": "Strong marketing-craft match at a top AI company; only friction is the SQL/dashboard analytical expectation, which Ryan can plausibly meet but hasn't formally demonstrated.",
+  "fetch_note": "Confirmed open on official elevenlabs.io careers page. Remote-global eligibility verified — UK is not blocked; London listed as office option."
+}

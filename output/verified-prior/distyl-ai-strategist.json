@@ -1,0 +1,30 @@
+{
+  "company": "Distyl AI",
+  "title": "AI Strategist",
+  "location": "London, UK",
+  "direct_url": "https://jobs.ashbyhq.com/Distyl/d6703c85-b399-475b-8bf7-d40c7b50ad39",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 42,
+  "tier": "Stretch",
+  "must_haves": [
+    "Led complex client-facing projects (AI / technology consulting / fast-moving enterprise)",
+    "Own business outcomes end-to-end; credible with C-suite and ops teams",
+    "Comfortable with Python, SQL or similar ('technical enough to be dangerous')",
+    "Comfortable navigating messy enterprise data",
+    "Willing to travel 25-75%"
+  ],
+  "hard_blockers": [
+    "Role centres on enterprise delivery / technology-consulting track record (F500 telecom/healthcare/insurance/manufacturing) which Ryan lacks",
+    "First-hire-in-London framing implies a senior, self-directing operator who has run enterprise engagements before"
+  ],
+  "met_strengths": [
+    "Genuine agentic-AI fluency (building agents with Claude Code since 2023)",
+    "Strong with ambiguity, founder-adjacent ownership, turning vague priorities into workstreams",
+    "Excellent communicator across investors, community, PR; can hold a room",
+    "Technical-enough literacy (node ops, Amazon Alexa data analysis) though no Python/SQL production work",
+    "London-based, UK auth"
+  ],
+  "one_line_verdict": "Real agentic-AI + ownership fit and London is the right geo, but the role is built for an enterprise-delivery/consulting operator with F500 client engagements — Ryan's community-led-growth background is adjacent, not core.",
+  "fetch_note": "Confirmed open via Ashby posting API (job-board/Distyl). London is the genuine first-hire role, distinct from US AI Strategist listings. Requirements pulled from full descriptionHtml."
+}

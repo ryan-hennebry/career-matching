@@ -1,0 +1,29 @@
+{
+  "company": "Scope AI",
+  "title": "Deployment Strategist",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/getscope/84b29e3d-c0f4-4245-9e21-82ae76440930",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 55,
+  "tier": "Stretch",
+  "must_haves": [
+    "Ambitious early-career generalist eager for ownership (post-sales, scale large enterprise accounts)",
+    "Manage complex customer relationships in high-stakes environments",
+    "Translate operational challenges into AI solutions; close/expand 6-8 figure contracts",
+    "Comfortable travelling to field/industrial sites"
+  ],
+  "hard_blockers": [
+    "Enterprise account expansion / 6-8 figure contract ownership — Ryan has community-led GTM, not enterprise account management/post-sales delivery",
+    "Domain = field inspection for heavy industry (Oil&Gas, Pharma, Chem; AstraZeneca, SpaceX) — far from crypto/Web3/consumer-AI",
+    "Elite team/pedigree signal (Imperial/CMU/Oxford, Goldman, Index Ventures, EF)"
+  ],
+  "met_strengths": [
+    "'Early-career generalist with ownership' framing fits founder-associate/first-employee profile well",
+    "Agentic-AI building fluency for the 'translate problems into AI solutions' mandate",
+    "Startup-from-zero comfort (seed->Series A operator)",
+    "London-based, UK fit; £90-110k + OTE"
+  ],
+  "one_line_verdict": "The 'early-career high-ownership generalist' framing genuinely fits Ryan, but it's an enterprise post-sales/account-expansion role in heavy-industry inspection — domain and enterprise-delivery distance keep it a stretch.",
+  "fetch_note": "Confirmed open via Ashby API (getscope). Scope = AI-native field-data-collection for inspectors; $20m Index Ventures round, ex-EF 2024. London. Also has a separate 'Deployment Lead' and 'Forward Deployed Engineer'."
+}

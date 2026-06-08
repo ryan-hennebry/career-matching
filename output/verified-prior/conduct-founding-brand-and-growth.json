@@ -1,0 +1,27 @@
+{
+  "company": "Conduct",
+  "title": "Founding Brand & Growth (listed as 'Growth Generalist')",
+  "location": "London, UK",
+  "direct_url": "https://jobs.ashbyhq.com/conduct/46948c8f-7f8e-4991-a687-91cfc1417317",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 84,
+  "tier": "Strong",
+  "must_haves": [
+    "Founding/first marketing hire — build brand from zero",
+    "Sharp creative taste, relentless executional drive",
+    "Has built things before (communities, brands, products, events, side-hustles)",
+    "Fast, high-quality output; generalist range (ghostwriting, case studies, events, agency briefs)",
+    "B2B experience explicitly NOT required"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Built Minima brand/positioning from scratch as first employee — exact founding-hire profile",
+    "Grew community (100k Discord/Telegram), content engine (blog 30k, YouTube 5k, X 40k), PR to 2m views — proven brand-from-nothing builder",
+    "$4.5m presale on $300k budget (15x ROI) demonstrates creative + executional growth craft",
+    "AI-agent fluency (Claude Code) matches 'AI operating system' company",
+    "Company sponsors visas; Ryan has UK auth anyway"
+  ],
+  "one_line_verdict": "Near-ideal fit: role explicitly waives B2B requirement and prizes the exact zero-to-one brand/community/content builder profile Ryan embodies.",
+  "fetch_note": "Confirmed open via Ashby posting API; role originally advertised as 'Founding Brand & Growth', now titled 'Growth Generalist' on the live Ashby listing (same job, same URL). Full description pulled via API."
+}

@@ -1,0 +1,28 @@
+{
+  "company": "Neutreeno",
+  "title": "Founding Generalist",
+  "location": "Cambridge",
+  "direct_url": "https://apply.workable.com/neutreeno/",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 66,
+  "tier": "Plausible",
+  "must_haves": [
+    "Work directly with Founder across HR, commercial, ops, finance, legal, revops, investor relations (MEETS: FA at Minima covered ops/fundraising/IR)",
+    "Build foundations to scale team — hiring, internal systems, ops (MEETS: scaled 1->30, cross-functional execution)",
+    "Deploy and manage AI agents/tools for operational efficiency (MEETS strongly: builds AI agents with Claude Code)",
+    "Bias for action / ambiguity comfort (MEETS: turned ambiguous founder priorities into workstreams)"
+  ],
+  "hard_blockers": [
+    "Domain is climate/decarbonisation deep-tech (Cambridge Engineering spinout) — not crypto/Web3 but not a hard gate for a generalist role",
+    "Cambridge-based (Ryan currently Cambridge, relocating to London — actually a plus for this one)",
+    "Low salary band £32-37k + 0.05-0.1% equity"
+  ],
+  "met_strengths": [
+    "Textbook founding-generalist / FA fit — investor relations, fundraising support, ops, cross-functional execution",
+    "AI-agent deployment is an explicit ask and a core Ryan strength",
+    "Cambridge location aligns (he is currently Cambridge-based)"
+  ],
+  "one_line_verdict": "Strong founding-generalist match on responsibilities and AI-agent ask; held back from Strong only by climate-domain (vs crypto) and very modest pay band.",
+  "fetch_note": "Open via Workable (apply.workable.com/neutreeno). Neutreeno = Cambridge University Engineering spinout, decarbonisation software. Role works directly with Founder + Ops/Finance Lead, explicitly deploying AI agents. HQ at Cambridge Institute for Sustainability Leadership."
+}

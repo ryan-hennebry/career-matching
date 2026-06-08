@@ -1,0 +1,18 @@
+{
+  "company": "Stitch Health",
+  "title": "Founder Associate",
+  "location": "London",
+  "direct_url": null,
+  "availability": "not_found",
+  "agentic_flag": false,
+  "interview_likelihood": null,
+  "tier": "Unlikely",
+  "must_haves": [],
+  "hard_blockers": [
+    "No open roles — YC profile states 'No jobs at Stitch Health are currently posted'; company status listed as Inactive",
+    "Domain: regulated healthcare (care-coordination platform for doctors/nurses/social workers/pharmacists) — regulated health domain, not crypto/Web3"
+  ],
+  "met_strengths": [],
+  "one_line_verdict": "Stitch Health shows no live Founder Associate listing and is marked inactive on YC; healthcare-regulated domain anyway — treated as not_found.",
+  "fetch_note": "WebFetch of YC jobs page confirms no open roles and 'Inactive' status. Stitch Health = care-coordination/messaging platform for healthcare teams. No direct role URL available on YC, Wellfound, or company site."
+}

@@ -1,0 +1,22 @@
+{
+  "company": "ivee",
+  "title": "Founding Growth Lead",
+  "location": "London (Shoreditch, in-person)",
+  "direct_url": "https://growth-lead-ivee.lovable.app/",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 64,
+  "tier": "Plausible",
+  "must_haves": [
+    {"req": "4+ years in a growth or commercial role at a seed-to-Series-A startup", "verdict": "PARTIAL", "note": "~4.4 yrs at Minima (seed-to-Series-A) in growth/GTM/marketing — meets the years and stage, but growth was community-led, not classic B2B commercial."},
+    {"req": "Build pipeline from scratch (cold outreach, events, early-stage hustle)", "verdict": "PARTIAL", "note": "Built community/presale funnels and events from zero (40k X, 100k Discord/Telegram, $4.5m presale); less classic B2B outbound pipeline."},
+    {"req": "Daily AI usage with workflow automation (non-negotiable, assessed multiple times)", "verdict": "MEETS", "note": "Claude Code agent builder — clears the AI-fluency gate well."},
+    {"req": "Founder mentality, direction-setting, high ownership", "verdict": "MEETS", "note": "First-employee/founder's-associate ownership directly evidenced."},
+    {"req": "'Lead' seniority", "verdict": "PARTIAL", "note": "Listing frames Lead as founding-team status not management hierarchy; ceiling is head-of-growth. Soft seniority gate, not a hard one."},
+    {"req": "London in-person", "verdict": "MEETS", "note": "Relocating to London."}
+  ],
+  "hard_blockers": [],
+  "met_strengths": ["seed-to-Series-A growth tenure", "AI automation fluency", "founder mentality", "events + community-led growth from zero", "UK-based"],
+  "one_line_verdict": "Stage, years, AI-fluency and founder-mentality all fit; the gap is community-led vs B2B-commercial growth and a soft 'Lead' bar — plausible if he frames presale/community as pipeline-building.",
+  "fetch_note": "Full JD from the live Lovable application microsite (open, actively recruiting). ivee = AI training/automation startup, Shoreditch, $1M seed (Steven Bartlett, Microsoft AI, Balderton, Dawn). Apply via short form on the site."
+}

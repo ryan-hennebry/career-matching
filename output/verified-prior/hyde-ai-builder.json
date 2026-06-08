@@ -1,0 +1,29 @@
+{
+  "company": "Hyde",
+  "title": "AI Builder",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/hyde/c62abd66-86b3-4ec5-a9cd-a6133b61fe5e",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 28,
+  "tier": "Unlikely",
+  "must_haves": [
+    "Generalist ENGINEER across research/product/forward-deployed: build agents, train models, set up eval matrices, create RL environments",
+    "Experience in applied ML, reinforcement learning, product engineering, and/or top-tier management consulting",
+    "Build & productionize integrated training+inference stack for RL-based agents; write PRs to core platform",
+    "Work directly with enterprise CXOs to translate problems into productizable AI systems"
+  ],
+  "hard_blockers": [
+    "Hard technical gate: applied ML / RL / production engineering — Ryan builds agents at operator level (Claude Code), not production ML/RL/SWE",
+    "'Generalist engineer' who writes PRs to core platform and trains models — production SWE/ML depth Ryan lacks",
+    "Elite pedigree team (Olympiad medalists, ex-Palantir founders, McKinsey/KKR/Google/HBS)",
+    "Enterprise/Global-500 deployment context"
+  ],
+  "met_strengths": [
+    "Genuine hands-on agentic-AI building enthusiasm (Claude Code agents)",
+    "CXO/founder-facing comfort and startup ownership",
+    "London-based"
+  ],
+  "one_line_verdict": "Titled 'Builder' but it's fundamentally an applied-ML/RL/production-engineering + top-tier-consulting role — Ryan's operator-level agent-building doesn't clear the technical/pedigree gate.",
+  "fetch_note": "Confirmed open via Ashby API (hyde slug). Hyde = applied AI lab deploying RL-based agents for Global 500s; Bain Capital Ventures & General Catalyst backed; NYC/London/Mumbai. Role explicitly an engineer/applied-ML or top-tier-consulting hire."
+}

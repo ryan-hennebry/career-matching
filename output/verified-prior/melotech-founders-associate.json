@@ -1,0 +1,21 @@
+{
+  "company": "Melotech",
+  "title": "Founders Associate",
+  "location": "Remote (London listed as secondary location)",
+  "direct_url": "https://jobs.ashbyhq.com/melotech/8916153b-ad93-4ec8-9817-927fbc66062d",
+  "availability": "open",
+  "agentic_flag": false,
+  "interview_likelihood": 28,
+  "tier": "Unlikely",
+  "must_haves": [
+    {"req": "Degree in Business/Economics/Maths/highly-analytical field from a globally top-tier university", "verdict": "FAILS", "note": "Ryan has a 2:1 BA Business Management from Leeds — relevant field but not a globally top-tier institution."},
+    {"req": "1+ yr high-impact experience at elite consultancy / bulge-bracket IB / Big Tech / leading PE-VC fund / hyper-growth venture startup", "verdict": "PARTIAL", "note": "No consulting/IB/PE/Big Tech; DOES have early-employee experience at a venture-backed startup (Minima), which is one of the listed paths."},
+    {"req": "Exceptional analytical skills; turn complex data into executive insight", "verdict": "PARTIAL", "note": "Operator/GTM analytical strength but not the quant/strategy-deck profile they screen for."},
+    {"req": "Right-hand to CEO, fully autonomous strategy execution", "verdict": "MEETS", "note": "Directly proven via Founder's Associate role at Minima."},
+    {"req": "Remote/London eligibility", "verdict": "MEETS", "note": "London is a listed location; UK-authorized."}
+  ],
+  "hard_blockers": ["Globally top-tier university degree expectation", "elite consulting/IB/PE/Big-Tech pedigree strongly preferred"],
+  "met_strengths": ["genuine founder's-associate experience", "venture-backed startup early-employee path (a listed qualifier)", "autonomous execution"],
+  "one_line_verdict": "Strong founder-associate behavioural fit, but the explicit top-tier-university + elite-firm pedigree bar is a hard screen Ryan's profile does not clear.",
+  "fetch_note": "Full JD from api.ashbyhq.com/posting-api/job-board/melotech (open; London among Berlin/NY/LA/SF locations, fully remote). Melotech = Cherry/Speedinvest/GFC-backed media-entertainment AI. Pedigree bar verified directly in the posting."
+}

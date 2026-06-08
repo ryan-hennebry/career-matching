@@ -1,0 +1,25 @@
+{
+  "company": "Natter",
+  "title": "Founder's Associate",
+  "location": "London (Aldwych, hybrid)",
+  "direct_url": null,
+  "availability": "closed",
+  "agentic_flag": true,
+  "interview_likelihood": null,
+  "tier": "Unlikely",
+  "must_haves": [
+    "2-4 years in consulting, VC/PE, investment banking or partner/client development",
+    "Strong academic credentials",
+    "Comfort in high-stakes senior-leadership conversations"
+  ],
+  "hard_blockers": [
+    "Role closed - no longer accepting applications",
+    "Stated preference for IB/consulting/VC-PE pedigree (elite-background gate)"
+  ],
+  "met_strengths": [
+    "First-employee/founder-facing generalist with fundraising support exposure",
+    "AI-agent fluency (Claude Code)"
+  ],
+  "one_line_verdict": "Closed; even if open, the consulting/VC/IB-pedigree framing disadvantages a crypto-startup operator profile.",
+  "fetch_note": "Confirmed closed via Kindred Capital VC job board ('This job is no longer accepting applications'); apply contact hiring@natter.co. Natter = AI+video voice-of-community for enterprise (Deloitte, L&G)."
+}

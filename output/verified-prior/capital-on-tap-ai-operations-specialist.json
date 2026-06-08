@@ -1,0 +1,23 @@
+{
+  "company": "Capital on Tap",
+  "title": "AI Operations Specialist",
+  "location": "London (Moorgate, 3 days in office)",
+  "direct_url": "https://job-boards.greenhouse.io/capitalontap/jobs/8520481002",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 70,
+  "tier": "Plausible",
+  "must_haves": [
+    {"req": "Hands-on, proven experience deploying AI tools (Claude, Cursor, n8n, Zapier)", "verdict": "MEETS", "note": "Claude Code agent builder; matches the named tools and 'deploying not experimenting' bar reasonably."},
+    {"req": "2-5 years in product ops / BizOps / strategy / technical programme management", "verdict": "PARTIAL", "note": "~6.4 yrs operator experience but framed as GTM/community/founder's-associate, not titled product-ops/BizOps."},
+    {"req": "Build multi-step agentic workflows connecting AI models to internal systems", "verdict": "PARTIAL", "note": "Builds agents for intel/growth; less evidence connecting to enterprise internal systems at scale."},
+    {"req": "SQL competency + BI tooling familiarity", "verdict": "FAILS", "note": "No SQL/BI evidence on CV (Amazon Alexa data-analyst role is adjacent but not stated as SQL/BI)."},
+    {"req": "Low-code/no-code, APIs, integrations fluency", "verdict": "PARTIAL", "note": "Automation/agent interest present; formal API/integration work not evidenced."},
+    {"req": "UK work authorization", "verdict": "MEETS", "note": "UK-based, relocating to London."},
+    {"req": "Regulated-fintech domain experience", "verdict": "MEETS", "note": "Explicitly NOT required; 'apply even without all skills' stated, so domain is not a blocker."}
+  ],
+  "hard_blockers": [],
+  "met_strengths": ["Claude/n8n hands-on AI building", "operator/builder mindset", "high ownership + ambiguity tolerance", "UK-based", "no domain gate"],
+  "one_line_verdict": "Open, no degree or fintech-domain gate, and AI-tool fluency fits well; main soft gaps are SQL/BI and a formal product-ops title — plausible with strong AI-builder framing.",
+  "fetch_note": "Full JD from job-boards.greenhouse.io/capitalontap/jobs/8520481002 (open). Capital on Tap is a profitable SME credit/card fintech (1,000+ staff); role is AI-automation execution within Operations, not a regulated-finance practitioner role, so fintech domain is not a blocker. Apply via Greenhouse or careers@capitalontap.com."
+}

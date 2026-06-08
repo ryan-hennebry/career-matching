@@ -1,0 +1,18 @@
+{
+  "company": "Convu",
+  "title": "Founder's Associate",
+  "location": "London",
+  "direct_url": null,
+  "availability": "not_found",
+  "agentic_flag": false,
+  "interview_likelihood": null,
+  "tier": "Unlikely",
+  "must_haves": [],
+  "hard_blockers": [
+    "No live Convu careers page or listing found on any ATS (Ashby/Lever/Workable) or LinkedIn",
+    "Public signal that the founder 'stopped building Convu' — company appears wound down / defunct"
+  ],
+  "met_strengths": [],
+  "one_line_verdict": "Convu could not be located as an active company; a founder publicly stated they stopped building it, so the role is treated as not_found / defunct.",
+  "fetch_note": "Multiple WebSearch passes (incl. ATS-specific) found no Convu careers page or job listing. Closest namesake is Conveo (YC, AI market research, Antwerp/London/NY) — a different company. A LinkedIn reference indicates the founder 'stopped building Convu'. No direct URL available."
+}

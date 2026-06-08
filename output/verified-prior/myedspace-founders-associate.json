@@ -1,0 +1,24 @@
+{
+  "company": "MyEdSpace",
+  "title": "Founder's Associate",
+  "location": "London (Chancery Lane, in-office)",
+  "direct_url": null,
+  "availability": "closed",
+  "agentic_flag": false,
+  "interview_likelihood": null,
+  "tier": "Unlikely",
+  "must_haves": [
+    "Exposure to startup or high-growth environments (must-have)",
+    "5+ years in operations, strategy or business management",
+    "Strong financial/analytical and structured-thinking skills"
+  ],
+  "hard_blockers": [
+    "Role closed - no longer accepting applications"
+  ],
+  "met_strengths": [
+    "High-growth startup exposure (Minima)",
+    "Operations + fundraising-support background"
+  ],
+  "one_line_verdict": "Closed; was a 5+yr ops/strategy edtech FA - reasonable generalist fit but off-domain and now unavailable.",
+  "fetch_note": "Confirmed closed via Emerge Capital VC job board. MyEdSpace = edtech, $15m Series A. A 'Founder's Intern' variant remains on myedspace.co.uk but the Associate role is closed."
+}

@@ -1,0 +1,15 @@
+{
+  "company": "Metaview",
+  "title": "AI Operator",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/metaview",
+  "availability": "not_found",
+  "agentic_flag": true,
+  "interview_likelihood": null,
+  "tier": "Unlikely",
+  "must_haves": [],
+  "hard_blockers": [],
+  "met_strengths": [],
+  "one_line_verdict": "No 'AI Operator' role exists on Metaview's live Ashby board (June 2026); London roles are Product Engineer, Account Executive, Engagement Manager, Product Designer only.",
+  "fetch_note": "Checked jobs.ashbyhq.com/metaview and api.ashbyhq.com/posting-api/job-board/metaview (12 roles listed, none titled AI Operator). Title likely renamed, filled, or never an exact match. Treated as not_found."
+}

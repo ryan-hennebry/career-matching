@@ -29,6 +29,17 @@ All 5 channels cover all 5 role types. Sentinels in output/.channels/{channel}.d
 - a4e8ab49278081810: jobspy-deep-wave2 (broad query matrix, raised counts, direct-URL resolution)
 All dedup against the 12 current finds + output/_prior_runs_dedup.md (user's prior sheet).
 
+### Prior-roles CV interview-match — dispatched 2026-06-08
+Matching all 54 prior-sheet roles against real CV (output/_cv_parsed.json). Output → output/verified-prior/.
+- acbc42592d2effb86: slice 1 (Metaview..Capital on Tap)
+- abdbbfe5ab8947755: slice 2 (Specter..Lovable)
+- a6d2d94af9042eac1: slice 3 (Distyl..Installo)
+- aa9cf9eeaf99551e1: slice 4 (Euphoric..Stitch Health)
+- a59bf9680301a1132: slice 5 (Natter..Apron)
+- a3ebd6d19e8a04c7f: slice 6 (Dayjob..Marloo, marketing/growth)
+Each: find live url → confirm open/closed → pull reqs → CV match → interview_likelihood.
+After all 6: merge with the 20 new roles, rank all by interview_likelihood, present with direct links.
+
 ## Search Progress
 
 | Role Type | Status |

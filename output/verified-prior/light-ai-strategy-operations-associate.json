@@ -1,0 +1,29 @@
+{
+  "company": "Light",
+  "title": "AI Strategy & Operations Associate",
+  "location": "Copenhagen (NOT London — prior-sheet location mismatch)",
+  "direct_url": "https://jobs.ashbyhq.com/light-inc/e77a6704-0a0f-43ce-9270-6e61c0f8d793",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": null,
+  "tier": "Unlikely",
+  "must_haves": [
+    "Early-career operator (deliberately seeking someone early in their career)",
+    "Thinks natively in modern tools and AI workflows / reaches for automation before repetition",
+    "Execution-layer support across Finance, Legal & Compliance, People Ops, General Ops",
+    "Precision, ownership, multi-jurisdiction compliance tracking",
+    "Based in Copenhagen (role attached to Copenhagen office)"
+  ],
+  "hard_blockers": [
+    "Location is Copenhagen, not London — fails the London requirement and likely needs EU work authorization (Ryan is UK-only)",
+    "Role is FinOps / legal / compliance / people-ops execution for an ERP-replacement fintech — outside Ryan's crypto/Web3 + community-growth wheelhouse",
+    "Deliberately early-career (0-2 yr) hire; Ryan at ~6.4 yrs is over-levelled for the stated intent"
+  ],
+  "met_strengths": [
+    "Strong native AI-workflow / automation instinct (Claude Code agents)",
+    "Founder's-associate ownership across operations, fundraising, market research",
+    "Comfortable with ambiguity and broad mandates"
+  ],
+  "one_line_verdict": "Set to null — the only live listing is Copenhagen (EU auth) and a finance/legal/compliance ops role for an early-career hire, so it fails Ryan's London + UK-auth + crypto/operator profile despite strong AI-workflow fit.",
+  "fetch_note": "Ashby API (job-board/light-inc) shows this exact role ONLY in Copenhagen; Light's London listings are Solutions Engineer/BDR/AE/Implementation Manager/Compliance — no London AI Strategy & Ops Associate exists. Prior-sheet 'London' is incorrect. interview_likelihood null due to location/auth disqualifier."
+}

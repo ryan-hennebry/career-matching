@@ -1,0 +1,17 @@
+{
+  "company": "GoodMood",
+  "title": "Founders Associate",
+  "location": "London",
+  "direct_url": null,
+  "availability": "not_found",
+  "agentic_flag": false,
+  "interview_likelihood": null,
+  "tier": "Unlikely",
+  "must_haves": [],
+  "hard_blockers": [
+    "No live listing locatable; company identity ambiguous (multiple 'Good Mood'/'GoodMood' entities, none with a current London FA posting)"
+  ],
+  "met_strengths": [],
+  "one_line_verdict": "Not findable - no current GoodMood Founders Associate listing on Ashby, LinkedIn or aggregators; likely expired or mis-named in the prior sheet.",
+  "fetch_note": "Multiple WebSearches (incl. site:ashbyhq.com/linkedin, healthtech/physio angle) returned only 'The Good Mood Co' (wellness) and generic FA boards. No verifiable per-role URL. Recommend confirming exact company URL from the original sheet."
+}

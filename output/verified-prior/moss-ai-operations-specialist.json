@@ -1,0 +1,21 @@
+{
+  "company": "Moss",
+  "title": "AI Operations Specialist",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/moss",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 82,
+  "tier": "Strong",
+  "must_haves": [
+    {"req": "Native fluency with AI platforms (Claude, ChatGPT)", "verdict": "MEETS", "note": "Self-directed AI-agent building with Claude Code since Aug 2023."},
+    {"req": "Experience with automation tools incl. n8n; ability to build AI agents/automations/prompt workflows", "verdict": "MEETS", "note": "Builds Claude Code agents for competitor-intel and growth experiments."},
+    {"req": "Demonstrated experience using AI to ship/transform work in prior teams/projects", "verdict": "PARTIAL", "note": "Strong personal/project evidence; less framed as cross-functional team AI-enablement at a 300-person co."},
+    {"req": "No strong-coder requirement, but technical curiosity and native AI fluency", "verdict": "MEETS", "note": "Explicitly non-coding-gated; Ryan's profile matches the 'AI-fluent operator' archetype."},
+    {"req": "UK work authorization (London-based)", "verdict": "MEETS", "note": "UK work history, relocating to London."}
+  ],
+  "hard_blockers": [],
+  "met_strengths": ["Claude Code agent building", "n8n/automation interest", "operator-level cross-functional execution", "startup-paced delivery", "UK-based"],
+  "one_line_verdict": "Tailor-made for Ryan's AI-agent-building operator profile; entry-level, no coding gate, Claude/n8n native fluency wanted — strongest match in this slice.",
+  "fetch_note": "JD pulled from LinkedIn posting (4404313124, posted 6 days ago, 200+ applicants, open) + WebSearch. Direct ATS is jobs.ashbyhq.com/moss. Moss is a €180M spend-management SME platform (DE/NL/UK), 300+ staff; role is AI-adoption execution, not regulated-finance practitioner work."
+}

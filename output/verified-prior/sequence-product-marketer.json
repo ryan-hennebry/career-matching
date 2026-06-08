@@ -1,0 +1,27 @@
+{
+  "company": "Sequence",
+  "title": "Product Marketer - London",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/sequence/2354b86d-d72f-4853-99a7-2e3cabbfa26e",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 70,
+  "tier": "Plausible",
+  "must_haves": [
+    "AI-native marketer; sees AI as a force multiplier",
+    "Demand gen + creative written/visual content + product marketing",
+    "Translate product USP into LinkedIn/blog/email content; drive inbound pipeline via events/partnerships",
+    "Hands-on execution; strong pulse on market and funnel metrics",
+    "Tell company story via case studies, white papers, blog"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Strong content/lifecycle/PR marketing depth (blog, email, social, PR agencies, events)",
+    "Proven demand/conversion work (5k presale conversions, segmentation, A/B testing)",
+    "Explicitly AI-native — builds AI agents; matches Sequence's force-multiplier framing",
+    "Founding-era operator comfortable with ownership and direct customer/leadership access"
+  ],
+  "hard_blockers_note": "Soft concerns: fintech/revenue-ops domain (not Ryan's crypto/Web3 core) and B2B product-marketing emphasis vs his community-led/consumer growth.",
+  "one_line_verdict": "Solid content/demand-gen craft match and AI-native fit; domain shift to B2B fintech revenue tooling is the main stretch, not a blocker.",
+  "fetch_note": "Confirmed open via Ashby posting API; full description pulled. a16z/Salesforce/645-backed; London role distinct from NYC variant."
+}

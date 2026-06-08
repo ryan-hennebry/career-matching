@@ -1,0 +1,27 @@
+{
+  "company": "SilverTree (SilverTree Equity)",
+  "title": "FDE Talent Accelerator (Forward Deployed Pioneers — AI Talent Accelerator)",
+  "location": "London (SilverTree office, embedded in portfolio companies)",
+  "direct_url": "https://uk.linkedin.com/jobs/view/forward-deployed-engineers-fdes-graduate-scheme-at-silvertree-equity-4398492744",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 48,
+  "tier": "Stretch",
+  "must_haves": [
+    "High-calibre GRADUATE / early-career professional (graduate-scheme framing)",
+    "Knowledge of AI tools: Claude Code, N8N, Perplexity, emerging models (coachable, not expert-level)",
+    "Ability to build working automations and internal tools via AI-assisted coding platforms",
+    "Comfort with prompt engineering and agentic workflows",
+    "Familiarity with evolving AI landscape"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Directly builds with Claude Code and agentic workflows — matches the core AI-tooling requirement exactly (rare, strong signal)",
+    "Has shipped automations/agents (competitor-intel, growth-experiments)",
+    "Founding-era operator able to create operational impact embedded with leadership",
+    "London-based, UK auth"
+  ],
+  "hard_blockers_note": "Soft seniority mismatch: explicitly a GRADUATE / early-career talent accelerator. Ryan is ~6.4 yrs (mid-level operator) — likely over-levelled for an entry programme, which could weigh against him. Domain is software/tech PE portfolio ops; the 'build automations/internal tools via AI-assisted coding' expectation leans more technical than his pure-marketing background, though his Claude Code work substantially covers it.",
+  "one_line_verdict": "His Claude Code/agent-building is a near-perfect match for the program's AI-tooling bar, but it is pitched as a graduate scheme — seniority over-fit, not skills gap, is the main drag.",
+  "fetch_note": "Listing live on LinkedIn (job 4398492744); bebee mirror now 410 Gone. Requirements confirmed via two WebSearch passes. SilverTree Equity = software/tech PE fund; 'Amplify' is its AI hub. No public per-role ATS application URL found beyond LinkedIn."
+}

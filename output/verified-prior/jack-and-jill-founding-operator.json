@@ -1,0 +1,25 @@
+{
+  "company": "Jack & Jill",
+  "title": "Founding Operator",
+  "location": "London (Shoreditch, in-person 5 days/week)",
+  "direct_url": "https://jobs.ashbyhq.com/jack-and-jill/0b47c628-a2a6-4e4c-8ca6-f59dfb5f96b1",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 62,
+  "tier": "Plausible",
+  "must_haves": [
+    "Account management or customer success background with book-of-business ownership",
+    "Understanding of hiring processes",
+    "High agency, problem-solving; some scripting/automation familiarity a plus",
+    "Open to a range of backgrounds (no IB/consulting/elite-degree gate)"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Founder-facing first-employee generalist, scaled Minima 1->30",
+    "AI-native operator building agents with Claude Code (J&J is an AI recruiter product)",
+    "Community-led growth, lifecycle and onboarding ownership (50k node-runners, 100k community) maps to adoption/expansion",
+    "Strong agency + ambiguity tolerance"
+  ],
+  "one_line_verdict": "Open, no pedigree gate, AI-product, founder-facing - good generalist fit; main gap is classic CS/account-management book-of-business ownership and 5-day in-person.",
+  "fetch_note": "Confirmed open via StudySmarter mirror (active Apply button). This is the J&J INTERNAL Jill-Delivery Founding Operator (CS/account mgmt/expansion), GBP100-180k flexible cash/equity. NOTE: aggregators host external Founding Operator roles (e.g. Arctal) under the J&J board - this verdict is for the J&J internal role per the supplied Ashby URL."
+}

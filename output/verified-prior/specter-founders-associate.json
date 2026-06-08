@@ -1,0 +1,27 @@
+{
+  "company": "Specter",
+  "title": "Founder's Associate",
+  "location": "London",
+  "direct_url": null,
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 68,
+  "tier": "Plausible",
+  "must_haves": [
+    "Work directly with founders amplifying their bandwidth across product, sales, community, ops, research, hiring",
+    "High-ownership generalist; comfort with ambiguity",
+    "Apply via CV + short note to careers@tryspecter.com (£42k-£77k)"
+  ],
+  "hard_blockers": [
+    "No per-role direct URL found on an ATS (apply-by-email role) — cannot confirm exact live listing page; tryspecter.com careers/Notion-style hub, not a standard ATS posting",
+    "Listing geography/seniority not fully verifiable from a canonical posting"
+  ],
+  "met_strengths": [
+    "Founder's Associate at Minima (worked directly with founders 4+ yrs, seed->Series A)",
+    "Cross-functional ownership across fundraising, ops, GTM, community — exactly the listed surface area",
+    "Builds AI agents with Claude Code (agentic fluency)",
+    "Community-led growth track record ($4.5m presale 15x ROI, 100k community)"
+  ],
+  "one_line_verdict": "Near-ideal founder-associate generalist fit (prior FA + community-led GTM + agentic building); only risk is many strong applicants and email-only apply — not a degree/SWE/visa gate.",
+  "fetch_note": "AI Specter = tryspecter.com / specter.careers (recruitment-rebellion platform), careers@tryspecter.com, £42-77k London FA per WebSearch. The 'specter' Ashby slug is a DIFFERENT company (SF aerospace/hardware) and 'spector-ai' is a Bengaluru ML co — neither is this role. No canonical per-role URL surfaced; apply by email."
+}

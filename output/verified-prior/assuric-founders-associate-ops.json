@@ -1,0 +1,26 @@
+{
+  "company": "Assuric",
+  "title": "Founder's Associate (Ops)",
+  "location": "London",
+  "direct_url": "https://www.assuric.com/careers",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 58,
+  "tier": "Stretch",
+  "must_haves": [
+    "Build AI and automation workflows (MEETS strongly: builds AI agents with Claude Code)",
+    "Streamline processes and help shape the company as it scales (MEETS: founding-generalist ops experience)",
+    "Founder's-Associate generalist ownership (MEETS: FA at Minima)"
+  ],
+  "hard_blockers": [
+    "Domain: regulated healthtech — automates medical-device & software compliance / regulatory reviews (regulated-domain practitioner advantage Ryan lacks; not crypto/Web3)",
+    "CTO ex-Palantir + medical-device compliance product may favour technical/regulatory-fluent FAs"
+  ],
+  "met_strengths": [
+    "AI/automation workflow building is an explicit ask and Ryan's standout strength",
+    "Founder's Associate (Ops) title is a direct match to his first Minima role",
+    "Early-stage (founded 2024) small-team generalist environment suits him"
+  ],
+  "one_line_verdict": "Title and AI-workflow ask fit well, but Assuric is regulated medical-device/health compliance software where regulatory-domain familiarity is valued — pushes this to a Stretch rather than Plausible.",
+  "fetch_note": "Open via assuric.com/careers and LinkedIn (job 4004339031). Assuric (founded 2024, London) automates medical device & software compliance with AI workflows; co-founders Dr Paul Jewell (CEO) and Matt Jennings (CTO, ex-Palantir). Hybrid London. Role: build AI/automation workflows, streamline processes."
+}

@@ -1,0 +1,22 @@
+{
+  "company": "n8n",
+  "title": "AI Product Manager",
+  "location": "Remote (Europe, incl. UK)",
+  "direct_url": "https://jobs.ashbyhq.com/n8n/42e72645-d99a-4545-97b7-53ba3a699893",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 60,
+  "tier": "Plausible",
+  "must_haves": [
+    {"req": "AI-native by default (Claude Code, Cursor, Lovable, n8n)", "verdict": "MEETS", "note": "Daily Claude Code agent builder."},
+    {"req": "Builder track record: shipped AI products/prototypes/tools used by real people", "verdict": "PARTIAL", "note": "Has built agents for own use; less evidence of shipped products with an external user base."},
+    {"req": "Hands-on eval practice / building evaluations", "verdict": "FAILS", "note": "No evidence of formal eval/observability/guardrail work — a core named workstream."},
+    {"req": "Understanding of tool loops, planners, scaffolding, context management (agentic systems)", "verdict": "PARTIAL", "note": "Practical agent-building exposure via Claude Code but not productized agentic-system depth."},
+    {"req": "Strong product instincts / prior PM experience", "verdict": "FAILS", "note": "No PM title or product-management track record; background is GTM/community/operator."},
+    {"req": "UK/Europe work eligibility", "verdict": "MEETS", "note": "UK is a listed eligible location."}
+  ],
+  "hard_blockers": [],
+  "met_strengths": ["AI-native Claude Code builder", "comfort with ambiguity", "UK-eligible remote", "startup velocity"],
+  "one_line_verdict": "Genuinely open to earlier-career builders and AI-native, which keeps the door ajar, but no PM track record and no eval practice make it a stretch-to-plausible reach.",
+  "fetch_note": "Full JD from api.ashbyhq.com/posting-api/job-board/n8n (status open, UK among eligible locations). No hard degree/visa blocker, but the role is a product-management function Ryan has never held."
+}

@@ -1,0 +1,29 @@
+{
+  "company": "SolveAI",
+  "title": "Deployment Strategist",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/solve.ai/bbfb4e8b-f2ca-40c3-abd3-9dee0a70b429",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 48,
+  "tier": "Stretch",
+  "must_haves": [
+    "Strong background in customer-facing, ambiguous environments: solutions engineering / deployment strategy / consulting / customer engineering / operational transformation",
+    "Translate business problems into practical technical workflows",
+    "Comfortable discussing APIs, integrations, AI systems, deployment constraints with engineers",
+    "Drive adoption and organisational change (not just delivery)",
+    "Structured thinking, customer instinct, ownership"
+  ],
+  "hard_blockers": [
+    "Core experience expectation is enterprise solutions-engineering / consulting / customer-engineering delivery — Ryan's is community-led growth, adjacent not core",
+    "Enterprise software / CFO-room deployments rather than crypto/Web3 community domain"
+  ],
+  "met_strengths": [
+    "Prompt-engineering / LLM-workflow familiarity (nice-to-have) is a genuine match via Claude Code agents",
+    "Strong ownership in ambiguous environments; founder-adjacent",
+    "Customer/community-facing trust-building and enablement (ambassador programmes, hackathons)",
+    "London-based, UK auth; salary band £38-65K is realistic"
+  ],
+  "one_line_verdict": "No hard-coding gate (it 'isn't a pure engineering role') and the LLM-workflow nice-to-haves fit Ryan well, but the core ask is enterprise solutions-engineering/consulting delivery experience he doesn't have — a credible stretch.",
+  "fetch_note": "Confirmed open via Ashby API (job-board/solve.ai, slug bbfb4e8b), London, £38-65K. Full must-haves and nice-to-haves pulled from descriptionHtml."
+}

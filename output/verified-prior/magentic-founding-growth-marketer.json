@@ -1,0 +1,27 @@
+{
+  "company": "Magentic",
+  "title": "Founding Growth Marketer",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/magentic/036ab5ae-1ed9-4525-a734-a1ed3b6448dd",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 66,
+  "tier": "Plausible",
+  "must_haves": [
+    "Experience driving measurable growth at an early-stage ENTERPRISE B2B startup",
+    "Operate across full marketing stack (customer research, messaging, campaigns, analytics)",
+    "Strong bias for execution and ownership; zero-to-one mindset",
+    "Analytical thinking + creative storytelling; highly experimental",
+    "Leverage modern AI/automation tools to analyse, track, report, execute"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Exact founding/first-marketer profile — built Minima's GTM, positioning and messaging from scratch",
+    "Measurable growth: 15x-ROI presale, 100k community, 30k blog visitors",
+    "AI-agent fluency (Claude Code) aligns tightly with agentic-AI procurement product",
+    "Bias-to-execution founding-era operator; London-based, UK auth"
+  ],
+  "hard_blockers_note": "Soft must-have gap: 'measurable growth at an early-stage ENTERPRISE B2B startup'. Ryan's growth is community-led/consumer crypto, not enterprise B2B procurement — adjacent, not direct. Partial on the one stated experience criterion.",
+  "one_line_verdict": "Strong founding-marketer instincts and AI fluency, but the role specifically wants enterprise-B2B growth experience that Ryan lacks — capped at plausible rather than strong.",
+  "fetch_note": "Confirmed open via Ashby posting API; full description pulled. Sequoia-backed; team ex-OpenAI/Meta/Revolut/NASA/McKinsey."
+}

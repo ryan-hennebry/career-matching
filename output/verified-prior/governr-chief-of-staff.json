@@ -1,0 +1,27 @@
+{
+  "company": "governr",
+  "title": "Chief of Staff",
+  "location": "London",
+  "direct_url": "https://www.ziprecruiter.co.uk/jobs/453289607-chief-of-staff-at-governr",
+  "availability": "open",
+  "agentic_flag": false,
+  "interview_likelihood": 52,
+  "tier": "Stretch",
+  "must_haves": [
+    "Operate at founder-level intensity, turn strategy into execution, founders' right hand (MEETS: founder-adjacent, first employee)",
+    "Build financial models and investor pitches (PARTIAL: built pitch decks/investor updates; financial modelling not evidenced)",
+    "Design workflows and write strategy documents (MEETS: ops, market research, workstream design)",
+    "Strong commercial instincts / business fundamentals, comfort with ambiguity (MEETS)"
+  ],
+  "hard_blockers": [
+    "Domain: AI risk infrastructure / frameworks & quantification models — heavy on financial modelling and quantitative rigour, an area Ryan is light on",
+    "Advisor pedigree (MIT/Stanford/Columbia/Goldman/hedge funds) signals a quant/finance-leaning bar"
+  ],
+  "met_strengths": [
+    "Genuine founder's-right-hand experience (Minima FA, first employee, 1->30)",
+    "Investor-facing: pitch decks, investor updates, fundraising support across seed + Series A",
+    "Strategy/ops execution and ambiguity tolerance"
+  ],
+  "one_line_verdict": "Real CoS/founder's-right-hand DNA fits, but governr's risk-quantification/financial-modelling slant and quant-finance advisor bar make this a Stretch rather than a clean match.",
+  "fetch_note": "Open via ZipRecruiter (453289607). governr building risk infrastructure / quantification models for the AI economy. CoS works directly with founders; emphasis on financial models, investor pitches, strategy docs. Found via WebSearch; ZipRecruiter.co.uk pages often 403 on direct fetch but listing confirmed active."
+}

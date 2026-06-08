@@ -1,0 +1,30 @@
+{
+  "company": "Magentic Labs",
+  "title": "Forward Deployed Engineer",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/magentic/fff3e1f3-4403-4294-901c-cce91c06921f",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 22,
+  "tier": "Unlikely",
+  "must_haves": [
+    "Proficient in Python",
+    "2+ years professional experience",
+    "Data whizz — extract insights from large, messy datasets",
+    "Sketch an architecture and deliver a production-ready solution in weeks",
+    "Communicate with engineers and business stakeholders; keen to travel"
+  ],
+  "hard_blockers": [
+    "Hard gate on Python proficiency + production-ready solution delivery — Ryan has no production SWE",
+    "Enterprise manufacturing / supply-chain & procurement domain, not crypto/Web3",
+    "FDE title here is genuinely an engineering role (analyse data, build architecture)"
+  ],
+  "met_strengths": [
+    "Agentic-AI enthusiasm and Claude Code building",
+    "Turning ambiguous requirements into concrete specs (founder's-associate muscle)",
+    "Strong stakeholder communication; thrives in early-stage high-ownership",
+    "London-based, UK auth"
+  ],
+  "one_line_verdict": "Gates on Python proficiency and shipping production-ready solutions — a real engineering role Ryan cannot credibly clear despite strong agentic-AI and ownership signals.",
+  "fetch_note": "Confirmed open via Ashby posting API (job-board/magentic). Note Magentic also has a separate 'Deployment Strategist' London role (5-6 yrs delivery) which is a closer-but-still-enterprise fit."
+}

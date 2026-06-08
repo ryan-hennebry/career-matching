@@ -1,0 +1,27 @@
+{
+  "company": "Deel",
+  "title": "GTM AI Operator",
+  "location": "London / UK",
+  "direct_url": "https://jobs.ashbyhq.com/Deel/f525355a-ba3e-4f6b-9b8d-83087a69f98c",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 68,
+  "tier": "Plausible",
+  "must_haves": [
+    "2-4 years in RevOps / GTM Ops / Growth / Sales Operations",
+    "Hands-on experience shipping AI/LLM-powered workflows in production",
+    "Build agentic workflows with Claude Code, n8n, AI Studio, GitHub",
+    "Working knowledge of CRM and sales engagement tools (Salesforce, Outreach)",
+    "Builder-first, hands-on (not advisory); SQL a plus"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Directly building agentic workflows with Claude Code — matches the core tool stack and 'builder-first' framing exactly",
+    "GTM background: led go-to-market, lifecycle/segmentation, $4.5m presale, growth experiments",
+    "Years (~6.4) comfortably above the 2-4 band; UK auth, London",
+    "Large company so a generalist GTM+AI operator is more accessible than a startup FDE",
+    "Career-break agents work (competitor-intel, growth-experiments) maps to GTM automation"
+  ],
+  "one_line_verdict": "Strongest fit on the slice — exact Claude Code agentic-GTM tool match plus a real GTM/growth operator background, no hard blockers, at an accessible large company; only gap is formal RevOps/CRM-ops tooling depth.",
+  "fetch_note": "Confirmed open via Ashby (job-board/Deel, slug f525355a) and LinkedIn (entry-level, ~36 applicants, posted ~3 wks). Requirements: 2-4 yrs GTM/RevOps + production AI/LLM workflows, Claude Code/n8n stack, CRM knowledge."
+}

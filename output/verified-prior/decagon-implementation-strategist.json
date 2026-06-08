@@ -1,0 +1,18 @@
+{
+  "company": "Decagon",
+  "title": "Implementation Strategist",
+  "location": "London",
+  "direct_url": null,
+  "availability": "not_found",
+  "agentic_flag": true,
+  "interview_likelihood": null,
+  "tier": "n/a",
+  "must_haves": [],
+  "hard_blockers": [
+    "No role titled 'Implementation Strategist' exists on Decagon's current Ashby board (111 live roles checked)",
+    "Closest live titles: 'Implementation Manager' (London, per Indeed), 'Agent Strategy Manager' (multiple), 'Solutions Architect', 'Enterprise AI Implementation Lead' (per StudySmarter mirror) — title likely renamed/closed"
+  ],
+  "met_strengths": [],
+  "one_line_verdict": "Exact title 'Implementation Strategist' not found on Decagon's live board — likely renamed (Agent Strategy Manager / Implementation Manager) or filled; not verifiable as a live listing.",
+  "fetch_note": "Decagon Ashby API returned 111 roles, none titled 'Implementation Strategist'. Decagon = conversational/customer-experience AI for enterprises (Cash App, Chime, Oura). Enterprise implementation roles that DO exist (Implementation Manager ~£105-140k, Agent Strategy Manager) are enterprise-delivery roles that would gate hard on enterprise SaaS delivery years — Ryan would be Stretch/Unlikely on those if pursued."
+}

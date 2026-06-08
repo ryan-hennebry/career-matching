@@ -1,0 +1,28 @@
+{
+  "company": "Marloo",
+  "title": "GTM Associate, London",
+  "location": "London (in-person office, international travel)",
+  "direct_url": "https://jobs.ashbyhq.com/marloo/5c339f96-5929-4393-a040-8e05f38b5b12",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 62,
+  "tier": "Plausible",
+  "must_haves": [
+    "2+ years customer-facing experience (consulting, startups, sales, or customer success)",
+    "Strong communication connecting features to business outcomes",
+    "Low ego, ambitious, gritty, high bias to action",
+    "Active AI power user (10x productivity)",
+    "UK work authorisation without visa sponsorship",
+    "In-person London office commitment + international travel"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Exceeds 2+ yrs customer/community-facing experience (community-led growth, onboarding 50k users)",
+    "AI power user — builds agents with Claude Code; explicit must-have met strongly",
+    "UK work authorisation: met",
+    "Founding-era startup operator with ownership across GTM/ops/product"
+  ],
+  "hard_blockers_note": "No hard blockers. Soft concerns: role is demo-delivery/sales-conversion heavy (run demos at scale, trial-to-paid conversion) — closer to sales/CS than Ryan's brand/community/content core; financial-advice/wealth domain is outside his crypto/Web3 background (only 'nice to have').",
+  "one_line_verdict": "Meets every hard must-have including AI power-user and UK auth, but the sales-demo/conversion emphasis and fintech-adviser domain make it a step away from his strongest proven lane.",
+  "fetch_note": "Confirmed open via Ashby posting API; full description pulled. Blackbird-backed, 650+ firms. London role distinct from Sydney/Wellington variants."
+}

@@ -1,0 +1,28 @@
+{
+  "company": "Dayjob",
+  "title": "Customer Success Manager",
+  "location": "London (Camden) — hybrid, 3 days/week onsite at customer depots",
+  "direct_url": "https://www.ycombinator.com/companies/dayjob/jobs/X2DEuWt-customer-success-manager",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 58,
+  "tier": "Stretch",
+  "must_haves": [
+    "3+ years experience",
+    "Comfortable with regular travel and early depot starts",
+    "Already using AI tools daily",
+    "Strong ownership instincts; proactive, self-directed",
+    "Confidence working with data (no SQL required)",
+    "Interest in industrial/operational environments"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Exceeds 3+ yrs; strong ownership/self-direction as founding-era operator",
+    "Daily AI-tools user — builds AI agents with Claude Code (met strongly)",
+    "Data-confident (Amazon Alexa analyst, lifecycle analytics); no SQL required",
+    "London-based, UK auth"
+  ],
+  "hard_blockers_note": "No hard blockers. Soft concerns: this is a true customer-success/account-management role (own portfolio, onboarding, renewals) — Ryan has community/user growth but no stated B2B account-management/renewal ownership; industrial-logistics (waste/construction) depot field-work domain is far from crypto/Web3 and from his brand/marketing core.",
+  "one_line_verdict": "AI-native and ownership traits fit, but it is account-management/renewals field work in industrial logistics — a genuine pivot from his marketing/community strength, hence a stretch.",
+  "fetch_note": "Confirmed open via YC/Work at a Startup; full description pulled. YC S26, team of 5. Direct apply via workatastartup.com (signup_job_id 93563)."
+}

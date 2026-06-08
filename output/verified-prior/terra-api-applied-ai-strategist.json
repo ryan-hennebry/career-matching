@@ -1,0 +1,28 @@
+{
+  "company": "Terra API",
+  "title": "Applied AI Strategist - Market Intelligence (Health)",
+  "location": "London, UK",
+  "direct_url": "https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 55,
+  "tier": "Stretch",
+  "must_haves": [
+    "3+ years experience (product/market research or strategy at startups/funds preferred)",
+    "AI-native; uses AI tools naturally for analysis",
+    "Systems thinking across products, data, incentives, distribution",
+    "Comfortable with incomplete data / decisions under uncertainty",
+    "Brutally clear, directly actionable written work",
+    "NO software engineering / coding required"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "AI-native — builds agents with Claude Code for competitor-intel and growth-experiments (directly matches market-intelligence + AI-tooling brief)",
+    "3+ yrs met; startup operator with market-research/GTM exposure",
+    "Bias to action under ambiguity (turned ambiguous founder priorities into workstreams)",
+    "No SWE required removes the technical-gate risk; UK auth + sponsors visas anyway"
+  ],
+  "hard_blockers_note": "No hard blockers (SWE explicitly not required). Soft concerns: health/wearables domain is outside Ryan's crypto/Web3 background; role is a market-intelligence/strategy analyst function (talking to founders/PMs, segmenting markets) rather than the brand/growth/community execution that is his deepest strength.",
+  "one_line_verdict": "His AI-agent-built competitor-intel work maps unusually well to this strategy role, but it is analyst/strategy in health-data rather than his marketing-execution sweet spot — plausible-to-stretch.",
+  "fetch_note": "Confirmed open via YC; full description pulled. £40-120k, will sponsor visas. YC W21, team ~25. Apply via workatastartup.com (signup_job_id 93559)."
+}

@@ -1,0 +1,29 @@
+{
+  "company": "Cognition",
+  "title": "Applied AI Transformation Manager - Europe",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/cognition/2f6d29d9-1e3e-43a6-8b92-8ca5a1b23ede",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 38,
+  "tier": "Unlikely",
+  "must_haves": [
+    "Technically oriented strategic advisor/operator embedding with strategic enterprise accounts",
+    "Deliver enterprise-wide agentic-AI transformation programs (operating model + delivery model)",
+    "Quantify value targets, program management & delivery across multiple strategic accounts",
+    "Trusted advisor to senior/functional leaders; value realization & reporting"
+  ],
+  "hard_blockers": [
+    "Enterprise transformation/program-delivery role for the largest enterprises — Ryan has no enterprise delivery/program-management/consulting background",
+    "'Technically oriented' for Devin (the AI software engineer) — strong SWE/dev-tooling adjacency Ryan lacks at production depth",
+    "Talent-dense team (ex-Scale/Palantir/Cursor/DeepMind, IOI medalists) implies elite-pedigree bar",
+    "Skews to enterprise consulting/transformation seniority"
+  ],
+  "met_strengths": [
+    "Builds AI agents with Claude Code — genuine agentic fluency and credible AI-transformation narrative",
+    "Founder-adjacent operator comfortable with ambiguity",
+    "UK/London based"
+  ],
+  "one_line_verdict": "An enterprise agentic-AI transformation/delivery role for a dev-tools (Devin) company gated on technical depth + enterprise program delivery + elite pedigree — beyond Ryan's operator/community profile.",
+  "fetch_note": "Confirmed open via Ashby API (Cognition makes Devin/Windsurf). Role is enterprise transformation program delivery, 'technically oriented'. Europe/London. Glassdoor est. salary $55-97k (unverified)."
+}

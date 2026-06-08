@@ -1,0 +1,21 @@
+{
+  "company": "Requesty",
+  "title": "Founding Operator",
+  "location": "London",
+  "direct_url": "https://www.requesty.ai/careers",
+  "availability": "not_found",
+  "agentic_flag": true,
+  "interview_likelihood": null,
+  "tier": "Stretch",
+  "must_haves": [],
+  "hard_blockers": [
+    "No 'Founding Operator' role exists on Requesty careers page — current open roles are Founding Engineer, Founding DevOps/SRE Engineer, and Growth Lead only",
+    "Two of three open roles are engineering (SWE gate Ryan fails); the business role is 'Growth Lead' (Lead seniority)"
+  ],
+  "met_strengths": [
+    "Strong AI-infra-product fluency and AI-tooling — relevant to the open Growth Lead role conceptually",
+    "Acquisition/activation/retention growth experience from Minima maps to Growth Lead remit"
+  ],
+  "one_line_verdict": "Exact 'Founding Operator' title not found at Requesty; current openings are two engineering roles (SWE-gated) plus a Growth Lead (Lead seniority) — the prior listing appears retired.",
+  "fetch_note": "WebFetch of requesty.ai/careers (verified) shows only Founding Engineer, Founding DevOps/SRE Engineer, Growth Lead — all London on-site. No Founding Operator. Requesty = unified LLM gateway, $3m seed led by 20VC Sep 2025. Marked not_found for the specified title."
+}

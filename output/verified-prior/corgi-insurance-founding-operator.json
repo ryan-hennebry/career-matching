@@ -1,0 +1,25 @@
+{
+  "company": "Corgi Insurance",
+  "title": "Founding Operator",
+  "location": "London",
+  "direct_url": "https://www.ycombinator.com/companies/corgi-insurance/jobs",
+  "availability": "closed",
+  "agentic_flag": false,
+  "interview_likelihood": null,
+  "tier": "Plausible",
+  "must_haves": [
+    "Ex-founder / early-stage operator mindset, built something from scratch (MEETS: first employee, founder's associate, 1->30)",
+    "Path to run and eventually lead the London operation (PARTIAL: leadership is functional, no documented people-management headcount)"
+  ],
+  "hard_blockers": [
+    "The 'Ex-Founder / Early-Stage Operator – London' listing is no longer in Corgi's current open roles (closed); current London openings are Underwriter, Country Launcher, Portfolio Manager, Operations Associate, Founding Head of Sales, Founding BDR, Full Stack SWE, Quant Associate",
+    "Domain: full-stack insurance carrier (fintech/insurtech), not crypto/Web3; US-centric (sells into US startups, US hours)"
+  ],
+  "met_strengths": [
+    "Ex-founder/early-stage-operator framing maps directly to Ryan's first-employee + FA background",
+    "Built from scratch / scaled a startup 1->30",
+    "Open adjacent role 'Operations Associate' (new-grads ok, £50-70k) could be a fallback fit"
+  ],
+  "one_line_verdict": "The 'Founding Operator / Ex-Founder' early-stage-operator role matched Ryan's profile well but is now closed; Corgi is a US-centric insurtech carrier, and only adjacent ops/sales roles remain open — likelihood null due to closure.",
+  "fetch_note": "WebSearch surfaced an 'Ex-Founder / Early-Stage Operator – London' role but YC current jobs board (verified via WebFetch) no longer lists it — treated as closed. Corgi (YC S24, $108M Series A, $630M valuation) full-stack insurance carrier; ATS at jobs.ashbyhq.com/corgi. Current London roles are ops/sales/eng/underwriting."
+}

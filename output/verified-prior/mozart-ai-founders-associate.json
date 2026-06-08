@@ -1,0 +1,22 @@
+{
+  "company": "Mozart AI",
+  "title": "Founders Associate",
+  "location": "London",
+  "direct_url": "https://uk.linkedin.com/company/mozart-ai/jobs",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 58,
+  "tier": "Stretch",
+  "must_haves": [
+    {"req": "Work directly with founders across ops, product, and growth", "verdict": "MEETS", "note": "Ryan was first employee/Founder's Associate at Minima, working directly with founders across exactly these areas."},
+    {"req": "Manage 'central agentic intelligence' (AI agents/automation)", "verdict": "MEETS", "note": "Active Claude Code agent builder."},
+    {"req": "Regular financial reporting / accounting", "verdict": "PARTIAL", "note": "Fundraising/budget exposure ($300k budget, investor updates) but no formal accounting/bookkeeping."},
+    {"req": "Extreme intensity — weekends, late nights, EA-style tasks (flights, visas)", "verdict": "PARTIAL", "note": "Startup-intensity proven; willingness to do EA-grade admin is a fit/preference question."},
+    {"req": "Elite-pedigree signal (current FA is INSEAD)", "verdict": "PARTIAL", "note": "Ryan's 2:1 Leeds Business degree is solid but not the elite-MBA/top-tier signal the team appears to index on."},
+    {"req": "London-based", "verdict": "MEETS", "note": "Relocating to London; UK-authorized."}
+  ],
+  "hard_blockers": [],
+  "met_strengths": ["genuine Founder's Associate track record", "AI-agent building", "GTM/growth across seed-to-Series-A", "fundraising support"],
+  "one_line_verdict": "Ryan's actual Founder's-Associate-at-an-early-startup background maps closely, but elite-pedigree signalling and the EA-heavy/extreme-intensity framing pull it to a borderline stretch.",
+  "fetch_note": "Role confirmed open via founders' LinkedIn hiring posts and WebSearch (Balderton-backed AI music DAW, ~$7M raised, London). No standalone ATS URL found — usemozart.com is parked/for-sale; usemozart.com/careers 307-redirects to a GoDaddy parking page. Best direct link is the Mozart AI company LinkedIn jobs page. Apply via founders directly."
+}

@@ -1,0 +1,29 @@
+{
+  "company": "Ferry",
+  "title": "Deployment Strategist",
+  "location": "London",
+  "direct_url": "https://www.deployferry.io/careers/deployment-strategist",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 38,
+  "tier": "Unlikely",
+  "must_haves": [
+    "Min 2 years in a fast-paced, analytical, or client-facing environment",
+    "SQL proficiency + comfortable working directly with large datasets",
+    "Problem decomposition in ambiguous situations",
+    "Communicate across executive and frontline levels",
+    "In-person with London team 5 days/week, willing to travel to manufacturing sites"
+  ],
+  "hard_blockers": [
+    "SQL is a hard requirement and Ryan has no demonstrated SQL/data-querying production experience",
+    "Enterprise manufacturing-operations domain, not crypto/Web3 or community-led growth"
+  ],
+  "met_strengths": [
+    "Client/community-facing and analytical background",
+    "Agentic-AI builder; comfortable with ambiguity and ownership",
+    "Strong communicator with execs (investor-facing) and operators",
+    "London-based, UK auth"
+  ],
+  "one_line_verdict": "Lower experience bar (2 yrs) than peers, but the hard SQL/large-dataset requirement plus manufacturing domain make this a stretch for a non-technical operator.",
+  "fetch_note": "Confirmed open via company careers page (deployferry.io). Requirements (SQL required, Python nice-to-have, 5 days in-person, posted Jan 2026) verified via WebFetch of the direct URL."
+}

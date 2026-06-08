@@ -1,0 +1,27 @@
+{
+  "company": "ElevenLabs",
+  "title": "Deployment Strategist (Europe / UK)",
+  "location": "London / United Kingdom (remote-friendly)",
+  "direct_url": "https://jobs.ashbyhq.com/elevenlabs/5d1390e2-a6e8-4f8b-b01f-ad7e286009d2",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 55,
+  "tier": "Stretch",
+  "must_haves": [
+    "Experience working with customers in a technical capacity (student clubs / side projects accepted)",
+    "Basic proficiency in Python + understanding of API integration for prototyping/demos",
+    "Excellent communication; summarise complex technical concepts",
+    "Track record owning complex projects and delivering results",
+    "Technical aptitude to understand voice/audio AI models"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Strong project ownership and customer/community-facing track record",
+    "Agentic-AI builder (Claude Code) — strong technical-aptitude signal",
+    "Explicitly low bar on customer-technical experience and only 'basic' Python",
+    "UK-based; UK is an eligible location for this Europe role",
+    "Commercial/GTM instinct (presale, deal-structuring relevance)"
+  ],
+  "one_line_verdict": "Genuinely accessible vs other Deployment Strategist roles — only 'basic Python' and lenient customer-technical bar — but the Python/API-prototyping expectation and enterprise voice-AI deal ownership make it a fair stretch for a non-coding operator.",
+  "fetch_note": "Confirmed open via Ashby API (job-board/elevenlabs). UK-eligible variant is 'Deployment Strategist - Europe' (United Kingdom); standalone London slug returned 404 on WebFetch. Requirements (basic Python, API integration, customer-facing) pulled from listing."
+}

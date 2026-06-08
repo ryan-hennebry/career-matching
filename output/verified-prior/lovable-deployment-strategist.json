@@ -1,0 +1,29 @@
+{
+  "company": "Lovable",
+  "title": "Deployment Strategist",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/lovable/fb1e1c16-b5e8-4c9e-81f1-4fe69ac157d1",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 50,
+  "tier": "Stretch",
+  "must_haves": [
+    "Experience in high-growth SaaS, AI, consulting, or transformation environments",
+    "Drive adoption, organizational change, renewals, and expansion across Enterprise & Strategic accounts",
+    "Technical ability to collaborate with engineers to scope/prototype/deploy (not deep coding)",
+    "Lead enterprise deployments alongside Forward Deployed Engineers"
+  ],
+  "hard_blockers": [
+    "Enterprise account expansion/renewals/org-change leadership — Ryan lacks enterprise account/post-sales/transformation delivery experience",
+    "Enterprise deployment leadership with FDEs vs Ryan's startup community-led GTM",
+    "'Founding'-language hire implies high bar for establishing the function solo"
+  ],
+  "met_strengths": [
+    "Lovable is an AI app-builder (agentic) — directly aligns with Ryan's Claude-Code agent-building and product fluency",
+    "High-growth-AI environment comfort; ambiguity tolerance",
+    "Could scope/prototype with engineers via agentic-build skills",
+    "London (London/Stockholm) hybrid — UK fit"
+  ],
+  "one_line_verdict": "Best agentic-domain alignment of the deployment roles (AI app-builder) and no degree/visa gate, but the enterprise adoption/expansion/renewals mandate sits outside Ryan's community-GTM delivery experience — stretch.",
+  "fetch_note": "Confirmed open via Ashby + lovable.dev/careers; locations London, Boston (hybrid); 'Founding'-style enterprise deployment role working with Forward Deployed Engineers. No specific years stated."
+}

@@ -1,0 +1,27 @@
+{
+  "company": "Arctal",
+  "title": "Founding Operator",
+  "location": "London",
+  "direct_url": "https://www.jackandjill.ai/jobs/ops/founding-operator-60-100k-equity-at-arctal-9610d147-b6e4-4cc8-a6ad-80177e4a25ac",
+  "availability": "closed",
+  "agentic_flag": true,
+  "interview_likelihood": null,
+  "tier": "Plausible",
+  "must_haves": [
+    "1-5 years startup experience (MEETS: ~6.4 yrs, mostly early-stage)",
+    "Own entire revenue loop — GTM, sales execution, AI-automated workflows (PARTIAL: strong GTM/community, lighter direct sales-cycle execution)",
+    "Live in AI tools (MEETS strongly: builds AI agents)",
+    "Bias for action (MEETS)"
+  ],
+  "hard_blockers": [
+    "Domain: fintech (AI agents parsing financial documents for institutional investors / asset managers) — not crypto/Web3",
+    "Sales execution into financial-data firms — Ryan's revenue is community-led presale, not enterprise/asset-manager sales cycles"
+  ],
+  "met_strengths": [
+    "First-business-hire / founding generalist profile is exactly Ryan's lane",
+    "GTM, content, events, pipeline-building all in CV",
+    "AI-agent workflow design is a core strength"
+  ],
+  "one_line_verdict": "Excellent founding-operator shape and AI-tools alignment, but role appears closed (last hiring ~Mar 2026) and is fintech/asset-manager sales-led rather than community-led; likelihood null due to closure.",
+  "fetch_note": "Listing found on Jack & Jill ops board; WebSearch indicates 'no longer actively hiring as of March 2026'. Arctal = Cambridge ML/finance founders, AI agents turning 100k+ financial documents into queryable data for institutional investors. £60-100k + equity, first business hire."
+}

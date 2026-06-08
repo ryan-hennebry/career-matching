@@ -1,0 +1,20 @@
+{
+  "company": "Watergate AI",
+  "title": "Founder's Associate",
+  "location": "London",
+  "direct_url": null,
+  "availability": "not_found",
+  "agentic_flag": false,
+  "interview_likelihood": null,
+  "tier": "Unlikely",
+  "must_haves": [],
+  "hard_blockers": [
+    "No Founder's Associate listing locatable on Workable careers page or any board",
+    "Domain = water management / leak detection AI (not crypto/Web3)"
+  ],
+  "met_strengths": [
+    "Generalist early-stage operator profile would suit a seed-stage FA in principle"
+  ],
+  "one_line_verdict": "Not findable as a live listing; Watergate is a seed water-management AI startup, off-domain for Ryan.",
+  "fetch_note": "Watergate AI Ltd (Companies House 15320638, founded 2023, founder Krystian Zajac). Careers at apply.workable.com/watergate/ but no FA role surfaced; Workable page JS-rendered, no listings extractable via WebFetch."
+}

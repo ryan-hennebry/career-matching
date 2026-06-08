@@ -1,0 +1,28 @@
+{
+  "company": "Euphoric",
+  "title": "Forward Deployed AI Operator",
+  "location": "London",
+  "direct_url": "https://www.euphoric.global/careers",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 35,
+  "tier": "Unlikely",
+  "must_haves": [
+    "Top graduate from a prestigious university with exceptional academic record (MEETS partially: 2:1 BA Leeds, not top-tier/elite)",
+    "Genuine intense interest in AI (MEETS: building AI agents with Claude Code since 2023)",
+    "12+ months professional experience (MEETS: ~6.4 yrs)",
+    "End-to-end implementation/delivery for enterprise clients incl. on-site (PARTIAL/FAILS: community-led growth, no enterprise delivery)"
+  ],
+  "hard_blockers": [
+    "Enterprise client delivery / implementation experience not in CV (community-led GTM, not B2B enterprise delivery)",
+    "Prestigious-university/exceptional-academic gate (2:1 Business Management, Leeds — not elite-tier)",
+    "Domain: employee-benefits-admin enterprise SaaS, not crypto/Web3"
+  ],
+  "met_strengths": [
+    "Deep AI-agent fluency (Claude Code since 2023)",
+    "Startup operator generalist, founder-adjacent",
+    "Client-facing and stakeholder management via community/PR/investor work"
+  ],
+  "one_line_verdict": "FDE-style enterprise delivery role with an elite-academic gate and product/client-implementation core that doesn't match Ryan's community-led, crypto-rooted operator profile.",
+  "fetch_note": "Confirmed open via WebSearch + euphoric.global/careers. Euphoric spun out of Peppy Health May 2025; AI-native benefits platform. Role = Forward Deployed Product/Engineer Associate sitting eng+product+client delivery. Remote-first with Central London hubs."
+}

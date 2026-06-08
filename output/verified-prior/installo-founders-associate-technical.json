@@ -1,0 +1,28 @@
+{
+  "company": "Installio",
+  "title": "Founder's Associate (Technical)",
+  "location": "London",
+  "direct_url": "https://join.installio.co.uk/jobs",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 50,
+  "tier": "Stretch",
+  "must_haves": [
+    "1-3 years in product, engineering, startups, or similar",
+    "Hands-on experience building with AI and working with data",
+    "Comfortable with code & data — build internal tools and scripts (professional coding 'a plus', not mandatory)",
+    "Strong analytical skills and commercial judgment",
+    "Work with ambiguity across multiple responsibilities; work directly with co-founders/CTO"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Founder's-associate experience is a direct title/role match (worked directly with founders, turned ambiguity into workstreams)",
+    "Agentic-AI / Claude Code building maps exactly to 'build internal tools and AI workflows to automate manual tasks'",
+    "Commercial judgment from GTM/fundraising; London-based, UK auth",
+    "Coding-comfort bar is 'a plus', not a hard gate — Ryan's agent-building clears the spirit of it"
+  ],
+  "hard_blockers_note": "Domain is clean-energy / heat-pump installation (climate tech), not crypto/Web3; experience band (1-3 yrs) is junior for Ryan's ~6.4 yrs.",
+  "met_strengths_caveat": "Technical framing leans toward someone who codes daily; Ryan's strength is agent orchestration, not professional SWE.",
+  "one_line_verdict": "Best title/role fit on the slice — Founder's Associate + AI-tool-building is squarely Ryan's lane and coding is only 'a plus' — but it's pitched junior (1-3 yrs), in a climate-tech (not crypto) domain, and leans technical-builder.",
+  "fetch_note": "Listing details from PitchMeAI (1-3 yrs, £40-60K, comfortable-with-code-not-mandatory, London hybrid). Company is Installio (heat pumps / clean energy, installio.co.uk); not on Ashby. Direct careers: join.installio.co.uk/jobs — could not confirm the exact per-role canonical URL there, so direct_url is the company job board."
+}

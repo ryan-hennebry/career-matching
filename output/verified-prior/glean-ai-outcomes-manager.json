@@ -1,0 +1,29 @@
+{
+  "company": "Glean",
+  "title": "AI Outcomes Manager",
+  "location": "London",
+  "direct_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4613925005",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 47,
+  "tier": "Stretch",
+  "must_haves": [
+    "5+ years in roles blending business and technology (product, analytics, data, engineering, solutions)",
+    "Craft effective prompts and guide AI agents for real workflows; understand LLM capabilities/limits",
+    "Enough technical depth to work with engineers (not on critical path for production code)",
+    "Consultative, customer-facing: executive sponsors, discovery workshops, AI roadmaps"
+  ],
+  "hard_blockers": [
+    "5+ yrs explicitly in product/analytics/data/engineering/solutions — Ryan's years are GTM/community/marketing, not these tech-adjacent functions",
+    "Enterprise SaaS adoption/consulting role (100+ enterprise connectors) — no enterprise solutions/delivery background",
+    "Executive-sponsor enterprise consulting cadence vs Ryan's startup community-led GTM"
+  ],
+  "met_strengths": [
+    "Strong prompting / AI-agent building fluency (Claude Code) — directly matches the prompt/agent must-have and AI exercise",
+    "Product sense + user empathy from growth/lifecycle work",
+    "~6.4 yrs total clears nominal year count",
+    "London hybrid (1 day/wk) — UK fit"
+  ],
+  "one_line_verdict": "Agentic/prompting strength is a real edge, but the 5+ yrs must sit in product/data/eng/solutions and it's an enterprise-SaaS adoption consulting role — Ryan's tech-adjacent years don't match the gate.",
+  "fetch_note": "Confirmed open via Greenhouse (gleanwork 4613925005), London hybrid 1 day/wk, 5+ yrs business+tech. Glean = enterprise Work AI platform. AI-focused exercise in interview process."
+}

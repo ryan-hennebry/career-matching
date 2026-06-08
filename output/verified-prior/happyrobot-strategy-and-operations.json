@@ -1,0 +1,25 @@
+{
+  "company": "HappyRobot",
+  "title": "Strategy & Operations",
+  "location": "London (hybrid)",
+  "direct_url": "https://jobs.ashbyhq.com/happyrobot.ai/bb5315cc-571f-41f9-84b7-8cfff34e3f02",
+  "availability": "open",
+  "agentic_flag": true,
+  "interview_likelihood": 50,
+  "tier": "Stretch",
+  "must_haves": [
+    "Strategy & operations capability at an AI-native logistics/supply-chain company",
+    "AI-native operator",
+    "Cross-functional ownership across operations",
+    "(Full requirement set not extractable — Ashby JS-rendered; sister S&O roles skew analytical/ops-engineering)"
+  ],
+  "hard_blockers": [],
+  "met_strengths": [
+    "Founding-era operator: turned ambiguous founder priorities into workstreams across ops/fundraising/research — genuine strategy-and-ops range",
+    "AI power user / builds AI agents",
+    "London-based with UK auth (this is the London variant, not US/Madrid)"
+  ],
+  "hard_blockers_note": "No confirmed hard blocker, but HappyRobot's S&O family includes 'Strategy & Ops Engineer' roles that lean analytical/technical; the plain 'Strategy & Operations' London role's full requirements could not be extracted (JS-rendered Ashby). Logistics/freight-supply-chain domain and a16z-backed scale-up enterprise-ops focus are outside Ryan's crypto/marketing core.",
+  "one_line_verdict": "Generalist operator traits and AI fluency give a foothold, but it is an enterprise logistics S&O role of uncertain technical depth and far from his marketing/community strength — stretch.",
+  "fetch_note": "Confirmed open London role via Ashby posting API (id bb5315cc). Note: memory previously flagged HappyRobot as US-only — there ARE US/Madrid S&O variants, but a genuine London Strategy & Operations posting exists. Full JD not extractable via WebFetch (JS-rendered)."
+}
