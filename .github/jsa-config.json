@@ -5,28 +5,34 @@
   },
   "roles": [
     {
-      "title": "Community Manager",
-      "slug": "community-manager",
-      "skills": ["Community Management", "Discord", "Telegram", "X/Twitter", "Ambassador Programme Design", "Event Marketing"],
-      "sources": ["web3.career", "remote3.co", "beincrypto.com", "cryptocurrencyjobs.co", "laborx.com", "aijobs.app", "theaijobboard.com", "workinstartups.com", "ukstartupjobs.com", "ycombinator.com", "linkedin", "indeed", "glassdoor"]
-    },
-    {
-      "title": "Marketing Manager",
-      "slug": "marketing-manager",
-      "skills": ["Content Marketing", "Social Media Strategy", "Event Marketing", "Public Relations", "Data Analytics", "Content Calendar Management"],
-      "sources": ["web3.career", "remote3.co", "beincrypto.com", "cryptocurrencyjobs.co", "laborx.com", "aijobs.app", "aijobs.ai", "theaijobboard.com", "workinstartups.com", "ukstartupjobs.com", "jumpstart-uk.com", "ycombinator.com", "techstars.com", "builtinlondon.uk", "escapethecity.org", "linkedin", "indeed", "glassdoor"]
-    },
-    {
-      "title": "Marketing Associate",
-      "slug": "marketing-associate",
-      "skills": ["Content Marketing", "Social Media Strategy", "Data Analytics", "Stakeholder Reporting"],
-      "sources": ["web3.career", "remote3.co", "beincrypto.com", "cryptocurrencyjobs.co", "aijobs.ai", "workinstartups.com", "ukstartupjobs.com", "ycombinator.com", "techstars.com", "escapethecity.org", "linkedin", "indeed", "glassdoor"]
-    },
-    {
       "title": "Founder's Associate",
-      "slug": "founders-associate",
-      "skills": ["Investor Relations", "Stakeholder Reporting", "Data Analytics", "Content Marketing"],
-      "sources": ["workinstartups.com", "ukstartupjobs.com", "jumpstart-uk.com", "ycombinator.com", "techstars.com", "escapethecity.org", "linkedin", "indeed", "glassdoor"]
+      "slug": "founder-s-associate-priority",
+      "skills": ["Investor Relations", "Stakeholder Reporting", "Data Analytics", "Operations", "Go-to-Market", "Fundraising Support"],
+      "sources": ["workinstartups.com", "ukstartupjobs.com", "jumpstart-uk.com", "ycombinator.com", "workatastartup.com", "techstars.com", "escapethecity.org", "wellfound.com", "otta.com", "cord.co", "linkedin", "indeed", "glassdoor"]
+    },
+    {
+      "title": "Founding Operator",
+      "slug": "founding-operator-priority",
+      "skills": ["Operations", "Go-to-Market", "Stakeholder Reporting", "Data Analytics", "Cross-functional Execution", "Fundraising Support"],
+      "sources": ["workinstartups.com", "ukstartupjobs.com", "jumpstart-uk.com", "ycombinator.com", "workatastartup.com", "techstars.com", "escapethecity.org", "wellfound.com", "otta.com", "cord.co", "linkedin", "indeed", "glassdoor"]
+    },
+    {
+      "title": "Founding Generalist",
+      "slug": "founding-generalist-priority",
+      "skills": ["Operations", "Go-to-Market", "Cross-functional Execution", "Data Analytics", "Stakeholder Reporting", "Early-stage Generalist"],
+      "sources": ["workinstartups.com", "ukstartupjobs.com", "jumpstart-uk.com", "ycombinator.com", "workatastartup.com", "techstars.com", "escapethecity.org", "wellfound.com", "otta.com", "cord.co", "linkedin", "indeed", "glassdoor"]
+    },
+    {
+      "title": "AI Operations",
+      "slug": "ai-operations-ai-ops",
+      "skills": ["Operations", "Data Analytics", "Process Design", "Cross-functional Execution", "AI Agents", "Workflow Automation"],
+      "sources": ["aijobs.app", "aijobs.ai", "ai-jobs.net", "ycombinator.com", "workatastartup.com", "wellfound.com", "otta.com", "cord.co", "linkedin", "indeed", "glassdoor"]
+    },
+    {
+      "title": "AI Product Associate / AI Product Builder",
+      "slug": "ai-product-associate-ai-product-builder",
+      "skills": ["Product Marketing", "Go-to-Market", "Data Analytics", "AI Agents", "Workflow Automation", "Prototyping with AI"],
+      "sources": ["aijobs.app", "aijobs.ai", "ai-jobs.net", "ycombinator.com", "workatastartup.com", "wellfound.com", "otta.com", "cord.co", "linkedin", "indeed", "glassdoor"]
     }
   ],
   "scoring": {
@@ -53,14 +59,14 @@
     "location": "Remote, Hybrid, or In-person — Cambridge or London, UK",
     "country": "United Kingdom",
     "remote_preference": ["remote", "hybrid", "in-person"],
-    "minimum_salary": 40000,
+    "minimum_salary": 50000,
     "salary_currency": "GBP",
-    "title_exclusions": ["Senior", "Lead", "Head of", "Director", "VP", "Chief", "Principal", "Staff", "Intern", "Junior"],
+    "title_exclusions": ["Senior", "Lead", "Head of", "Director", "VP", "Principal", "Staff", "Intern", "Junior"],
     "ai_flag_keywords": ["AI agents", "context engineering", "prompt engineering", "Claude Code"]
   },
   "profile": {
-    "experience_years": 7,
+    "experience_years": 8,
     "seniority": "Mid-level",
-    "target_industries": ["Crypto / Web3", "AI / Machine Learning", "Tech Startups"]
+    "target_industries": ["AI / Machine Learning", "AI Agents / Agentic AI", "AI-native Companies", "Tech Startups"]
   }
 }

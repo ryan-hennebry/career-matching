@@ -53,13 +53,14 @@
 
 - Founder's Associate (**priority**)
 - Founding Operator (**priority**)
-- Marketing Associate
-- Community Manager
+- Founding Generalist (**priority**)
+- AI Operations / AI Ops
+- AI Product Associate / AI Product Builder
 
-**Scope:** All AI companies broadly (LLMs, generative AI, ML platforms, AI infrastructure, AI applications, AI agents)
-**Agentic AI preference:** If a company works on AI agents / agentic AI, flag prominently — this is the user's preference, but NOT a filter. All AI companies are in scope.
+**Scope:** AI agent startups (**top choice**) → any AI company broadly (LLMs, generative AI, ML platforms, AI infrastructure, AI applications, AI agents) → AI-native companies (companies that operate AI-natively in how they build and run, even if AI is not the product itself)
+**Agentic AI preference:** If a company works on AI agents / agentic AI, flag prominently — this is the user's TOP choice, but NOT a hard filter. Any AI company and any AI-native operator is in scope.
 
-**Open to:** Any role the CV qualifies for at AI companies — not limited to the role types above
+**Open to:** Any role the CV qualifies for at AI / AI-native companies — not limited to the role types above
 
 ## Industries
 
@@ -67,11 +68,11 @@
 
 ## Constraints
 
-- **Location:** Remote, Hybrid, or In-person — Cambridge or London, UK
+- **Location:** Remote, Hybrid, or In-person — Cambridge or London, UK (all three modes equally acceptable)
 - **Country:** United Kingdom
-- **Remote preference:** remote, hybrid, in-person
-- **Minimum salary:** £40,000
-- **Title exclusions:** Senior, Lead, Head of, Director, VP, Chief, Principal, Staff, Intern, Junior
+- **Remote preference:** remote, hybrid, in-person (no preference between them)
+- **Minimum salary:** £50,000
+- **Title exclusions:** Senior, Lead, Head of, Director, VP, Principal, Staff, Intern, Junior (note: "Chief" NOT excluded so Chief of Staff roles pass; C-suite won't match mid-level profile anyway)
 - **AI flag:** Highlight jobs mentioning AI agents, context engineering, prompt engineering, or Claude Code
 
 ## Sources
@@ -178,18 +179,19 @@ Keyword queries for `scripts/jobspy_search.py` across LinkedIn/Indeed/Glassdoor.
 |-------|-------|-------|
 | "AI" founder's associate | linkedin,indeed,glassdoor | **Priority role** — high match |
 | "AI" founding operator | linkedin,indeed,glassdoor | **Priority role** — high match |
-| "AI startup" marketing associate | linkedin,indeed,glassdoor | **Priority role** — high match |
-| "AI startup" marketing manager | linkedin,indeed,glassdoor | Marketing angle |
-| "AI" community manager | linkedin,indeed,glassdoor | Core role + broad AI |
-| artificial intelligence content marketing | linkedin,indeed | Content specialty |
-| "AI company" social media manager | linkedin,indeed,glassdoor | Social media angle |
-| "generative AI" marketing | linkedin,indeed,glassdoor | GenAI broad marketing |
-| LLM startup marketing | linkedin,indeed | LLM-specific companies |
-| "AI startup" growth marketing | linkedin,indeed,glassdoor | Growth angle |
-| "AI platform" community manager UK | linkedin,indeed | UK-specific |
-| "machine learning" marketing associate | linkedin,indeed | ML-adjacent |
-| "AI agents" developer relations | linkedin,indeed | DevRel adjacent |
+| "AI startup" founding generalist | linkedin,indeed,glassdoor | **Priority role** — high match |
+| "AI agents" founder's associate | linkedin,indeed,glassdoor | Top-choice: agentic AI + priority role |
 | "AI company" founder associate | linkedin,glassdoor | Alt phrasing for priority role |
+| "AI startup" chief of staff | linkedin,indeed,glassdoor | FA-adjacent generalist role |
+| "AI" operations associate | linkedin,indeed,glassdoor | AI Operations role |
+| "AI startup" AI operations | linkedin,indeed,glassdoor | AI Ops role |
+| "AI" product associate | linkedin,indeed,glassdoor | AI Product Associate role |
+| "AI" product builder | linkedin,indeed | AI Product Builder role |
+| "generative AI" product manager associate | linkedin,indeed,glassdoor | Product angle (associate-level) |
+| "AI agents" product | linkedin,indeed | Top-choice: agentic AI product roles |
+| "AI startup" business operations | linkedin,indeed | Ops generalist angle |
+| "AI" forward deployed | linkedin,indeed,glassdoor | FDE / AI-native operator role |
+| "AI native" operations | linkedin,indeed | AI-native company operations |
 
 ### Niche Newsletters
 
@@ -212,13 +214,15 @@ Open-ended queries adapted to Industries + Target each run. Designed to find rol
 
 **Example queries:**
 - "AI company hiring founder's associate {year}"
-- "AI startup marketing associate open positions {month} {year}"
-- "AI company hiring community manager UK {year}"
-- "companies hiring marketing specialist AI startup remote {month} {year}"
+- "AI agent startup founding generalist {month} {year}"
+- "AI startup AI operations open positions {month} {year}"
+- "AI company hiring product associate UK {year}"
+- "AI product builder role AI startup remote {month} {year}"
 - "new AI companies hiring 2026"
-- "LLM startup marketing roles London remote"
-- "AI companies hiring content marketing {month} {year}"
-- "generative AI startup founder associate UK"
+- "AI startup chief of staff founder's associate London"
+- "forward deployed engineer / operator AI startup UK"
+- "AI-native company hiring operations generalist {year}"
+- "founding generalist agentic AI startup UK"
 
 ## Scoring & Algorithms
 
