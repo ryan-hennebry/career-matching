@@ -1,0 +1,435 @@
+[
+  {
+    "company": "Conduct",
+    "title": "Founding Brand & Growth (listed as 'Growth Generalist')",
+    "location": "London, UK",
+    "direct_url": "https://jobs.ashbyhq.com/conduct/46948c8f-7f8e-4991-a687-91cfc1417317",
+    "url_note": null,
+    "interview_likelihood": 84,
+    "tier": "Strong",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Corgi Insurance",
+    "title": "Operations Associate",
+    "location": "London, England, GB",
+    "direct_url": "https://www.ycombinator.com/companies/corgi-insurance/jobs/QkzDlzY-operations-associate",
+    "url_note": null,
+    "interview_likelihood": 82,
+    "tier": "Strong",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified/"
+  },
+  {
+    "company": "Moss",
+    "title": "AI Operations Specialist",
+    "location": "London",
+    "direct_url": "https://jobs.ashbyhq.com/moss",
+    "url_note": "company-board URL, not a per-role posting URL",
+    "interview_likelihood": 82,
+    "tier": "Strong",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "ElevenLabs",
+    "title": "Growth Generalist",
+    "location": "Remote (global; optional London office) - UK eligible",
+    "direct_url": "https://elevenlabs.io/careers/19d9a7a0-10d9-41d8-b515-a61f1d85f186/growth-generalist",
+    "url_note": null,
+    "interview_likelihood": 72,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Capital on Tap",
+    "title": "AI Operations Specialist",
+    "location": "London (Moorgate, 3 days in office)",
+    "direct_url": "https://job-boards.greenhouse.io/capitalontap/jobs/8520481002",
+    "url_note": null,
+    "interview_likelihood": 70,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Gradient Labs",
+    "title": "AI Delivery Associate",
+    "location": "London, UK (Hybrid)",
+    "direct_url": "https://jobs.ashbyhq.com/gradient-labs/40338f3c-d2cc-4859-8efd-8aacd4680c7e",
+    "url_note": null,
+    "interview_likelihood": 70,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified/"
+  },
+  {
+    "company": "Sequence",
+    "title": "Product Marketer - London",
+    "location": "London",
+    "direct_url": "https://jobs.ashbyhq.com/sequence/2354b86d-d72f-4853-99a7-2e3cabbfa26e",
+    "url_note": null,
+    "interview_likelihood": 70,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Deel",
+    "title": "GTM AI Operator",
+    "location": "London / UK",
+    "direct_url": "https://jobs.ashbyhq.com/Deel/f525355a-ba3e-4f6b-9b8d-83087a69f98c",
+    "url_note": null,
+    "interview_likelihood": 68,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Specter",
+    "title": "Founder's Associate",
+    "location": "London",
+    "direct_url": null,
+    "url_note": "MISSING / email-only apply — no per-role ATS URL; tryspecter.com careers/Notion-style hub",
+    "interview_likelihood": 68,
+    "tier": "Plausible",
+    "hard_blockers": [
+      "No per-role direct URL found on an ATS (apply-by-email role) — cannot confirm exact live listing page; tryspecter.com careers/Notion-style hub, not a standard ATS posting",
+      "Listing geography/seniority not fully verifiable from a canonical posting"
+    ],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Wing Assistant",
+    "title": "Founder's Associate, Growth & Operations",
+    "location": "London, UK",
+    "direct_url": "https://jobs.lever.co/getwingapp/0d89d775-cbdc-4f07-8165-d73fa3664c9d",
+    "url_note": null,
+    "interview_likelihood": 68,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": false,
+    "source_file": "verified/"
+  },
+  {
+    "company": "Magentic",
+    "title": "Founding Growth Marketer",
+    "location": "London",
+    "direct_url": "https://jobs.ashbyhq.com/magentic/036ab5ae-1ed9-4525-a734-a1ed3b6448dd",
+    "url_note": null,
+    "interview_likelihood": 66,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Neutreeno",
+    "title": "Founding Generalist",
+    "location": "Cambridge",
+    "direct_url": "https://apply.workable.com/neutreeno/",
+    "url_note": "company-board URL, not a per-role posting URL",
+    "interview_likelihood": 66,
+    "tier": "Plausible",
+    "hard_blockers": [
+      "Domain is climate/decarbonisation deep-tech (Cambridge Engineering spinout) — not crypto/Web3 but not a hard gate for a generalist role",
+      "Cambridge-based (Ryan currently Cambridge, relocating to London — actually a plus for this one)",
+      "Low salary band £32-37k + 0.05-0.1% equity"
+    ],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "ivee",
+    "title": "Founding Growth Lead",
+    "location": "London (Shoreditch, in-person)",
+    "direct_url": "https://growth-lead-ivee.lovable.app/",
+    "url_note": null,
+    "interview_likelihood": 64,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Jack & Jill",
+    "title": "Founding Operator",
+    "location": "London (Shoreditch, in-person 5 days/week)",
+    "direct_url": "https://jobs.ashbyhq.com/jack-and-jill/0b47c628-a2a6-4e4c-8ca6-f59dfb5f96b1",
+    "url_note": null,
+    "interview_likelihood": 62,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Marloo",
+    "title": "GTM Associate, London",
+    "location": "London (in-person office, international travel)",
+    "direct_url": "https://jobs.ashbyhq.com/marloo/5c339f96-5929-4393-a040-8e05f38b5b12",
+    "url_note": null,
+    "interview_likelihood": 62,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "n8n",
+    "title": "AI Product Manager",
+    "location": "Remote (Europe, incl. UK)",
+    "direct_url": "https://jobs.ashbyhq.com/n8n/42e72645-d99a-4545-97b7-53ba3a699893",
+    "url_note": null,
+    "interview_likelihood": 60,
+    "tier": "Plausible",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Assuric",
+    "title": "Founder's Associate (Ops)",
+    "location": "London",
+    "direct_url": "https://www.assuric.com/careers",
+    "url_note": "company-careers URL, not a per-role posting URL",
+    "interview_likelihood": 58,
+    "tier": "Stretch",
+    "hard_blockers": [
+      "Domain: regulated healthtech — automates medical-device & software compliance / regulatory reviews (regulated-domain practitioner advantage Ryan lacks; not crypto/Web3)",
+      "CTO ex-Palantir + medical-device compliance product may favour technical/regulatory-fluent FAs"
+    ],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Dayjob",
+    "title": "Customer Success Manager",
+    "location": "London (Camden) — hybrid, 3 days/week onsite at customer depots",
+    "direct_url": "https://www.ycombinator.com/companies/dayjob/jobs/X2DEuWt-customer-success-manager",
+    "url_note": null,
+    "interview_likelihood": 58,
+    "tier": "Stretch",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Decagon",
+    "title": "Agent Strategy Manager",
+    "location": "London",
+    "direct_url": "https://jobs.ashbyhq.com/decagon/ac14f2e8-950e-4668-a6ff-41f80181f006",
+    "url_note": null,
+    "interview_likelihood": 58,
+    "tier": "Stretch",
+    "hard_blockers": [
+      "No B2B SaaS enterprise customer-success / deployment track record — the listing's primary background requirement. Community-led/investor-facing growth is adjacent, not the same as managing enterprise SaaS accounts through deployment."
+    ],
+    "agentic": true,
+    "source_file": "verified/"
+  },
+  {
+    "company": "Mozart AI",
+    "title": "Founders Associate",
+    "location": "London",
+    "direct_url": "https://uk.linkedin.com/company/mozart-ai/jobs",
+    "url_note": "LinkedIn company-jobs URL, not a per-role posting URL",
+    "interview_likelihood": 58,
+    "tier": "Stretch",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "StudioB",
+    "title": "Founder's Associate",
+    "location": "London",
+    "direct_url": "https://join.studiob.net/jobs/7531144-founders-associate",
+    "url_note": null,
+    "interview_likelihood": 58,
+    "tier": "Stretch",
+    "hard_blockers": [
+      "Domain mismatch: StudioB is a VFX/branded-content digital production company (LEGO, Google, Netflix, Disney, Real Madrid) — NOT AI/crypto; Ryan's domain is crypto/Web3 + startup AI tooling",
+      "Listing leans consulting/strategy/media-production pedigree which Ryan lacks"
+    ],
+    "agentic": false,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "ElevenLabs",
+    "title": "Deployment Strategist (Europe / UK)",
+    "location": "London / United Kingdom (remote-friendly)",
+    "direct_url": "https://jobs.ashbyhq.com/elevenlabs/5d1390e2-a6e8-4f8b-b01f-ad7e286009d2",
+    "url_note": null,
+    "interview_likelihood": 55,
+    "tier": "Stretch",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Scope AI",
+    "title": "Deployment Strategist",
+    "location": "London",
+    "direct_url": "https://jobs.ashbyhq.com/getscope/84b29e3d-c0f4-4245-9e21-82ae76440930",
+    "url_note": null,
+    "interview_likelihood": 55,
+    "tier": "Stretch",
+    "hard_blockers": [
+      "Enterprise account expansion / 6-8 figure contract ownership — Ryan has community-led GTM, not enterprise account management/post-sales delivery",
+      "Domain = field inspection for heavy industry (Oil&Gas, Pharma, Chem; AstraZeneca, SpaceX) — far from crypto/Web3/consumer-AI",
+      "Elite team/pedigree signal (Imperial/CMU/Oxford, Goldman, Index Ventures, EF)"
+    ],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Terra API",
+    "title": "Applied AI Strategist - Market Intelligence (Health)",
+    "location": "London, UK",
+    "direct_url": "https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health",
+    "url_note": null,
+    "interview_likelihood": 55,
+    "tier": "Stretch",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Ankar",
+    "title": "GTM, Strategy & Delivery",
+    "location": "London",
+    "direct_url": "https://jobs.ashbyhq.com/ankar/b9452b71-d754-4c1c-938e-461340736b02",
+    "url_note": "distinct role from the already-applied Ankar Founder's Associate",
+    "interview_likelihood": 52,
+    "tier": "Stretch",
+    "hard_blockers": [
+      "Enterprise delivery role: embed with customers to design/prototype/deploy POCs — Ryan has community-led GTM, not enterprise POC/solutions delivery",
+      "Domain = patent/IP / R&D AI for Fortune 500 + global law firms (L'Oreal, Vorys/Fenwick); Ryan's domain is crypto/Web3, not IP/legal",
+      "Office-first London; team skews Palantir/Amazon/BCG pedigree"
+    ],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Seamflow",
+    "title": "Founder's Associate",
+    "location": "London (Shoreditch, in-person)",
+    "direct_url": "https://jobs.ashbyhq.com/seamflow/fcabd41c-8e55-41a6-9e7c-b1e8d57b04a2",
+    "url_note": null,
+    "interview_likelihood": 52,
+    "tier": "Stretch",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Siena AI",
+    "title": "Product Manager",
+    "location": "London, England, UK",
+    "direct_url": "https://jobs.ashbyhq.com/siena/886bddc1-1fc7-4869-aa4a-563229ffa12c",
+    "url_note": "VERIFY London eligibility — Ashby surfaced London but role's primary location may be New York (not a confirmed exclusion)",
+    "interview_likelihood": 52,
+    "tier": "Stretch",
+    "hard_blockers": [
+      "No prior SE/implementation/TAM/CS-engineering background — the role's literal experience paths; he applies as 'operator who wants to build', an accepted but riskier lane.",
+      "Geography: the Ashby record surfaced as London but the role's primary location is New York and the related Forward-Deployed PM is US/Canada — UK-only work authorization may be a constraint; verify London eligibility before applying."
+    ],
+    "agentic": true,
+    "source_file": "verified/"
+  },
+  {
+    "company": "32Co",
+    "title": "AI, Operations & Strategy Associate",
+    "location": "London",
+    "direct_url": "https://jobs.lever.co/32Co/5d26db2b-c7af-431e-9473-462708580db9",
+    "url_note": null,
+    "interview_likelihood": 52,
+    "tier": "Stretch",
+    "hard_blockers": [
+      "Role core is AI-infrastructure/platform engineering depth (orchestration, data pipelines, eval frameworks) — Ryan is operator/app-level, not infra/MLOps; likely screened on technical depth"
+    ],
+    "agentic": false,
+    "source_file": "verified/"
+  },
+  {
+    "company": "Tilt",
+    "title": "Founders Associate",
+    "location": "London, England, UK",
+    "direct_url": "https://jobs.ashbyhq.com/tilt/0d5fad5b-1fea-4f4f-b0c5-3fd47e282e60",
+    "url_note": "verdict notes live FA listing may no longer be on Tilt's Ashby board",
+    "interview_likelihood": 52,
+    "tier": "Stretch",
+    "hard_blockers": [
+      "'Ship code in production' is in-scope and the ex-quant/data-scientist founders set a high technical bar; Ryan's non-SWE profile risks screen-out for the build half of the role"
+    ],
+    "agentic": false,
+    "source_file": "verified/"
+  },
+  {
+    "company": "governr",
+    "title": "Chief of Staff",
+    "location": "London",
+    "direct_url": "https://www.ziprecruiter.co.uk/jobs/453289607-chief-of-staff-at-governr",
+    "url_note": null,
+    "interview_likelihood": 52,
+    "tier": "Stretch",
+    "hard_blockers": [
+      "Domain: AI risk infrastructure / frameworks & quantification models — heavy on financial modelling and quantitative rigour, an area Ryan is light on",
+      "Advisor pedigree (MIT/Stanford/Columbia/Goldman/hedge funds) signals a quant/finance-leaning bar"
+    ],
+    "agentic": false,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "HappyRobot",
+    "title": "Strategy & Operations",
+    "location": "London (hybrid)",
+    "direct_url": "https://jobs.ashbyhq.com/happyrobot.ai/bb5315cc-571f-41f9-84b7-8cfff34e3f02",
+    "url_note": null,
+    "interview_likelihood": 50,
+    "tier": "Stretch",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Installio",
+    "title": "Founder's Associate (Technical)",
+    "location": "London",
+    "direct_url": "https://join.installio.co.uk/jobs",
+    "url_note": "company-board URL, not a per-role posting URL",
+    "interview_likelihood": 50,
+    "tier": "Stretch",
+    "hard_blockers": [],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  },
+  {
+    "company": "Lovable",
+    "title": "Deployment Strategist",
+    "location": "London",
+    "direct_url": "https://jobs.ashbyhq.com/lovable/fb1e1c16-b5e8-4c9e-81f1-4fe69ac157d1",
+    "url_note": null,
+    "interview_likelihood": 50,
+    "tier": "Stretch",
+    "hard_blockers": [
+      "Enterprise account expansion/renewals/org-change leadership — Ryan lacks enterprise account/post-sales/transformation delivery experience",
+      "Enterprise deployment leadership with FDEs vs Ryan's startup community-led GTM",
+      "'Founding'-language hire implies high bar for establishing the function solo"
+    ],
+    "agentic": true,
+    "source_file": "verified-prior/"
+  }
+]

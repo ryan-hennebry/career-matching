@@ -1,0 +1,27 @@
+{
+  "company": "ivee",
+  "title": "Founding Growth Lead",
+  "location": "London (Shoreditch, in-person)",
+  "direct_url": "https://growth-lead-ivee.lovable.app/",
+  "callback_likelihood": 66,
+  "factor_scores": {
+    "A_requirements": 68,
+    "B_competition": 50,
+    "C_screening": 88,
+    "D_spike": 62,
+    "E_warmpath": 80,
+    "F_conversion": 72
+  },
+  "key_evidence": [
+    "Requires 4+ yrs growth/commercial at seed-Series A startups; Ryan has ~4.4 yrs at Minima (seed->Series A) as first employee — direct match on stage/tenure.",
+    "Must be 'genuinely fluent in AI' with daily hands-on use and workflow building; Ryan builds Claude Code agents (competitor-intel + growth) — strong direct match, and the apply form explicitly requires an example AI workflow.",
+    "Must 'build sales pipeline from scratch' via cold calls/email/LinkedIn + B2B events; Ryan's growth is community-led/PR/content, NOT B2B outbound sales pipeline — this is the primary requirements gap.",
+    "Funding: $1M seed (Steven Bartlett, Balderton, Dawn, Microsoft AI partners); named 'hottest startup in London' by Sifted; UK Gov AI-upskilling events partner; trained 1,000+ teams. High media visibility => elevated applicant volume.",
+    "2-person founder team (Amelia & Lydia Miller, both Forbes 30u30); apply via short typeform direct to founders — founder-read screening, no recruiter/ATS keyword filter.",
+    "Salary £50-80k + equity, in-office Shoreditch — clears £50k floor; clear founder-led process."
+  ],
+  "biggest_lever": "Lead with the $4.5m community-led presale (15x ROI on $300k) reframed as zero-to-one pipeline building + the Claude Code AI workflow example the form demands — both map directly to 'build growth from scratch' and 'fluent in AI'.",
+  "biggest_risk": "Role is explicitly B2B outbound sales-pipeline ownership (cold outreach, deal closure for clients like Red Bull); Ryan has no enterprise B2B sales/closing track record — community-led growth may read as adjacent not core. High media hype also raises applicant volume.",
+  "apply_verdict": "Apply",
+  "confidence": "high"
+}

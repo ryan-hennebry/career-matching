@@ -1,0 +1,28 @@
+{
+  "company": "Terra API",
+  "title": "Applied AI Strategist - Market Intelligence (Health)",
+  "location": "London, UK",
+  "direct_url": "https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health",
+  "callback_likelihood": 64,
+  "factor_scores": {
+    "A_requirements": 68,
+    "B_competition": 65,
+    "C_screening": 80,
+    "D_spike": 60,
+    "E_warmpath": 55,
+    "F_conversion": 55
+  },
+  "key_evidence": [
+    "Terra API: YC W21, founded 2021, ~25 people, founder Kyriakos Eleftheriou. Unified API for fragmented health data across wearables/sensors/apps/labs (30B+ activities/yr). Small but established startup.",
+    "Role: continuous market intelligence — talk to founders/engineers/researchers building on health data, segment market, read Terra's own usage/support/community signals (GitHub, forums, Discord, X, Telegram), produce decision-grade memos/briefs/videos for product + GTM.",
+    "Explicitly credential-light: 'thinking style over credential accumulation'; healthcare domain 'helpful but not required'; SWE 'NOT required — operations/strategy role'. This removes the two gates Ryan would fail elsewhere.",
+    "Strong spike overlap: 'AI-native — using AI tools as standard working methods' maps directly to Ryan's Claude-Code agent-building for competitor-intel and growth-experiments ('repeatable research workflows, clear recommendations for startup teams'). Hanging out in Discord/X/communities maps to his 100k community-growth background.",
+    "Salary £40K-120K (very wide band) and offers visa sponsorship; UK/London — clears £50k floor at midpoint, and UK auth is fine.",
+    "Small ~25-person YC startup = founder/lead-read screening, high human-read probability. Competition moderate: YC visibility draws applicants but the niche health-data + market-intel framing narrows the qualified pool.",
+    "Mild risks: health-data domain is off Ryan's crypto core (though stated non-essential); role is research/synthesis-heavy and wants a track record of work that 'directly influenced roadmap or positioning' — Ryan's positioning/GTM at Minima is a partial but real fit."
+  ],
+  "biggest_lever": "Ryan's Claude-Code-built 'repeatable research workflows turning market signals into recommendations' is almost a verbatim match for this market-intelligence-loop role; pair with community/GTM evidence (Discord/X, Minima positioning).",
+  "biggest_risk": "Health-data domain ramp and the implicit bar for analytical synthesis that 'directly influenced roadmap' — Ryan's evidence is GTM/positioning rather than formal product-intel, so he must prove decision-grade output.",
+  "apply_verdict": "Apply — best requirements-fit + spike-alignment in the batch; explicitly removes SWE and domain gates, founder-read small team, AI-native and community work match Ryan closely.",
+  "confidence": "high"
+}

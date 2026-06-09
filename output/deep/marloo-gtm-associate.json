@@ -1,0 +1,28 @@
+{
+  "company": "Marloo",
+  "title": "GTM Associate, London",
+  "location": "London (in-person, international travel)",
+  "direct_url": "https://jobs.ashbyhq.com/marloo/5c339f96-5929-4393-a040-8e05f38b5b12",
+  "callback_likelihood": 68,
+  "factor_scores": {
+    "A_requirements": 75,
+    "B_competition": 55,
+    "C_screening": 78,
+    "D_spike": 60,
+    "E_warmpath": 65,
+    "F_conversion": 72
+  },
+  "key_evidence": [
+    "Low hard bar: only 2+ yrs customer-facing experience in consulting/startups/sales/CS; Ryan's ~4.4 yrs operator/community/GTM clears this comfortably.",
+    "Explicit must-have: 'active AI power user leveraging tech for 10x productivity' — Ryan's Claude Code agent building is a direct, differentiating match.",
+    "UK work authorisation without sponsorship required — Ryan qualifies (UK-only auth).",
+    "Role spans demos, onboarding, conversion/retention, and 'own outcomes across GTM, operations, product, and hiring, launching manual experiments before scaling' — strongly matches Ryan's founding-generalist operator profile and first-employee experience.",
+    "Domain = AI for financial advisers / wealthtech (Blackbird Ventures, $12.7M raised in <1yr, 650+ firms, founded 2025). Outside Ryan's crypto/Web3 + AI-tooling domain; nice-to-have 'financial services exposure' is a gap, not a blocker.",
+    "Salary £40-70k + equity — band dips below the £50k floor at the low end but goes to £70k and is negotiable; in-person London with international travel.",
+    "Multiple parallel GTM/Growth roles open (also a Growth Lead, London) — moderate applicant pull; Blackbird brand raises visibility somewhat but lower hype than Jack & Jill."
+  ],
+  "biggest_lever": "Frame the $4.5m presale + 50k->5k lifecycle conversion work as proven GTM conversion/retention outcomes, and lead the AI-power-user requirement with concrete Claude Code workflows — both are explicit must-haves Ryan can over-index on.",
+  "biggest_risk": "Wealthtech/financial-advice domain is outside Ryan's crypto + AI-tooling expertise (nice-to-have FS exposure absent), and the role leans demo/sales-conversion which is adjacent to community-led growth rather than identical. Low salary floor risk (£40k bottom).",
+  "apply_verdict": "Apply",
+  "confidence": "high"
+}

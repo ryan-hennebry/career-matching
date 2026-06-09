@@ -1,0 +1,28 @@
+{
+  "company": "StudioB",
+  "title": "Founders Associate",
+  "location": "Mill Hill, London (NW7), in-office",
+  "direct_url": "https://join.studiob.net/jobs/7531144-founders-associate",
+  "callback_likelihood": 58,
+  "factor_scores": {
+    "A_requirements": 70,
+    "B_competition": 60,
+    "C_screening": 70,
+    "D_spike": 40,
+    "E_warmpath": 60,
+    "F_conversion": 45
+  },
+  "key_evidence": [
+    "StudioB: independent creative studio founded 2020, ~40 employees, creative agency + original content division. Clients incl. LEGO, Google, Netflix, Disney, Real Madrid. NOT an AI product company — a creative studio adopting AI workflows.",
+    "Role: force-multiplier to Founder/CEO. Owns exec cadence, implements automation/AI workflows, builds dashboards/reporting, delivers 2-3 strategic projects end-to-end. Progression from exec support (diary/scheduling) into project ownership.",
+    "Requirements: 2-5 yrs in consulting/strategy/media/production/startup; 'hands-on experience with AI tools or automation'; comfort with ambiguity, ownership, alignment without authority. Ryan's ~6.4yrs sits just above the band but founding-generalist + Claude-Code automation fit the AI-workflow ask well.",
+    "Salary not listed; creative-studio (non-VC) budgets in London for an FA likely modest — uncertain vs £50k floor. In-office Mill Hill NW7 = long commute from Cambridge until London relocation.",
+    "Screening: ~40 person studio, founder/CEO-led hire via own ATS (join.studiob.net) — moderate founder-read likelihood, not a faceless ATS.",
+    "Spike fit is weak: no crypto/community-growth or AI-product angle; the early bullets are heavy on EA/diary/scheduling (exec-support), which under-uses Ryan's GTM and fundraising spikes.",
+    "Domain mismatch: creative/media agency, not an AI or crypto product company per Ryan's target domain."
+  ],
+  "biggest_lever": "Claude-Code automation/agent-building + founding-generalist 'turn ambiguous founder priorities into workstreams' (literal Minima FA bullet) maps directly onto the AI-workflows + strategic-projects part of the JD.",
+  "biggest_risk": "Role front-loads executive-assistant/diary work and is a non-AI creative studio; risk of being mis-fit (over-experienced for the EA portion, off-domain) plus possible sub-£50k pay and a hard in-office NW7 commute.",
+  "apply_verdict": "Apply only if open to a creative-studio chief-of-staff-style path and the EA-heavy ramp; moderate odds but weak domain/spike alignment.",
+  "confidence": "medium"
+}

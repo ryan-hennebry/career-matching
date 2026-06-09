@@ -1,0 +1,29 @@
+{
+  "company": "Wing Assistant",
+  "title": "Founder's Associate, Growth & Operations",
+  "location": "London (listed) / Remote",
+  "direct_url": "https://jobs.lever.co/getwingapp/0d89d775-cbdc-4f07-8165-d73fa3664c9d",
+  "callback_likelihood": 60,
+  "factor_scores": {
+    "A_requirements": 72,
+    "B_competition": 65,
+    "C_screening": 60,
+    "D_spike": 50,
+    "E_warmpath": 55,
+    "F_conversion": 48
+  },
+  "key_evidence": [
+    "Broad founder-adjacent operator role: sales enablement, onboarding playbooks, churn/retention, funnel analytics - 'operate like a founder' - fits Ryan's generalist/FA profile",
+    "Hands-on builder of collateral (decks, case studies, onboarding guides, playbooks) - matches Ryan's content/asset-building",
+    "BUT spike fit is weak: role centres on B2B sales-funnel ops, churn analysis, recruitment ops for a VA-staffing business - NOT crypto, NOT community-led growth, NOT AI-agent building; no AI/Claude angle in JD",
+    "Wing Assistant is a virtual-assistant / outsourced-staffing company (getwingapp) - NOT an AI product company; weak domain/mission pull for Ryan",
+    "Lever workplaceType = 'remote' despite London tag - so 'London in-office' is loose; remote-friendly",
+    "Salary GBP33-55k - bottom well below Ryan's 50k floor; only top of band clears it",
+    "Posting createdAt ~Aug 2025 (~10 months old at 2026-06 run) - long-lived/evergreen req; either hard-to-fill or always-open pipeline = uncertain genuine urgency",
+    "Lever ATS with a recruiting function - moderate keyword/recruiter screen risk; mid-size company"
+  ],
+  "biggest_lever": "Frame Ryan's funnel work (50k email list -> 5k presale conversions via segmentation/A-B testing, 15x ROI) as directly transferable sales-enablement + activation analytics - the one area where Ryan has hard, quantified funnel results.",
+  "biggest_risk": "Stale evergreen posting (~10 months) at a non-AI VA-staffing firm with a low GBP33-55k band and a sales-ops/churn focus that doesn't hit any of Ryan's spikes - low genuine desirability and unclear whether the seat is actively being filled.",
+  "apply_verdict": "OPTIONAL / LOW-PRIORITY APPLY",
+  "confidence": "medium"
+}

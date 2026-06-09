@@ -1,0 +1,27 @@
+{
+  "company": "governr",
+  "title": "Chief of Staff",
+  "location": "City of London",
+  "direct_url": "https://www.ziprecruiter.co.uk/jobs/453289607-chief-of-staff-at-governr",
+  "callback_likelihood": 58,
+  "factor_scores": {
+    "A_requirements_fit": 50,
+    "B_competition": 65,
+    "C_screening": 95,
+    "D_spike": 50,
+    "E_warm_path": 95,
+    "F_conversion": 50
+  },
+  "key_evidence": [
+    "Live; very early-stage AI-risk/governance infrastructure startup (frameworks, standards, quantification models for the AI economy). Founder-led, advisors from MIT/Stanford/Columbia/Goldman.",
+    "OUTSTANDING warm-path + screening: apply via a 300-word intro emailed directly to rajen@governr.ai (a founder), 'strong candidates hear back within 48 hours.' This is a direct founder-read with NO ATS/recruiter filter — best-in-batch on factors C and E. A sharp, tailored 300-word pitch from Ryan goes straight to a decision-maker.",
+    "Requirements skew senior/breadth-heavy: 'build a financial model, create an investor pitch, design workflows, and write strategy documents — all in the same day,' founder-level intensity, strong commercial instincts. Ryan covers pitch decks/investor updates (Minima seed + Series A support), workflow design, and strategy — but a polished standalone FINANCIAL MODEL is a stretch he hasn't explicitly evidenced. 'Chief of Staff' title is borderline-senior but is a recognised founder-adjacent generalist role, not exec-excluded.",
+    "Spike fit is partial: prizes founder-level generalist ownership (maps to Ryan's first-employee/FA scaling story) and AI-economy thesis (adjacent to his AI-tooling interest), but the domain is AI-governance/risk-quant, NOT crypto/Web3 community growth — limited direct domain pull, and the role is light on the community/GTM-zero spikes Ryan is strongest at.",
+    "Path to senior leadership (COO/Head-of) signalled; in City of London (fits relocation). No salary published — CoS at a pre-seed/seed AI co could land near or modestly above £50k with equity."
+  ],
+  "biggest_lever": "Direct-to-founder 300-word email application with a 48-hour response promise — bypasses all ATS/recruiter screening, the single highest-leverage application channel in this batch.",
+  "biggest_risk": "Same-day financial-modelling + investor-pitch + strategy expectation at 'founder-level intensity' may exceed Ryan's evidenced finance-modelling depth; AI-governance domain doesn't pull on his crypto/community spikes.",
+  "apply_verdict": "Apply — top priority for the warm-path alone. Craft a tight 300-word pitch leading with first-employee/seed-to-Series-A operator credibility, fundraising-support and strategy-doc track record, and AI-native (Claude Code) building. Send to rajen@governr.ai.",
+  "confidence": "medium",
+  "availability": "live (direct founder email apply; 48h response window)"
+}

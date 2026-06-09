@@ -1,0 +1,28 @@
+{
+  "company": "ElevenLabs",
+  "title": "Deployment Strategist - Europe",
+  "location": "Europe (remote; UK-eligible)",
+  "direct_url": "https://jobs.ashbyhq.com/elevenlabs/5d1390e2-a6e8-4f8b-b01f-ad7e286009d2",
+  "callback_likelihood": 34,
+  "factor_scores": {
+    "A_requirements": 35,
+    "B_competition": 18,
+    "C_screening": 30,
+    "D_spike": 40,
+    "E_warmpath": 20,
+    "F_conversion": 65
+  },
+  "key_evidence": [
+    "Explicit technical bar: 'Basic proficiency in Python and familiarity with API integration, sufficient to prototype, demo, and communicate credibly with engineering teams' + 'familiarity with common LLM, tooling and AI agent frameworks'. Some job boards list this exact role as 'Forward Deployed Engineer - Strategist - Europe'.",
+    "Responsibilities: collaborate daily with customers' engineering AND executive teams to get agents to production; work alongside Forward Deployed Software Engineers. This is a quasi-engineering, enterprise-deployment role.",
+    "Ryan's CV: NO formal programming languages, no professional SWE. Claude-Code agent-building shows AI-tool literacy and could plausibly cover 'basic Python/API to prototype/demo', but this is the weakest evidence point and the role's hardest gate. A_requirements scored low/honest.",
+    "ElevenLabs is extremely hot (voice-AI unicorn, heavy hype) and the role is one of ~30 global Deployment Strategist reqs — high visibility, very high applicant volume, many with genuine FDE/Python backgrounds = very low competition score.",
+    "Remote-global / Europe posting widens the applicant pool further (not London-exclusive).",
+    "Large org with recruiting team + technical screen — an associate-level non-engineer is likely filtered at the Python/FDE gate before human read.",
+    "Conversion upside if hired (clear rounds, well-funded, strong comp) but the requirements gate makes reaching that stage unlikely."
+  ],
+  "biggest_lever": "Position Claude-Code agent-building as hands-on prototyping/demo ability with LLM/agent frameworks, plus customer-and-executive-facing communication strength, to argue 'credible with engineering teams' despite no formal SWE.",
+  "biggest_risk": "Hard technical gate (Python + API integration + FDE-adjacent) that Ryan does not formally meet, combined with massive applicant volume at a hype company — high chance of automatic technical screen-out.",
+  "apply_verdict": "Low-priority stretch; only apply with a strong demonstrable agent-building portfolio to counter the Python/FDE gate, otherwise deprioritise.",
+  "confidence": "high"
+}

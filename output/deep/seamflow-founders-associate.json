@@ -1,0 +1,28 @@
+{
+  "company": "Seamflow",
+  "title": "Founder's Associate",
+  "location": "London (Shoreditch / Gorsuch Place, in-person; isRemote=false)",
+  "direct_url": "https://jobs.ashbyhq.com/seamflow/fcabd41c-8e55-41a6-9e7c-b1e8d57b04a2",
+  "callback_likelihood": 52,
+  "factor_scores": {
+    "A_requirements_fit": 45,
+    "B_competition": 60,
+    "C_screening": 85,
+    "D_spike": 50,
+    "E_warm_path": 70,
+    "F_conversion": 50
+  },
+  "key_evidence": [
+    "Live on Ashby. ~8-11 person team (PitchBook 11, Built In 8), $4.5M seed (14x oversubscribed) from Northzone + Initialized. Tiny team => CEO/CTO/Chief-of-Staff read applications directly. Excellent screening + warm-path.",
+    "Hard pedigree gate: 'What we're looking for: 2-4 years at MBB, a top-tier investment bank, or a high-growth startup in an analytical or operational role.' Ryan is NOT MBB/IB, but DOES qualify via the 'high-growth startup in an analytical or operational role' path (first employee, Founder's Associate at Minima seed->Series A). The MBB/IB framing signals they want consultant-grade structure/analytics — a stretch for Ryan's community-growth-led profile.",
+    "Role content maps well to Ryan's FA experience: fundraising support (built decks, investor updates at Minima), GTM strategy+execution, operations, hiring ops, market research. The headline current need is 'converting pipeline into closed deals' — enterprise sales-assist, which is adjacent but not Ryan's strength (he did community-led conversion, not enterprise deal closing).",
+    "Domain = Testing/Inspection/Certification AI for aerospace, healthcare, energy, manufacturing. Explicitly OUTSIDE Ryan's crypto/Web3+AI-tooling domain — requires regulatory/compliance domain ramp he lacks.",
+    "Team is ex-X/Google/Amazon/Yandex/McKinsey + ex-FUSE Energy unicorn founding engineers — high-bar, technical/consulting-heavy culture. Ryan's non-technical, non-consulting background is a cultural-fit risk against this stated bar.",
+    "In-person Shoreditch — aligns with Ryan's London relocation. No salary published; likely sub/around £50k for a seed FA."
+  ],
+  "biggest_lever": "Genuine founder-read on a sub-12-person team; Ryan's first-employee FA-at-seed-to-Series-A story is exactly the 'build a company' narrative the role courts.",
+  "biggest_risk": "MBB/IB-flavoured pedigree bar + heavily technical/consulting team culture + regulated TIC domain (aerospace/medtech) outside Ryan's domain; current need is enterprise deal-closing, not community growth.",
+  "apply_verdict": "Apply — but lead hard with the 'high-growth startup operator, seed->Series A, $4.5m presale + fundraising support' angle to clear the non-MBB path, and acknowledge the domain ramp. Net-positive bet due to strong founder-read odds.",
+  "confidence": "high",
+  "availability": "live"
+}

@@ -1,0 +1,27 @@
+{
+  "company": "Ankar",
+  "title": "GTM, Strategy & Delivery",
+  "location": "New York (in-person; isRemote=false)",
+  "direct_url": "https://jobs.ashbyhq.com/ankar/b9452b71-d754-4c1c-938e-461340736b02",
+  "callback_likelihood": 33,
+  "factor_scores": {
+    "A_requirements_fit": 35,
+    "B_competition": 55,
+    "C_screening": 70,
+    "D_spike": 45,
+    "E_warm_path": 45,
+    "F_conversion": 15
+  },
+  "key_evidence": [
+    "Ashby API confirms this posting's ONLY location is 'New York' and isRemote=false. It is a US-market, in-person GTM/delivery hire. Ryan is UK-authorisation only and relocating to London, NOT the US — this is a near-blocker on work authorisation and physical location.",
+    "Domain is patent/IP/legaltech R&D tooling (analyses 150M patents, customers L'Oreal + law firm Vorys). Not Ryan's crypto/Web3 + AI-tooling domain. Bonus criterion is 'designing/delivering POCs to enterprise customers' — classic enterprise B2B delivery, which is explicitly NOT Ryan's profile (community-led growth, not enterprise delivery).",
+    "Requirements bar is generous on paper: '2+ years high-ownership environment (startups, consulting, banking)', builder's mindset, extreme ownership. Ryan's first-employee/founder's-associate background clears the experience bar comfortably.",
+    "20-person team, $24M+ raised (Atomico, Index, Norrsken). Small enough that a founder/hiring-manager likely reads applications — good screening signal.",
+    "Role explicitly warns: requires travel, no predefined playbook, high autonomy — suits a generalist operator like Ryan, but framed around enterprise POC delivery he hasn't done."
+  ],
+  "biggest_lever": "Generalist high-ownership operator profile clears the stated 2+yr bar; founder-read likely on a 20-person team.",
+  "biggest_risk": "New York in-person role with no UK/remote option = work-authorisation + location near-blocker for UK-only Ryan; domain (patent/IP legaltech) and enterprise-POC-delivery focus are both outside his profile.",
+  "apply_verdict": "Skip unless willing/able to relocate to the US (visa). The DISTINCT London-based Founder's Associate role on Ankar's board is a far better fit; this NY GTM role is effectively gated by location.",
+  "confidence": "high",
+  "availability": "live (New York only, in-person)"
+}

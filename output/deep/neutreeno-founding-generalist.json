@@ -1,0 +1,30 @@
+{
+  "company": "Neutreeno",
+  "title": "Founding Generalist",
+  "location": "Cambridge (Hybrid, min 3 days/week in office)",
+  "direct_url": "https://apply.workable.com/neutreeno/",
+  "callback_likelihood": 68,
+  "factor_scores": {
+    "A_requirements": 72,
+    "B_competition": 75,
+    "C_screening": 88,
+    "D_spike": 62,
+    "E_warmpath": 82,
+    "F_conversion": 60
+  },
+  "key_evidence": [
+    "Role: 'work directly with the Founder and Operations & Finance Lead, own highest-leverage priorities each week spanning HR, commercial, operations, finance, legal, revops and investor relations' - textbook FA/generalist matching Ryan's Minima FA experience (ops, fundraising support, cross-functional execution)",
+    "Explicitly: 'Deploying and managing AI agents and tools that unlock new levels of operational efficiency' - direct hook for Ryan's Claude Code agent-building spike",
+    "Investor relations + 'building foundations to scale the team' - maps to Ryan's $2.5m seed support + 1->30 scaling experience",
+    "Cambridge HQ - Ryan is currently based in Cambridge (relocating to London), so this is geographically convenient (no relocation friction); min 3 days/week in-office is workable",
+    "Deep-tech University-of-Cambridge spinout, decarbonisation B2B SaaS - domain is climate/supply-chain emissions, NOT crypto; meaningful domain ramp but mission-driven",
+    "Spike fit is moderate: role leans ops/finance/HR/legal/revops generalist (back-office) rather than Ryan's community-led growth/marketing spike - less GTM/community than Specter or Magentic",
+    "Small founding team (spinout) on Workable = founder/ops-lead read applications directly = high human-screen, low ATS risk",
+    "Climatebase listing 403'd; salary not confirmed from sources - comp uncertain (risk vs 50k floor)",
+    "Warm path: small team, Workable application + likely discoverable founder; Cambridge network"
+  ],
+  "biggest_lever": "Geography + FA-archetype: Ryan is Cambridge-based and has done this exact FA job (ops + fundraising support + cross-functional ownership at a 1->30 startup); pair that with the 'deploy/manage AI agents' line - lead with the Claude Code operational-efficiency angle, which most generalist applicants can't claim.",
+  "biggest_risk": "Role weights back-office ops/finance/HR/legal/revops over Ryan's community-led growth spike, and the domain (carbon/decarbonisation deep-tech) is unfamiliar; salary unconfirmed and could sit below the 50k floor for a founding-generalist seat.",
+  "apply_verdict": "APPLY",
+  "confidence": "medium"
+}

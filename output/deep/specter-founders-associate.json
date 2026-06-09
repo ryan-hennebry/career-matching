@@ -1,0 +1,30 @@
+{
+  "company": "Specter (tryspecter.com)",
+  "title": "Founder's Associate",
+  "location": "London",
+  "direct_url": "https://www.tryspecter.com/ (apply: careers@tryspecter.com)",
+  "callback_likelihood": 76,
+  "factor_scores": {
+    "A_requirements": 80,
+    "B_competition": 70,
+    "C_screening": 88,
+    "D_spike": 80,
+    "E_warmpath": 90,
+    "F_conversion": 68
+  },
+  "key_evidence": [
+    "Role spans 'product, sales, community, operations, research, hiring' working directly with founders - near-identical to Ryan's actual Minima Founder's Associate -> Community -> Marketing arc",
+    "Explicitly wants someone to 'drive community efforts - events, investor/client engagement, nurturing relationships, build a thriving user ecosystem' - direct map to Ryan's 100k Discord/Telegram + ambassador programme spike",
+    "Asks 1-2 yrs in VC or fast-growing startup - Ryan has 6.4yr incl 4.4yr at a scaling startup; OVER the bar (slight overqualification risk but reads as strength for an FA)",
+    "Wants 'digitally savvy, comfortable diving into tools, workflows, and technical products' - Ryan's AI-tooling/Claude Code work fits",
+    "Specter = AI deal-sourcing / startup-data platform; domain is VC/startup-data, adjacent to Ryan's startup-operator + crypto-signal world (not a regulated domain)",
+    "Company ~11-50 (LinkedIn ~56 employees), London (Oxford St) - small enough that founders/early team read applications directly = high human-screen, low ATS risk",
+    "Apply via careers@tryspecter.com (direct inbox) = clear warm path; founders/team visible on LinkedIn for outreach",
+    "Salary GBP42-77k - top of band clears Ryan's 50k floor; bottom of band below it",
+    "No structured ATS = email application; thoughtful note + tailored pitch can stand out"
+  ],
+  "biggest_lever": "Direct founder-inbox application (careers@tryspecter.com) with a sharp note connecting Ryan's literal FA-at-scaling-startup experience + 100k community build + crypto/startup-signal fluency to Specter's VC/deal-sourcing community mission - bypasses any ATS and lands on a human.",
+  "biggest_risk": "1-2yr target suggests they may want a cheaper/junior hire at the lower end of the band (GBP42k floor < Ryan's 50k); Ryan at 6.4yr could read as over-leveled or expensive for an FA seat.",
+  "apply_verdict": "STRONG APPLY",
+  "confidence": "medium"
+}

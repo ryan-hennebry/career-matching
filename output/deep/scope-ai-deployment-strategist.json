@@ -1,0 +1,28 @@
+{
+  "company": "Scope AI (Scope, getscope.ai)",
+  "title": "Deployment Strategist",
+  "location": "London, UK",
+  "direct_url": "https://jobs.ashbyhq.com/getscope/84b29e3d-c0f4-4245-9e21-82ae76440930",
+  "callback_likelihood": 62,
+  "factor_scores": {
+    "A_requirements": 62,
+    "B_competition": 72,
+    "C_screening": 80,
+    "D_spike": 45,
+    "E_warmpath": 65,
+    "F_conversion": 60
+  },
+  "key_evidence": [
+    "Scope: AI-native data collection / agents for the Testing, Inspection & Certification (TIC) sector — automates inspector admin, claims ~50% capacity unlock / up to 45% faster cycle times. Founded 2024 in London, early-stage (pre-seed/seed), small team. Founder/CEO Jonathan Low.",
+    "Role explicitly framed as EARLY-CAREER Deployment Strategist: scale post-sales processes, grow large enterprise accounts, operate at intersection of business and product, translate customer needs into roadmap priorities. Early-career framing favours Ryan's level (vs senior FDE roles).",
+    "Salary £80K-100K + equity (per ZipRecruiter/Jooble listing via Jack & Jill ATS) — comfortably above £50k floor; strong conversion signal.",
+    "Small 2024 startup = founder-led hiring, high human-read probability; lower prominence than ElevenLabs/Decagon = lower applicant volume = favourable competition.",
+    "Spike fit moderate: enterprise/post-sales deployment in TIC (industrial inspection) is off-domain (not crypto/AI-consumer), and leans toward enterprise account growth which Ryan lacks; BUT 'early-career', 'translate customer needs into roadmap', business+product intersection suits a generalist operator, and Claude-Code/agent literacy is relevant.",
+    "No explicit hard Python gate found (unlike ElevenLabs) — described as business/product role, lowering the SWE blocker.",
+    "Warm-path: small London team, founder active on LinkedIn, applies via Jack & Jill external ATS — discoverable, founder likely reviews."
+  ],
+  "biggest_lever": "Early-career + business/product framing + no hard SWE gate + small founder-led team means Ryan's founding-generalist + Claude-Code agent literacy + stakeholder-facing skills can land a human read at a reachable seniority.",
+  "biggest_risk": "TIC/industrial-inspection domain is far from crypto/AI-consumer and the role wants enterprise post-sales/account-growth experience Ryan doesn't have; domain ramp + lack of B2B delivery track record.",
+  "apply_verdict": "Apply — best balanced bet of the deployment-strategist roles: reachable seniority, good pay, founder-read, no Python gate, despite off-domain.",
+  "confidence": "medium-high"
+}

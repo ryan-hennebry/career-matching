@@ -1,0 +1,26 @@
+{
+  "company": "Tilt",
+  "title": "Founders Associate",
+  "location": "London (King's Cross, 5 days/week in-person)",
+  "direct_url": "https://jobs.ashbyhq.com/tilt/0d5fad5b-1fea-4f4f-b0c5-3fd47e282e60",
+  "callback_likelihood": 0,
+  "factor_scores": {
+    "A_requirements_fit": 0,
+    "B_competition": 0,
+    "C_screening": 0,
+    "D_spike": 0,
+    "E_warm_path": 0,
+    "F_conversion": 0
+  },
+  "key_evidence": [
+    "CONFIRMED CLOSED. The Ashby posting-api job board for slug 'tilt' returns only 3 live jobs: Lead Product Designer, Finance Manager, Mid/Senior Product Designer. The Founders Associate job ID 0d5fad5b-1fea-4f4f-b0c5-3fd47e282e60 is NOT present on the board => posting removed/filled.",
+    "Tilt's official careers page (tilt.app/careers) was independently confirmed to list ONLY those same 3 roles and 'No Founders Associate role is currently open.'",
+    "For reference (role as previously posted): Tilt = live-commerce/AI marketplace, founded by ex-Revolut alumni Abhi Thanendran & Neil Shah, 2.3M+ users across Europe; FA was 5-days/week in-person King's Cross, ~£28-48k, working directly with CEO on decks, fundraising, AI automations and shipping code. (The 'shipping code in production' expectation would have been a partial technical stretch for Ryan.)",
+    "Because the role is no longer accepting applications, callback_likelihood is set to 0 per instruction."
+  ],
+  "biggest_lever": "N/A — role closed.",
+  "biggest_risk": "Role is no longer live; any application would go unread.",
+  "apply_verdict": "Do not apply — posting is closed/removed. If interested in Tilt, monitor tilt.app/careers for a re-post or email careers@tilt.app speculatively.",
+  "confidence": "high",
+  "availability": "closed (confirmed removed from Ashby board and absent from official careers page)"
+}

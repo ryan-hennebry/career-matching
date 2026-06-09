@@ -1,0 +1,29 @@
+{
+  "company": "Deel",
+  "title": "GTM AI Operator | UK (Growth Solutions Architect)",
+  "location": "United Kingdom (Remote)",
+  "direct_url": "https://jobs.ashbyhq.com/Deel/f525355a-ba3e-4f6b-9b8d-83087a69f98c",
+  "callback_likelihood": 55,
+  "factor_scores": {
+    "A_requirements": 62,
+    "B_competition": 28,
+    "C_screening": 35,
+    "D_spike": 78,
+    "E_warmpath": 25,
+    "F_conversion": 75
+  },
+  "key_evidence": [
+    "Core ask maps to Ryan's genuine spike: 'prototype and ship autonomous AI agents using Claude Code, n8n, AI Studio' for GTM workflows - this is exactly Ryan's Career-Break competitor-intel + growth-experiment agents",
+    "BUT hard reqs include 'shipping AI/LLM workflows IN PRODUCTION', SQL proficiency, Salesforce/Outreach/HubSpot RevOps stack - Ryan's agent work is self-directed/personal, not production-deployed in a revenue org; SQL not on CV",
+    "2-4 yrs RevOps/GTM Ops/Sales Ops required - Ryan's background is community-led growth/marketing, NOT classic RevOps; partial match",
+    "LinkedIn shows 'Over 200 applicants' at ~1 week old - very high competition; hot AI title at a hyped $17.3B / $1B ARR unicorn",
+    "Listed as 'Entry level' seniority on LinkedIn - large funnel, junior-friendly = flood of applicants",
+    "Deel is a massive org: dedicated recruiting/ATS keyword screening likely (SQL/Salesforce/RevOps keywords Ryan lacks) - high keyword-filter risk for non-traditional CV",
+    "Remote UK + clear structured process; salary likely >50k - good conversion realism IF callback",
+    "WTTJ mirror showed 'Job no longer available' but LinkedIn live ~1wk - role may be closing/refilling fast"
+  ],
+  "biggest_lever": "Lead the application with a concrete, demonstrable Claude Code agent artifact (the competitor-intel + growth-experiment agents) framed as production-style GTM automation - this is the one screen criterion where Ryan can genuinely out-evidence the 200+ applicants.",
+  "biggest_risk": "ATS keyword filter at a 5,000+-person unicorn: missing SQL/Salesforce/RevOps/production-deployment keywords likely auto-screens a non-traditional CV before a human reads it; 200+ applicants make recruiter-read of a borderline CV unlikely.",
+  "apply_verdict": "APPLY (with strong agent-portfolio cover) - lower-probability lottery ticket",
+  "confidence": "high"
+}

@@ -1,0 +1,30 @@
+{
+  "company": "Sequence",
+  "title": "Product Marketer - London",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/sequence/2354b86d-d72f-4853-99a7-2e3cabbfa26e",
+  "callback_likelihood": 78,
+  "factor_scores": {
+    "A_requirements": 82,
+    "B_competition": 62,
+    "C_screening": 80,
+    "D_spike": 85,
+    "E_warmpath": 78,
+    "F_conversion": 70
+  },
+  "key_evidence": [
+    "Asks 2-4 yrs marketing (Ryan ~4.4yr marketing/community); Ryan well inside band",
+    "Explicitly: 'You don't necessarily have to have formal/traditional marketing experience... taste and storytelling are essential' - lowers the no-degree/non-traditional barrier",
+    "Role prizes AI-native operator: 'builds automated content engines, uses Claude to write in multiple brand voices, leverages Cursor to ship landing pages' - direct map to Ryan's Claude Code agent building",
+    "Wants 'extremely high-agency creative generalist... come up with an idea and execute within days' - matches first-employee/FA spike",
+    "Content engine ownership (blog/email/social) = Ryan's Minima content engine (30k blog/40k X/5k YT)",
+    "Small team, '$20M Series A led by 645 Ventures, a16z'; 'work directly with our founder' = founder/HM read, not big recruiter funnel",
+    "Posted 2026-04-29 (~6 weeks old at run) - somewhat aged, may be filling but still listed",
+    "Domain is B2B fintech/billing (CFOs/Finance leaders) - NOT Ryan's crypto/community domain; some ramp needed",
+    "Salary GBP70-85k + equity - well above Ryan's 50k floor"
+  ],
+  "biggest_lever": "Reframe Minima as an AI-native content/growth engine built from zero ($4.5m presale, content engine) and lead with concrete Claude/Cursor automation artifacts - the listing literally describes Ryan's self-taught spike as the ideal profile.",
+  "biggest_risk": "Domain mismatch: target audience is Finance/CFO B2B SaaS buyers, not crypto/community. B2B demand-gen-for-finance fluency is a learnable gap but a real one; competition from polished B2B SaaS marketers who already 'speak CFO'.",
+  "apply_verdict": "STRONG APPLY",
+  "confidence": "high"
+}

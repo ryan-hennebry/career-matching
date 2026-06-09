@@ -1,0 +1,27 @@
+{
+  "company": "ElevenLabs",
+  "title": "Growth Generalist",
+  "location": "Remote (UK eligible; offices incl. London)",
+  "direct_url": "https://elevenlabs.io/careers/19d9a7a0-10d9-41d8-b515-a61f1d85f186/growth-generalist",
+  "callback_likelihood": 56,
+  "factor_scores": {
+    "A_requirements": 78,
+    "B_competition": 20,
+    "C_screening": 35,
+    "D_spike": 70,
+    "E_warmpath": 30,
+    "F_conversion": 70
+  },
+  "key_evidence": [
+    "Requirements fit is good: B2B marketing generalist; 'we don't care if you have previous B2B marketing experience'; wants copywriting, organisation/context-switching, SQL + dashboards + spreadsheet modelling, fast learner, creative thinking. Ryan has the generalist/copy/content/analytics breadth; SQL is the one soft gap (data-literate but no formal SQL on CV).",
+    "COMPETITION IS THE KILLER: ElevenLabs is one of the hottest AI companies in the world — $11B valuation, $500M Series D (Feb 2026), ~$500M ARR, ~580 employees (up from 155 in 2024), pre-IPO, Nvidia-backed. A remote-global 'Growth Generalist' with no experience requirement at a famous lab will draw many hundreds to 1000+ applicants. B sub-score is very low.",
+    "SCREENING RISK: at ~580 employees with a mature recruiting org and remote-global reach, the first gate is a recruiter/ATS funnel processing huge volume — non-traditional CVs get filtered quickly. C sub-score low.",
+    "Remote/UK and pre-IPO equity upside make conversion attractive IF he gets in; salary not listed but ElevenLabs comp is strong. Reviews note 60+ hour weeks / intense pressure.",
+    "Posting date not visible; ElevenLabs roles are evergreen-style and heavily trafficked.",
+    "Domain = voice AI (not crypto/Web3) but role is growth craft, so domain gap is low-risk for fit; the binding constraint is sheer applicant volume + recruiter gate, not requirements."
+  ],
+  "biggest_lever": "Ryan's generalist growth/brand/content profile genuinely fits the role spec, and the role waives B2B-experience requirements — so on craft he could compete.",
+  "biggest_risk": "Hyper-prominent $11B AI lab + remote-global + no experience bar = enormous applicant pool funnelled through a recruiter/ATS; a non-traditional CV (no SWE, no SQL keyword, career break) is statistically likely to be screened out before the story lands.",
+  "apply_verdict": "Lower priority despite genuine fit — apply only with a referral or a standout creative artifact that jumps the recruiter queue; cold-applying into ElevenLabs' funnel is a low-yield use of effort versus Conduct.",
+  "confidence": "high"
+}

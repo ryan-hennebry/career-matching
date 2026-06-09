@@ -1,0 +1,27 @@
+{
+  "company": "Decagon",
+  "title": "Agent Strategy Manager (listed via Ashby as 'Agent Strategy Manager'; ZipRecruiter/Ashby search resolves the same URL to 'Agent Success Manager' — customer-facing deployment/strategic-advisor role)",
+  "location": "London, UK",
+  "direct_url": "https://jobs.ashbyhq.com/decagon/ac14f2e8-950e-4668-a6ff-41f80181f006",
+  "callback_likelihood": 41,
+  "factor_scores": {
+    "A_requirements": 50,
+    "B_competition": 22,
+    "C_screening": 35,
+    "D_spike": 45,
+    "E_warmpath": 25,
+    "F_conversion": 70
+  },
+  "key_evidence": [
+    "Role: customer-facing 'strategic advisor / co-pilot' guiding enterprise customers through AI-agent deployment from scoping to adoption; blends relationship management with hands-on execution and cross-functional work with Product/Eng.",
+    "Comp £105K-140K + equity + commission (London tier) per Ashby posting API — well above Ryan's £50k floor.",
+    "Decagon is a hot, high-prominence company: $250M raised Jan 2026 at $4.5B valuation (Coatue/Index), 300+ employees, brands Hertz/Duolingo/Notion/Oura. This drives very high applicant volume = low competition score.",
+    "300+ employees with dedicated recruiting/ATS — keyword-screened, low founder-read probability for an associate-adjacent applicant.",
+    "Ryan's gaps: no enterprise B2B customer-success/implementation track record; community-led GTM not enterprise account management. Has Claude-Code agent-building (relevant) and investor/stakeholder-facing comms (partial fit for C-level engagement).",
+    "Role is enterprise-deployment/CS oriented, not crypto or community growth — limited spike overlap."
+  ],
+  "biggest_lever": "Reframe Minima first-employee scaling + investor/C-level stakeholder comms + Claude-Code agent building as 'strategic advisor who can talk product, deployment and outcomes' — but must overcome lack of enterprise-CS evidence.",
+  "biggest_risk": "Hot, well-funded company at £105-140K attracts hundreds of experienced enterprise CS/deployment applicants; Ryan has no documented enterprise B2B delivery experience, so ATS/recruiter screen likely filters him out before human read.",
+  "apply_verdict": "Apply only with a tailored, deployment-outcome-led pitch; treat as a stretch/low-odds shot given competition and enterprise-CS gate.",
+  "confidence": "medium-high"
+}

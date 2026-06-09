@@ -1,0 +1,29 @@
+{
+  "company": "Lovable",
+  "title": "Deployment Strategist",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/lovable/fb1e1c16-b5e8-4c9e-81f1-4fe69ac157d1",
+  "callback_likelihood": 35,
+  "factor_scores": {
+    "A_requirements": 35,
+    "B_competition": 12,
+    "C_screening": 30,
+    "D_spike": 35,
+    "E_warmpath": 25,
+    "F_conversion": 55
+  },
+  "key_evidence": [
+    "London role CONFIRMED via Ashby posting API (distinct from London/Stockholm Solutions Architect and SF roles).",
+    "JD is enterprise-delivery / forward-deployed-consulting: 'leading strategic customer engagements', 'driving adoption, organizational change, RENEWALS, and EXPANSION across Enterprise and Strategic accounts', QBRs, C-suite recommendations, embed-with-customer-teams.",
+    "This is squarely Ryan's STATED NON-FIT: community-led growth NOT enterprise B2B delivery; no enterprise account, implementation-delivery, renewals, or QBR experience on CV.",
+    "'Technical ability to collaborate with engineers to scope, prototype, deploy scalable solutions' + partner with Forward Deployed Engineers — leans more technical/delivery than Ryan's operator profile.",
+    "Lovable is one of the hottest AI companies in the world: $6.6B valuation, ~$400M ARR, exploding headcount (146 -> ~500-1000+ in 2026) => enormous applicant volume, very strong brand pull = lowest competition score.",
+    "Hypergrowth scale-up with dedicated recruiting => structured ATS/recruiter screen against enterprise-SaaS keywords Ryan lacks.",
+    "Partial positives: 'AI-native products create leverage across teams' framing echoes Ryan's AI-leverage thesis; comfort with ambiguity + fast execution + workshops/enablement (community/ambassador-programme adjacency) give a thin bridge."
+  ],
+  "biggest_lever": "AI-leverage thesis + ambiguity-comfort + running enablement/ambassador-style programmes gives a thin narrative bridge to 'help customers rethink work with AI'.",
+  "biggest_risk": "Core requirement is enterprise B2B deployment/renewals/expansion delivery — explicitly NOT Ryan's experience — at a hyper-famous brand with massive applicant volume and recruiter keyword screening.",
+  "apply_verdict": "SKIP-OR-LONGSHOT",
+  "confidence": "high",
+  "availability": "CONFIRMED-LIVE"
+}

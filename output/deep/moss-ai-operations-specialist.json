@@ -1,0 +1,27 @@
+{
+  "company": "Moss",
+  "title": "AI Operations Specialist (AI Operations Associate)",
+  "location": "London (Moss HQ Berlin; offices Berlin/Amsterdam/London/Warsaw/Tallinn)",
+  "direct_url": "https://jobs.ashbyhq.com/moss/88fdfa31-feec-4f32-85f1-0d2f34433069",
+  "callback_likelihood": 64,
+  "factor_scores": {
+    "A_requirements": 78,
+    "B_competition": 55,
+    "C_screening": 48,
+    "D_spike": 70,
+    "E_warmpath": 45,
+    "F_conversion": 68
+  },
+  "key_evidence": [
+    "Requirements map well to Ryan's recent work: 'Build and deploy solutions (automations, AI agents, prompt workflows) using tools like Claude, n8n'; 'No requirement to be a strong coder, but need technical curiosity and fluency using AI tools natively' — directly matches Ryan's Claude Code agent-building.",
+    "BUT listing leans on 'Background in AI-focused education (courses, certifications, or hands-on training)' and 'Demonstrated experience using AI to build, ship, and transform work in prior teams or projects.' Ryan's AI work is self-directed career-break projects, not in-team deployment — a softer signal than the listing's ideal.",
+    "Company: Moss is a Series B spend-management fintech, ~500 employees (Tracxn Jan 2026), $148M raised, Berlin-HQ, recognised by Sifted Rising 100 / LinkedIn Top Startups. Large, well-known company.",
+    "Posting published 2026-05-18 — ~3 weeks open. Moderate age.",
+    "SCREENING RISK: at ~500 employees with a dedicated talent team and a polished employer brand, the first gate is very likely a recruiter/ATS keyword filter, not a founder read. A CV with no AI certification, no fintech, non-technical degree and a self-directed (career-break) AI project is exactly the kind ATS keyword-matching can bin.",
+    "Domain = fintech spend management (regulated-adjacent), not Ryan's crypto/Web3. Role is internal AI-enablement so domain ramp is moderate; in-office cadence not stated (London office exists)."
+  ],
+  "biggest_lever": "The core need — hands-on building of Claude/n8n AI agents and workflows to transform how teams work, no coding required — is precisely what Ryan has been doing on his career break; the work itself is a genuine match.",
+  "biggest_risk": "Recruiter/ATS first-gate at a 500-person fintech that explicitly wants 'AI-focused education/certifications' and 'demonstrated in-team AI deployment'; Ryan's self-directed career-break AI projects and non-technical/non-fintech background risk being keyword-filtered before a human sees the story.",
+  "apply_verdict": "Worth applying but lower-odds — the work fits Ryan's AI-agent spike well, but a large-company ATS gate and a preference for AI credentials/in-team deployment make a callback less likely; strengthen with a concrete AI-build portfolio link and referral if possible.",
+  "confidence": "med"
+}

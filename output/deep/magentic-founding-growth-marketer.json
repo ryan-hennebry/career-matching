@@ -1,0 +1,30 @@
+{
+  "company": "Magentic",
+  "title": "Founding Growth Marketer",
+  "location": "London (Hybrid HQ, WFH Thu + alt Tue)",
+  "direct_url": "https://jobs.ashbyhq.com/magentic/036ab5ae-1ed9-4525-a734-a1ed3b6448dd",
+  "callback_likelihood": 72,
+  "factor_scores": {
+    "A_requirements": 70,
+    "B_competition": 68,
+    "C_screening": 90,
+    "D_spike": 80,
+    "E_warmpath": 85,
+    "F_conversion": 62
+  },
+  "key_evidence": [
+    "Explicit zero-to-one mandate: 'our first Growth Marketer... work directly with founders... turn early signals into repeatable growth playbooks' - direct map to Ryan's first-employee + GTM-from-zero spike ($4.5m presale on $300k, 15x ROI)",
+    "Wants full-stack growth: customer research, messaging, campaigns, distribution + 'leverage modern AI and automation tools to analyse, track, report, execute' - hits Ryan's content engine + Claude Code automation",
+    "Preferred: 'experience driving measurable growth at an early-stage ENTERPRISE B2B startup' - this is the gap; Ryan's growth is community-led/consumer-crypto, NOT enterprise B2B procurement; partial requirement clear",
+    "Domain = AI agents for industrial procurement / supply chain ($3tn TAM) - far from crypto/community; meaningful domain ramp",
+    "Tiny seed team: 'first 11 people' (ex-OpenAI/Meta/Revolut/NASA/McKinsey), $5.5M seed led by Sequoia (Jul 2025) - founders/CEO read every application = very high human-screen, near-zero ATS-filter risk",
+    "JD: 'Work closely with our CEO to refine ICP' + named interview process (founder call -> skills present -> in-person work day) = warm, human, founder-led pipeline",
+    "Salary GBP90-100k + equity + visa sponsorship - well above Ryan's 50k floor; strong comp",
+    "Posted 2026-03-08 (~3 months old at run) - aging, may be advanced in pipeline or selective",
+    "Hybrid London (WFH Thu + alt Tue) - reasonable cadence; in-person final round (Cambridge commuter manageable)"
+  ],
+  "biggest_lever": "Sequoia-backed 11-person team means the CEO personally reads applications - a tailored pitch leading with 'I was the first growth hire who built a repeatable GTM playbook from zero ($4.5m presale)' plus an AI-automation artifact lands directly with the decision-maker, sidestepping the enterprise-B2B gap.",
+  "biggest_risk": "'Enterprise B2B early-stage growth' preference vs Ryan's community-led consumer-crypto growth - they may want someone who has sold into enterprise procurement/industrial buyers; domain (supply chain/procurement) is unfamiliar and the role has been open ~3 months (possible selectivity).",
+  "apply_verdict": "STRONG APPLY",
+  "confidence": "high"
+}

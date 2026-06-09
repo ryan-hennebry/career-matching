@@ -1,0 +1,29 @@
+{
+  "company": "HappyRobot",
+  "title": "Strategy & Operations",
+  "location": "London (hybrid)",
+  "direct_url": "https://jobs.ashbyhq.com/happyrobot.ai/bb5315cc-571f-41f9-84b7-8cfff34e3f02",
+  "callback_likelihood": 49,
+  "factor_scores": {
+    "A_requirements": 62,
+    "B_competition": 32,
+    "C_screening": 45,
+    "D_spike": 48,
+    "E_warmpath": 35,
+    "F_conversion": 60
+  },
+  "key_evidence": [
+    "London role CONFIRMED via Ashby posting API as distinct, listed role (separate from Madrid + multiple SF variants).",
+    "MUST-HAVEs are generalist and non-technical-gating: analytical/problem-solving, Excel/Sheets (SQL/Python/BI only 'a plus'), comms, 'Founder Mindset', fast-paced tolerance. Ryan clears all of these.",
+    "'Founder Mindset - here for a reason and ready to take risks' + 'Extreme Ownership' operating principle map to Ryan's first-employee/founder-associate background.",
+    "Role is ops/process-optimization heavy: analyze operational data, workflow automation, dashboards, procurement/contract management, finance-sales-legal coordination. This is process-rigor work, NOT community-led GTM (Ryan's spike).",
+    "Travel 50-75% for customer discovery/workshops/onsite — significant lifestyle gate.",
+    "Domain = enterprise logistics/supply-chain AI infra (YC S23, a16z + Base10, $60M+, ~140 employees) — outside Ryan's crypto/Web3 domain.",
+    "~140-person, well-funded, hot YC co with 85 open roles globally = high visibility, likely recruiter/hiring-manager screen rather than founder-read."
+  ],
+  "biggest_lever": "Founder-mindset + extreme-ownership + first-employee-scaling-a-startup narrative directly answers the stated cultural bar; no hard technical blocker exists.",
+  "biggest_risk": "Role rewards operational/data/process rigor in enterprise logistics, not Ryan's community-GTM/crypto spike; 50-75% travel plus high applicant volume at a hot YC co dilute his differentiation.",
+  "apply_verdict": "APPLY-IF-CAPACITY",
+  "confidence": "high",
+  "availability": "CONFIRMED-LIVE"
+}

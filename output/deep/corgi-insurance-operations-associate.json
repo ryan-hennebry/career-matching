@@ -1,0 +1,27 @@
+{
+  "company": "Corgi Insurance",
+  "title": "Operations Associate",
+  "location": "London",
+  "direct_url": "https://www.ycombinator.com/companies/corgi-insurance/jobs/QkzDlzY-operations-associate",
+  "callback_likelihood": 68,
+  "factor_scores": {
+    "A_requirements": 82,
+    "B_competition": 60,
+    "C_screening": 80,
+    "D_spike": 60,
+    "E_warmpath": 70,
+    "F_conversion": 45
+  },
+  "key_evidence": [
+    "Experience required: 'Any (new graduates welcome)'. Required = track record of building things/side projects, fast execution, structural thinking, low ego/high agency — all Ryan strengths. No degree-match or SWE gate.",
+    "Preferred: prior early-stage startup experience (Ryan has 4.4yr first-employee), high-intensity environment, AI tools to multiply output (Ryan builds Claude Code agents) — Ryan hits all three preferreds.",
+    "Salary £50K-£70K — clears Ryan's £50k floor. Visa sponsorship 'not required' (Ryan UK-authorized, fine).",
+    "Funding: $374M raised (Kindred, TCV), YC S24, ~100 employees, founded 2024. SF-HQ with London office. Role reports to Head of Operations — likely hiring-manager read, but at 100 people there may be a recruiter first-pass.",
+    "Domain = full-stack insurance carrier (regulated insurance). NOT Ryan's crypto/AI domain; he can do the ops work but is not memorable/differentiated here vs a consulting/banking-background applicant the 'preferred' list also courts.",
+    "MAJOR CONVERSION RISK: in-office 6-7 days/week in London, plus a 48-hour in-person work trial. Ryan is Cambridge-based relocating to London; 6-7 day in-office is punishing and the trial is a high commitment for an ops-generalist role he isn't differentiated in."
+  ],
+  "biggest_lever": "Ryan cleanly clears every stated requirement and all three 'preferred' bullets (early-stage startup, high agency, AI-tools-to-multiply-output), and the role explicitly welcomes any experience level.",
+  "biggest_risk": "6-7 days/week in-office + 48hr in-person work trial is a heavy commitment for a generalist ops role where Ryan is merely adequate (not spiked) and competes against consulting/banking/military profiles the listing specifically courts; conversion realism is low.",
+  "apply_verdict": "Secondary priority — strong on-paper requirements fit but Ryan isn't differentiated and the 6-7 day office + work-trial cadence is a real lifestyle/conversion concern. Apply only if he genuinely wants intense in-person insurance-ops.",
+  "confidence": "high"
+}

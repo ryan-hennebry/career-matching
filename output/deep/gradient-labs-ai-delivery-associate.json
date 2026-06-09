@@ -1,0 +1,27 @@
+{
+  "company": "Gradient Labs",
+  "title": "AI Delivery Associate",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/gradient-labs/40338f3c-d2cc-4859-8efd-8aacd4680c7e",
+  "callback_likelihood": 70,
+  "factor_scores": {
+    "A_requirements": 80,
+    "B_competition": 68,
+    "C_screening": 78,
+    "D_spike": 58,
+    "E_warmpath": 72,
+    "F_conversion": 65
+  },
+  "key_evidence": [
+    "Requirements are forgiving and operator-shaped: 'early-career delivery experience' in project coordination/implementation/customer-facing ops; organised/dependable; 'comfortable with ambiguity... work without a fully defined playbook'; 'technically curious — you don't need to be an engineer'; data-literate with dashboards/spreadsheets; clear communicator. Ryan's founder-associate (turned ambiguous priorities into workstreams, cross-functional execution) + community/ops history maps cleanly; the no-engineer + ambiguity framing removes blockers.",
+    "Company: Gradient Labs founded 2023 by ex-Monzo/Pleo/Google team; raised $13M Series A (Apr 2025, Redpoint) then doubled to $26M (Octopus/CommerzVentures); 'small but mighty team of 40+'; revenue grew 900%; agents serve 32M end users. London-based.",
+    "Posting published 2026-06-05 — only ~4 days old at run date. FRESH posting = minimal accumulated applicants = lower competition window; apply now.",
+    "SCREENING: ~40-person Series A team — first gate is very likely a hiring manager / AI Delivery Lead reading CVs, not a heavy ATS funnel. Good for Ryan's non-traditional but high-agency story.",
+    "DIFFERENTIATION caveat: role is implementation/delivery coordination (onboarding, configuring the agent from playbooks, monitoring perf, compliance/security-review support). Ryan is community-led growth, NOT classic customer delivery/implementation; he is adequate-to-good here, not spiked. Domain = financial services (regulated) — outside his crypto/AI home turf, and the role touches compliance/due-diligence/governance which favours a fintech-ops background.",
+    "Conversion: associate band fits Ryan's mid-level; London role, in-office cadence not stated, salary not stated (Series A London likely clears or near £50k)."
+  ],
+  "biggest_lever": "Very fresh posting (~4 days) at a small ~40-person founder-led Series A team with forgiving, ambiguity-friendly, no-engineer-required requirements that match Ryan's founder-associate/cross-functional-execution profile — a human hiring-manager read in a low-competition window.",
+  "biggest_risk": "Core of the role is customer delivery/implementation + compliance/governance in regulated financial services — adjacent to but not the same as Ryan's community-led growth, so he meets the bar without standing out, and a fintech-ops candidate would be more directly differentiated.",
+  "apply_verdict": "Prioritise (apply now while fresh) — strong requirements/screening fit and a brand-new posting at a small founder-led team; the main caveat is that delivery/implementation isn't Ryan's spike, so frame his ambiguity-navigation and cross-functional founder-associate execution hard.",
+  "confidence": "high"
+}

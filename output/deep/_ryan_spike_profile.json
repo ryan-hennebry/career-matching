@@ -1,0 +1,51 @@
+{
+  "candidate": "Ryan Hennebry",
+  "summary": "~6.4 yrs working experience; first employee at Minima (crypto/Web3) across FA -> Community Manager -> Marketing Manager as it scaled 1->30, seed -> Series A. Operator/founding-generalist, NOT a software engineer. UK auth only. Since Aug 2023 building AI agents with Claude Code.",
+  "strongest_spikes": [
+    {
+      "spike": "Community-led growth at scale in a high-trust technical community",
+      "evidence": "Grew Discord/Telegram to 100k via ambassador programme + developer hackathons; onboarded 50k node-runners scaling network to 75k nodes; built content engine (30k blog, 5k YT, 40k X) + 2m PR views.",
+      "why_memorable": "Real six-figure community built from zero with mechanisms (ambassador, hackathon, node-runner programmes), not vanity metrics."
+    },
+    {
+      "spike": "GTM-from-zero / community-led monetization with hard ROI",
+      "evidence": "$4.5m community-led presale on a $300k budget (15x ROI); 5k presale conversions from a 50k email list via segmentation + A/B testing; positioning/messaging ownership.",
+      "why_memorable": "Owned a revenue event end-to-end with a quantified 15x ROI — rare for a non-sales operator."
+    },
+    {
+      "spike": "First-employee founder-associate: scaling a startup 1->30, seed->Series A",
+      "evidence": "Founder's Associate at Minima: pitch decks + investor updates for $2.5m seed; events that connected founders to investors contributing to $6.5m Series A; turned ambiguous founder priorities into workstreams; hiring support.",
+      "why_memorable": "Genuine 0->1 founder-adjacent operator who has lived the ambiguity, fundraising, and cross-functional execution most FA JDs only describe."
+    },
+    {
+      "spike": "Hands-on AI-agent building with Claude Code",
+      "evidence": "Career break: built agents with Claude Code for competitor-intel and growth-experiments, turning market signals into repeatable research workflows + recommendations for startup teams.",
+      "why_memorable": "Operator who actually ships AI agents/workflows (not just 'uses ChatGPT') — directly credible for AI-tooling and internal-tools-builder roles."
+    }
+  ],
+  "best_fit_archetypes": [
+    {
+      "archetype": "Founder's Associate / Chief-of-Staff at an early-stage (pre-A to A) startup",
+      "rationale": "Matches his lived 0->1 experience: ambiguity, fundraising support, cross-functional execution, founder-read pipelines that reward specificity over keywords."
+    },
+    {
+      "archetype": "Founding / early Growth or Community lead at a crypto/Web3 or AI-tooling company",
+      "rationale": "Directly leverages his 100k-community + 15x-ROI presale spike in his own domain where he is differentiated, not adequate."
+    },
+    {
+      "archetype": "AI-leverage / internal-tools / ops-automation builder (Claude Code) at a small startup",
+      "rationale": "His career-break work is exactly this; roles framing 'build internal tools/AI workflows, coding-comfortable but not SWE-gated' fit best."
+    },
+    {
+      "archetype": "Generalist Strategy & Operations / GTM-ops operator at a founder-led startup",
+      "rationale": "Founder-mindset + extreme-ownership culture roles fit, BUT he is strongest where community/GTM matters and weakest in pure enterprise-delivery/process-rigor roles."
+    }
+  ],
+  "anti_fit_signals": [
+    "Enterprise B2B delivery / forward-deployed / renewals-expansion / QBR roles (no enterprise account or implementation-delivery experience).",
+    "Roles gating on professional software engineering or named programming-language proficiency.",
+    "Domains outside crypto/Web3 + AI tooling (fintech-regulated, legal, healthtech, energy/climate, tax, insurance) where he carries no credential or passion signal.",
+    "Roles requiring documented people-management headcount or US/EU work authorization.",
+    "Junior-band roles (1-3 yrs / sub-£50k) where ~6.4 yrs reads as overqualified flight-risk."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "company": "Jack & Jill",
+  "title": "Founding Operator (Jill Delivery)",
+  "location": "London (Shoreditch, 5d/wk in-office)",
+  "direct_url": "https://jobs.ashbyhq.com/jack-and-jill/0b47c628-a2a6-4e4c-8ca6-f59dfb5f96b1",
+  "callback_likelihood": 56,
+  "factor_scores": {
+    "A_requirements": 55,
+    "B_competition": 38,
+    "C_screening": 80,
+    "D_spike": 60,
+    "E_warmpath": 70,
+    "F_conversion": 62
+  },
+  "key_evidence": [
+    "Role sits on the Jill Delivery team = post-sale account management, customer success, expansion, escalations, owning a customer portfolio. Ryan has community/investor/PR-facing growth but NO enterprise account-management or B2B customer-success portfolio ownership — core requirements gap.",
+    "Wants prior customer-portfolio ownership + hiring involvement + light scripting/automation. Ryan has hiring-support (Founder's Associate) and Claude Code automation — partial fit; portfolio-ownership is the weak spot.",
+    "'Convert manual processes into repeatable workflows' + 'structured customer insights to product' maps to Ryan's AI-agent / repeatable-research-workflow framing and first-employee operator background — genuine spike overlap.",
+    "Funding: $20M seed led by Creandum (tier-1), >£1m ARR, 10 months old, ~15 people (10 ex-founders). Well-funded + buzzy AI-recruiting + high comp => high applicant volume and an exceptionally high ex-founder peer bar.",
+    "Salary £100-180k + flexible equity, MacBook/Bupa/perks — far above £50k floor (positive want), but the comp band signals a senior/high-bar hire that may stretch Ryan's mid-level operator profile.",
+    "Small founder-heavy team, Ashby direct apply, works directly with Jill Delivery Lead — founder/lead-read screening, not recruiter keyword filter."
+  ],
+  "biggest_lever": "Position the first-employee 1->30 scaling + 'turn ambiguous founder priorities into workstreams' + Claude Code workflow automation as exactly the high-agency process-builder this seat needs.",
+  "biggest_risk": "Requirement centre of gravity is enterprise customer-success / account-portfolio ownership, which Ryan lacks; competing against a 10-ex-founder bar for a £100-180k seat where peers likely have direct CS/AM track records.",
+  "apply_verdict": "Apply (stretch)",
+  "confidence": "high"
+}

@@ -1,0 +1,26 @@
+{
+  "company": "Assuric",
+  "title": "Founder's Associate (Ops)",
+  "location": "London (Hybrid)",
+  "direct_url": "https://www.assuric.com/careers",
+  "callback_likelihood": 30,
+  "factor_scores": {
+    "A_requirements": 45,
+    "B_competition": 40,
+    "C_screening": 75,
+    "D_spike": 30,
+    "E_warmpath": 55,
+    "F_conversion": 40
+  },
+  "key_evidence": [
+    "ROLE STATUS: Listed as CLOSED on assuric.com/careers (all four roles — Founder's Associate Ops, Clinical Associate, AI Founding Engineer, Fullstack Engineer — show Closed). No live per-role apply URL found; only a LinkedIn historical posting (4004339031) exists.",
+    "Domain = healthtech / medical-device & software regulatory compliance automation (NHS Innovation Accelerator, Entrepreneurs First backed, founded 2024). This is explicitly outside Ryan's crypto/Web3 + AI-tooling domain per CV constraints (NOT healthtech) — a core spike/domain mismatch.",
+    "Role content ('build AI and automation workflows, streamline processes, help shape us as we scale') maps reasonably to Ryan's Claude Code automation + first-employee operator profile — the one positive, but generic and detail-light.",
+    "Founders ex-Palantir CTO + clinical CEO; small EF-backed team => founder-read screening if reopened (positive), discoverable founders on LinkedIn (warm-path moderate).",
+    "No salary/equity disclosed; healthtech regulatory ramp is steep for a non-domain operator => weak conversion."
+  ],
+  "biggest_lever": "If the role reopens, lead with first-employee operator + Claude Code automation framing; warm-path via founders' LinkedIn (Dr Paul Jewell / Matt Jennings) since there is no live ATS.",
+  "biggest_risk": "Role is currently closed (not applyable) AND the domain is regulated healthtech compliance — outside Ryan's expertise and one of the steepest ramps of the batch. Lowest actionability.",
+  "apply_verdict": "Pass (role closed + domain mismatch)",
+  "confidence": "high"
+}

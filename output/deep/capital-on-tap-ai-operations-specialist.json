@@ -1,0 +1,27 @@
+{
+  "company": "Capital on Tap",
+  "title": "AI Operations Specialist",
+  "location": "London (Moorgate)",
+  "direct_url": "https://job-boards.greenhouse.io/capitalontap/jobs/8520481002",
+  "callback_likelihood": 58,
+  "factor_scores": {
+    "A_requirements": 70,
+    "B_competition": 55,
+    "C_screening": 40,
+    "D_spike": 62,
+    "E_warmpath": 35,
+    "F_conversion": 70
+  },
+  "key_evidence": [
+    "Requirements partial fit: wants 'demonstrated experience deploying AI tools (Claude, Cursor, n8n, Zapier) in actual business environments' + low-code/no-code, APIs, SQL/BI familiarity + 'builder's mentality' — Ryan's Claude Code agent-building and operator background hit the AI-builder and ownership parts.",
+    "HARD-ER GATE: '2-5 years in product operations, business operations, strategy, or technical program management.' Ryan's 6.4yr is marketing/community/founder-associate, not titled product/biz-ops or TPM — adjacent but not a clean keyword match. Also 'design and build multi-step agentic workflows that connect AI models with internal systems' leans more technical than Moss's framing.",
+    "Company: Capital on Tap is a ~971-employee, ~$227M-revenue established London fintech (business credit cards, founded 2012, 200k+ SMB customers). Large, mature, regulated-adjacent financial services.",
+    "SCREENING RISK: ~971 employees with a full talent/recruiting function on Greenhouse ATS — first gate is recruiter/keyword filter. A CV lacking the literal 'product/business operations / TPM' title and a regulated-fintech background is at real risk of being filtered.",
+    "Posting on Greenhouse; date not exposed. In-office 3 days/week London — reasonable cadence, salary not stated but established fintech likely clears £50k.",
+    "Domain = SME credit/fintech, regulated-adjacent — outside Ryan's crypto/AI-tooling home turf; the AI-enablement nature of the role makes domain ramp moderate, but he is not differentiated/memorable here."
+  ],
+  "biggest_lever": "The role's central ask — a hands-on builder who deploys Claude/n8n/Zapier agentic workflows into real business operations — overlaps directly with Ryan's current Claude Code agent work, giving him a credible AI-builder story.",
+  "biggest_risk": "Explicit '2-5 years in product/business operations/strategy/TPM' requirement plus a large-fintech recruiter/ATS gate; Ryan's marketing/community/founder-associate titles don't keyword-match the ops/TPM gate and the agentic-workflow build is more technical than his proven depth.",
+  "apply_verdict": "Mid-priority — apply if Ryan can reframe his founder-associate/operator experience as business-operations and lead hard with concrete Claude-Code agentic-workflow builds; but the titled-ops gate + large-company ATS make it lower-odds than Conduct or Corgi.",
+  "confidence": "med"
+}

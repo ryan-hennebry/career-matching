@@ -1,0 +1,27 @@
+{
+  "company": "n8n",
+  "title": "AI Product Manager",
+  "location": "Berlin Office (listed location; task stated Remote Europe/UK)",
+  "direct_url": "https://jobs.ashbyhq.com/n8n/42e72645-d99a-4545-97b7-53ba3a699893",
+  "callback_likelihood": 38,
+  "factor_scores": {
+    "A_requirements": 40,
+    "B_competition": 15,
+    "C_screening": 25,
+    "D_spike": 58,
+    "E_warmpath": 20,
+    "F_conversion": 45
+  },
+  "key_evidence": [
+    "LOCATION FLAG: Ashby lists this role as 'Berlin Office', not Remote Europe/UK. n8n has a London Office (separate Enterprise AE role) but this PM seat is Berlin-anchored — relocation/EU-auth concern for a UK-only-authorised candidate.",
+    "Open to 'early-career builder with unusually strong AI instincts and a track record of making things' (agent workflows, prototypes, public projects, tools real users touched) — Ryan's Claude Code agents fit this builder framing. This is the genuine spike overlap.",
+    "But it is a Product Manager role owning an AI workstream (AI Trust/evals/guardrails OR Super Agent product); Ryan has never held a PM title and his AI agents are personal/internal tools, not products shipped to real users at scale — core requirements gap.",
+    "Scale: $5.2bn valuation, 260+ employees, 650k developers, 190k GitHub stars, Sequoia/SAP backed. Massive brand => very high applicant volume (LOW competition score) and a dedicated recruiting team => ATS/recruiter keyword screening (LOW screening score), not founder-read.",
+    "Workstreams are deeply technical (evals, observability, traces, guardrails, latency/cost, computer/browser use) — favours candidates with production AI-product or engineering-adjacent backgrounds Ryan does not have.",
+    "No salary disclosed; n8n is a strong, well-resourced employer (conversion-positive if hired) but the seniority/craft bar and Berlin location lower realistic fit."
+  ],
+  "biggest_lever": "The application asks every candidate to build an n8n workflow and share a screenshot — Ryan's Claude Code/agent-building fluency lets him produce a genuinely impressive artifact, the one place a non-PM can stand out.",
+  "biggest_risk": "No PM title/experience + AI work is internal tooling not shipped products, at a 260-person $5.2bn company with recruiter/ATS screening and huge applicant volume; plus the role is Berlin-anchored against UK-only work authorisation.",
+  "apply_verdict": "Pass (low fit)",
+  "confidence": "medium"
+}

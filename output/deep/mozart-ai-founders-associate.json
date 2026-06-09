@@ -1,0 +1,28 @@
+{
+  "company": "Mozart AI",
+  "title": "Founders Associate",
+  "location": "London, UK",
+  "direct_url": "https://uk.linkedin.com/company/mozart-ai/jobs",
+  "callback_likelihood": 67,
+  "factor_scores": {
+    "A_requirements": 65,
+    "B_competition": 70,
+    "C_screening": 90,
+    "D_spike": 70,
+    "E_warmpath": 80,
+    "F_conversion": 55
+  },
+  "key_evidence": [
+    "Mozart AI: AI-powered Digital Audio Workstation (music creation). Founded 2025, King's College London founders (Sundar Arvind, Arjun Khanna, Pascual Merita Torres). Raised $6M seed led by Balderton (Jan 2026) on top of ~$1.1M pre-seed; ~$7M total.",
+    "Very early-stage, founder-led, small team (sub-20) — Founders Associate hire would be founder-read, not ATS/recruiter. Highest screening score of the batch.",
+    "No clean ATS — role surfaced via LinkedIn + founders' posts. Lower applicant visibility/volume than ElevenLabs/Decagon = favourable competition. But also harder to find/verify exact requirements (UNRESEARCHABLE: no canonical JD URL found; requirements inferred from typical seed-stage FA roles).",
+    "Strong spike fit: Ryan was literally first employee / Founder's Associate at Minima, scaled 1->30, supported seed + Series A fundraising, ran community-led GTM. This is his exact archetype — founding generalist at a seed AI startup.",
+    "Domain is consumer/creator music-tech, not crypto — Ryan has content engine + community growth (YouTube/X/Discord 100k) which maps well to a creator-tool GTM. Founders are creator/music background (Spinnin' Records signee).",
+    "Warm-path: small founder-led team, founders post publicly on LinkedIn — discoverable, likely to read a direct, well-targeted outreach.",
+    "Risks: seed FA roles often want 0-3yr hungry generalists or technical builders; Ryan at ~6.4yrs may read as senior/expensive; salary likely below his £50k floor at this stage; consumer music domain ramp."
+  ],
+  "biggest_lever": "Ryan's Minima first-employee / Founder's Associate story (seed->Series A, $4.5m community presale, 100k community) is a near-perfect mirror of what a seed AI founder wants; pair with direct founder outreach on LinkedIn.",
+  "biggest_risk": "No canonical JD or salary visible; seed-stage budgets may sit below £50k and founders may prefer a cheaper/younger or technical FA. Requirements unverifiable.",
+  "apply_verdict": "Apply / reach out directly to founders — strongest founder-read + spike-fit in this batch despite verification gaps.",
+  "confidence": "low-medium (requirements unresearchable; no canonical JD)"
+}

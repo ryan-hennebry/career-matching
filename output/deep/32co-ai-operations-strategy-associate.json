@@ -1,0 +1,27 @@
+{
+  "company": "32Co",
+  "title": "AI, Operations & Strategy Associate",
+  "location": "London (hybrid)",
+  "direct_url": "https://jobs.lever.co/32Co/5d26db2b-c7af-431e-9473-462708580db9",
+  "callback_likelihood": 34,
+  "factor_scores": {
+    "A_requirements_fit": 25,
+    "B_competition": 55,
+    "C_screening": 60,
+    "D_spike": 30,
+    "E_warm_path": 45,
+    "F_conversion": 55
+  },
+  "key_evidence": [
+    "Live on Lever (created Jan 2026). London, hybrid, Operations team — location/format fit Ryan well.",
+    "MAJOR MISMATCH: despite the 'Operations & Strategy' title, the responsibilities are AI-ENGINEERING/MLOps: 'Design, build, and maintain core AI infrastructure (model hosting, orchestration, data pipelines, evaluation frameworks)'; 'best-practice standards for model deployment, monitoring, observability, security'; 'manage data readiness and governance.' This is an ML platform / AI-infra engineer role, not an operator role. Ryan is explicitly an operator, NOT a software/ML engineer — this is a hard requirements blocker.",
+    "Ryan's only matching signal is 'evaluate emerging AI tech/vendors, build-vs-buy, drive experimentation' and 'create reusable tools that democratize AI access' — adjacent to his Claude-Code agent-building, but the bulk of the role requires hands-on model hosting/orchestration/pipeline engineering he cannot evidence.",
+    "Domain = healthtech (generalist clinicians delivering specialist care; ex-Oxford doctor + ex-BCG founders; Balderton-backed). Outside Ryan's crypto/Web3+AI-tooling domain; regulated medical data adds compliance ramp.",
+    "Founder profile (ex-Oxbridge doctor + ex-BCG) and Balderton backing signal a high analytical/technical bar. No salary published ('competitive based on experience')."
+  ],
+  "biggest_lever": "London-hybrid operations-team role with an AI-experimentation/vendor-evaluation slice that lightly touches Ryan's Claude-Code agent work.",
+  "biggest_risk": "Title is misleading — the actual work is AI-infrastructure/MLOps engineering (model hosting, orchestration, pipelines, eval frameworks) requiring hands-on engineering Ryan does not have; healthtech domain compounds the gap.",
+  "apply_verdict": "Skip. Despite the attractive 'Operations & Strategy Associate' title, this is an AI-platform/ML-engineering role. Ryan would be screened out on technical requirements.",
+  "confidence": "high",
+  "availability": "live"
+}

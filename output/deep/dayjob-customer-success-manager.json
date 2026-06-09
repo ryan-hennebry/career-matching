@@ -1,0 +1,28 @@
+{
+  "company": "Dayjob",
+  "title": "Customer Success Manager",
+  "location": "London (Camden; onsite at customer depots 3d/wk + field)",
+  "direct_url": "https://www.ycombinator.com/companies/dayjob/jobs/X2DEuWt-customer-success-manager",
+  "callback_likelihood": 52,
+  "factor_scores": {
+    "A_requirements": 48,
+    "B_competition": 60,
+    "C_screening": 85,
+    "D_spike": 38,
+    "E_warmpath": 65,
+    "F_conversion": 50
+  },
+  "key_evidence": [
+    "Requires 3+ yrs (Ryan ~4.4, clears) AND 'already using AI tools day-to-day' — Ryan's Claude Code work is a direct match on the AI requirement.",
+    "Core of role = owning a portfolio of mid-market CS accounts end-to-end (onboarding/performance/renewal) + building the CS playbook. Ryan has community/investor-facing growth but NO B2B customer-success or account-portfolio track record — primary requirements gap.",
+    "Hard logistics requirement: comfortable with regular travel, early depot starts, onsite at customer depots 3 days/wk. Ryan's CV shows no field/operational customer-role appetite — a real fit/conversion risk he must genuinely want.",
+    "Domain = AI agents for industrial/construction/waste logistics (fleet routing). Outside Ryan's crypto/Web3 + AI-tooling domain; nice-to-have 'operational/field-based customer roles' and 'industrial sector interest' are gaps.",
+    "Stage/screening: YC Spring 2026, 5-person team, 12 customers, ~$1M ARR, founded 2025. Tiny founder-led team => founder-read screening and a founder interview in the loop (strong). Process: intro call -> take-home scenario -> founder interview.",
+    "Salary £50-90k + 0.10-0.25% equity + retention bonus — clears £50k floor comfortably (conversion-positive on comp).",
+    "Applying requires a YC/Work-at-a-Startup account; moderate applicant volume (YC visibility but niche field-CS role with off-putting depot requirement self-selects applicants down)."
+  ],
+  "biggest_lever": "Lean on the founder-read 5-person screening: a strong intro call + take-home where Ryan shows operator agency (build-the-playbook-from-zero, first-employee scaling) and AI fluency can offset the missing CS title.",
+  "biggest_risk": "No CS/account-management background, no logistics/industrial domain, and a demanding depot-field/early-start requirement Ryan has never signalled appetite for — three stacked mismatches against a role built around field customer success.",
+  "apply_verdict": "Apply only if genuinely open to field/depot work",
+  "confidence": "high"
+}

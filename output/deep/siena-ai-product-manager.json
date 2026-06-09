@@ -1,0 +1,28 @@
+{
+  "company": "Siena AI",
+  "title": "Product Manager",
+  "location": "Remote (listed hubs: London, Warsaw, Dublin, Lisbon) — UK eligible",
+  "direct_url": "https://jobs.ashbyhq.com/siena/886bddc1-1fc7-4869-aa4a-563229ffa12c",
+  "callback_likelihood": 42,
+  "factor_scores": {
+    "A_requirements_fit": 35,
+    "B_competition": 50,
+    "C_screening": 65,
+    "D_spike": 45,
+    "E_warm_path": 40,
+    "F_conversion": 55
+  },
+  "key_evidence": [
+    "LIVE on Ashby. ELIGIBILITY RESOLVED: Ashby API secondaryLocations = London (UK), Warsaw, Dublin, Lisbon, with isRemote=true. London is an explicitly listed location and the role is remote across EU/UK hubs — Ryan (UK-only auth, relocating to London) IS eligible. NOT a NY-primary blocker. (Note: Siena does list separate NY-tagged roles e.g. 'Account Executive - NY', but THIS PM role is not NY-gated.)",
+    "Requirement: '3+ years in PM, solutions engineering, implementation, technical account management, customer success engineering, sales engineering, solutions consulting, or product ops.' Ryan has NONE of these specific PM/SE/TAM/CS titles — his background is community/marketing/FA, not product management or solutions engineering. This is the core gap.",
+    "Heavy technical-fluency requirement: 'can scope webhook systems, OAuth flows, and complex integrations.' Ryan is an operator, not a software engineer — this is a likely auto-screen-out on the technical-PM dimension.",
+    "Partial spike match: 'AI-native mindset — you live in Claude, Cursor, v0, max out daily LLM limits.' Ryan's Claude Code agent-building maps directly here — a genuine differentiator. Domain is CX/ecommerce AI agents (not crypto/Web3, but consumer-AI adjacent, closer than legaltech/healthtech).",
+    "'The consumer-minded builder' path values user-behaviour/growth/analytics lens — Ryan's growth + community background touches this, but the role still demands technical PM fluency he can't evidence.",
+    "Distributed team that 'punches above its weight' — small, leverage-focused. Reasonable founder/lead-read odds but PM hiring at a scaling AI co often involves a structured PM loop (take-home/case), lowering an unconventional candidate's odds."
+  ],
+  "biggest_lever": "AI-native / Claude-Code builder identity is exactly what the JD prizes; consumer-growth lens fits the 'consumer-minded builder' path.",
+  "biggest_risk": "No PM / solutions-eng / TAM / CS-eng title and no evidence of scoping webhooks/OAuth/integrations — likely technical-fluency screen-out for a Product Manager req.",
+  "apply_verdict": "Apply opportunistically via the 'consumer-minded builder + AI-native operator' angle, but treat as a stretch/long-shot — the 3+yr PM/technical-PM bar is a real gap. Lower priority than founder-led FA/operator roles.",
+  "confidence": "high",
+  "availability": "live (UK eligible — remote, London is a listed hub; NOT NY-only)"
+}

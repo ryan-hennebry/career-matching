@@ -40,6 +40,17 @@ Matching all 54 prior-sheet roles against real CV (output/_cv_parsed.json). Outp
 Each: find live url → confirm open/closed → pull reqs → CV match → interview_likelihood.
 After all 6: merge with the 20 new roles, rank all by interview_likelihood, present with direct links.
 
+### DEEP multi-factor callback analysis — dispatched 2026-06-09
+User applied to Ankar (FA) + Alaro — excluded. CV v2 parsed (output/_cv_parsed_v2.json, ~identical to baseline).
+Analyzing 33 candidates (likelihood>=50) on 6 factors: requirements(30) / competition(20) / screening(15) / spike(20) / warmpath(8) / conversion(7) → callback_likelihood. Output → output/deep/.
+- afde2ea330065efe2: batch1 (Conduct,Corgi Ops,Moss,ElevenLabs Growth,Capital on Tap,Gradient Labs)
+- a16a773b855e25d76: batch2 (Sequence,Deel,Specter,Wing,Magentic,Neutreeno)
+- a81a3b403310cee5b: batch3 (ivee,Jack&Jill,Marloo,n8n,Assuric,Dayjob)
+- a9179cbbb07defddd: batch4 (Decagon,Mozart,StudioB,ElevenLabs DS,Scope,Terra API)
+- aad84eb4be040face: batch5 (Ankar GTM,Seamflow,Siena,32Co,Tilt,governr)
+- a1a72ae0264fcc394: batch6 (HappyRobot,Installio,Lovable + spike profile)
+Final: merge output/deep/*.json, rank by callback_likelihood, recommend top 5 w/ reasoning.
+
 ## Search Progress
 
 | Role Type | Status |

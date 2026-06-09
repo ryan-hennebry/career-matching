@@ -1,0 +1,29 @@
+{
+  "company": "Installio",
+  "title": "Founder's Associate (Technical)",
+  "location": "London (hybrid, central London HQ)",
+  "direct_url": "https://pitchmeai.com/jobs/installio/technical-founders-associate-l5e88wgib3",
+  "callback_likelihood": 57,
+  "factor_scores": {
+    "A_requirements": 58,
+    "B_competition": 70,
+    "C_screening": 80,
+    "D_spike": 52,
+    "E_warmpath": 70,
+    "F_conversion": 45
+  },
+  "key_evidence": [
+    "Role explicitly builds internal tools + AI workflows USING CLAUDE CODE — a near-exact match to Ryan's career-break work ('Built agents with Claude Code for competitor-intel and growth-experiments').",
+    "'Professional coding experience not required but a plus' — the 'Technical' label is NOT a hard SWE gate; it gates on 'comfortable with code & data' + analytical skill, which Ryan can credibly clear.",
+    "Works directly with co-founders + CTO, bridges product/ops — classic founder-associate shape Ryan has actually done (Minima FA, first employee 1->30).",
+    "Small early-stage, founder-led climate-tech startup => application very likely founder/CTO-read, not ATS keyword-filtered (high screening score).",
+    "Lesser-known niche climate-tech company => far lower applicant volume than hot AI brands (high competition score = low competition).",
+    "RISK 1 - Domain is clean-energy / heat-pumps / solar, OUTSIDE Ryan's crypto/Web3+AI-tooling domain; no climate credential or passion signal on CV.",
+    "RISK 2 - Targets '1-3 years experience' at £40-60k (£55k); Ryan at ~6.4 yrs is seniority/comp-mismatched (overqualified-junior), which can read as a flight-risk and caps conversion."
+  ],
+  "biggest_lever": "Claude-Code-agent-building + genuine founder-associate track record map almost 1:1 to the JD, and a small founder-read pipeline rewards that specificity.",
+  "biggest_risk": "Climate-tech domain is cold for Ryan and the role is pitched at a 1-3yr / £55k junior band, creating an overqualification + domain-passion gap that a founder may discount.",
+  "apply_verdict": "APPLY",
+  "confidence": "high",
+  "availability": "CONFIRMED-LIVE"
+}
