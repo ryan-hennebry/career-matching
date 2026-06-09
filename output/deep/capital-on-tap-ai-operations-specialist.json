@@ -31,5 +31,16 @@
   "G_recency": 32,
   "recency_confidence": "high",
   "callback_v2": 52,
-  "recency_note": "Greenhouse first_published 2026-04-23 (47d / ~6.7wk old), updated_at 2026-05-21 (refreshed ~18d ago but not a true repost). 4-8wk bracket (G=32) — freshest-but-one in batch. No applicant count via API. Callback 58 -> 52."
+  "recency_note": "Greenhouse first_published 2026-04-23 (47d / ~6.7wk old), updated_at 2026-05-21 (refreshed ~18d ago but not a true repost). 4-8wk bracket (G=32) — freshest-but-one in batch. No applicant count via API. Callback 58 -> 52.",
+  "H_momentum": 80,
+  "momentum_confidence": "high",
+  "momentum_signals": [
+    "STRONG: 51 open roles on Greenhouse (20 London) across 9 departments — broad active hiring at a mature ~971-person fintech (boards-api.greenhouse.io/capitalontap, 2026-06-09).",
+    "AI-TEAM BUILD-OUT (key): THREE concurrent AI roles — AI Operations Specialist (London) + Applied AI Specialist (London) both refreshed 2026-05-21, plus Senior Software Engineer (AI, Porto) posted TODAY 2026-06-09. This role is part of a genuine AI cohort, not a one-off backfill.",
+    "TOOLING VALIDATION: careers-page tech stack explicitly lists Claude Code, GitHub Copilot, Gemini — confirms the JD's Claude/n8n agentic-workflow ask is real internal practice, not aspirational.",
+    "NO NEGATIVE SIGNALS: no Capital-on-Tap-specific layoff/restructure news found (broad 2026 fintech-layoff articles do NOT name them); macro London fintech hiring forecast +37% in 2026 (Morgan McKinley) is a tailwind.",
+    "Source: Greenhouse API + WebFetch careers + WebSearch, 2026-06-09."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 57
 }

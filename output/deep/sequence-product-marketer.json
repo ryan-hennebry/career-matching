@@ -34,5 +34,16 @@
   "G_recency": 32,
   "recency_confidence": "high",
   "callback_v2": 67,
-  "recency_note": "Ashby posting-api publishedAt=2026-04-29T09:01 (sequence board, Product Marketer-London id 2354b86d). 41 days / ~6wk; no repost. Source: api.ashbyhq.com/posting-api/job-board/sequence."
+  "recency_note": "Ashby posting-api publishedAt=2026-04-29T09:01 (sequence board, Product Marketer-London id 2354b86d). 41 days / ~6wk; no repost. Source: api.ashbyhq.com/posting-api/job-board/sequence.",
+  "H_momentum": 78,
+  "momentum_confidence": "high",
+  "momentum_signals": [
+    "RECENT FUNDING + EXPLICIT GTM HIRING: $20M Series A (closed 16 Dec 2025) led by 645 Ventures + a16z, total $38M; proceeds explicitly earmarked to 'expand engineering AND go-to-market teams' — directly funds this Product Marketer seat (TFN, Sifted, sequencehq.com).",
+    "STRONG TRACTION: record 10x ARR growth this year, 100+ customers, automating >$1B annual invoice volume; marquee logos (Cognition, Klaviyo, Wise CFOs, incident.io, Runway, MoonPay) — clear up-trajectory.",
+    "FUNDING IS ~6 MONTHS OLD: Dec 2025 raise is recent but not last-6-weeks-fresh; hiring drive is active and capitalised but the round itself isn't a brand-new spike.",
+    "HEADCOUNT TRAJECTORY: scaling post-Series A on both eng + GTM; founder-led (Riya Grover) small team => founder/HM read for a marketing hire.",
+    "ROLE-CHURN: single Ashby Product Marketer-London listing, ~6wks old, no repost — clean opening, not recycled."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 69
 }

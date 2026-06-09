@@ -33,5 +33,16 @@
   "G_recency": 10,
   "recency_confidence": "high",
   "callback_v2": 49,
-  "recency_note": "CONFIRMED STALE: Lever createdAt epoch-ms 1756241326340 = 2025-08-26, i.e. 287 days / ~9.4 months old. Evergreen/always-open VA-staffing req, not a fresh genuine opening. >12wk bracket (G=10). Validates prior ~10-month suspicion. Callback 60 -> 49."
+  "recency_note": "CONFIRMED STALE: Lever createdAt epoch-ms 1756241326340 = 2025-08-26, i.e. 287 days / ~9.4 months old. Evergreen/always-open VA-staffing req, not a fresh genuine opening. >12wk bracket (G=10). Validates prior ~10-month suspicion. Callback 60 -> 49.",
+  "H_momentum": 33,
+  "momentum_confidence": "high",
+  "momentum_signals": [
+    "RED-ADJACENT (key): 452 open Lever roles but ~229 (>50%) are Philippines/Makati/Manila VA-staffing roles (Account Executive, AI Trainer, Accounting Assistant) — this is a high-VOLUME outsourced-staffing churn machine, NOT focused product-company growth.",
+    "EVERGREEN DEAD-SEAT: the Founder's Associate, Growth & Ops (London, createdAt 2025-08-26 = ~287 days) is the SOLE London non-VA role and has sat unfilled ~9.4 months amid 452 reqs — strong perpetual-hard-to-fill / low-genuine-urgency signal. Either always-open pipeline trap or chronically unfilled.",
+    "CANDIDATE TREATMENT: Glassdoor 3.9 across 311 reviews (mixed/OK), but reviews skew to VA/contractor experience, not corporate-FA hiring — limited read on this specific process.",
+    "NEUTRAL/UNCLEAR company trajectory: actively recruiting at huge volume (looks 'growing') but volume is staffing-supply-side, not headcount investment in the kind of role being applied for; no funding/news momentum found, no layoffs either.",
+    "Source: Lever posting API (452 roles) + WebSearch Glassdoor, 2026-06-09."
+  ],
+  "momentum_flag": "amber",
+  "callback_v3": 47
 }

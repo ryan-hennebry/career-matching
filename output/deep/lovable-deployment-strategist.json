@@ -33,5 +33,15 @@
   "G_recency": 10,
   "recency_confidence": "high",
   "callback_v2": 25,
-  "recency_note": "Posted ~117 days / 4 months ago (Ashby publishedAt 2026-02-12) — deeply stale -> G=10. Confirmed still live on careers page/LinkedIn but a months-old req at a flood-volume hype brand ($6.6B, ~$400M ARR) means a huge accumulated applicant backlog. Stale recency drops callback 35->25. No applicant count surfaced."
+  "recency_note": "Posted ~117 days / 4 months ago (Ashby publishedAt 2026-02-12) — deeply stale -> G=10. Confirmed still live on careers page/LinkedIn but a months-old req at a flood-volume hype brand ($6.6B, ~$400M ARR) means a huge accumulated applicant backlog. Stale recency drops callback 35->25. No applicant count surfaced.",
+  "H_momentum": 88,
+  "momentum_confidence": "high",
+  "momentum_signals": [
+    "FUNDING (POSITIVE): $330M Series B led by CapitalG + Menlo at $6.6B valuation (Dec 2025); $653M total over 4 rounds. Source: lovable.dev/blog/series-b, PitchBook 2026.",
+    "REVENUE/HEADCOUNT EXPLOSION (STRONG POSITIVE): ARR $100M (Jul 2025) -> $250M (EOY 2025) -> $400M (Feb 2026); headcount ~146 (Feb 2026) -> 1,069 by 2026-05-31. Among the fastest-scaling AI companies. Source: sacra, getpanto.ai, Tracxn 2026.",
+    "HIRING-INTENT (POSITIVE): publicly recruiting laid-off tech workers as a fast-paced big-tech alternative; expanded Google Cloud partnership 5x. Aggressive talent intake. Source: whatjobs.com, dealroom 2026.",
+    "TREATMENT CAVEAT: hyper-brand + this Deployment Strategist req live ~117 days = enormous accumulated backlog through structured ATS/recruiter screen. Company momentum is elite (green) but cold-applicant odds remain low on an enterprise-delivery req Ryan doesn't fit."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 35
 }

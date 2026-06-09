@@ -32,5 +32,16 @@
   "G_recency": 10,
   "recency_confidence": "high",
   "callback_v2": 49,
-  "recency_note": "Ashby publishedAt 2026-01-14 (~21 weeks / 146d old) — stale, >12wk bracket (G=10). No updatedAt/repost, no applicant count. Long-lived early-stage req; recency is the dominant drag, callback 62 -> 49."
+  "recency_note": "Ashby publishedAt 2026-01-14 (~21 weeks / 146d old) — stale, >12wk bracket (G=10). No updatedAt/repost, no applicant count. Long-lived early-stage req; recency is the dominant drag, callback 62 -> 49.",
+  "H_momentum": 82,
+  "momentum_confidence": "high",
+  "momentum_signals": [
+    "STRONG FUNDING MOMENTUM: $20M / EUR17.3M Series A led by Index Ventures (w/ Susa, Entrepreneurs First, ex-DeepMind/MongoDB/Omio angels) announced ~2026-05-19, EXPLICITLY 'to grow its London-based team' — major positive, ~3wk old (Sifted/EU-Startups/Startup.eu).",
+    "ACTIVE TEAM SCALE: 6 open Ashby roles, 5 of them fresh post-raise — Deployment Lead (Mar 30), 2x Software Engineer (Apr 9), Forward Deployed Engineer (Apr 29), Product Operations (May 25). Clear hiring spike following the raise.",
+    "CAVEAT on THIS seat: Deployment Strategist (posted 2026-01-14, ~146d) is the OLDEST req and a more-senior 'Deployment Lead' (Mar 30) was added after — risk the Strategist seat is being superseded/absorbed by a senior hire. Company momentum strong, this specific req is the stale one.",
+    "NO NEGATIVE SIGNALS: founded 2024, founder Jonathan Low active; TIC tailwind (40% of technicians retiring in 5-10yr). Company-level momentum unambiguously green.",
+    "Source: WebSearch (Sifted/EU-Startups) + Ashby posting API, 2026-06-09."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 55
 }

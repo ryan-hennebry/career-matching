@@ -33,5 +33,15 @@
   "G_recency": 5,
   "recency_confidence": "high",
   "callback_v2": 38,
-  "recency_note": "Ashby publishedAt=2026-03-12 => 89 days (>12wk). HappyRobot runs MULTIPLE S&O-family reqs (Jan-22, Jan-23 + Strategy & Ops Engineer variants) so this London role is mature, not fresh; not a same-URL repost. >12wk => base G=10; ~140p hot YC co (78 open roles) => high applicant flood => -5 => G=5. Date source: api.ashbyhq.com/posting-api/job-board/happyrobot.ai (jobId bb5315cc)."
+  "recency_note": "Ashby publishedAt=2026-03-12 => 89 days (>12wk). HappyRobot runs MULTIPLE S&O-family reqs (Jan-22, Jan-23 + Strategy & Ops Engineer variants) so this London role is mature, not fresh; not a same-URL repost. >12wk => base G=10; ~140p hot YC co (78 open roles) => high applicant flood => -5 => G=5. Date source: api.ashbyhq.com/posting-api/job-board/happyrobot.ai (jobId bb5315cc).",
+  "H_momentum": 72,
+  "momentum_confidence": "high",
+  "momentum_signals": [
+    "FUNDING (POSITIVE): $44M Series B led by Base10 (~$500M valuation), ~$62M total since 2022. Source: SiliconANGLE 2025-09-03, Yahoo Finance, upstartsmedia.",
+    "GROWTH (POSITIVE): revenue up 10x since Series A; 70+ enterprise customers incl. DHL, Ryder, Flexport. Funds earmarked to hire product, on-site and sales teams. Source: siliconangle, ycombinator.com/companies/happyrobot.",
+    "HIRING-INTENT (POSITIVE but US-centric): 85 open roles company-wide and actively hiring — but ~80 employees are SF-based; this London S&O seat is a single hub-expansion role within a heavily-SF org. Source: fastaijobs.com/companies/happyrobot.",
+    "ROLE-CHURN (NEUTRAL): multiple S&O-family reqs run in parallel (London + Madrid + SF variants); the family is continuously open, signalling steady-state hiring rather than a fresh push for this specific seat."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 44
 }

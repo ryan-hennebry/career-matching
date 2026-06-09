@@ -31,5 +31,15 @@
   "G_recency": 10,
   "recency_confidence": "high",
   "callback_v2": 45,
-  "recency_note": "publishedDate 2026-01-22 (138 days / 19.7wk, source: Ashby GraphQL ApiJobPosting, isListed:true). >12wk evergreen-style at an $11B hot lab -> G=10 (already floor; hot-lab applicant flood would only push lower). Still listed but very long-running, signalling a slow/saturated funnel. ElevenLabs has 151 live roles."
+  "recency_note": "publishedDate 2026-01-22 (138 days / 19.7wk, source: Ashby GraphQL ApiJobPosting, isListed:true). >12wk evergreen-style at an $11B hot lab -> G=10 (already floor; hot-lab applicant flood would only push lower). Still listed but very long-running, signalling a slow/saturated funnel. ElevenLabs has 151 live roles.",
+  "H_momentum": 88,
+  "momentum_confidence": "high",
+  "momentum_signals": [
+    "FUNDING SPIKE (POSITIVE): Series D third close 2026-05-05 adding BlackRock, Wellington, NVIDIA, Salesforce, Deutsche Telekom etc.; $500M Series D at $11B valuation (Feb 2026); $100M tender offer (2nd in <1yr). Source: elevenlabs.io/blog/series-d, TechAfrica News 2026-05-06.",
+    "REVENUE/HEADCOUNT (POSITIVE): crossed $500M ARR in first 4 months of 2026 (from $350M EOY 2025); headcount ~530 -> ~904 by May 2026 (per Crustdata). Explosive growth. Source: elevenlabs.io/blog/500m-arr, getlatka, Crustdata 2026.",
+    "FUNCTION ACTIVELY EXPANDING (POSITIVE): funding earmarked for 'locally embedded GTM teams' across London, NY, SF, Warsaw, Dublin etc. — growth/marketing is exactly the funded expansion area. Source: elevenlabs.io/blog/series-d.",
+    "TREATMENT CAVEAT: 151 live roles + mature recruiting org + this req running 138 days = high-volume ATS funnel, slow/saturated for an individual cold applicant. Strong COMPANY momentum does not translate to fast candidate handling at this scale."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 52
 }

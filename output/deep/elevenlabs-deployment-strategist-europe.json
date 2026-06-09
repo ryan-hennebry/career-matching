@@ -32,5 +32,15 @@
   "G_recency": 27,
   "recency_confidence": "high",
   "callback_v2": 31,
-  "recency_note": "Posted 34 days ago (Ashby publishedAt 2026-05-06) — 4-8wk band -> base 32, -5 for hot brand ($11B voice-AI unicorn) + Europe-wide pool widening volume. Confirmed live (also listed as 'Forward Deployed Engineer - Strategist - Europe'). Mildly aged; callback essentially flat 34->31. No applicant count visible."
+  "recency_note": "Posted 34 days ago (Ashby publishedAt 2026-05-06) — 4-8wk band -> base 32, -5 for hot brand ($11B voice-AI unicorn) + Europe-wide pool widening volume. Confirmed live (also listed as 'Forward Deployed Engineer - Strategist - Europe'). Mildly aged; callback essentially flat 34->31. No applicant count visible.",
+  "H_momentum": 88,
+  "momentum_confidence": "high",
+  "momentum_signals": [
+    "FUNDING SPIKE (POSITIVE): Series D third close 2026-05-05 (BlackRock, NVIDIA, Salesforce, Deutsche Telekom, Wellington); $500M Series D at $11B (Feb 2026); $100M tender offer. Source: elevenlabs.io/blog/series-d, TechAfrica News.",
+    "REVENUE/HEADCOUNT (STRONG POSITIVE): $500M ARR in 4 months of 2026 (from $350M EOY 2025); headcount ~530 -> ~904 by May 2026. Source: elevenlabs.io/blog/500m-arr, Crustdata 2026.",
+    "THIS FUNCTION IS THE FUNDED PRIORITY (POSITIVE): Series D capital explicitly directed at 'locally embedded GTM teams' for enterprise adoption across Europe (London/Warsaw/Dublin/Paris/Berlin) — Deployment Strategist / Forward Deployed sits squarely in that funded enterprise-deployment push, ~30 global reqs in the family. Source: elevenlabs.io/blog/series-d.",
+    "TREATMENT CAVEAT: 151 live roles + technical FDE/Python gate; company momentum elite (green) but Ryan faces a hard technical screen before the strong momentum can help."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 40
 }

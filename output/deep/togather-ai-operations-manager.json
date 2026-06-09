@@ -31,5 +31,18 @@
   "biggest_risk": "Role is half ops-automation builder, half Salesforce-admin / commercial-ops owner (invoicing, supplier onboarding, SLAs) — the process-rigor/enterprise-ops half is an anti-fit, and 5 weeks open means a shortlist may exist.",
   "apply_verdict": "Apply (mid-tier) — strong on the AI-builder half, weak on the Salesforce/ops-admin half; worth a tailored show-don't-tell application but not a top priority.",
   "confidence": "high",
-  "availability": "Open/live on Workable as of 2026-06-09"
+  "availability": "Open/live on Workable as of 2026-06-09",
+  "H_momentum": 65,
+  "momentum_confidence": "medium",
+  "momentum_flag": "neutral",
+  "momentum_signals": [
+    "HEALTHY HEADCOUNT GROWTH: grown from ~40 to 70-79 employees (LinkedIn / Tracxn / Crunchbase), founder-led - steady expansion, not contracting.",
+    "ACTIVELY HIRING: 9 Togather jobs listed on Adzuna.co.uk (May 2026) incl this AI Operations Manager (Workable, posted 2026-05-06, 34 days old) - one of the freshest postings in batch, 'among first 25 applicants'.",
+    "FRESH AI-OPS SEAT (positive): the role itself is a new agentic-AI-workflow function (Zapier/Claude Cowork/n8n) - company is investing in AI tooling/automation, a growth/modernisation signal not a cost cut.",
+    "FUNDING IS OLDER (mild negative): $8.5M raise + rebrand Feast It->Togather May 2023; ~$17.9M total over 5 rounds, 40 investors. NO recent raise found - no fresh catalyst, mature marketplace rather than hot-momentum startup.",
+    "NO RED FLAGS: no layoffs/restructuring/down-round/founder-exit found in 2025-26 news searches. Established 2017, B2B+B2C marketplace, 1,500+ suppliers.",
+    "ROLE-CHURN: single clean Workable posting, no repost pattern observed."
+  ],
+  "callback_v3": 58,
+  "momentum_note": "Neutral-to-healthy. Steady headcount growth (40->~75), actively hiring (9 roles), and a fresh AI-ops investment seat - but funding is stale (2023, no recent raise) so no fundraising catalyst. No red flags. H=65. callback_v2 56 -> callback_v3 58."
 }

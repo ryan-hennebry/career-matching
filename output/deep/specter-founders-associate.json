@@ -28,11 +28,25 @@
   "apply_verdict": "STRONG APPLY",
   "confidence": "medium",
   "posting_date": null,
+  "date_estimate": null,
+  "date_is_estimate": true,
   "days_since_posted": null,
   "reposted": null,
   "applicant_count": null,
+  "estimation_method": "FAILED — no datable signal after exhaustive triangulation. (1) Wayback CDX: specter.careers is an UNRELATED French car/services blog (captures show Porsche 911 Carrera GTS, 'rejoignez-nous', 'la-rebellion' content) — NOT tryspecter's careers page; tryspecter.com/careers* has zero Wayback captures. (2) tryspecter.com listing is JS-rendered, no date/lastmod. (3) Welcome to the Jungle (formerly Otta) company page shows NO open jobs/no FA listing. (4) Not posted on LinkedIn jobs (LinkedIn FA-London search surfaced no tryspecter result). (5) Glassdoor Specter Labs 403. Email-apply evergreen role (careers@tryspecter.com) — genuinely undatable.",
   "G_recency": 45,
   "recency_confidence": "low",
   "callback_v2": 71,
-  "recency_note": "No datable ATS posting: email-apply (careers@tryspecter.com), evergreen on specter.careers/join-us (JS-rendered, no date). NOTE jobs.ashbyhq.com/specter is a different Specter (aerospace), not tryspecter. Date unknown -> G_recency=45 neutral per protocol."
+  "recency_note": "UNDATABLE after full alt-signal sweep (Wayback CDX, WTJ/Otta, LinkedIn, Glassdoor, Google snippets). Confirmed specter.careers is a different unrelated site (French car blog) — discard it as a date source entirely. Role is a live email-apply evergreen (JD verified character-match on tryspecter.com, 1-2yr VC/startup, GBP42-77k). No posting date exists to recover. Per protocol date-unknown -> G_recency=45 neutral. Callback_v2 unchanged at 71.",
+  "H_momentum": 62,
+  "momentum_confidence": "med",
+  "momentum_signals": [
+    "VERY ALIVE SOCIAL CADENCE: LinkedIn (company/specterhq) highly active — weekly 'Specter Monitor' posts, latest ~5 days before run, plus reposts; 20,571 followers, strong engagement (12-243+ reactions). Company is clearly operating and visible (LinkedIn, Jun 2026).",
+    "PRODUCT MOMENTUM: shipping fast in 2026 — launched AI Search Agent, AI-powered Data Points, Estimated Stealth Industries + AI Signal Summaries (insights.tryspecter.com, 2026). Active product velocity = a growing, not dormant, company.",
+    "HEADCOUNT: ~56 employees on LinkedIn (11-50 band) — stable small team; no explicit '+X% in 6mo' growth signal found.",
+    "NO EXPLICIT HIRING POST: no founder 'we're hiring' post found naming the FA role; role is an evergreen careers@tryspecter.com inbox — neutral on hiring-intent freshness.",
+    "ROLE-CHURN / DATE: FA seat is genuinely undatable (email-apply evergreen) — could be long-standing/picky; tempers momentum despite a healthy, active company. No negative candidate-treatment signal found (Glassdoor 403)."
+  ],
+  "momentum_flag": "neutral",
+  "callback_v3": 70
 }

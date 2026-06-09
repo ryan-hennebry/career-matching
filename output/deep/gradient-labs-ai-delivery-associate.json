@@ -31,5 +31,16 @@
   "G_recency": 88,
   "recency_confidence": "high",
   "callback_v2": 76,
-  "recency_note": "Ashby posting-api publishedAt=2026-06-05T08:22 (gradient-labs board). 4 days old = very fresh, low accumulated applicants; <1wk bucket. Source: api.ashbyhq.com/posting-api/job-board/gradient-labs."
+  "recency_note": "Ashby posting-api publishedAt=2026-06-05T08:22 (gradient-labs board). 4 days old = very fresh, low accumulated applicants; <1wk bucket. Source: api.ashbyhq.com/posting-api/job-board/gradient-labs.",
+  "H_momentum": 88,
+  "momentum_confidence": "high",
+  "momentum_signals": [
+    "FRESH FUNDING: $13M Series A extension (~1 Jun 2026) doubling round to $26M total; led by Octopus Ventures + CommerzVentures, follow-on Redpoint/Exceptional. Funds earmarked for US expansion + team/tech (Tech.eu, Crowdfund Insider, 1 Jun 2026).",
+    "ACTIVE HIRING POSTS: recent LinkedIn post announcing new AI engineering hire (Francine Loza) + 'hiring people who want to rethink financial services from first principles', open across UK. Direct hiring-intent within last ~6wks (TipRanks).",
+    "HEADCOUNT TRAJECTORY: ~40-person team, 900% revenue growth past year, 32M end users — clear up-and-to-the-right scaling post-raise.",
+    "CANDIDATE TREATMENT: Glassdoor Gradient Labs reviews positive — 'talented colleagues and founders', 'wonderful culture', collaborative, remote/in-person balance (small sample, n~4).",
+    "ROLE-CHURN: single clean Ashby opening, posting 4 days old, no repost signal — not a stale/recycled seat."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 77
 }

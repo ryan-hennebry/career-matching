@@ -32,5 +32,16 @@
   "G_recency": 32,
   "recency_confidence": "medium",
   "callback_v2": 53,
-  "recency_note": "Published 2026-04-21 (49 days / 7.0wk, source: WebSearch on join.studiob.net listing). 4-8wk band -> G=32. Custom ATS shows no applicant count and listing still live/accepting. Aging but not stale; no repost evidence."
+  "recency_note": "Published 2026-04-21 (49 days / 7.0wk, source: WebSearch on join.studiob.net listing). 4-8wk band -> G=32. Custom ATS shows no applicant count and listing still live/accepting. Aging but not stale; no repost evidence.",
+  "H_momentum": 68,
+  "momentum_confidence": "medium",
+  "momentum_signals": [
+    "POSITIVE: 'fast-growing creative production company' with 20M+ follower global audience; active high-profile client work in 2026 (Borderlands 4 CGI tour Lisbon/Berlin/London, M&S lingerie campaign, Tommy Fleetwood 20M+ IG views) — studio is busy and visible (WebSearch, 2026).",
+    "HIRING BREADTH: 4 concurrent open roles on own ATS (Founders Associate, Production Accountant, Social Media Manager/Analyst, VFX Artist) as of 2026-06-09 — broad-function hiring, not a single backfill (join.studiob.net/jobs).",
+    "FA STILL LIVE: Founders Associate (posted 2026-04-21, ~49d) confirmed still listed and accepting today; aging but not stale, no repost.",
+    "NEUTRAL: no funding/news momentum (privately-held creative studio, not VC-backed); social/PR cadence active but no explicit 'we're hiring/scaling' post naming this role. No layoff/negative signals found.",
+    "Source: WebSearch + WebFetch join.studiob.net/jobs, 2026-06-09."
+  ],
+  "momentum_flag": "neutral",
+  "callback_v3": 55
 }

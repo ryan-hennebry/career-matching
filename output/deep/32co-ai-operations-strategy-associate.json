@@ -31,5 +31,15 @@
   "G_recency": 10,
   "recency_confidence": "high",
   "callback_v2": 32,
-  "recency_note": "Posted ~141 days / ~4.7 months ago (Lever createdAt epoch 1768834881071 -> 2026-01-19) — very stale -> G=10. Still live on Lever but a nearly-5-month-old req signals either slow hiring or a large accumulated pool. Smaller co (less brand flood than the others) but staleness dominates; callback near-flat 34->32. No applicant count visible."
+  "recency_note": "Posted ~141 days / ~4.7 months ago (Lever createdAt epoch 1768834881071 -> 2026-01-19) — very stale -> G=10. Still live on Lever but a nearly-5-month-old req signals either slow hiring or a large accumulated pool. Smaller co (less brand flood than the others) but staleness dominates; callback near-flat 34->32. No applicant count visible.",
+  "H_momentum": 50,
+  "momentum_confidence": "low",
+  "momentum_signals": [
+    "FUNDING (NEUTRAL/THIN): Balderton-led seed (£2.2-2.4M, 2023); ~£7M total raised to date. No recent large round surfaced for 2026 — small seed-stage healthtech, not a fresh funding catalyst. Source: Balderton, Crunchbase, businesscloud 2026.",
+    "HEADCOUNT (MILD POSITIVE): 76 employees as of 2026-04-30; described as 'rapidly expanding operations across UK and beyond', launching Aerox Sleep Centres — modest organic growth. Source: Crustdata/CB Insights, Balderton careers 2026.",
+    "HIRING (NEUTRAL): actively hiring across multiple Lever roles (e.g. Dentist Experience Specialist), but this AI/Ops/Strategy req has sat ~141 days on Lever, suggesting slow fill or selective hiring against a high analytical/technical bar (ex-Oxford-doctor + ex-BCG founders).",
+    "Net NEUTRAL (low confidence): no negative flags (no layoffs/down-round), but no recent funding/launch catalyst and a stale req. Thin data => H=50."
+  ],
+  "momentum_flag": "neutral",
+  "callback_v3": 35
 }

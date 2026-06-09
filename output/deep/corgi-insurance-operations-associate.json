@@ -31,5 +31,18 @@
   "G_recency": 18,
   "recency_confidence": "medium",
   "callback_v2": 57,
-  "recency_note": "YC page Posted=2026-04-12 (slug QkzDlzY still live HTTP200). 58 days / 8-12wk. NOTE this generic 'Operations Associate' is NOT on Corgi's live Ashby board (which lists Financial/Strategic/Strategy Ops Associates dated Jun 2026) - YC date may be sticky; medium confidence."
+  "recency_note": "YC page Posted=2026-04-12 (slug QkzDlzY still live HTTP200). 58 days / 8-12wk. NOTE this generic 'Operations Associate' is NOT on Corgi's live Ashby board (which lists Financial/Strategic/Strategy Ops Associates dated Jun 2026) - YC date may be sticky; medium confidence.",
+  "H_momentum": 88,
+  "momentum_confidence": "high",
+  "momentum_flag": "green",
+  "momentum_signals": [
+    "MAJOR FRESH FUNDING (strong positive): $160M Series B led by TCV (May 2026) FOLLOWED by an additional $106-108M Series B1 (Jun 2026), pushing Corgi to a ~$2.6B valuation. Total raised ~$374M. Source: TAMradar, Reinsurance News, search Jun 2026.",
+    "AGGRESSIVE HIRING: ~50 open roles across SF/London/Chicago/Dallas/NY (BDR, full-stack eng GBP90-140k London, strategic finance, legal, controller). Post-raise expansion into AI Coverage, trucking, payroll verticals. Explicitly 'aggressive hiring targeting full-stack engineers, sales, and ex-founders'.",
+    "HEADCOUNT TRAJECTORY: 59-person team heavy on ex-founders (co-founders Emily Yuan ex-OpenAI PM + Nico Laqua), founded 2024, scaling fast - clear growth trajectory.",
+    "LONDON OFFICE ACTIVELY SCALING (early 2026) for European BDR/eng - the London Operations Associate (GBP50-70K, new-grads welcome) seat sits in this scaling office.",
+    "NO RED FLAGS: no layoffs/down-round - the opposite (up-round B1 at higher valuation weeks after B). Strongest momentum in batch."
+  ],
+  "live_seat_finding": "LIVE-SEAT CONFIRMED. The YC/WorkAtAStartup 'Operations Associate' (London, GBP50-70K, new grads welcome, slug QkzDlzY) is STILL listed and live on ycombinator.com as of 2026-06-09. The earlier-flagged Ashby 'corgi' board (BDR/ETF/quant/legal roles in US cities, dated Jun 2026) is a DIFFERENT corgi slug (asset-management/ETF entity) and does NOT supersede this seat - it is not the YC AI-insurance Corgi's board. The YC AI-insurance Corgi (corgi.insure) does NOT expose a public dated Ashby board; its roles live on YC/WorkAtAStartup. CONCLUSION: this Operations Associate seat is genuinely live, NOT superseded; YC posting date 2026-04-12 may be sticky but the role and company are demonstrably hiring hard.",
+  "callback_v3": 63,
+  "momentum_note": "Green - strongest momentum in batch. $160M Series B (May) + $106M B1 (Jun 2026) at $2.6B valuation, ~50 open roles, London office scaling, zero red flags. H=88 lifts callback meaningfully despite stale/sticky YC posting date and 6-7 day in-office conversion concern. callback_v2 57 -> callback_v3 63."
 }

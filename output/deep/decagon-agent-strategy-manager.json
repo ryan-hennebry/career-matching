@@ -31,5 +31,15 @@
   "G_recency": 5,
   "recency_confidence": "high",
   "callback_v2": 32,
-  "recency_note": "Ashby publishedAt=2026-03-24 for THIS URL => 77 days (8-12wk band, base G=18). BUT Decagon maintains a continuously-refreshed Agent Strategy Manager req family — newer dupes published 2026-05-12 (f45c6d16) and 2026-05-28 (ebeb6781) supersede applicant attention on this specific 77-day-old posting. Hot $4.5B/300+p co (112 open roles) => severe applicant flood => -15 (floor 5) => G=5. No exact applicant count surfaced via LinkedIn/WebSearch but volume is near-certainly very high. Date source: api.ashbyhq.com/posting-api/job-board/decagon (jobId ac14f2e8)."
+  "recency_note": "Ashby publishedAt=2026-03-24 for THIS URL => 77 days (8-12wk band, base G=18). BUT Decagon maintains a continuously-refreshed Agent Strategy Manager req family — newer dupes published 2026-05-12 (f45c6d16) and 2026-05-28 (ebeb6781) supersede applicant attention on this specific 77-day-old posting. Hot $4.5B/300+p co (112 open roles) => severe applicant flood => -15 (floor 5) => G=5. No exact applicant count surfaced via LinkedIn/WebSearch but volume is near-certainly very high. Date source: api.ashbyhq.com/posting-api/job-board/decagon (jobId ac14f2e8).",
+  "H_momentum": 85,
+  "momentum_confidence": "high",
+  "momentum_signals": [
+    "FUNDING SPIKE (POSITIVE): $250M Series D at $4.5B valuation led by Bain Capital Ventures (Accel, A*, Elad Gil), Jan 2026. Source: jobsbyculture.com, Tracxn 2026.",
+    "HEADCOUNT TRAJECTORY (STRONG POSITIVE): scaled ~30 -> 210 in <2yr, then to 409 employees by 2026-04-30 — roughly doubled in months. No layoffs reported. Source: jobsbyculture.com 2026, scoutify.",
+    "FUNCTION ACTIVELY EXPANDING IN LONDON (POSITIVE): 12 Decagon jobs open in London May 2026; the Agent Strategy / Agent Success function is the role family being continuously refreshed (newer dupes 2026-05-12 & 2026-05-28). This is precisely the customer-deployment function Decagon is scaling. Source: glassdoor.co.uk, Ashby.",
+    "TREATMENT CAVEAT: 112+ open roles + 300-409p org = dedicated recruiting/ATS; strong company momentum but high applicant volume on this £105-140K London req means a saturated funnel for an associate-level non-enterprise-CS applicant."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 41
 }

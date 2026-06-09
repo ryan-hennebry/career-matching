@@ -25,11 +25,26 @@
   "apply_verdict": "Apply",
   "confidence": "high",
   "posting_date": null,
-  "days_since_posted": null,
+  "date_estimate": "2026-05-12..2026-06-02",
+  "date_is_estimate": true,
+  "days_since_posted": 7,
+  "estimate_window_days": "7-28 (using ~14-21d midpoint)",
   "reposted": false,
   "applicant_count": null,
-  "G_recency": 45,
-  "recency_confidence": "low",
-  "callback_v2": 62,
-  "recency_note": "No hard date: hosted on a standalone Lovable app (no ATS/Lever/Greenhouse date), LinkedIn ivee roles undated, WebSearch yielded none. generalist.world tags it '✨ New' (soft recent signal, not a date). Per protocol date-unknown -> G=45, low confidence. Callback 66 -> 62."
+  "estimation_method": "Soft signals only, no hard date. (1) Lovable one-pager (growth-lead-ivee.lovable.app) confirmed LIVE — 'Now hiring · Founding team', Apply button active, GBP50-80k+equity, GBP1,000 referral bonus, ALSO hiring a Technical Project Manager => active multi-role founding drive. (2) JD says 'we recently closed a $1M seed round' (present-recent framing). (3) generalist.world tags it '✨ New'. (4) Wayback: Lovable custom subpath not archived (only lovable.app root captured); LinkedIn ivee jobs undated/different brand (iveejobs/return-to-work). High media velocity (Sifted 'hottest startup', Forbes 30u30, UK Gov AI partner) supports an active fresh campaign. No single signal gives a date -> estimated 1-4wk window, midpoint ~2-3wk bucket.",
+  "G_recency": 52,
+  "recency_confidence": "low-med",
+  "callback_v2": 64,
+  "recency_note": "Live (verified on Lovable page + corroborated active multi-role hiring drive: also recruiting Technical PM). No hard posting date — Lovable subpath unarchivable, no dated aggregator. Soft signals (live page, 'recently closed seed', generalist.world 'New', heavy media velocity) -> estimated 1-4wk, midpoint 2-3wk bucket -> G_recency=52, low-med confidence. NOTE one stale WebSearch snippet showed GBP40-50k but the LIVE Lovable page confirms GBP50-80k (original file value retained). Callback_v2 62 -> 64.",
+  "H_momentum": 80,
+  "momentum_confidence": "med",
+  "momentum_signals": [
+    "HIGH MEDIA VELOCITY: Sifted 'hottest startup in London'; both founders (Amelia + Lydia Miller) named Forbes 30u30; UK Gov primary AI-upskilling events partner (secured in <1 week); 1,000+ teams trained; clients Red Bull/Virgin Media/Lucky Saint (Sifted, UK News Group, 2026).",
+    "POSSIBLE FRESH RAISE: search snippet indicates ivee 'announced a $12.5M Series A' on top of the prior $1M seed (Steven Bartlett, Balderton, Dawn, Microsoft AI partners). Series A not independently date-confirmed here -> treat as probable strong upward signal, hence med confidence.",
+    "EXPLICIT HIRING DRIVE: actively building founding team — Founding Growth Lead JD ('build B2B engine from zero alongside cofounders') + concurrently hiring a Technical PM; live Lovable one-pager with active Apply + £1,000 referral bonus = energetic, ongoing campaign.",
+    "FOUNDER-READ SCREENING: 2-person founder team, apply via short typeform direct to founders — responsive/no-ATS-gatekeeping likely; no negative candidate-treatment signal found.",
+    "COUNTER-SIGNAL: high media hype raises applicant volume (competition), and undatable posting tempers freshness — momentum is strong but not a clean fresh-funding+role-named hiring post."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 66
 }

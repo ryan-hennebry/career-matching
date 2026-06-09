@@ -32,5 +32,18 @@
   "G_recency": 18,
   "recency_confidence": "high",
   "callback_v2": 55,
-  "recency_note": "Ashby publishedAt 2026-03-23 (~11 weeks / 78d old). Aging GTM req in the 8-12wk bracket (G=18); no updatedAt/repost signal, no applicant count visible. Recency pulls callback from 68 -> 55."
+  "recency_note": "Ashby publishedAt 2026-03-23 (~11 weeks / 78d old). Aging GTM req in the 8-12wk bracket (G=18); no updatedAt/repost signal, no applicant count visible. Recency pulls callback from 68 -> 55.",
+  "H_momentum": 80,
+  "momentum_confidence": "high",
+  "momentum_flag": "green",
+  "momentum_signals": [
+    "FRESH FUNDING DIRECTLY FUNDING GTM (strong positive): $10M seed led by Blackbird Ventures, closed 2026-04-28 (Tech.eu, TechFundingNews, Pulse2). Total ~$12.7M raised in <1yr. Capital earmarked to 'expand UK and Australia presence and support entry into the US market' = GTM/expansion spend - exactly the function this role serves.",
+    "RAPID TRACTION: 650+ adviser firms onboarded across 6 countries in under a year with 'almost zero churn' (Blackbird portfolio page) - strong product-market-fit signal.",
+    "ACTIVELY HIRING GTM: confirmed 'actively hiring for GTM roles in 2026' across eng/GTM/design; parallel Growth Lead, London role open alongside this GTM Associate (Ashby marloo board) - GTM team being built out around co-founders Hardy + Shak.",
+    "HEADCOUNT TRAJECTORY: early-stage seed co scaling post-raise into 3 geographies = growing, not flat/shrinking.",
+    "NO RED FLAGS: no layoffs/down-round/pivot/founder-exit. Blackbird (first/largest Canva investor) backing adds credibility.",
+    "ROLE-CHURN: clean opening; aging 78-day Ashby date offset by post-raise expansion intent."
+  ],
+  "callback_v3": 60,
+  "momentum_note": "Green. Fresh $10M Blackbird seed (Apr 28 2026) explicitly funding UK/AU/US GTM expansion - the strongest possible momentum match for a GTM Associate seat. 650+ firms near-zero churn, parallel GTM roles open, no red flags. H=80 lifts callback despite stale 78-day posting. callback_v2 55 -> callback_v3 60."
 }

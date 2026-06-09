@@ -25,11 +25,28 @@
   "confidence": "medium",
   "availability": "live (direct founder email apply; 48h response window)",
   "posting_date": null,
-  "days_since_posted": null,
+  "date_estimate": "2026-03-13..2026-04-10 (>8wk old, likely 8-12wk)",
+  "date_is_estimate": true,
+  "days_since_posted": 70,
+  "estimate_window_days": "56-84 (8-12wk)",
   "reposted": false,
   "applicant_count": null,
-  "G_recency": 45,
-  "recency_confidence": "low",
-  "callback_v2": 58,
-  "recency_note": "No hard date: not on a dated ATS; LinkedIn listing (4315378460) now 301-redirects to expired_jd_redirect (that mirror is dead), but ZipRecruiter direct_url + StudySmarter mirror still resolve and the direct-to-founder email apply (rajen@governr.ai, 48h response) implies still-live. Neither mirror exposes a posting date. Per protocol date-unknown -> G=45, low confidence. Callback unchanged at 58 (note: callback_v2 uses A_requirements_fit=50 and E_warm_path=95 keys). Recommend treating recency as the key open risk — verify the seat is still open before investing in the 300-word pitch."
+  "estimation_method": "Two corroborating STALENESS signals, no exact date. (1) LinkedIn original (job 4315378460) now 301-redirects to '?trk=expired_jd_redirect' => LinkedIn posting has EXPIRED. LinkedIn jobs auto-expire ~30 days after posting (or on close) => posted >~4-5wk ago at minimum, likely older. (2) ZipRecruiter ID for CoS (453289607) is ~47 MILLION lower than governr's newer 'Agentic Developer' role (500524251) => CoS was posted SUBSTANTIALLY earlier in the same company's hiring sequence. (3) governr.ai site content indexed ~2026-03-13 (Google). Triangulation: expired LinkedIn + much-older zip ID + March site indexing => posting is old, estimate 8-12wk. SEPARATELY availability is likely still-open: ZipRecruiter + StudySmarter mirrors still resolve and apply is direct-to-founder email (rajen@governr.ai, 48h response) — an evergreen email channel that outlives the dated listing.",
+  "G_recency": 18,
+  "recency_confidence": "med",
+  "callback_v2": 51,
+  "recency_note": "STALE POSTING (med confidence): LinkedIn expired (expired_jd_redirect) + ZipRecruiter ID ~47M below governr's newer Agentic Developer role both indicate the CoS was posted well before the newer role; site content indexed ~Mar 2026. Estimate 8-12wk -> G_recency=18. IMPORTANT: stale LISTING != closed SEAT — direct founder-email apply (rajen@governr.ai) is evergreen and the warm-path (E=95) remains the strongest lever; verify the seat is still open in the 300-word email itself. Callback_v2 58 -> 51 (uses A_requirements_fit=50, E_warm_path=95 keys).",
+  "H_momentum": 48,
+  "momentum_confidence": "low",
+  "momentum_flag": "neutral",
+  "momentum_signals": [
+    "VERY EARLY / THIN PUBLIC FOOTPRINT: governr (founder Rajen Madan) is a pre-seed/seed AI-governance & risk startup. NO funding round announcement found in public news/Crunchbase as of Jun 2026 - either unannounced or pre-institutional. Low data => momentum_confidence low.",
+    "RECENT PRODUCT MOTION (positive): soft-launched a scoped product 'AI Atlas' for mid-tier regulated firms (maps AI estate in ~2hr, live proof of control). Indicates a live, shipping company rather than dormant - but no dated press release found.",
+    "MARKET TAILWIND (positive, indirect): EU AI Act high-risk enforcement deadline Aug 2026 is driving procurement-led demand for AI-governance tooling - favourable timing for governr's category (newmarketpitch, dataversity).",
+    "HIRING SEQUENCE: governr has posted multiple roles (CoS + newer 'Agentic Developer', ZipRecruiter IDs ~47M apart) => company IS adding seats over time = alive and growing headcount, though slowly/early.",
+    "NO RED FLAGS but NO strong active-hiring signal: no founder 'we're scaling' post dated, no LinkedIn cadence/headcount data captured, no layoffs/pivot. Neutral by default; thin evidence => H=48.",
+    "CANDIDATE TREATMENT (positive process signal): founder promises 48h response to direct rajen@governr.ai applications - a responsive, non-ghosting signal even if overall momentum data is thin."
+  ],
+  "callback_v3": 51,
+  "momentum_note": "Neutral / low-confidence. governr is very early with a thin public footprint - no announced raise, but a shipping product (AI Atlas), a favourable EU AI Act tailwind, an expanding role count, and a responsive direct-founder process. No red flags. H=48 (thin data band). callback_v2 51 -> callback_v3 51 (unchanged; neutral momentum neither helps nor hurts)."
 }

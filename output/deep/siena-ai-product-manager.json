@@ -32,5 +32,15 @@
   "G_recency": 10,
   "recency_confidence": "high",
   "callback_v2": 37,
-  "recency_note": "Ashby publishedAt=2025-09-17 => 265 days (~9 months). Classic evergreen/zombie PM req — extremely stale, single un-reposted listing left perpetually open; real fill urgency is questionable. >12wk => G=10; small distributed team, no applicant data => no adjustment. Date source: api.ashbyhq.com/posting-api/job-board/siena (jobId 886bddc1)."
+  "recency_note": "Ashby publishedAt=2025-09-17 => 265 days (~9 months). Classic evergreen/zombie PM req — extremely stale, single un-reposted listing left perpetually open; real fill urgency is questionable. >12wk => G=10; small distributed team, no applicant data => no adjustment. Date source: api.ashbyhq.com/posting-api/job-board/siena (jobId 886bddc1).",
+  "H_momentum": 42,
+  "momentum_confidence": "medium",
+  "momentum_signals": [
+    "FUNDING TRAJECTORY (CONCERNING/AMBER): only seed-stage. ~$4.7M seed (Aug 2023), total reported $4.7-11M, last funding date ~Sep 2024. NO Series A located. For a 2026 AI-agent company in a hot category, the absence of a follow-on round ~2yr post-seed is a runway/momentum concern. Source: Crunchbase, CB Insights, Clay 2026.",
+    "CATEGORY HEADWIND (NEGATIVE): Sinch research published 2026-05-13 found 74% of enterprises with a live AI customer-communications agent have rolled it back or shut it down — a direct threat to Siena's CX-agent core category. Source: metaintro.com/blog.",
+    "HIRING (MILD POSITIVE): 14-20 open roles listed Apr 2026 (Ashby/Glassdoor) — moderate, not aggressive, hiring for a small distributed team.",
+    "ROLE-CHURN (NEGATIVE): this PM req has sat un-reposted for 265 days — classic evergreen/zombie listing with questionable fill urgency. Net momentum AMBER: no recent funding catalyst + category rollback signal outweigh modest open-role count."
+  ],
+  "momentum_flag": "amber",
+  "callback_v3": 38
 }

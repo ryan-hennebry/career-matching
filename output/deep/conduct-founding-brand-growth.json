@@ -31,5 +31,16 @@
   "G_recency": 32,
   "recency_confidence": "high",
   "callback_v2": 73,
-  "recency_note": "Ashby posting-api publishedAt=2026-04-27T21:16 (conduct board). 43 days / ~6wk old; no repost, no applicant count visible. Source: api.ashbyhq.com/posting-api/job-board/conduct."
+  "recency_note": "Ashby posting-api publishedAt=2026-04-27T21:16 (conduct board). 43 days / ~6wk old; no repost, no applicant count visible. Source: api.ashbyhq.com/posting-api/job-board/conduct.",
+  "H_momentum": 82,
+  "momentum_confidence": "med-high",
+  "momentum_signals": [
+    "EXPLICIT AGGRESSIVE HIRING: emerged from 18-month stealth (~Sep 2025) with $12M/€10.1M seed; press states team of 16 and 'hiring aggressively' (Silicon Canals, TFN, Sifted, Sep 2025).",
+    "STRONG BACKING + PEDIGREE: ex-Palantir founders (Haas/Hoefer/Thompson), led by Creandum with angels from Palantir/Google DeepMind/SAP — fundable, talent-dense; corroborates a sustained hiring drive.",
+    "FUNDING NOTE: deep-research file references a larger ~$50M Series A (early 2026) on top of the Sep 2025 £9m seed; public press confirms the $12M seed firmly, larger round less corroborated — treat headline raise as healthy not unverified-huge.",
+    "ROLE-CHURN: founding Brand & Growth seat is a single Ashby opening, ~6wks old, no repost — clean first-marketing hire, not a recycled req.",
+    "CADENCE/TREATMENT: limited public Glassdoor footprint (very young co); no negative candidate-treatment signal found. Founder-read screening expected given ~16-30 headcount."
+  ],
+  "momentum_flag": "green",
+  "callback_v3": 75
 }

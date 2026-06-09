@@ -26,11 +26,27 @@
   "apply_verdict": "Apply only if genuinely open to field/depot work",
   "confidence": "high",
   "posting_date": null,
-  "days_since_posted": null,
+  "date_estimate": "2026-04-09..2026-05-31 (~4-8wk, midpoint early-mid May)",
+  "date_is_estimate": true,
+  "days_since_posted": 42,
+  "estimate_window_days": "28-56 (4-8wk)",
   "reposted": "unknown",
   "applicant_count": null,
-  "G_recency": 45,
-  "recency_confidence": "low",
-  "callback_v2": 52,
-  "recency_note": "No hard date on YC listing or via WebSearch (YC-hosted, no Ashby). Strong CONTEXTUAL recency signal: YC Spring 2026 batch, founded 2025, JD copy references '$1M ARR by end of May' present-tense => copy written ~May 2026, so likely posted within last ~4-8wk. Per protocol no confirmed date => G=45 low confidence, no applicant adjustment. Date source: none found (YC page + ycombinator.com/companies/dayjob/jobs + WebSearch all dateless)."
+  "availability": "OPEN (confirmed 2026-06-09 — CSM still listed/accepting on YC jobs board; only open role shown for Dayjob)",
+  "estimation_method": "Two corroborating signals (no exact date — YC-hosted, no Ashby/Lever). (1) Wayback CDX: Dayjob YC company page (ycombinator.com/companies/dayjob) FIRST captured 2026-04-09, refreshed 2026-05-03 => company/jobs presence existed by Apr 9 (posting floor). (2) JD copy states 'on track for $1M ARR by the end of May' in FUTURE tense => copy authored BEFORE end of May 2026. (3) Batch = YC P26 (Spring 2026), founded 2025. Combined: posting written ~April–late-May 2026 => ~4-8wk before today (2026-06-09). Midpoint early-mid May => ~6wk. Confirmed OPEN today via YC fetch.",
+  "G_recency": 32,
+  "recency_confidence": "med",
+  "callback_v2": 49,
+  "recency_note": "OPEN today (verified on YC jobs board). Dated via TWO signals: Wayback first-capture of YC company page 2026-04-09 (floor) + JD '$1M ARR by end of May' future-tense (written before end-May). => ~4-8wk old, midpoint ~6wk -> G_recency=32, med confidence. Was previously G=45 contextual-only; now anchored by Wayback floor. Callback_v2 52 -> 49.",
+  "H_momentum": 66,
+  "momentum_confidence": "medium",
+  "momentum_signals": [
+    "POSITIVE TRACTION: ARR grew from $496K to $653K in 7 months since launching sales Aug 2025; one customer cited £800K first-year revenue uplift; 8%+ efficiency gains from day one (YC company page, 2026-06-09). Healthy growth for a 5-person seed YC P26 startup.",
+    "CAUTION: JD claimed '$1M ARR by end of May' (future tense) but actual is $653K — the milestone was MISSED/overstated; tempers urgency framing slightly though trajectory is still up.",
+    "FOCUSED HIRING: exactly 1 open role company-wide — this CSM seat — confirmed OPEN today on YC jobs board. Single clean opening (no churn/repost), consistent with a tiny founder-led team making its first CS hire (high founder-read).",
+    "NEUTRAL: very small footprint (5 ppl, founded 2025) means thin public social/news cadence; YC Spring 2026 batch membership is the main external validation. No negative signals.",
+    "Source: WebFetch YC company page + WebSearch, 2026-06-09."
+  ],
+  "momentum_flag": "neutral",
+  "callback_v3": 52
 }

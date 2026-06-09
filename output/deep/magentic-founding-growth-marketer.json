@@ -34,5 +34,17 @@
   "G_recency": 10,
   "recency_confidence": "high",
   "callback_v2": 59,
-  "recency_note": "Ashby posting-api publishedAt=2026-03-08T15:17 (magentic board). 93 days / >13wk old = stale; no repost. Tiny 11-person team limits applicant flood but staleness dominates. Source: api.ashbyhq.com/posting-api/job-board/magentic."
+  "recency_note": "Ashby posting-api publishedAt=2026-03-08T15:17 (magentic board). 93 days / >13wk old = stale; no repost. Tiny 11-person team limits applicant flood but staleness dominates. Source: api.ashbyhq.com/posting-api/job-board/magentic.",
+  "H_momentum": 82,
+  "momentum_confidence": "high",
+  "momentum_flag": "green",
+  "momentum_signals": [
+    "ACTIVE HIRING WAVE: Ashby board shows 7 live London roles, with 4 posted Apr-May 2026 (Forward Deployed Engineer 2026-04-02, Deployment Strategist 2026-04-02, Front-end Engineer 2026-05-06, Product Designer 2026-05-08). Founding Growth Marketer (2026-03-08) confirmed STILL LISTED. Source: api.ashbyhq.com/posting-api/job-board/magentic.",
+    "FRESH CAPITAL + TRACTION: $5.5M (EUR4.6M) seed led by Sequoia + Westly + First Momentum (Jul 2025, PRNewswire/EU-Startups). Early client deployments reportedly recovering EUR8.5M-17M/yr in savings (eu-startups Jul 2025) - real revenue traction, riding tariff-hit supply-chain demand.",
+    "GROWTH NARRATIVE: company 2026 thesis 'year of autopilots'; concentrated Mar-May 2026 hiring across eng/strategy/design = scaling from 11-person seed team, NOT contracting (magentic.com/blog).",
+    "NO RED FLAGS: no layoffs/down-round/pivot/founder-exit found. Founders Robin Van Aeken + Odhran O'Donoghue both active. UK entity active on Companies House (15852800).",
+    "ROLE-CHURN: clean single Founding Growth Marketer opening, no evidence of repeated repost; staleness is selectivity (tiny team, founder-read) not churn."
+  ],
+  "callback_v3": 64,
+  "momentum_note": "Green. Strong active hiring momentum: 7 live roles incl 4 fresh Apr-May 2026, Sequoia seed + real client savings traction, scaling team, zero red flags. H=82 lifts callback despite stale 93-day Growth Marketer posting (the team is demonstrably alive and hiring around it). callback_v2 59 -> callback_v3 64."
 }

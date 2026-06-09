@@ -62,6 +62,10 @@ Re-researching real posting_date/applicant_count for 26 live roles, recomputing 
 - a11565a9605ee2468: batch5 (n8n,Lovable,ElevenLabs DS,32Co)
 Final: rank 26 by callback_v2, show next ten (user wants the ranked list).
 
+### APPLIED (exclude from all rankings): Ankar FA, Alaro, Neutreeno, Mozart AI, Moss, Terra API, Installio (7 total as of 2026-06-09)
+### CLOSED (confirmed): Tilt, Assuric, Jack & Jill, Deel GTM AI Operator
+### Alt-signal dating dispatched: a4c49bcfa24018311 — dating Specter, ivee, governr, Dayjob via LinkedIn/Wayback/social/sitemap (ATS exposes no date). New role added: Togather AI Ops Mgr (callback 56).
+
 ## Search Progress
 
 | Role Type | Status |
