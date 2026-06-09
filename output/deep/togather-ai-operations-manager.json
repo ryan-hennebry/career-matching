@@ -44,5 +44,8 @@
     "ROLE-CHURN: single clean Workable posting, no repost pattern observed."
   ],
   "callback_v3": 58,
+  "D_spike_operator": 70,
+  "callback_op": 59,
+  "operator_fit_note": "PARTIAL - half is genuine Claude-Code/n8n agentic-workflow building (direct spike hit), half is Salesforce-admin / commercial-ops process rigor (not his spike); not founder-facing (reports to Ops Director).",
   "momentum_note": "Neutral-to-healthy. Steady headcount growth (40->~75), actively hiring (9 roles), and a fresh AI-ops investment seat - but funding is stale (2023, no recent raise) so no fundraising catalyst. No red flags. H=65. callback_v2 56 -> callback_v3 58."
 }

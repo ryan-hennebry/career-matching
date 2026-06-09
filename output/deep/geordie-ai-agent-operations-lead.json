@@ -1,0 +1,28 @@
+{
+  "company": "Geordie AI",
+  "title": "Agent Operations Lead",
+  "location": "London, UK (UK Remote eligible)",
+  "direct_url": "https://jobs.ashbyhq.com/geordieai/596b46c6-cc17-4309-a133-5bc4353f1426",
+  "posting_date": "2026-05-26",
+  "days_since": 14,
+  "source": "fresh-sweep",
+  "agentic_ai": true,
+  "company_context": "AI governance platform — 'air traffic control for your company's AI agents' (observability, compliance, risk intelligence for agentic AI). Founded early 2025. Offices London + NY, 37 staff scaling to ~50.",
+  "factors": {
+    "A_requirements": 88,
+    "B_competition": 70,
+    "C_screening": 78,
+    "D_spike_operator": 95,
+    "E_warmpath": 30,
+    "F_conversion": 60,
+    "G_recency": 72,
+    "H_momentum": 92
+  },
+  "callback_op": 81,
+  "momentum_flag": "HOT — $30M Series A closed 2026-05-28 (Fortune-covered), headcount 37→50 next quarter",
+  "biggest_lever": "Role is literally 'build agentic workflows with Claude Code/Cowork, n8n, Zapier, LangGraph, MCPs' to expand operational capacity without headcount — a 1:1 match for Ryan's 'building AI agents with Claude Code to create leverage for startup teams' positioning, plus his first-employee systems-from-scratch background.",
+  "biggest_risk": "Title says 'Lead' and the JD expects deep hands-on familiarity with multi-agent architectures/orchestration patterns — Ryan's agent-building is self-taught (Claude Code competitor-intel/growth agents), so he must evidence concrete agentic systems he has shipped, not just usage.",
+  "apply_move": "Apply via Ashby. Lead with a short Loom or write-up of an actual Claude-Code/MCP agent workflow he built (competitor-intel pipeline) framed as 'operational leverage', and tie his Minima 1→30 first-employee record to 'building systems without technical debt'.",
+  "availability": "Live (verified via Ashby posting API 2026-06-09)",
+  "why_fits_operator_intent": "Genuine agent-native operator role — design/build internal agentic systems and enable teams to use agents; pure operator+AI-builder leverage, not sales/CS."
+}

@@ -44,5 +44,8 @@
   ],
   "live_seat_finding": "LIVE-SEAT CONFIRMED. The YC/WorkAtAStartup 'Operations Associate' (London, GBP50-70K, new grads welcome, slug QkzDlzY) is STILL listed and live on ycombinator.com as of 2026-06-09. The earlier-flagged Ashby 'corgi' board (BDR/ETF/quant/legal roles in US cities, dated Jun 2026) is a DIFFERENT corgi slug (asset-management/ETF entity) and does NOT supersede this seat - it is not the YC AI-insurance Corgi's board. The YC AI-insurance Corgi (corgi.insure) does NOT expose a public dated Ashby board; its roles live on YC/WorkAtAStartup. CONCLUSION: this Operations Associate seat is genuinely live, NOT superseded; YC posting date 2026-04-12 may be sticky but the role and company are demonstrably hiring hard.",
   "callback_v3": 63,
+  "D_spike_operator": 78,
+  "callback_op": 65,
+  "operator_fit_note": "YES - genuine early-stage generalist ops seat (new-grads welcome, prizes startup exp + AI-tools-to-multiply-output + high agency); maps cleanly to Ryan's first-employee/FA + Claude-Code spikes. Insurance domain + consulting/banking competition dilute slightly.",
   "momentum_note": "Green - strongest momentum in batch. $160M Series B (May) + $106M B1 (Jun 2026) at $2.6B valuation, ~50 open roles, London office scaling, zero red flags. H=88 lifts callback meaningfully despite stale/sticky YC posting date and 6-7 day in-office conversion concern. callback_v2 57 -> callback_v3 63."
 }

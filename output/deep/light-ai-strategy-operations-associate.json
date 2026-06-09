@@ -1,0 +1,28 @@
+{
+  "company": "Light",
+  "title": "AI Strategy & Operations Associate",
+  "location": "Copenhagen (primary) / London (secondary, eligible)",
+  "direct_url": "https://jobs.ashbyhq.com/light-inc/e77a6704-0a0f-43ce-9270-6e61c0f8d793",
+  "posting_date": "2026-04-09",
+  "days_since": 61,
+  "source": "fresh-sweep",
+  "agentic_ai": false,
+  "company_context": "AI-native 'Smart Financial Platform' replacing legacy ERPs — automated accounting, real-time reporting. Operating core for Lovable, Legora, KeyShot. Well-backed early team defining a new category.",
+  "factors": {
+    "A_requirements": 80,
+    "B_competition": 65,
+    "C_screening": 75,
+    "D_spike_operator": 68,
+    "E_warmpath": 28,
+    "F_conversion": 55,
+    "G_recency": 32,
+    "H_momentum": 78
+  },
+  "callback_op": 63,
+  "momentum_flag": "MODERATE — strong logos (Lovable/Legora as customers) and world-class backers, but no fresh raise tied to this posting and listing is ~9 weeks old",
+  "biggest_lever": "'Foundational hire... building foundational processes for the first time' across Finance, Legal/Compliance, People Ops, General Ops — a first-employee-style operator brief that matches Ryan's Minima FA breadth and fundraising-ops exposure.",
+  "biggest_risk": "Two strikes: (1) recency — ~61 days old, may be filled or deprioritised; (2) location — London is only a SECONDARY location (Copenhagen primary), so London eligibility should be confirmed before investing effort. Also finance-ops leaning vs pure generalist.",
+  "apply_move": "Confirm London eligibility first (message recruiter / check before applying). If confirmed, apply via Ashby leading with fundraising-ops + investor-update + budget-accountability evidence to address the finance-ops tilt.",
+  "availability": "Live as of 2026-06-09 (Ashby API), but aged posting — verify it is still actively reviewing.",
+  "why_fits_operator_intent": "Genuine cross-functional ops-generalist foundational seat (not sales/CS); included as a lower-confidence option due to recency and secondary-location caveats."
+}

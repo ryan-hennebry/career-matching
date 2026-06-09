@@ -1,0 +1,28 @@
+{
+  "company": "Dwelly",
+  "title": "Integration Associate (Post-M&A)",
+  "location": "London, UK",
+  "direct_url": "https://job-boards.eu.greenhouse.io/dwelly/jobs/4785962101",
+  "posting_date": "2026-06-08",
+  "days_since": 1,
+  "source": "fresh-sweep",
+  "agentic_ai": false,
+  "company_context": "UK AI-enabled lettings/property platform; roll-up acquirer of estate agencies. $93M raised Feb 2026, scaling to 1,500. Post-M&A integration function is central to the roll-up thesis.",
+  "factors": {
+    "A_requirements": 80,
+    "B_competition": 65,
+    "C_screening": 78,
+    "D_spike_operator": 62,
+    "E_warmpath": 25,
+    "F_conversion": 55,
+    "G_recency": 85,
+    "H_momentum": 85
+  },
+  "callback_op": 74,
+  "momentum_flag": "STRONG — same $93M / 300→1,500 expansion; integration is the engine of the roll-up so headcount here is durable",
+  "biggest_lever": "Cross-functional execution under ambiguity (operational, client and team integration of newly-acquired agencies) maps to Ryan's 'team coordination + cross-functional execution across fast-moving priorities' FA experience.",
+  "biggest_risk": "Narrower delivery scope than a true founder's-associate — executes alongside an Integration Manager rather than owning end-to-end; less agent-building leverage; weaker operator-spike than the Operations Associate sibling role.",
+  "apply_move": "Apply via Greenhouse. Use only as a secondary Dwelly application if the Operations Associate generalist seat is the stronger primary; lead with cross-functional coordination and stakeholder-management evidence.",
+  "availability": "Live (verified via Greenhouse API 2026-06-09)",
+  "why_fits_operator_intent": "Operator/execution role (not sales/CS) but more specialised on M&A integration delivery; ranked below the generalist Operations Associate."
+}

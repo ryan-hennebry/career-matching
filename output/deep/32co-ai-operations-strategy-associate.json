@@ -41,5 +41,8 @@
     "Net NEUTRAL (low confidence): no negative flags (no layoffs/down-round), but no recent funding/launch catalyst and a stale req. Thin data => H=50."
   ],
   "momentum_flag": "neutral",
-  "callback_v3": 35
+  "callback_v3": 35,
+  "D_spike_operator": 28,
+  "callback_op": 34,
+  "operator_fit_note": "NO - the 'Operations & Strategy Associate' title is misleading; the actual work is ML-infra/MLOps engineering (model hosting, orchestration, data pipelines, eval frameworks). Only a thin vendor-eval slice touches his Claude-Code work; hard engineering blocker."
 }

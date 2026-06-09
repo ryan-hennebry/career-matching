@@ -43,5 +43,8 @@
     "ROLE-CHURN (NEUTRAL): multiple S&O-family reqs run in parallel (London + Madrid + SF variants); the family is continuously open, signalling steady-state hiring rather than a fresh push for this specific seat."
   ],
   "momentum_flag": "green",
-  "callback_v3": 44
+  "callback_v3": 44,
+  "D_spike_operator": 58,
+  "callback_op": 46,
+  "operator_fit_note": "PARTIAL - a real generalist S&O role with a founder-mindset/extreme-ownership cultural bar that maps to his first-employee story, BUT the work is process-rigor/operational-data heavy in enterprise logistics with 50-75% travel and a recruiter screen at a hot 140-person co - not founder-facing ambiguous ownership."
 }
