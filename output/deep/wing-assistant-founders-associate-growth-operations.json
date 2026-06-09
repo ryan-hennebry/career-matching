@@ -25,5 +25,13 @@
   "biggest_lever": "Frame Ryan's funnel work (50k email list -> 5k presale conversions via segmentation/A-B testing, 15x ROI) as directly transferable sales-enablement + activation analytics - the one area where Ryan has hard, quantified funnel results.",
   "biggest_risk": "Stale evergreen posting (~10 months) at a non-AI VA-staffing firm with a low GBP33-55k band and a sales-ops/churn focus that doesn't hit any of Ryan's spikes - low genuine desirability and unclear whether the seat is actively being filled.",
   "apply_verdict": "OPTIONAL / LOW-PRIORITY APPLY",
-  "confidence": "medium"
+  "confidence": "medium",
+  "posting_date": "2025-08-26",
+  "days_since_posted": 287,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 10,
+  "recency_confidence": "high",
+  "callback_v2": 49,
+  "recency_note": "CONFIRMED STALE: Lever createdAt epoch-ms 1756241326340 = 2025-08-26, i.e. 287 days / ~9.4 months old. Evergreen/always-open VA-staffing req, not a fresh genuine opening. >12wk bracket (G=10). Validates prior ~10-month suspicion. Callback 60 -> 49."
 }

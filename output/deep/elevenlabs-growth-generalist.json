@@ -23,5 +23,13 @@
   "biggest_lever": "Ryan's generalist growth/brand/content profile genuinely fits the role spec, and the role waives B2B-experience requirements — so on craft he could compete.",
   "biggest_risk": "Hyper-prominent $11B AI lab + remote-global + no experience bar = enormous applicant pool funnelled through a recruiter/ATS; a non-traditional CV (no SWE, no SQL keyword, career break) is statistically likely to be screened out before the story lands.",
   "apply_verdict": "Lower priority despite genuine fit — apply only with a referral or a standout creative artifact that jumps the recruiter queue; cold-applying into ElevenLabs' funnel is a low-yield use of effort versus Conduct.",
-  "confidence": "high"
+  "confidence": "high",
+  "posting_date": "2026-01-22",
+  "days_since_posted": 138,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 10,
+  "recency_confidence": "high",
+  "callback_v2": 45,
+  "recency_note": "publishedDate 2026-01-22 (138 days / 19.7wk, source: Ashby GraphQL ApiJobPosting, isListed:true). >12wk evergreen-style at an $11B hot lab -> G=10 (already floor; hot-lab applicant flood would only push lower). Still listed but very long-running, signalling a slow/saturated funnel. ElevenLabs has 151 live roles."
 }

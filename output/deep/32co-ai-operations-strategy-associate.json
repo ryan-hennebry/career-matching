@@ -23,5 +23,13 @@
   "biggest_risk": "Title is misleading — the actual work is AI-infrastructure/MLOps engineering (model hosting, orchestration, pipelines, eval frameworks) requiring hands-on engineering Ryan does not have; healthtech domain compounds the gap.",
   "apply_verdict": "Skip. Despite the attractive 'Operations & Strategy Associate' title, this is an AI-platform/ML-engineering role. Ryan would be screened out on technical requirements.",
   "confidence": "high",
-  "availability": "live"
+  "availability": "live",
+  "posting_date": "2026-01-19",
+  "days_since_posted": 141,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 10,
+  "recency_confidence": "high",
+  "callback_v2": 32,
+  "recency_note": "Posted ~141 days / ~4.7 months ago (Lever createdAt epoch 1768834881071 -> 2026-01-19) — very stale -> G=10. Still live on Lever but a nearly-5-month-old req signals either slow hiring or a large accumulated pool. Smaller co (less brand flood than the others) but staleness dominates; callback near-flat 34->32. No applicant count visible."
 }

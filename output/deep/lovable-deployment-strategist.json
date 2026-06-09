@@ -25,5 +25,13 @@
   "biggest_risk": "Core requirement is enterprise B2B deployment/renewals/expansion delivery — explicitly NOT Ryan's experience — at a hyper-famous brand with massive applicant volume and recruiter keyword screening.",
   "apply_verdict": "SKIP-OR-LONGSHOT",
   "confidence": "high",
-  "availability": "CONFIRMED-LIVE"
+  "availability": "CONFIRMED-LIVE",
+  "posting_date": "2026-02-12",
+  "days_since_posted": 117,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 10,
+  "recency_confidence": "high",
+  "callback_v2": 25,
+  "recency_note": "Posted ~117 days / 4 months ago (Ashby publishedAt 2026-02-12) — deeply stale -> G=10. Confirmed still live on careers page/LinkedIn but a months-old req at a flood-volume hype brand ($6.6B, ~$400M ARR) means a huge accumulated applicant backlog. Stale recency drops callback 35->25. No applicant count surfaced."
 }

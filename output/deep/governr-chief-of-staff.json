@@ -23,5 +23,13 @@
   "biggest_risk": "Same-day financial-modelling + investor-pitch + strategy expectation at 'founder-level intensity' may exceed Ryan's evidenced finance-modelling depth; AI-governance domain doesn't pull on his crypto/community spikes.",
   "apply_verdict": "Apply — top priority for the warm-path alone. Craft a tight 300-word pitch leading with first-employee/seed-to-Series-A operator credibility, fundraising-support and strategy-doc track record, and AI-native (Claude Code) building. Send to rajen@governr.ai.",
   "confidence": "medium",
-  "availability": "live (direct founder email apply; 48h response window)"
+  "availability": "live (direct founder email apply; 48h response window)",
+  "posting_date": null,
+  "days_since_posted": null,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 45,
+  "recency_confidence": "low",
+  "callback_v2": 58,
+  "recency_note": "No hard date: not on a dated ATS; LinkedIn listing (4315378460) now 301-redirects to expired_jd_redirect (that mirror is dead), but ZipRecruiter direct_url + StudySmarter mirror still resolve and the direct-to-founder email apply (rajen@governr.ai, 48h response) implies still-live. Neither mirror exposes a posting date. Per protocol date-unknown -> G=45, low confidence. Callback unchanged at 58 (note: callback_v2 uses A_requirements_fit=50 and E_warm_path=95 keys). Recommend treating recency as the key open risk — verify the seat is still open before investing in the 300-word pitch."
 }

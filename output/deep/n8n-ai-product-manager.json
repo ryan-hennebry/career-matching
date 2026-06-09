@@ -23,5 +23,13 @@
   "biggest_lever": "The application asks every candidate to build an n8n workflow and share a screenshot — Ryan's Claude Code/agent-building fluency lets him produce a genuinely impressive artifact, the one place a non-PM can stand out.",
   "biggest_risk": "No PM title/experience + AI work is internal tooling not shipped products, at a 260-person $5.2bn company with recruiter/ATS screening and huge applicant volume; plus the role is Berlin-anchored against UK-only work authorisation.",
   "apply_verdict": "Pass (low fit)",
-  "confidence": "medium"
+  "confidence": "medium",
+  "posting_date": "2026-06-02",
+  "days_since_posted": 7,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 83,
+  "recency_confidence": "high",
+  "callback_v2": 48,
+  "recency_note": "Posted 7 days ago (Ashby publishedAt 2026-06-02) — fresh, <1wk boundary -> base 88. -5 for hot-brand high-volume ($5.2bn, 260+ emp, dedicated recruiting). Freshest of batch; recency lifts callback 38->48 but fundamentals (no PM title, Berlin-anchored) still cap fit. Applicant count not visible."
 }

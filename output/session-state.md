@@ -51,6 +51,17 @@ Analyzing 33 candidates (likelihood>=50) on 6 factors: requirements(30) / compet
 - a1a72ae0264fcc394: batch6 (HappyRobot,Installio,Lovable + spike profile)
 Final: merge output/deep/*.json, rank by callback_likelihood, recommend top 5 w/ reasoning.
 
+### RECENCY re-rank — dispatched 2026-06-09
+User feedback: posting-date under-weighted. Applied to 6 now (Ankar FA, Alaro, Neutreeno, Mozart, Moss, Terra API).
+New 7-factor model: requirements .25 / RECENCY .25 / spike .18 / competition .12 / screening .12 / warmpath .05 / conversion .03 → callback_v2.
+Re-researching real posting_date/applicant_count for 26 live roles, recomputing callback_v2 into output/deep/{slug}.json.
+- aef0d316e2f70d40c: batch1 (Conduct,Sequence,Specter,Magentic,Gradient,Corgi)
+- a69a872720ca4ea77: batch2 (Marloo,ivee,Scope,Wing,Capital on Tap,governr)
+- ad57683807e290e9f: batch3 (StudioB,Installio,Jack&Jill,ElevenLabs Growth,Deel)
+- a4695db305b5f63fc: batch4 (Dayjob,Seamflow,HappyRobot,Siena,Decagon)
+- a11565a9605ee2468: batch5 (n8n,Lovable,ElevenLabs DS,32Co)
+Final: rank 26 by callback_v2, show next ten (user wants the ranked list).
+
 ## Search Progress
 
 | Role Type | Status |

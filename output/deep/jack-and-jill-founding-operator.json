@@ -23,5 +23,13 @@
   "biggest_lever": "Position the first-employee 1->30 scaling + 'turn ambiguous founder priorities into workstreams' + Claude Code workflow automation as exactly the high-agency process-builder this seat needs.",
   "biggest_risk": "Requirement centre of gravity is enterprise customer-success / account-portfolio ownership, which Ryan lacks; competing against a 10-ex-founder bar for a £100-180k seat where peers likely have direct CS/AM track records.",
   "apply_verdict": "Apply (stretch)",
-  "confidence": "high"
+  "confidence": "high",
+  "posting_date": null,
+  "days_since_posted": null,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 10,
+  "recency_confidence": "high",
+  "callback_v2": 47,
+  "recency_note": "DELISTED/CLOSED. Ashby GraphQL ApiJobPosting returns jobPosting:null for ID 0b47c628; posting-api/job-board/jack-and-jill returns Not Found and ApiJobBoardWithTeams returns jobBoard:null (entire public board removed). WebFetch of the direct URL renders no posting. Role no longer open -> treat as stale, G=10. High confidence it is gone, not merely undated."
 }

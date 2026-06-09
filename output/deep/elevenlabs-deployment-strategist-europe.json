@@ -24,5 +24,13 @@
   "biggest_lever": "Position Claude-Code agent-building as hands-on prototyping/demo ability with LLM/agent frameworks, plus customer-and-executive-facing communication strength, to argue 'credible with engineering teams' despite no formal SWE.",
   "biggest_risk": "Hard technical gate (Python + API integration + FDE-adjacent) that Ryan does not formally meet, combined with massive applicant volume at a hype company — high chance of automatic technical screen-out.",
   "apply_verdict": "Low-priority stretch; only apply with a strong demonstrable agent-building portfolio to counter the Python/FDE gate, otherwise deprioritise.",
-  "confidence": "high"
+  "confidence": "high",
+  "posting_date": "2026-05-06",
+  "days_since_posted": 34,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 27,
+  "recency_confidence": "high",
+  "callback_v2": 31,
+  "recency_note": "Posted 34 days ago (Ashby publishedAt 2026-05-06) — 4-8wk band -> base 32, -5 for hot brand ($11B voice-AI unicorn) + Europe-wide pool widening volume. Confirmed live (also listed as 'Forward Deployed Engineer - Strategist - Europe'). Mildly aged; callback essentially flat 34->31. No applicant count visible."
 }

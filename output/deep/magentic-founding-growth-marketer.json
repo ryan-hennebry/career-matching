@@ -26,5 +26,13 @@
   "biggest_lever": "Sequoia-backed 11-person team means the CEO personally reads applications - a tailored pitch leading with 'I was the first growth hire who built a repeatable GTM playbook from zero ($4.5m presale)' plus an AI-automation artifact lands directly with the decision-maker, sidestepping the enterprise-B2B gap.",
   "biggest_risk": "'Enterprise B2B early-stage growth' preference vs Ryan's community-led consumer-crypto growth - they may want someone who has sold into enterprise procurement/industrial buyers; domain (supply chain/procurement) is unfamiliar and the role has been open ~3 months (possible selectivity).",
   "apply_verdict": "STRONG APPLY",
-  "confidence": "high"
+  "confidence": "high",
+  "posting_date": "2026-03-08",
+  "days_since_posted": 93,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 10,
+  "recency_confidence": "high",
+  "callback_v2": 59,
+  "recency_note": "Ashby posting-api publishedAt=2026-03-08T15:17 (magentic board). 93 days / >13wk old = stale; no repost. Tiny 11-person team limits applicant flood but staleness dominates. Source: api.ashbyhq.com/posting-api/job-board/magentic."
 }

@@ -23,5 +23,13 @@
   "biggest_lever": "Reframe Minima first-employee scaling + investor/C-level stakeholder comms + Claude-Code agent building as 'strategic advisor who can talk product, deployment and outcomes' — but must overcome lack of enterprise-CS evidence.",
   "biggest_risk": "Hot, well-funded company at £105-140K attracts hundreds of experienced enterprise CS/deployment applicants; Ryan has no documented enterprise B2B delivery experience, so ATS/recruiter screen likely filters him out before human read.",
   "apply_verdict": "Apply only with a tailored, deployment-outcome-led pitch; treat as a stretch/low-odds shot given competition and enterprise-CS gate.",
-  "confidence": "medium-high"
+  "confidence": "medium-high",
+  "posting_date": "2026-03-24",
+  "days_since_posted": 77,
+  "reposted": true,
+  "applicant_count": null,
+  "G_recency": 5,
+  "recency_confidence": "high",
+  "callback_v2": 32,
+  "recency_note": "Ashby publishedAt=2026-03-24 for THIS URL => 77 days (8-12wk band, base G=18). BUT Decagon maintains a continuously-refreshed Agent Strategy Manager req family — newer dupes published 2026-05-12 (f45c6d16) and 2026-05-28 (ebeb6781) supersede applicant attention on this specific 77-day-old posting. Hot $4.5B/300+p co (112 open roles) => severe applicant flood => -15 (floor 5) => G=5. No exact applicant count surfaced via LinkedIn/WebSearch but volume is near-certainly very high. Date source: api.ashbyhq.com/posting-api/job-board/decagon (jobId ac14f2e8)."
 }

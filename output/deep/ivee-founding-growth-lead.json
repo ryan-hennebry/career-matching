@@ -23,5 +23,13 @@
   "biggest_lever": "Lead with the $4.5m community-led presale (15x ROI on $300k) reframed as zero-to-one pipeline building + the Claude Code AI workflow example the form demands — both map directly to 'build growth from scratch' and 'fluent in AI'.",
   "biggest_risk": "Role is explicitly B2B outbound sales-pipeline ownership (cold outreach, deal closure for clients like Red Bull); Ryan has no enterprise B2B sales/closing track record — community-led growth may read as adjacent not core. High media hype also raises applicant volume.",
   "apply_verdict": "Apply",
-  "confidence": "high"
+  "confidence": "high",
+  "posting_date": null,
+  "days_since_posted": null,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 45,
+  "recency_confidence": "low",
+  "callback_v2": 62,
+  "recency_note": "No hard date: hosted on a standalone Lovable app (no ATS/Lever/Greenhouse date), LinkedIn ivee roles undated, WebSearch yielded none. generalist.world tags it '✨ New' (soft recent signal, not a date). Per protocol date-unknown -> G=45, low confidence. Callback 66 -> 62."
 }

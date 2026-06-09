@@ -25,5 +25,13 @@
   "biggest_lever": "Lead the application with a concrete, demonstrable Claude Code agent artifact (the competitor-intel + growth-experiment agents) framed as production-style GTM automation - this is the one screen criterion where Ryan can genuinely out-evidence the 200+ applicants.",
   "biggest_risk": "ATS keyword filter at a 5,000+-person unicorn: missing SQL/Salesforce/RevOps/production-deployment keywords likely auto-screens a non-traditional CV before a human reads it; 200+ applicants make recruiter-read of a borderline CV unlikely.",
   "apply_verdict": "APPLY (with strong agent-portfolio cover) - lower-probability lottery ticket",
-  "confidence": "high"
+  "confidence": "high",
+  "posting_date": "2026-05-19",
+  "days_since_posted": 21,
+  "reposted": true,
+  "applicant_count": "200+ (older LinkedIn ID 4402779286); 36 (newer ID 4414461602)",
+  "G_recency": 10,
+  "recency_confidence": "medium",
+  "callback_v2": 43,
+  "recency_note": "DELISTED on Ashby (GraphQL jobPosting:null for f525355a; not in 16-job posting-api board) and WTTJ flagged 'no longer available' -> primary signal is CLOSED, G=10. LinkedIn shows TWO IDs (repost): 4402779286 'Posted 1 week ago, Over 200 applicants' and 4414461602 'Posted 3 weeks ago, 36 applicants' (source: LinkedIn WebFetch). Even if a stray LinkedIn cache stays live, a reposted 200+-applicant role at a 5000+ unicorn after delisting is effectively cold. posting_date approximate (~3wk back from newer LinkedIn)."
 }

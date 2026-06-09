@@ -24,5 +24,13 @@
   "biggest_risk": "MBB/IB-flavoured pedigree bar + heavily technical/consulting team culture + regulated TIC domain (aerospace/medtech) outside Ryan's domain; current need is enterprise deal-closing, not community growth.",
   "apply_verdict": "Apply — but lead hard with the 'high-growth startup operator, seed->Series A, $4.5m presale + fundraising support' angle to clear the non-MBB path, and acknowledge the domain ramp. Net-positive bet due to strong founder-read odds.",
   "confidence": "high",
-  "availability": "live"
+  "availability": "live",
+  "posting_date": "2025-12-02",
+  "days_since_posted": 189,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 15,
+  "recency_confidence": "high",
+  "callback_v2": 46,
+  "recency_note": "Ashby posting-api publishedAt=2025-12-02 => 189 days (>>12wk, very stale). Single FA listing, no repost. Likely a long-lived evergreen FA req on a tiny 8-11p seed co rather than a fresh opening. >12wk => base G=10; tiny low-volume startup => +5 => G=15. Date source: api.ashbyhq.com/posting-api/job-board/seamflow (jobId fcabd41c)."
 }

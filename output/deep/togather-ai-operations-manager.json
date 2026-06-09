@@ -1,0 +1,35 @@
+{
+  "company": "Togather",
+  "title": "AI Operations Manager",
+  "location": "London, UK (hybrid; Workable lists telecommute/flexible)",
+  "direct_url": "https://apply.workable.com/togather/j/2F80E415C5",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4411211361/",
+  "posting_date": "2026-05-06",
+  "days_since_posted": 34,
+  "reposted": false,
+  "applicant_count": "Be among the first 25 applicants",
+  "factor_scores": {
+    "A_requirements": 70,
+    "B_competition": 65,
+    "C_screening": 52,
+    "D_spike": 62,
+    "E_warmpath": 40,
+    "F_conversion": 60
+  },
+  "G_recency": 37,
+  "recency_confidence": "high",
+  "callback_v2": 56,
+  "key_evidence": [
+    "Role centres on building agentic AI workflows (Zapier, Claude Cowork, n8n, prompt engineering) — directly maps to Ryan's Claude-Code agent-building spike (Aug 2023-present: competitor-intel + growth-experiment agents).",
+    "Requirements are soft: 'passion for agentic AI + hands-on building' and ONLY ONE of Salesforce admin / Zapier-n8n / prompt engineering / workflow automation. No hard degree, language, or visa blockers; UK role, UK auth fine.",
+    "Posting date confirmed May 6 2026 from Workable direct ATS (jobs.workable.com listing). 34 days = ~4.9 weeks, 4-8wk recency band (G=32) + low-applicant bump (first 25) +5 = 37.",
+    "NOT his domain sweet spot: events/hospitality platform, internal ops-automation, heavy Salesforce admin + commercial-ops (invoicing, supplier onboarding, SLAs) — adjacent to his founding-generalist profile but NOT crypto/Web3, community-led growth, or first-employee-scaling.",
+    "Reports to Operations Director (not founder) at a 50+ person founder-led company — recruiter/hiring-manager screen rather than founder-read; Workable apply only, no obvious warm path.",
+    "Manager title in the right seniority band; AI-automation is a domain he genuinely wants; flexible/hybrid London likely clears £50k."
+  ],
+  "biggest_lever": "Lead with a built Claude Code / n8n agent artifact, not a CV — this role explicitly prizes hands-on agentic-AI builders, which is Ryan's rarest credible signal among generalist applicants.",
+  "biggest_risk": "Role is half ops-automation builder, half Salesforce-admin / commercial-ops owner (invoicing, supplier onboarding, SLAs) — the process-rigor/enterprise-ops half is an anti-fit, and 5 weeks open means a shortlist may exist.",
+  "apply_verdict": "Apply (mid-tier) — strong on the AI-builder half, weak on the Salesforce/ops-admin half; worth a tailored show-don't-tell application but not a top priority.",
+  "confidence": "high",
+  "availability": "Open/live on Workable as of 2026-06-09"
+}

@@ -25,5 +25,13 @@
   "biggest_risk": "Role rewards operational/data/process rigor in enterprise logistics, not Ryan's community-GTM/crypto spike; 50-75% travel plus high applicant volume at a hot YC co dilute his differentiation.",
   "apply_verdict": "APPLY-IF-CAPACITY",
   "confidence": "high",
-  "availability": "CONFIRMED-LIVE"
+  "availability": "CONFIRMED-LIVE",
+  "posting_date": "2026-03-12",
+  "days_since_posted": 89,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 5,
+  "recency_confidence": "high",
+  "callback_v2": 38,
+  "recency_note": "Ashby publishedAt=2026-03-12 => 89 days (>12wk). HappyRobot runs MULTIPLE S&O-family reqs (Jan-22, Jan-23 + Strategy & Ops Engineer variants) so this London role is mature, not fresh; not a same-URL repost. >12wk => base G=10; ~140p hot YC co (78 open roles) => high applicant flood => -5 => G=5. Date source: api.ashbyhq.com/posting-api/job-board/happyrobot.ai (jobId bb5315cc)."
 }

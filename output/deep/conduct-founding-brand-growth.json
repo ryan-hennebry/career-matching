@@ -13,15 +13,23 @@
     "F_conversion": 72
   },
   "key_evidence": [
-    "Listing explicitly: 'We don't care if you have previous B2B marketing experience' and 'Your seniority does not matter, what matters is ambition, craft, and the ability to turn ideas into high-quality output fast' — removes Ryan's biggest structural blockers (no SWE, no enterprise B2B, mid-level band).",
-    "Wants a generalist who has 'built things before (processes, products, companies, side-hustles, communities, events, brands)' — Ryan's first-employee/founder-associate + community + brand-from-zero history maps almost word-for-word.",
-    "Funding: $50M+ Series A (closed ~early 2026), plus earlier £9m round Sep 2025 (UKTN). Founded 2024, ~30 people, ex-Palantir founders, London-HQ. Small talent-dense team = founder/hiring-manager reads CVs.",
-    "Posting published 2026-04-27 — ~6 weeks open as of run date. Moderately aged; some accumulated applicants but not viral. Conduct is enterprise-SAP-AI, lower consumer hype than a frontier lab = manageable competition.",
-    "Visa sponsorship offered ('we sponsor visas from everywhere') — irrelevant positive for Ryan (UK-authorized) but signals low ATS-gatekeeping.",
-    "Domain is enterprise SAP/ERP AI — NOT Ryan's crypto/Web3 home turf, but role is brand/growth craft not domain delivery, so domain gap is low-risk here."
+    "Listing explicitly: 'We don't care if you have previous B2B marketing experience' and 'Your seniority does not matter, what matters is ambition, craft, and the ability to turn ideas into high-quality output fast' \u2014 removes Ryan's biggest structural blockers (no SWE, no enterprise B2B, mid-level band).",
+    "Wants a generalist who has 'built things before (processes, products, companies, side-hustles, communities, events, brands)' \u2014 Ryan's first-employee/founder-associate + community + brand-from-zero history maps almost word-for-word.",
+    "Funding: $50M+ Series A (closed ~early 2026), plus earlier \u00a39m round Sep 2025 (UKTN). Founded 2024, ~30 people, ex-Palantir founders, London-HQ. Small talent-dense team = founder/hiring-manager reads CVs.",
+    "Posting published 2026-04-27 \u2014 ~6 weeks open as of run date. Moderately aged; some accumulated applicants but not viral. Conduct is enterprise-SAP-AI, lower consumer hype than a frontier lab = manageable competition.",
+    "Visa sponsorship offered ('we sponsor visas from everywhere') \u2014 irrelevant positive for Ryan (UK-authorized) but signals low ATS-gatekeeping.",
+    "Domain is enterprise SAP/ERP AI \u2014 NOT Ryan's crypto/Web3 home turf, but role is brand/growth craft not domain delivery, so domain gap is low-risk here."
   ],
-  "biggest_lever": "Role explicitly de-prioritises seniority and prior B2B experience and prizes the exact profile Ryan has — a creative operator who has built brands/communities/companies from zero; this is a founding marketing hire read by founders, not an ATS.",
+  "biggest_lever": "Role explicitly de-prioritises seniority and prior B2B experience and prizes the exact profile Ryan has \u2014 a creative operator who has built brands/communities/companies from zero; this is a founding marketing hire read by founders, not an ATS.",
   "biggest_risk": "It is the single 'most consequential first marketing hire' so the bar on creative taste and portfolio-of-built-things is very high; Ryan must demonstrate sharp brand/creative output (not just growth metrics), and 6-weeks-open means a strong shortlist may already exist.",
-  "apply_verdict": "Prioritise — top-tier fit. Founding growth role that actively wants Ryan's exact non-traditional builder profile, founder-read screening, well-funded London team. Apply fast with a creative-led, show-don't-tell application.",
-  "confidence": "high"
+  "apply_verdict": "Prioritise \u2014 top-tier fit. Founding growth role that actively wants Ryan's exact non-traditional builder profile, founder-read screening, well-funded London team. Apply fast with a creative-led, show-don't-tell application.",
+  "confidence": "high",
+  "posting_date": "2026-04-27",
+  "days_since_posted": 43,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 32,
+  "recency_confidence": "high",
+  "callback_v2": 73,
+  "recency_note": "Ashby posting-api publishedAt=2026-04-27T21:16 (conduct board). 43 days / ~6wk old; no repost, no applicant count visible. Source: api.ashbyhq.com/posting-api/job-board/conduct."
 }

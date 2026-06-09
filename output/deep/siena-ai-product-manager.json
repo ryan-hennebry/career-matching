@@ -24,5 +24,13 @@
   "biggest_risk": "No PM / solutions-eng / TAM / CS-eng title and no evidence of scoping webhooks/OAuth/integrations — likely technical-fluency screen-out for a Product Manager req.",
   "apply_verdict": "Apply opportunistically via the 'consumer-minded builder + AI-native operator' angle, but treat as a stretch/long-shot — the 3+yr PM/technical-PM bar is a real gap. Lower priority than founder-led FA/operator roles.",
   "confidence": "high",
-  "availability": "live (UK eligible — remote, London is a listed hub; NOT NY-only)"
+  "availability": "live (UK eligible — remote, London is a listed hub; NOT NY-only)",
+  "posting_date": "2025-09-17",
+  "days_since_posted": 265,
+  "reposted": false,
+  "applicant_count": null,
+  "G_recency": 10,
+  "recency_confidence": "high",
+  "callback_v2": 37,
+  "recency_note": "Ashby publishedAt=2025-09-17 => 265 days (~9 months). Classic evergreen/zombie PM req — extremely stale, single un-reposted listing left perpetually open; real fill urgency is questionable. >12wk => G=10; small distributed team, no applicant data => no adjustment. Date source: api.ashbyhq.com/posting-api/job-board/siena (jobId 886bddc1)."
 }
