@@ -1,0 +1,28 @@
+{
+  "company": "Ramp",
+  "title": "GTM Associate, Europe (Founding Go-to-Market Associate)",
+  "location": "London, UK",
+  "direct_url": "https://jobs.ashbyhq.com/ramp/20331539-c49c-4bf7-a719-a7e1b6e55537",
+  "posting_date": "2026-05-08",
+  "days_since_posted": 33,
+  "reposted": false,
+  "factor_scores": {
+    "A": 62,
+    "B": 40,
+    "C": 62,
+    "D_spike_operator": 78,
+    "E": 20,
+    "F": 45
+  },
+  "G_recency": 32,
+  "H_momentum": 92,
+  "momentum_flag": "Ramp is one of the fastest-growing fintechs globally ($200B+ annualized spend, 70k+ companies); aggressive Europe expansion with London as new European HQ; very well-funded, builder culture, explicitly hiring first-on-ground founding roles.",
+  "callback_op": 59,
+  "callback_v3": 57,
+  "biggest_lever": "Explicit 'Founding GTM Associate, first role on the ground in London, build from zero, embrace ambiguity, own outcomes' framing + 'AI fluency as a daily habit' (Ryan's Claude Code agent-building) + 'slope over intercept, care less where you trained' — directly rewards his lived 0->1 first-employee operator spike and AI-native habit over pedigree.",
+  "biggest_risk": "Role leans hard on outbound B2B sales mechanics (cold account lists, outbound sequences, SQL conversion, multi-threading CFOs) — Ryan's GTM is community-led/presale/PR, NOT enterprise outbound sales. Fintech (spend management) is outside his crypto/AI-tooling domain. UK RTW satisfied, no degree/SWE gate (positives).",
+  "apply_move": "Lead with the founding-operator narrative: first employee 1->30 at Minima, turned ambiguous founder priorities into workstreams, $4.5m community-led presale (15x ROI on $300k) and $6.5m Series A investor events as proof of 'build from zero + own outcomes'. Reframe community-led GTM as repeatable demand generation. Show Claude Code agents as the 'reach for AI before doing it manually' proof. Address the outbound-sales gap head-on with the presale revenue ownership.",
+  "availability": "Open / live as of 2026-06-10",
+  "source": "delta-direct-careers",
+  "agentic": "AI-powered fintech (builder culture, AI-fluency-required), not an AI-agent product company"
+}

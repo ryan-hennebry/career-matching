@@ -1,0 +1,472 @@
+{
+  "exclude_company_role": [
+    {
+      "company": "32Co",
+      "title": "AI, Operations & Strategy Associate"
+    },
+    {
+      "company": "Ankar",
+      "title": "GTM, Strategy & Delivery"
+    },
+    {
+      "company": "Assuric",
+      "title": "Founder's Associate (Ops)"
+    },
+    {
+      "company": "Capital on Tap",
+      "title": "AI Operations Specialist"
+    },
+    {
+      "company": "Conduct",
+      "title": "Founding Brand & Growth (Growth Generalist)"
+    },
+    {
+      "company": "Corgi Insurance",
+      "title": "Operations Associate"
+    },
+    {
+      "company": "Dayjob",
+      "title": "Customer Success Manager"
+    },
+    {
+      "company": "Decagon",
+      "title": "Agent Strategy Manager (listed via Ashby as 'Agent Strategy Manager'; ZipRecruiter/Ashby search resolves the same URL to 'Agent Success Manager' \u2014 customer-facing deployment/strategic-advisor role)"
+    },
+    {
+      "company": "Deel",
+      "title": "GTM AI Operator | UK (Growth Solutions Architect)"
+    },
+    {
+      "company": "Dwelly",
+      "title": "Integration Associate (Post-M&A)"
+    },
+    {
+      "company": "Dwelly",
+      "title": "Operations Associate"
+    },
+    {
+      "company": "ElevenLabs",
+      "title": "Deployment Strategist - Europe"
+    },
+    {
+      "company": "ElevenLabs",
+      "title": "Growth Generalist"
+    },
+    {
+      "company": "Geordie AI",
+      "title": "Agent Operations Lead"
+    },
+    {
+      "company": "governr",
+      "title": "Chief of Staff"
+    },
+    {
+      "company": "Gradient Labs",
+      "title": "AI Delivery Associate"
+    },
+    {
+      "company": "HappyRobot",
+      "title": "Strategy & Operations"
+    },
+    {
+      "company": "Installio",
+      "title": "Founder's Associate (Technical)"
+    },
+    {
+      "company": "ivee",
+      "title": "Founding Growth Lead"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Founding Operator (Jill Delivery)"
+    },
+    {
+      "company": "Light",
+      "title": "AI Strategy & Operations Associate"
+    },
+    {
+      "company": "Lovable",
+      "title": "Deployment Strategist"
+    },
+    {
+      "company": "Magentic",
+      "title": "Founding Growth Marketer"
+    },
+    {
+      "company": "Marloo",
+      "title": "GTM Associate, London"
+    },
+    {
+      "company": "Moss",
+      "title": "AI Operations Specialist (AI Operations Associate)"
+    },
+    {
+      "company": "Mozart AI",
+      "title": "Founders Associate"
+    },
+    {
+      "company": "n8n",
+      "title": "AI Product Manager"
+    },
+    {
+      "company": "Neutreeno",
+      "title": "Founding Generalist"
+    },
+    {
+      "company": "Scope AI",
+      "title": "Deployment Strategist"
+    },
+    {
+      "company": "Seamflow",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "Sequence",
+      "title": "Product Marketer - London"
+    },
+    {
+      "company": "Siena AI",
+      "title": "Product Manager"
+    },
+    {
+      "company": "Specter",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "StudioB",
+      "title": "Founders Associate"
+    },
+    {
+      "company": "Terra API",
+      "title": "Applied AI Strategist - Market Intelligence (Health)"
+    },
+    {
+      "company": "Tilt",
+      "title": "Founders Associate"
+    },
+    {
+      "company": "Togather",
+      "title": "AI Operations Manager"
+    },
+    {
+      "company": "Wing Assistant",
+      "title": "Founder's Associate, Growth & Operations"
+    },
+    {
+      "company": "Metaview",
+      "title": "AI Operator"
+    },
+    {
+      "company": "Moss",
+      "title": "AI Operations Specialist"
+    },
+    {
+      "company": "Melotech",
+      "title": "Founders Associate"
+    },
+    {
+      "company": "Meticulous",
+      "title": "GTM Operator"
+    },
+    {
+      "company": "The Players Fund",
+      "title": "Founder's Technical Associate"
+    },
+    {
+      "company": "Specter",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "StudioB",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "Glean",
+      "title": "AI Outcomes Manager"
+    },
+    {
+      "company": "Cognition",
+      "title": "Applied AI Transformation Manager"
+    },
+    {
+      "company": "Decagon",
+      "title": "Implementation Strategist"
+    },
+    {
+      "company": "Scope AI",
+      "title": "Deployment Strategist"
+    },
+    {
+      "company": "Hyde",
+      "title": "AI Builder"
+    },
+    {
+      "company": "Distyl",
+      "title": "AI Strategist"
+    },
+    {
+      "company": "Magentic Labs",
+      "title": "Forward Deployed Engineer"
+    },
+    {
+      "company": "Ferry",
+      "title": "Deployment Strategist"
+    },
+    {
+      "company": "Deel",
+      "title": "GTM AI Operator"
+    },
+    {
+      "company": "Model ML",
+      "title": "Data, Strategy, & Ops"
+    },
+    {
+      "company": "ElevenLabs",
+      "title": "Deployment Strategist"
+    },
+    {
+      "company": "SolveAI",
+      "title": "Deployment Strategist"
+    },
+    {
+      "company": "Installio",
+      "title": "Founder's Associate (Technical)"
+    },
+    {
+      "company": "Euphoric",
+      "title": "Forward Deployed AI Operator"
+    },
+    {
+      "company": "Arctal",
+      "title": "Founding Operator"
+    },
+    {
+      "company": "Requesty",
+      "title": "Founding Operator"
+    },
+    {
+      "company": "Convu",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "Corgi Insurance",
+      "title": "Founding Operator"
+    },
+    {
+      "company": "Stitch Health",
+      "title": "Founder Associate"
+    },
+    {
+      "company": "Natter",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "Watergate AI",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "CompliMind",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Founding Operator"
+    },
+    {
+      "company": "Bjak",
+      "title": "Associate, Founder's Office"
+    },
+    {
+      "company": "MyEdSpace",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "GoodMood",
+      "title": "Founders Associate"
+    },
+    {
+      "company": "Apron",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "Terra API",
+      "title": "Applied AI Strategist"
+    },
+    {
+      "company": "SilverTree",
+      "title": "FDE Talent Accelerator"
+    },
+    {
+      "company": "Conduct",
+      "title": "Founding Brand & Growth"
+    },
+    {
+      "company": "Sequence",
+      "title": "Product Marketer"
+    },
+    {
+      "company": "Marloo",
+      "title": "GTM Associate"
+    },
+    {
+      "company": "Mayday",
+      "title": "Founder Associate"
+    },
+    {
+      "company": "STINT",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "Ankar",
+      "title": "Founder's Associate"
+    },
+    {
+      "company": "Euphoric",
+      "title": "Forward-Deployed AI Product Associate"
+    },
+    {
+      "company": "Cognition",
+      "title": "Special Projects Engineer - Europe"
+    },
+    {
+      "company": "Alaro",
+      "title": "Operations Associate"
+    },
+    {
+      "company": "Corgi Insurance",
+      "title": "Strategic Projects Associate"
+    },
+    {
+      "company": "Numeral",
+      "title": "Business Operations Manager (International)"
+    },
+    {
+      "company": "Glean",
+      "title": "AI Outcomes Manager, London"
+    },
+    {
+      "company": "Pigment",
+      "title": "AI Deployment Strategist"
+    },
+    {
+      "company": "Fuse Energy",
+      "title": "Founder's Associate (CEO Office)"
+    },
+    {
+      "company": "Plum Fintech",
+      "title": "Founder Associate"
+    },
+    {
+      "company": "Decagon",
+      "title": "Agent Strategy Manager"
+    },
+    {
+      "company": "Fuse Energy",
+      "title": "AI Operations Manager"
+    },
+    {
+      "company": "Sierra",
+      "title": "Strategist, Agent Development"
+    },
+    {
+      "company": "Tomoro",
+      "title": "UK Applied AI Solution Engineer"
+    }
+  ],
+  "applied": [
+    "Ankar Founder's Associate",
+    "Alaro Operations Associate",
+    "Neutreeno Founding Generalist",
+    "Mozart AI Founders Associate",
+    "Moss AI Operations Specialist",
+    "Terra API Applied AI Strategist",
+    "Installio Founder's Associate Technical"
+  ],
+  "closed": [
+    "Tilt Founders Associate",
+    "Assuric Founder's Associate Ops",
+    "Jack & Jill Founding Operator",
+    "Deel GTM AI Operator"
+  ],
+  "reverify_open": [
+    "Geordie AI Agent Operations Lead",
+    "Dwelly Operations Associate",
+    "Dwelly Integration Associate Post-M&A",
+    "Corgi Insurance Operations Associate",
+    "Light AI Strategy & Operations Associate",
+    "Togather AI Operations Manager",
+    "StudioB Founders Associate"
+  ],
+  "company_names_seen": [
+    "32Co",
+    "Alaro",
+    "Ankar",
+    "Apron",
+    "Arctal",
+    "Assuric",
+    "Bjak",
+    "Capital on Tap",
+    "Cognition",
+    "CompliMind",
+    "Conduct",
+    "Convu",
+    "Corgi Insurance",
+    "Dayjob",
+    "Decagon",
+    "Deel",
+    "Distyl",
+    "Dwelly",
+    "ElevenLabs",
+    "Euphoric",
+    "Ferry",
+    "Fuse Energy",
+    "Geordie AI",
+    "Glean",
+    "GoodMood",
+    "governr",
+    "Gradient Labs",
+    "HappyRobot",
+    "Hyde",
+    "Installio",
+    "ivee",
+    "Jack & Jill",
+    "Light",
+    "Lovable",
+    "Magentic",
+    "Magentic Labs",
+    "Marloo",
+    "Mayday",
+    "Melotech",
+    "Metaview",
+    "Meticulous",
+    "Model ML",
+    "Moss",
+    "Mozart AI",
+    "MyEdSpace",
+    "n8n",
+    "Natter",
+    "Neutreeno",
+    "Numeral",
+    "Pigment",
+    "Plum Fintech",
+    "Requesty",
+    "Scope AI",
+    "Seamflow",
+    "Sequence",
+    "Siena AI",
+    "Sierra",
+    "SilverTree",
+    "SolveAI",
+    "Specter",
+    "STINT",
+    "Stitch Health",
+    "StudioB",
+    "Terra API",
+    "The Players Fund",
+    "Tilt",
+    "Togather",
+    "Tomoro",
+    "Watergate AI",
+    "Wing Assistant"
+  ]
+}

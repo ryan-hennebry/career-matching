@@ -3,8 +3,9 @@
   "title": "Operations Associate",
   "location": "London, UK",
   "direct_url": "https://job-boards.eu.greenhouse.io/dwelly/jobs/4889411101",
-  "posting_date": "2026-06-09",
-  "days_since": 0,
+  "posting_date": "2026-06-08",
+  "days_since": 2,
+  "reposted": false,
   "source": "fresh-sweep",
   "agentic_ai": false,
   "company_context": "UK AI-enabled lettings & property-management platform growing via roll-up of estate agencies; automates tenant management, payments, maintenance with AI. Raised $93M Feb 2026 (General Catalyst), ~300 staff scaling toward 1,500.",
@@ -23,6 +24,7 @@
   "biggest_lever": "JD is a pure generalist-operator brief — 'run high-impact projects end-to-end, scale processes not built for our pace, build systems to run more agencies without adding headcount; fast-track to Operations Manager'. Mirrors Ryan's Minima FA→first-employee 'turn ambiguous priorities into workstreams' record exactly.",
   "biggest_risk": "Not core agentic-AI (AI-enabled proptech roll-up); high-volume real-world ops (agencies/landlords/payments) and the role is pitched at a development-pathway/earlier seniority, so comp and intellectual upside may sit below Ryan's £50k+ / agent-builder ambitions.",
   "apply_move": "Apply via Greenhouse today while fresh (day-0). Emphasise the 1→30 scale-up, fundraising-ops and 'built repeatable workflows' angle; position AI-agent skills as a way to automate Dwelly's integration/ops backlog.",
-  "availability": "Live (verified via Greenhouse API 2026-06-09, posted same day)",
+  "availability": "open",
+  "availability_note": "Re-verified LIVE via Greenhouse boards-api (dwelly) 2026-06-10; first_published 2026-06-08, updated 2026-06-09, only 2 days old. G_recency held at 88 (still day-0/1 band). callback_op unchanged 78.",
   "why_fits_operator_intent": "Textbook operations-generalist 'deployed where impact is highest' role with founder/experienced-operator exposure — operator-shaped, not sales/CS."
 }

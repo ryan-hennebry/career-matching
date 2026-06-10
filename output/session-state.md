@@ -1,5 +1,38 @@
 # Session State
 
+## Run: 2026-06-10 (DELTA SWEEP)
+
+**Mode:** Orchestrate-only delta sweep. 7 parallel channels + reverify-open + fresh finds.
+**Primary lens:** operator (callback_op); secondary 8-factor callback_v3. Bias to recency (roles posted since 8 June).
+**Applied (exclude):** Ankar FA, Alaro, Neutreeno, Mozart AI, Moss, Terra API, Installio.
+**Closed (exclude):** Tilt, Assuric, Jack & Jill, Deel GTM.
+**Reverify open:** Geordie AI, Dwelly x2, Corgi, Light, Togather, StudioB.
+**Dedup against:** state.json + output/_prior_runs_dedup.md + all output/deep/*.json (→ output/_delta_exclusion.json).
+
+### Delta dispatches:
+- a9520150ccba17f67: build dedup exclusion set (output/_delta_exclusion.json) ✅ 93 pairs / 70 cos
+- a2ce87cac4d16acc5: reverify-open (Geordie, Dwelly x2, Corgi, Light, Togather, StudioB)
+- a175b5a401ff80765: delta-direct-careers
+- a4e6b1609e07ce31b: delta-industry-boards
+- a4ed6fa11bd628f16: delta-jobspy
+- a5a176d19eb6ac312: delta-newsletters
+- a0082ad40cc280390: delta-websearch
+- ac815a823dddea07d: delta-ats-sweep
+- aecfb3552b572b871: delta-vc-boards
+All channels operator-lens, dedup vs _delta_exclusion.json, bias to roles posted since 2026-06-08.
+Net-new written to output/deep/{slug}.json with callback_op + callback_v3 + source:"delta-*".
+After all return: merge, stress-test anything top-10, present ranked + next-5, update state.json, commit.
+
+### DELTA RESULT (2026-06-10): 5 net-new (Checkout.com 61, Lawhive 61, Ramp 59, Reflection AI 55, Tracer intern 54) — NONE beat carried leaders.
+Top board unchanged: Geordie AI 80 > Dwelly Ops 78 > Gradient 77 > Dwelly Integration 74 > Corgi 65 > Light 63 > Checkout.com 61.
+All 7 leaders reverified OPEN. CV (Ryan Hennebry – CV.pdf) confirmed identical to v2 — no rescore.
+Deep FA sweep: 0 net-new UK FA (archetype exhausted; big AI cos run FA from US HQ; UK FA seats captured or closed). Letty closed (re-check if relists).
+Recommended next-5 (operator-only): Geordie AI, Dwelly Ops, Gradient Labs, Specter, governr. #6 = Corgi.
+Watch-list: Letty, Airspeed/Glyphic, Paid AI, Kohort, Inherent, CodeWords, Scope AI.
+Output: output/_delta_final_ranking.json. Applied now = 7. Closed = Tilt/Assuric/Jack&Jill/Deel/Ankar-GTM.
+
+---
+
 ## Run: 2026-06-08
 
 **Mode:** Interactive (deep search, all subagents Opus)

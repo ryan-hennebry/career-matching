@@ -24,3 +24,14 @@ Niche-newsletters channel run 2026-06-08 (5 role types: FA, founding-operator, f
 - Electric Twin Chief of Staff (London Soho): "Job no longer available". LLM synthetic-audiences company — IS in scope if it re-lists.
 
 **Mayday (getmayday.com):** AI + automation tools for in-house finance teams, ~GBP 1m ARR, Xero partner. Founder Associate £50-80k, London hybrid (1-2 days). Active Jun 2026. Core required gap: wants accounting/finance background (Ryan lacks). Scored 87 on the 4/5 required math.
+
+**Delta re-run 2026-06-10 (delta-newsletters):** 0 net-new. Sources at same state as 2026-06-08 + 2 days.
+- AI Operators Vol 027 (May 28) still latest, no June issue. UK roles = Dwelly Ops Mgr-Payments, Natter FA, Numeral BizOps — ALL in dedup.
+- Next Play substack DID publish Jun 9 + Jun 2 issues. UK/AI roles: Mozart AI FA (dedup), Artificial Societies FDE (engineering, anti-fit), Ramp Founding GTM Associate London (already in output/deep as delta-direct-careers, callback 59, fintech-not-AI). No net-new.
+- Early & Exec STILL Feb 16 — confirmed hiatus continues into June.
+- Chief of Staff Network: UK AI = Jack & Jill CoS only (dedup, needs MBB+5yr). Rest non-AI (Monzo/Bending Spoons/AALTO).
+- MKT1: B2B-marketing only (Clay/Harvey/Lovable/LangChain marketing leads) — no target operator types; not UK-eligible operator roles.
+- generalist.world /jobs + /systems-thinkers: UK = Reachdesk/Spacemade/Edifai (non-AI or wrong type); AI FA roles all US (Arcline, AgentMail, Lovable Stockholm).
+- HN June 2026 (item 48357725): London = engineering only (G-Research, ChainSecurity). hnhiring.com still 403; hnjobs github mirror confirms eng-only for London.
+- Lenny's Pallet board (lennys-jobs.pallet.com): ECONNREFUSED again — still dead.
+- NEW co. surfaced & rejected: **Ogma** (Founders Factory x Nesta, AI speech/language therapy for children). FA role = £2.7k/mo (~£32k, below floor) + customer-success/therapy-ops admin (not strategic generalist) + healthtech anti-fit domain + stale FF LinkedIn ID (38xx range, 2023-era). Do NOT pursue.

@@ -25,8 +25,8 @@
   "apply_verdict": "Secondary priority \u2014 strong on-paper requirements fit but Ryan isn't differentiated and the 6-7 day office + work-trial cadence is a real lifestyle/conversion concern. Apply only if he genuinely wants intense in-person insurance-ops.",
   "confidence": "high",
   "posting_date": "2026-04-12",
-  "days_since_posted": 58,
-  "reposted": null,
+  "days_since_posted": 59,
+  "reposted": false,
   "applicant_count": null,
   "G_recency": 18,
   "recency_confidence": "medium",
@@ -46,6 +46,8 @@
   "callback_v3": 63,
   "D_spike_operator": 78,
   "callback_op": 65,
+  "availability": "open",
+  "availability_note": "Re-verified LIVE 2026-06-10 via YC page (slug QkzDlzY, HTTP200, 'Apply' button active, no closure notice). JSON-LD datePosted 2026-04-12 unchanged (sticky), 59 days, no repost. G_recency held 18 (8-12wk band). callback_op unchanged 65.",
   "operator_fit_note": "YES - genuine early-stage generalist ops seat (new-grads welcome, prizes startup exp + AI-tools-to-multiply-output + high agency); maps cleanly to Ryan's first-employee/FA + Claude-Code spikes. Insurance domain + consulting/banking competition dilute slightly.",
   "momentum_note": "Green - strongest momentum in batch. $160M Series B (May) + $106M B1 (Jun 2026) at $2.6B valuation, ~50 open roles, London office scaling, zero red flags. H=88 lifts callback meaningfully despite stale/sticky YC posting date and 6-7 day in-office conversion concern. callback_v2 57 -> callback_v3 63."
 }

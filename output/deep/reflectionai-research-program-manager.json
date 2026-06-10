@@ -1,0 +1,35 @@
+{
+  "company": "Reflection AI",
+  "title": "Research Program Manager (Research Infrastructure / Model Development / Model Evals & Safety)",
+  "location": "NYC or SF (primary); London listed as secondary location. Visa sponsorship + relocation offered.",
+  "direct_url": "https://jobs.ashbyhq.com/reflectionai/f8e57b72-dafa-4bf3-9aae-e88c66e1e81e",
+  "posting_date": "2026-04-30",
+  "days_since_posted": 41,
+  "reposted": true,
+  "reposted_note": "Indeed re-indexed on 2026-06-09 (jobspy date_posted), but Ashby publishedAt is 2026-04-30. True age ~41 days, not 1 day.",
+  "factor_scores": {
+    "A": 48,
+    "B": 62,
+    "C": 90,
+    "D_spike_operator": 52,
+    "E": 40,
+    "F": 70
+  },
+  "G_recency": 32,
+  "H_momentum": 72,
+  "momentum_flag": true,
+  "callback_op": 55,
+  "callback_v3": 55,
+  "biggest_lever": "Frontier-model lab (DeepMind/OpenAI/Anthropic alumni) wants 'high-leverage operators, not project trackers, force multipliers who bring clarity to ambiguity' — directly echoes Ryan's founder-associate spike (turning ambiguous founder priorities into workstreams, cross-functional execution at Minima 1->30). Elite company quality (C=90).",
+  "biggest_risk": "Two compounding gates: (1) PRIMARY location is NYC/SF — London is only a secondary location, and Ryan is UK-only auth, so a London-based applicant is likely deprioritized despite visa-sponsorship language. (2) The role is technical-research program management embedded in frontier-scale ML training infra (Megatron, cluster reliability, pre/mid/post-training runs, blameless post-mortems on training stack) — Ryan has zero ML-infra background and the work indexes on research-process rigor (his stated weakness) over community/GTM (his strength). callback_op 55 < 60 threshold.",
+  "apply_move": "Only worth a shot if applying explicitly as London-based and reframing for the least-infra variant ('Model Development' over 'Research Infrastructure'). Lead with the 0->1 ambiguity-taming + cross-functional-execution spike, NOT the community/GTM metrics. Honest call: below the 60% bar for Ryan; include for parent visibility, not as a priority application.",
+  "availability": "Immediate (on career break since Aug 2023).",
+  "source": "delta-jobspy",
+  "agentic": true,
+  "net_new": true,
+  "all_three_variant_urls": {
+    "research_infrastructure": "https://jobs.ashbyhq.com/reflectionai/f8e57b72-dafa-4bf3-9aae-e88c66e1e81e",
+    "model_development": "https://jobs.ashbyhq.com/reflectionai/5455860d-867a-4d3f-a811-34c00090f5b2",
+    "model_evals_and_safety": "https://jobs.ashbyhq.com/reflectionai/659593ec-6cd2-4ae4-884b-9b31427662c6"
+  }
+}

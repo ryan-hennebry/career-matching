@@ -5,7 +5,7 @@
   "direct_url": "https://apply.workable.com/togather/j/2F80E415C5",
   "linkedin_url": "https://www.linkedin.com/jobs/view/4411211361/",
   "posting_date": "2026-05-06",
-  "days_since_posted": 34,
+  "days_since_posted": 35,
   "reposted": false,
   "applicant_count": "Be among the first 25 applicants",
   "factor_scores": {
@@ -31,7 +31,8 @@
   "biggest_risk": "Role is half ops-automation builder, half Salesforce-admin / commercial-ops owner (invoicing, supplier onboarding, SLAs) — the process-rigor/enterprise-ops half is an anti-fit, and 5 weeks open means a shortlist may exist.",
   "apply_verdict": "Apply (mid-tier) — strong on the AI-builder half, weak on the Salesforce/ops-admin half; worth a tailored show-don't-tell application but not a top priority.",
   "confidence": "high",
-  "availability": "Open/live on Workable as of 2026-06-09",
+  "availability": "open",
+  "availability_note": "Re-verified LIVE via Workable widget API (togather) 2026-06-10; shortcode 2F80E415C5 present, direct page HTTP200, published 2026-05-06, 35 days (still 4-8wk band). G held 37. callback_op unchanged 59.",
   "H_momentum": 65,
   "momentum_confidence": "medium",
   "momentum_flag": "neutral",

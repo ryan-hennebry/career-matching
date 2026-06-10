@@ -1,0 +1,27 @@
+{
+  "company": "Tracer Cloud Inc",
+  "title": "Founder's Associate Intern",
+  "location": "London",
+  "direct_url": "https://jobs.ashbyhq.com/tracer/9f695566-4b27-4cec-a815-7dedd41e0b40",
+  "posting_date": "2026-04-10",
+  "days_since_posted": 61,
+  "reposted": false,
+  "factor_scores": {
+    "A": 55,
+    "B": 55,
+    "C": 95,
+    "D_spike_operator": 55,
+    "E": 25,
+    "F": 55
+  },
+  "G_recency": 32,
+  "H_momentum": 60,
+  "momentum_flag": "active_eng_and_fa_hiring",
+  "callback_op": 54,
+  "callback_v3": 54,
+  "biggest_lever": "Operator/founder-associate spike + UK-local + 'built agents with Claude Code' maps to an observability-AI tooling startup that values hands-on AI builders.",
+  "biggest_risk": "INTERN/junior-band scope \u2014 at ~6.4 yrs as a first-employee 0->1 operator he reads as overqualified flight-risk; the separate FA/CoS (~$100k) Tracer posting is the better-band role but is NOT in the live board API (closed/delisted).",
+  "apply_move": "Likely skip as an intern; if pursued, pitch as overqualified and ask whether the FA/CoS (non-intern) seat is reopening. Lead with the Claude Code agent-builds + Minima 0->1 seed->A story.",
+  "availability": "posting loads; listed in Ashby board API (LIVE)",
+  "source": "delta-ats-sweep"
+}

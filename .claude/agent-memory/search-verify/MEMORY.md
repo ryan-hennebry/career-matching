@@ -3,10 +3,13 @@
 ## Index (topic files)
 - [Founding Operator direct-careers](founding_operator_direct_careers.md) — Jun 2026: big AI cos don't use founder titles; target Special Projects Eng / FDE / AI Outcomes Mgr. Cognition 92, Glean 85.
 - [ATS endpoints June 2026](ats_endpoints_june2026.md) — working Greenhouse/Ashby/Lever/Workable slugs; correct gleanwork, perplexity, Sierra slugs.
+- [FDAI Accelerator archetype Jun 2026](fdai-accelerator-archetype-jun2026.md) — "Forward Deployed AI Accelerator" (Stripe template, May 2026) is misleading: internal AI-build/ops role NOT enterprise FDE. Hits Ryan's Claude Code spike. Checkout.com 61.
 - [Curated Operator Boards Jun 2026](curated-operator-boards-jun2026.md) — NEW best source: AI Operators newsletter (aioperators.substack). Lenny's/MKT1/generalist.world/CoS Network mostly US; UK roles all in dedup.
 - [VC Talent Boards Jun 2026](vc-talent-boards-jun2026.md) — Getro/Consider VC boards gated/JS; Ashby GraphQL (op=ApiJobBoardWithTeams/ApiJobPosting) is reliable lever for portfolio-co ATS. Decagon 89, Sierra 87.
 - [Web Search Discovery Jun 2026](web-search-discovery-jun-2026.md) — Specter (AI Specter=specter.careers, NOT ashby/specter=Aerospace) 3 strong London roles via Notion hub (no per-role URL, fails schema gate); Numeral/Dwelly verified; Founding Operator=SF-only.
 - [JobSpy Deep Wave2 Jun 2026](jobspy-deep-wave2-jun2026.md) — glassdoor location-parse ALWAYS fails; LinkedIn desc=nan (WebSearch for desc+url). Net-new: Tilt 92, Fuse Energy FA 84/AI-Ops 80, Tomoro 78, Siena AI 74, Plum 72.
+- [Delta Industry Boards Jun 2026](delta-industry-boards-jun2026.md) — Jun 10 delta: ZERO net-new operator roles (channel exhausted). hnhiring + startup.jobs = 403; api.ashbyhq.com/posting-api/job-board/{slug} works when HTML is JS-empty.
+- [Delta Web-Search Jun 2026](delta-websearch-jun2026.md) — Jun 10 delta: ZERO net-new fit roles. Fresh-funded London agentic cos surfaced (Airspeed/Glyphic, Kohort, Paid AI) but operator roles US-based. Confido/Ema CoS=NY; Encord Lever 404s.
 
 ## Industry Job Boards (AI operator/generalist roles, Jun 2026)
 See industry-job-boards-jun2026.md for detail. Key: Corgi Insurance (YC S24 AI fintech) is the standout — London Operations Associate (£50-70K, score 100) + Strategic Projects Associate (score 95), both in-office 6-7 days/wk. Lightning AI FDE London = ML-infra heavy, score 60. Excluded: HappyRobot/Nowadays (US), Natter FA (closed), Brickwise (FA gone), AgentMail/Gradient Labs (Lead title only). YC company /jobs pages + api.ashbyhq.com/posting-api/job-board/{co} are reliable; ashbyhq.com HTML + gradient-labs.ai JS-rendered.

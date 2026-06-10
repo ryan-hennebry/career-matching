@@ -1,0 +1,27 @@
+{
+  "company": "Lawhive",
+  "title": "Operations Associate",
+  "location": "Poole, UK",
+  "direct_url": "https://jobs.ashbyhq.com/lawhive/e724a2be-577b-417d-b964-172883e81700",
+  "posting_date": "2026-06-03",
+  "days_since_posted": 7,
+  "reposted": false,
+  "factor_scores": {
+    "A": 60,
+    "B": 35,
+    "C": 35,
+    "D_spike_operator": 45,
+    "E": 45,
+    "F": 70
+  },
+  "G_recency": 88,
+  "H_momentum": 80,
+  "momentum_flag": "series_b_60m_scaling",
+  "callback_op": 61,
+  "callback_v3": 61,
+  "biggest_lever": "Freshly posted (7 days) at a well-funded ($60M Series B) AI-native legal company scaling operations; generalist ops-execution fits the operator lens.",
+  "biggest_risk": "Poole, NOT London (he is relocating to London) + legal AI is an explicit anti-fit domain with no credential/passion signal; role is lawyer-support flavored, not founder-adjacent 0->1.",
+  "apply_move": "Borderline \u2014 only pursue if open to Poole/remote and to legal-tech. Otherwise skip. Note the 'Founders Office' Lawhive listing seen in search is CLOSED (absent from live board API).",
+  "availability": "posting loads; listed in Ashby board API (LIVE)",
+  "source": "delta-ats-sweep"
+}

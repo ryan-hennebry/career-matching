@@ -1,0 +1,85 @@
+{
+  "company": "Checkout.com",
+  "title": "Forward Deployed AI Accelerator, Operations",
+  "location": "London, UK (HQ; role embeds in GTM/Operations org)",
+  "direct_url": "https://jobs.ashbyhq.com/checkout.com/f6a1e1a2-2a61-42f0-9922-e19dba4b1391",
+  "posting_date": "2026-05-26 (estimated — exact publishedAt not exposed; Ashby board JS-rendered/unlisted, role not in public posting-api list; archetype is a May-2026 wave following Stripe's template, biztechweekly coverage dated 2026-05-06)",
+  "days_since_posted": 15,
+  "reposted": false,
+  "source": "user-submitted",
+  "agentic_ai": false,
+  "company_context": "Large global payments/fintech (~2,000+ employees, regulated). Valuation cut ~70% from $40B peak (2022) to $12B internal mark (Sep 2025), BUT on a recovery narrative: 30%+ net revenue growth two years running, >$300B processed volume (+64% YoY), return to full-year EBITDA profitability (>10% margin), employee share buyback for liquidity. Jan 2026 acquired Blue (EMI). Role is an internal AI-transformation seat, NOT a customer-facing FDE despite the 'Forward Deployed' branding.",
+  "role_archetype_note": "Same template Stripe pioneered (Forward Deployed AI Accelerator, $132K-$198K, Palantir-FDE-inspired): embed in a team (here GTM/Operations), design and ship autonomous/multi-agent workflows, build tools/agents/automations per workflow, coach teams through AI adoption, document playbooks, share wins. Requirements (per Stripe/Teamtailor siblings): '5+ years professional experience requiring analytical thinking, problem-solving, cross-functional collaboration' + 'demonstrated hands-on experience building AI-powered tools, agents, automations or workflows' + track record of coaching/enabling others. Preferred: 'Proficiency with AI development tools and platforms (Claude, Claude Code, Codex, custom agent frameworks)'. NOT a SWE role; NOT enterprise B2B delivery.",
+  "factors": {
+    "A_requirements": 72,
+    "B_competition": 35,
+    "C_screening": 45,
+    "D_spike_operator": 78,
+    "E_warmpath": 22,
+    "F_conversion": 60
+  },
+  "G_recency": 72,
+  "H_momentum": 52,
+  "momentum_flag": "MIXED — 70% valuation haircut ($40B -> $12B) and a 2023 layoff history are real negatives, but the current 2025-2026 story is a credible recovery (30%+ revenue growth two years, return to EBITDA profitability, employee buyback liquidity, Jan-2026 Blue/EMI acquisition). Not a fresh-funding tailwind and not a death-spiral; net neutral-to-slightly-positive on hiring momentum.",
+  "callback_op": 61,
+  "callback_v3": 61,
+  "hidden_gates": [
+    {
+      "requirement": "'5+ years of professional experience in a role requiring analytical thinking, problem-solving and cross-functional collaboration'",
+      "risk": "NON-ISSUE",
+      "evidence": "Ryan has ~6.4 yrs working experience, heavily cross-functional (FA->Community->Marketing across 1->30 scale). Clears the years bar comfortably. The 'analytical/cross-functional' framing (not 'engineering') is favourable."
+    },
+    {
+      "requirement": "'Demonstrated hands-on experience building AI-powered tools, agents, automations or workflows'",
+      "risk": "NON-ISSUE",
+      "evidence": "Direct hit on Ryan's spike: 'Built agents with Claude Code for competitor-intel and growth-experiments, turning market signals into repeatable research workflows' (Aug 2023-present). This is the single requirement most candidates will struggle to evidence credibly — Ryan can."
+    },
+    {
+      "requirement": "Preferred: 'Proficiency with AI development tools and platforms (Claude, Claude Code, Codex, custom agent frameworks)'",
+      "risk": "NON-ISSUE",
+      "evidence": "Ryan builds with Claude Code daily since Aug 2023 — names the exact tool in the preferred list. Differentiator, not a gate."
+    },
+    {
+      "requirement": "Regulated-payments / fintech domain knowledge",
+      "risk": "MODERATE",
+      "evidence": "No explicit fintech-domain requirement in the archetype JD (the role embeds to learn workflows), but Checkout.com is regulated payments and Ryan's anti-fit list flags 'fintech-regulated' as a no-credential/no-passion domain. A screener may favour candidates with payments/fintech context; Ryan has none. Mitigated because the role's value is AI-building skill, not domain depth — but it is a real disadvantage vs internal/fintech-native applicants."
+    },
+    {
+      "requirement": "1500+ person regulated company -> recruiter/ATS keyword screen (NOT founder-read)",
+      "risk": "MODERATE",
+      "evidence": "Ryan's CV has NO standalone Skills section, no formal programming languages, a non-target 2:1 BA, and a crypto/Web3 (not payments) background. An ATS keyword gate or junior recruiter scanning for 'engineer/Python/payments/enterprise' could bin a non-traditional CV before a hiring manager who would value the Claude Code spike ever sees it. This is the primary structural risk."
+    },
+    {
+      "requirement": "Coaching / enabling / change-management track record ('coach teams through progressive AI integration', 'document tools and playbooks')",
+      "risk": "MINOR",
+      "evidence": "Ryan ran an ambassador programme, a developer hackathon series, and a node-runner onboarding programme (50k users) — genuine enablement-at-scale. He can frame this as coaching/playbook-building, but it is community enablement, not formal internal change-management of colleagues, so it reads as adjacent rather than exact."
+    },
+    {
+      "requirement": "Degree requirement",
+      "risk": "NON-ISSUE",
+      "evidence": "No specific/technical degree required in the archetype JD. Ryan's BA Business Management (2:1) satisfies any generic bachelor's expectation."
+    },
+    {
+      "requirement": "Software-engineering / named programming-language proficiency",
+      "risk": "NON-ISSUE",
+      "evidence": "Explicitly NOT a SWE role ('hybrid of AI product dev, workflow engineering, internal education'; Stripe: 'not a lightweight prompt champion' but also not an engineer). No named-language gate. Ryan's no-formal-languages profile is acceptable here, unlike FDE/Special-Projects-Engineer roles."
+    },
+    {
+      "requirement": "Work authorization (UK)",
+      "risk": "NON-ISSUE",
+      "evidence": "London-based role; Ryan is UK-authorized and relocating to London. No issue."
+    },
+    {
+      "requirement": "In-office / hybrid expectation",
+      "risk": "MINOR",
+      "evidence": "Policy not stated on the posting; Checkout.com London HQ likely hybrid (3+ days). Ryan is Cambridge->London relocating, so manageable, but confirm before committing."
+    }
+  ],
+  "biggest_lever": "The role is, almost line-for-line, Ryan's rarest spike: 'demonstrated hands-on experience building AI-powered tools, agents, automations or workflows' + 'proficiency with Claude / Claude Code'. Most applicants to these FDAI-Accelerator cohorts are prompt-dabblers; Ryan has shipped Claude Code agents for competitor-intel and growth experiments since Aug 2023 AND has the operator/cross-functional context to embed in a GTM/Ops team. Lead the application with a concrete agent he built (workflow -> mechanism -> outcome), not with marketing metrics.",
+  "biggest_risk": "Two compounding strikes: (1) SCREENING — a 2,000+ person regulated fintech runs recruiter/ATS keyword gates, and Ryan's non-traditional, Skills-section-less, crypto-not-payments CV is exactly the profile that gets binned before a hiring manager sees the Claude Code spike; (2) COMPETITION/DOMAIN — the Stripe-pioneered title got heavy press ($198K headline) and likely draws very high volume, while Ryan carries zero payments/fintech domain signal and no warm path into a big-brand fintech. The work fits; getting past the funnel is the hard part.",
+  "apply_move": "Apply via the Ashby direct link, but do NOT rely on the resume funnel alone. (1) Reframe the CV top with an explicit one-line 'AI tooling' summary naming Claude Code + a concrete agent/workflow + an outcome, so an ATS/recruiter keyword scan hits 'AI agents / Claude / automation / workflows'. (2) Find a warm path — message anyone on Checkout.com's GTM/Ops or AI/transformation team on LinkedIn, or the recruiter directly, with a 90-second Loom of an agent he built. (3) In the application, neutralise the domain gap by leading with transferable AI-build evidence and treating payments as 'a workflow I'll learn fast', not a credential he claims.",
+  "availability": "open",
+  "availability_note": "Direct Ashby URL was live and resolved to title 'Forward Deployed AI Accelerator, Operations @ Checkout.com' on 2026-06-10. Exact publishedAt NOT confirmable: role absent from public api.ashbyhq.com/posting-api/job-board/checkout.com list (likely unlisted-but-link-accessible) and Ashby board HTML is JS-rendered/empty. posting_date and days_since_posted are ESTIMATES derived from the archetype's May-2026 emergence (biztechweekly 2026-05-06); G_recency set to the 1-2wk band (72) conservatively. Re-verify exact age before treating recency as load-bearing.",
+  "confidence": "medium — title/location/archetype/requirements well-corroborated across Stripe + Teamtailor sibling postings and Checkout news; LOWER confidence on exact posting_date (estimated) and on Checkout.com-specific JD wording (read from sibling template, not the JS-rendered Checkout page itself).",
+  "net_effect_on_ranking": "Lands at callback_op 61 — mid-pack: above Togather (59)/Ramp (59)/StudioB (56), just below Light (63), well below the Dwelly/Corgi/Geordie cluster. The unusually high D_spike_operator (78) and decent A (72) are dragged down by low B (35, big-brand high-volume) and low C (45, ATS/recruiter gate on a non-traditional CV), plus only-neutral H (52, post-haircut recovery). Strong WORK fit, weak FUNNEL fit."
+}
