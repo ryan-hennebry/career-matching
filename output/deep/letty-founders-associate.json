@@ -1,0 +1,48 @@
+{
+  "company": "Letty (Lette AI / joinletty.com)",
+  "title": "Founder's Associate",
+  "location": "London (Hoxton), 5 days in-office + UK customer travel",
+  "direct_url": "https://bebee.com/gb/jobs/founders-associate-equity-at-letty-jack-jill-greater-london--bs-gb-eb8cf5a3-aa2c-424b-a47d-15abaae9b97e",
+  "alt_urls": [
+    "https://talents.studysmarter.co.uk/companies/letty/london/founders-associate-28384891/",
+    "https://uk.linkedin.com/jobs/view/founding-operator-at-letty-4418172450"
+  ],
+  "ats": "No public careers page on joinletty.com (careers/jobs return 404). Distributed via Jack & Jill (boutique placement, jobs.ashbyhq.com/jack-and-jill) and surfaced on BeBee / StudySmarter / LinkedIn. Jack & Jill Ashby posting-api returns 404 (gated board) so no single canonical per-role ATS URL.",
+  "source": "watchlist-check",
+  "channel": "watchlist-check",
+  "run_date": "2026-06-10",
+  "callback_op": 83,
+  "factor_scores": {
+    "A_requirements": 84,
+    "B_competition": 70,
+    "C_screening": 82,
+    "D_spike_operator": 86,
+    "E_warmpath": 60,
+    "F_conversion": 82,
+    "G_recency": 88,
+    "H_momentum": 88
+  },
+  "momentum_flag": "green",
+  "agentic": true,
+  "posting_date": "2026-06-03",
+  "days_since_posted": 7,
+  "recency_confidence": "medium",
+  "recency_note": "BeBee listing states 'posted 1 week ago', expires 27/06/2026 (active). Estimated posting ~2026-06-03 (~7 days). Sits at the <1wk(88)/1-2wk(72) boundary; scored G=88 honouring the <1wk bracket and the explicit 'expires 27/06' active window. Date is inferred (no exact ISO timestamp on a gated Jack & Jill board), hence medium confidence.",
+  "live_confirmed": true,
+  "live_evidence": "BeBee (Jack & Jill source): Status Active, expires 27/06/2026, 'posted 1 week ago'. StudySmarter listing shows OPEN/active. (NOTE: a SEPARATE Letty 'Founding Operator' LinkedIn req 4418172450 is now CLOSED — that one was a CS/implementation-engineering-leaning seat gating on SQL + reading Python/FastAPI/TS; this Founder's Associate is the distinct, NON-engineering ops seat and is still live.)",
+  "hidden_gate_check": "PASS. No degree bar (none stated; Ryan's 2:1 BA clears regardless). No SWE/coding gate — explicitly 'ability to use AI tools', not software engineering (contrast the separate, now-closed Founding Operator seat which DID require SQL/Python-reading). No IB/PE/MBB or elite-degree filter. UK-eligible (London in-office, UK customer travel) — clears Ryan's UK-auth-only constraint. Only soft gate: wants 2-4yr as ex-founder / CoS / early-stage operator — Ryan's Minima FA + first-employee 1->30 + seed/Series-A support clears this squarely. In-office 5 days Hoxton is a logistics (Cambridge->London relocation) consideration, not a disqualifier (Ryan is relocating to London).",
+  "key_evidence": [
+    "Letty: agentic-AI PropTech transforming how homes are rented & sold; AI agents autonomously negotiate rents, book viewings, dispatch tradespeople, reconcile ledgers. EF + Hoxton Ventures backed, $5.5M+ raised, live in UK agencies with early US traction. Genuinely agentic-AI native.",
+    "Role = 'first full-time hire' / 'operational backbone': run end-to-end recruitment (eng + commercial), own early-stage people ops (onboarding, culture), coordinate payroll/accounting/legal, and act as CEO strategic thought-partner on market entry/pricing/partnerships + build decision materials. Explicit growth path to Head of Ops / Chief of Staff / COO.",
+    "BULLSEYE on Ryan's #1 archetype (FA/CoS at pre-A->A startup) AND his lived spike: Minima Founder's Associate (hiring support, investor updates, pitch decks for $2.5m seed, ambiguous-priority->workstreams) + first employee scaling 1->30 seed->Series A. The JD reads like his Minima FA bullets.",
+    "Explicitly NON-engineering: requires 'ability to use AI tools' + resourcefulness, not coding — directly compatible with Ryan's operator-not-SWE profile AND his Claude-Code agent-building spike (credible 'uses AI tools' signal, not just ChatGPT).",
+    "£55-75K base + founding equity — comfortably above the £50k floor; strong conversion signal. Full-time, London.",
+    "Routes via Jack & Jill (boutique, human/founder-curated placement) = low ATS keyword-filter risk, high human-read probability; founder (Jon Hammond) active on LinkedIn.",
+    "Momentum GREEN: just $5.5M+ funded, opening its FIRST full-time operator seat, expanding UK->US — exactly the 'fresh raise = fresh operator seat' thesis the watch-list was built to catch."
+  ],
+  "biggest_lever": "This JD maps almost line-for-line onto Ryan's Minima Founder's Associate experience (hiring/people-ops, payroll/legal coordination, fundraising-adjacent decision materials, founder thought-partner) at the exact seniority (2-4yr ex-founder/early-stage operator) and exact archetype (FA/CoS, pre-A AI-native startup), with NO SWE gate and a human Jack & Jill read. His Claude-Code agent-building doubles as the 'AI-tools-fluent' proof.",
+  "biggest_risk": "5-days/week in-office in Hoxton (Cambridge->London relocation logistics) and PropTech (not crypto/AI-consumer) domain, though agentic-AI native softens the domain gap. Distributed listing with no canonical ATS URL = apply path is via Jack & Jill/BeBee, and posting date is inferred (~7d) not exact-timestamped.",
+  "apply_verdict": "APPLY (priority) — highest-fit operator/FA seat found this sweep: direct archetype + spike match, no SWE gate, fresh raise (green momentum), recent (~1wk), human founder-read via Jack & Jill, salary above floor. Lands above all current operator leaders.",
+  "ranking_context": "callback_op 83 -> would rank #1 of the operator set, above Gradient Labs 77, Dwelly Integration 74, Specter 70, Corgi 65, Light 63, Checkout 61, Togather 59.",
+  "confidence": "medium-high"
+}
