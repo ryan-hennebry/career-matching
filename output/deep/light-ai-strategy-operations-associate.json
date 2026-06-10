@@ -3,6 +3,8 @@
   "title": "AI Strategy & Operations Associate",
   "location": "Copenhagen (primary) / London (secondary, eligible)",
   "direct_url": "https://jobs.ashbyhq.com/light-inc/e77a6704-0a0f-43ce-9270-6e61c0f8d793",
+  "office_cadence": "IN-OFFICE",
+  "office_cadence_note": "Ashby posting-api (light-inc): workplaceType='OnSite', isRemote=false. Primary location='Copenhagen'; secondaryLocations=[{London, England, UK}] so London IS a genuine eligible office (confirmed). But workplaceType is OnSite (no hybrid/remote flag) and the JD body states no day-count — OnSite implies full in-office. Treat as IN-OFFICE (likely dealbreaker) pending recruiter confirmation that London is hybrid; do NOT assume hybrid. Foundational ops seat is inherently office-present. Verified 2026-06-10.",
   "posting_date": "2026-04-09",
   "days_since": 62,
   "reposted": false,

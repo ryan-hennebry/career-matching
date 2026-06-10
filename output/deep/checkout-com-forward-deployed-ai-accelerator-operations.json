@@ -3,6 +3,8 @@
   "title": "Forward Deployed AI Accelerator, Operations",
   "location": "London, UK (HQ; role embeds in GTM/Operations org)",
   "direct_url": "https://jobs.ashbyhq.com/checkout.com/f6a1e1a2-2a61-42f0-9922-e19dba4b1391",
+  "office_cadence": "HYBRID-LIGHT",
+  "office_cadence_note": "JD body (Ashby posting-api, checkout.com board) states verbatim: 'Our hybrid working model offers flexibility, with three days per week in the office to support collaboration and connection.' London is HQ. 3 days/week = hybrid-light (OK for user). (Note: Ashby workplaceType field reads 'OnSite' generically, but the explicit JD sentence — 3 days/wk hybrid — is authoritative and governs.) Verified 2026-06-10.",
   "posting_date": "2026-05-26 (estimated — exact publishedAt not exposed; Ashby board JS-rendered/unlisted, role not in public posting-api list; archetype is a May-2026 wave following Stripe's template, biztechweekly coverage dated 2026-05-06)",
   "days_since_posted": 15,
   "reposted": false,

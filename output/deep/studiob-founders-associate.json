@@ -3,6 +3,8 @@
   "title": "Founders Associate",
   "location": "Mill Hill, London (NW7), in-office",
   "direct_url": "https://join.studiob.net/jobs/7531144-founders-associate",
+  "office_cadence": "UNSTATED",
+  "office_cadence_note": "Listing states only 'Location: Mill Hill, London (NW7) | Type: Full-time' — a physical address but NO explicit remote/hybrid/in-office or day-count sentence. Role is heavy on EA/diary/exec-cadence support to the founder, which strongly implies office-present (file location field carried 'in-office'), but the JD itself does not state cadence. Treat as UNSTATED, lean in-office; confirm before committing (NW7 = long Cambridge commute). Verified 2026-06-10.",
   "callback_likelihood": 58,
   "factor_scores": {
     "A_requirements": 70,

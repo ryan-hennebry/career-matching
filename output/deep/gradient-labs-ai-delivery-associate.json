@@ -3,6 +3,8 @@
   "title": "AI Delivery Associate",
   "location": "London",
   "direct_url": "https://jobs.ashbyhq.com/gradient-labs/40338f3c-d2cc-4859-8efd-8aacd4680c7e",
+  "office_cadence": "HYBRID-LIGHT",
+  "office_cadence_note": "Ashby posting-api (gradient-labs board): workplaceType='Hybrid', location='London Office', isRemote=true. The JD body itself states NO day-count/in-person sentence — cadence comes from the structured Ashby field (Hybrid), not the prose. Treated as hybrid/flexible (OK). Confirm exact days at recruiter stage. Verified 2026-06-10.",
   "callback_likelihood": 70,
   "factor_scores": {
     "A_requirements": 80,
