@@ -4,7 +4,9 @@
   "location": "City of London",
   "direct_url": "https://www.ziprecruiter.co.uk/jobs/453289607-chief-of-staff-at-governr",
   "office_cadence": "IN-OFFICE",
-  "office_cadence_note": "StudySmarter listing states verbatim: 'City of London | Full-Time | No working from home possible'. No remote/hybrid option; full-time in-office (founder right-hand role, 'in every critical conversation'). No explicit day-count but WFH explicitly excluded = effectively 5 days in person. DEALBREAKER for user. Verified 2026-06-10.",
+  "office_cadence_note": "StudySmarter listing states verbatim: 'City of London | Full-Time | No working from home possible'. No remote/hybrid option; full-time in-office (founder right-hand role, 'in every critical conversation'). No explicit day-count but WFH explicitly excluded = effectively 5 days in person. Verified 2026-06-10.",
+  "working_week": "unstated-assume-5day",
+  "working_week_note": "RE-VERIFIED 2026-06-11 against the user's ACTUAL dealbreaker (weekend/6-7-day work only — full-time 5-day in-office is FINE). StudySmarter listing states verbatim: 'City of London | Full-Time | No working from home possible'. This excludes REMOTE work but says NOTHING about weekends, Saturday, Sunday, or a 6/7-day week — no day-count is stated at all. 'No WFH' = in-office, NOT 6-7 days. Default to a standard Mon-Fri full-time week. The prior IN-OFFICE 'DEALBREAKER' flag was WRONG (it conflated no-WFH with weekend work). FINE — NOT a dealbreaker. Reinstated. (ZipRecruiter source 403 on re-fetch; relying on the verbatim StudySmarter quote already captured.)",
   "callback_likelihood": 58,
   "factor_scores": {
     "A_requirements_fit": 50,

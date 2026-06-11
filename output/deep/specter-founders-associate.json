@@ -5,6 +5,8 @@
   "direct_url": "https://www.tryspecter.com/ (apply: careers@tryspecter.com)",
   "office_cadence": "UNSTATED",
   "office_cadence_note": "No cadence stated anywhere. tryspecter.com/careers lists Founder's Associate (Operations) but contains NO work-location/office/remote/hybrid language for any role; apply via Notion link or careers@tryspecter.com. Company HQ is Oxford Street, London (~11-50 staff). Email-apply evergreen role — in-office expectation undatable/unstated; ask directly. Verified 2026-06-10.",
+  "working_week": "unstated-assume-5day",
+  "working_week_note": "RE-VERIFIED 2026-06-11 against the user's ACTUAL dealbreaker (weekend/6-7-day work only). tryspecter.com/careers (re-fetched 2026-06-11) contains NO schedule language at all — no day-count and NO mention of weekends, Saturday, Sunday, or a 6/7-day week. Default to a standard Mon-Fri week. FINE — NOT a dealbreaker (confirm exact cadence in the email application).",
   "callback_likelihood": 76,
   "factor_scores": {
     "A_requirements": 80,

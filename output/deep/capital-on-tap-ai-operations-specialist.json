@@ -5,6 +5,8 @@
   "direct_url": "https://job-boards.greenhouse.io/capitalontap/jobs/8520481002",
   "office_cadence": "HYBRID-LIGHT",
   "office_cadence_note": "Greenhouse JD header states verbatim: 'London (Moorgate) | 3 Days in Office'. 3 days/week in office, 2 remote = hybrid-light (OK for user). Verified 2026-06-10.",
+  "working_week": "5-day",
+  "working_week_note": "RE-VERIFIED 2026-06-11 against the user's ACTUAL dealbreaker (weekend/6-7-day work only). Greenhouse JD header states verbatim: 'London (Moorgate) | 3 Days in Office'. NO mention of weekends, Saturday, Sunday, or a 6/7-day week — explicitly a standard hybrid Mon-Fri week (3 in-office, 2 remote). FINE — NOT a dealbreaker.",
   "callback_likelihood": 58,
   "factor_scores": {
     "A_requirements": 70,
