@@ -1,17 +1,29 @@
 {
-  "company": "Letty (Lette AI / joinletty.com)",
+  "company": "Letty (LETTY AI LTD / joinletty.com)",
+  "company_note": "Correct entity: Letty, the EF/Hoxton-backed agentic-AI PropTech at joinletty.com (CEO Adi Edekar; UK co LETTY AI LTD, CH 16961485). NOT to be confused with 'Lette AI' (one 't'), a SEPARATE Dublin property-mgmt startup (founders Mohan Sai / Jakub Rajek, pre-seed via Pitchdrive) — that is a different company. Prior 'Lette AI' label in this field was an error.",
   "title": "Founder's Associate",
   "location": "London (Hoxton), 5 days in-office + UK customer travel",
   "office_cadence": "IN-OFFICE",
   "office_cadence_note": "StudySmarter/Jack & Jill listing states verbatim: 'London (Hoxton, 5 days in-office)' and 'No working from home possible'. 5 days/week in person + UK customer travel; remote not available. Verified 2026-06-10.",
   "working_week": "5-day",
   "working_week_note": "RE-VERIFIED 2026-06-11 against the user's ACTUAL dealbreaker (weekend/6-7-day work only — 5-day Mon-Fri in-office is FINE). StudySmarter listing states verbatim: 'Based in London with ability to work in-person in Hoxton 5 days a week' and 'London (Hoxton, 5 days in-office)'. NO mention of weekends, Saturday, Sunday, or a 6/7-day week. This is a standard Mon-Fri 5-day week. The prior IN-OFFICE 'DEALBREAKER' flag was WRONG (it conflated 5-day in-office with weekend work). FINE — NOT a dealbreaker. Reinstated.",
-  "direct_url": "https://bebee.com/gb/jobs/founders-associate-equity-at-letty-jack-jill-greater-london--bs-gb-eb8cf5a3-aa2c-424b-a47d-15abaae9b97e",
+  "direct_url": "https://uk.linkedin.com/in/adiedekar",
+  "direct_url_note": "No Letty-OWNED job-application channel exists (verified 2026-06-11). The only direct-to-Letty route that bypasses Jack & Jill is founder outreach. direct_url is the founder/CEO Adi Edekar's LinkedIn (DM, or email adi@joinletty.com). The canonical role LISTING remains the Jack & Jill / BeBee link, now in alt_url.",
+  "alt_url": "https://bebee.com/gb/jobs/founders-associate-equity-at-letty-jack-jill-greater-london--bs-gb-eb8cf5a3-aa2c-424b-a47d-15abaae9b97e",
   "alt_urls": [
+    "https://www.jackandjill.ai/jobs/strategy/founder-s-associate-55-75k-equity-at-letty-a731851d-cacb-41ac-88fb-a8c87883560c",
     "https://talents.studysmarter.co.uk/companies/letty/london/founders-associate-28384891/",
     "https://uk.linkedin.com/jobs/view/founding-operator-at-letty-4418172450"
   ],
-  "ats": "No public careers page on joinletty.com (careers/jobs return 404). Distributed via Jack & Jill (boutique placement, jobs.ashbyhq.com/jack-and-jill) and surfaced on BeBee / StudySmarter / LinkedIn. Jack & Jill Ashby posting-api returns 404 (gated board) so no single canonical per-role ATS URL.",
+  "founder_contact": {
+    "name": "Aditya 'Adi' Edekar",
+    "title": "Founder & CEO, Letty (LETTY AI LTD, Companies House 16961485)",
+    "linkedin": "https://uk.linkedin.com/in/adiedekar",
+    "email_pattern": "adi@joinletty.com (INFERRED, unverified — joinletty.com confirmed on Google Workspace, MX=smtp.google.com, so firstname@joinletty.com is plausible; pattern not independently confirmed)",
+    "background": "Ex-Nory. EF (Entrepreneurs First) cohort founder."
+  },
+  "apply_route_note": "RECOMMENDED non-J&J route: direct founder outreach to Adi Edekar (LinkedIn DM at uk.linkedin.com/in/adiedekar, or email adi@joinletty.com). This is employee #1 at an EF-stage startup — solo/early founders hiring their first operator typically read founder DMs themselves. Letty's LinkedIn company page is linkedin.com/company/joinletty (2-10 employees). NOTE the Jack & Jill listing is itself human/founder-curated so it ALSO reaches the founder; since the user wants to avoid J&J, founder DM is the cleanest bypass. Best play = dual approach: short tailored LinkedIn DM/email to Adi PLUS (optionally) the J&J application.",
+  "ats": "CONFIRMED NO Letty-owned ATS or careers page (verified 2026-06-11). joinletty.com/careers,/jobs,/join,/about ALL 404; sitemap.xml 307-redirects with no careers path. Ashby posting-api/job-board/letty=404 (jobs.ashbyhq.com/letty returns only a generic 200 shell that ANY slug returns — confirmed against a known-bad control slug, so it is NOT a real Letty board). Lever api/v0/postings/letty=404. Greenhouse boards-api/letty=404. Workable accounts/letty=404. Teamtailor careers.joinletty.com=no host. letty.ai and getletty.com are UNRELATED domains (letty.ai parked/redirects to atom.com; getletty.com 301s to keystrokevss.co.uk). Distributed ONLY via Jack & Jill (jackandjill.ai) and mirrored on BeBee / StudySmarter / YoungCapital. LinkedIn company /jobs tab redirects to the bare company page = NO LinkedIn-hosted req. The separate 'Founding Operator' LinkedIn req 4418172450 now 301s with trk=expired_jd_redirect = CLOSED.",
   "source": "watchlist-check",
   "channel": "watchlist-check",
   "run_date": "2026-06-10",
@@ -41,7 +53,7 @@
     "BULLSEYE on Ryan's #1 archetype (FA/CoS at pre-A->A startup) AND his lived spike: Minima Founder's Associate (hiring support, investor updates, pitch decks for $2.5m seed, ambiguous-priority->workstreams) + first employee scaling 1->30 seed->Series A. The JD reads like his Minima FA bullets.",
     "Explicitly NON-engineering: requires 'ability to use AI tools' + resourcefulness, not coding — directly compatible with Ryan's operator-not-SWE profile AND his Claude-Code agent-building spike (credible 'uses AI tools' signal, not just ChatGPT).",
     "£55-75K base + founding equity — comfortably above the £50k floor; strong conversion signal. Full-time, London.",
-    "Routes via Jack & Jill (boutique, human/founder-curated placement) = low ATS keyword-filter risk, high human-read probability; founder (Jon Hammond) active on LinkedIn.",
+    "Routes via Jack & Jill (boutique, human/founder-curated placement) = low ATS keyword-filter risk, high human-read probability; founder/CEO Adi Edekar (uk.linkedin.com/in/adiedekar) active on LinkedIn and is the direct-outreach target.",
     "Momentum GREEN: just $5.5M+ funded, opening its FIRST full-time operator seat, expanding UK->US — exactly the 'fresh raise = fresh operator seat' thesis the watch-list was built to catch."
   ],
   "biggest_lever": "This JD maps almost line-for-line onto Ryan's Minima Founder's Associate experience (hiring/people-ops, payroll/legal coordination, fundraising-adjacent decision materials, founder thought-partner) at the exact seniority (2-4yr ex-founder/early-stage operator) and exact archetype (FA/CoS, pre-A AI-native startup), with NO SWE gate and a human Jack & Jill read. His Claude-Code agent-building doubles as the 'AI-tools-fluent' proof.",
