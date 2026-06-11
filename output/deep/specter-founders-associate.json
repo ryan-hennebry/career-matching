@@ -52,5 +52,18 @@
     "ROLE-CHURN / DATE: FA seat is genuinely undatable (email-apply evergreen) — could be long-standing/picky; tempers momentum despite a healthy, active company. No negative candidate-treatment signal found (Glassdoor 403)."
   ],
   "momentum_flag": "neutral",
-  "callback_v3": 70
+  "callback_v3": 70,
+  "active_hiring_signal": {
+    "score": 48,
+    "tier": "COOL",
+    "last_evidence_date": "2026-06-11",
+    "signals": [
+      "2026-06-11 — SEAT CONFIRMED LIVE + BROAD CONCURRENT HIRING (positive): re-fetched tryspecter.com/careers today — the Founder's Associate (Operations) IS still listed, alongside 9 OTHER live roles: Engineering [AI Engineer, Senior Backend Engineer], Go-To-Market [Senior Account Manager, Founding GTM Engineer, Senior Account Executive, GTM Associate, Product Specialist], Operations [Founder's Associate, Finance & Operations Associate], Research [Investment Analyst Intern]. 10 concurrent open reqs at an ~11-50 (LinkedIn ~56) person co = a genuinely actively-building team.",
+      "2026-06-11 — VERY ACTIVE COMPANY SOCIAL CADENCE (positive, but not seat-specific): LinkedIn company/specterhq posts weekly 'Specter Monitor' content (latest within days of run), 20,571 followers, strong engagement; shipping AI features through 2026 (AI Search Agent, AI-powered Data Points, AI Signal Summaries). Clearly operating and growing, not dormant.",
+      "2026-06-11 — NO DATE / NO REPOST SIGNAL ON THE SEAT (negative): the FA listing carries NO posting date and NO 'posted'/freshness language; all 10 roles route to a single evergreen Notion application (spectertech.notion.site/Specter-is-Hiring) or careers@tryspecter.com. Evergreen email/Notion-apply = undatable; cannot evidence a fresh re-post or a recent open.",
+      "2026-06-11 — NO FOUNDER/RECRUITER 'WE'RE HIRING' POST NAMING THE FA SEAT (negative): no recent founder (Marco Squarci CEO / Dominik Vacikar) or recruiter post promoting THIS specific Founder's Associate role was found. Hiring page is a standing list, not a dated push.",
+      "DISAMBIGUATION: specter.careers is a DIFFERENT recruitment/staffing namesake ('leading the recruitment rebellion'), NOT this data platform — re-confirmed 2026-06-11; ignore it as a signal source for tryspecter."
+    ],
+    "signal_note": "COOL (borderline WARM on company-level, COOL on seat-level): the COMPANY is unambiguously active — 10 concurrent live reqs + weekly social cadence + 2026 product velocity. But the FOUNDER'S ASSOCIATE SEAT specifically is an undatable evergreen Notion/email listing with NO posting date, NO repost event, and NO recent founder/recruiter post naming it. So we cannot distinguish 'freshly opened' from 'long-standing/picky evergreen'. This is 'a healthy company keeping a standing FA listing open', not 'actively pushing to fill this seat this week'. The breadth of concurrent reqs lifts it above a pure board-sitter (48 vs ~30), but the absence of any dated/fresh seat-specific signal caps it below the funded/reposted roles."
+  }
 }

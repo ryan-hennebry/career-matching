@@ -46,5 +46,18 @@
     "ROLE-CHURN: single clean Ashby opening, posting 4 days old, no repost signal — not a stale/recycled seat."
   ],
   "momentum_flag": "green",
-  "callback_v3": 77
+  "callback_v3": 77,
+  "active_hiring_signal": {
+    "score": 84,
+    "tier": "HOT",
+    "last_evidence_date": "2026-06-11",
+    "signals": [
+      "2026-06-11 — LISTING STILL LIVE & FRESH: re-fetched api.ashbyhq.com/posting-api/job-board/gradient-labs today. 'AI  Delivery Associate' (id 40338f3c) isListed=true, publishedAt=2026-06-05T08:22Z = 6 days old, single clean London opening, no repost needed (already inside the <1wk-ish fresh window). Low accumulated-applicant window still open.",
+      "2026-06-01 — FRESH RAISE DRIVING HIRING: $13M Series A extension (doubling round to $26M total, ~$30M disclosed) led by Octopus Ventures + CommerzVentures, follow-on Redpoint/Exceptional. Funds explicitly earmarked for US expansion + team/technology. Corroborated Tech.eu/Sifted/Axios/TechFundingNews, all dated 1 Jun 2026 — 10 days before today. Fresh-raise-then-fresh-seats thesis confirmed.",
+      "2026-06-11 — CONCURRENT HIRING BURST: 13 live Ashby reqs, with a dated late-May/June cluster — SDR (NY, pub 2026-05-27), Enterprise AE US Financial Institutions (NY, 2026-05-27), GTM Engineer (NY, 2026-05-11), Enterprise AE (London, 2026-05-02), Backend Engineer (London, 2026-04-07), plus 2x AI Delivery LEAD (London+NY, the senior siblings of this seat). Building out the delivery org top-and-bottom = active demand for this exact function.",
+      "HEADCOUNT/TRACTION: ~40-person team, 900% revenue growth past year, 32M end users — up-and-to-the-right scaling post-raise.",
+      "NEGATIVE/MISSING: the one LinkedIn 'we're hiring'-adjacent post located (gradientlabs activity 7348326237...) is the ORIGINAL $13M Series A announcement from ~11 months ago, NOT a current post; no founder/recruiter post dated within the last ~3 weeks that NAMES the AI Delivery Associate seat was found. Hiring intent is strong and dated via the raise + req cluster, but no seat-specific social shout-out."
+    ],
+    "signal_note": "HOT: fresh seat (6 days, still live), a 10-day-old funding raise explicitly earmarked for team build-out, and a dated concurrent req burst across the delivery/GTM org. Genuinely 'actively hiring this function right now', not a board-sitter. Capped at 84 (below Checkout's same-day repost) because there is no TODAY-dated repost event and no recruiter/founder post naming this specific seat — the freshness is 'recently posted + funded', not 'just re-pushed today'."
+  }
 }

@@ -52,5 +52,17 @@
   "D_spike_operator": 70,
   "callback_op": 59,
   "operator_fit_note": "PARTIAL - half is genuine Claude-Code/n8n agentic-workflow building (direct spike hit), half is Salesforce-admin / commercial-ops process rigor (not his spike); not founder-facing (reports to Ops Director).",
-  "momentum_note": "Neutral-to-healthy. Steady headcount growth (40->~75), actively hiring (9 roles), and a fresh AI-ops investment seat - but funding is stale (2023, no recent raise) so no fundraising catalyst. No red flags. H=65. callback_v2 56 -> callback_v3 58."
+  "momentum_note": "Neutral-to-healthy. Steady headcount growth (40->~75), actively hiring (9 roles), and a fresh AI-ops investment seat - but funding is stale (2023, no recent raise) so no fundraising catalyst. No red flags. H=65. callback_v2 56 -> callback_v3 58.",
+  "active_hiring_signal": {
+    "score": 62,
+    "tier": "WARM",
+    "last_evidence_date": "2026-06-11",
+    "signals": [
+      "THIS SEAT LIVE BUT AGING / NO REPOST: Workable v3 API (togather, shortcode 2F80E415C5) confirms AI Operations Manager state='published', published 2026-05-06 (36 days), no later modification/repost. Still open and accepting but NOT recently refreshed — it is sitting on the board rather than being actively re-pushed. Verified 2026-06-11.",
+      "COMPANY IN HIGH-VELOCITY HIRING MODE (strongest current signal): 14 published roles on Workable, including TWO posted TODAY 2026-06-11 (Business Development Manager - Live Events; Event Partnerships Manager) and Event Producer posted 2026-06-01. Togather is demonstrably hiring actively right now — but the fresh velocity is in Commercial/Events, not this AI-ops seat.",
+      "AI/AUTOMATION COHORT (mild positive): AI Operations Manager was posted 2026-05-06 alongside sibling Operations Manager and Automation Manager (both same date) + a Senior Analytics Engineer (2026-05-14) — a small ops/automation cluster, suggesting the AI-ops function is a real investment, not a one-off, though none refreshed since.",
+      "NO FOUNDER/RECRUITER 'WE'RE HIRING' POST for THIS specific seat found (WebSearch surfaced only the live Workable + LinkedIn job listings, no dated social promotion). No recent funding catalyst (last raise 2023).",
+      "NET: company is unambiguously active (2 same-day posts), but THIS role is a 5-week-old unrefreshed listing — plausibly still open with a shortlist forming. Active-company signal strong; active-THIS-seat signal only moderate."
+    ]
+  }
 }

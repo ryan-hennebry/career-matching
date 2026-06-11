@@ -49,5 +49,17 @@
   "callback_v3": 57,
   "D_spike_operator": 66,
   "callback_op": 57,
-  "operator_fit_note": "PARTIAL - central ask is hands-on Claude/n8n agentic-workflow builder in real ops (strong spike hit), but gated on titled product/biz-ops/TPM, agentic builds lean technical, and it's a mature 971-person fintech (recruiter/ATS screen, not founder-facing)."
+  "operator_fit_note": "PARTIAL - central ask is hands-on Claude/n8n agentic-workflow builder in real ops (strong spike hit), but gated on titled product/biz-ops/TPM, agentic builds lean technical, and it's a mature 971-person fintech (recruiter/ATS screen, not founder-facing).",
+  "active_hiring_signal": {
+    "score": 68,
+    "tier": "WARM",
+    "last_evidence_date": "2026-06-09",
+    "signals": [
+      "THIS SEAT LIVE & RECENTLY REFRESHED (not today): Greenhouse boards-api (capitalontap, job 8520481002, req OP2610) confirms AI Operations Specialist live=true, first_published 2026-04-23, updated_at 2026-05-21 — refreshed ~21 days ago (a soft refresh, not a same-day repost). Still open and accepting. Verified 2026-06-11.",
+      "GENUINE AI-TEAM BUILD-OUT (strongest signal — confirms active AI-hiring MODE): 5 concurrent AI/automation roles on Greenhouse — AI Operations Specialist (London, upd 05-21) + Applied AI Specialist (London, pub 05-01, upd 05-21) sit alongside Lead Automation Engineer (Porto), Senior Payments Operations Manager (Manchester), and Senior Software Engineer-AI (Porto) — and the latter THREE were all updated 2026-06-09 (2 days ago). The AI cohort is being actively worked THIS week.",
+      "BROAD HEADCOUNT MOMENTUM: 56 total open reqs across the company on Greenhouse (multiple London) — a mature ~971-person fintech in sustained active hiring, not a quiet single-seat post.",
+      "TOOLING VALIDATION: careers-page stack explicitly lists Claude Code / Copilot / Gemini — the JD's agentic-workflow ask is real internal practice, reinforcing this is a funded, intentional hire.",
+      "CAVEAT: THIS specific seat's own last touch was 2026-05-21 (21d), so it is active-but-not-freshly-bumped; the 'today-dated' AI motion in the batch is the sibling Porto/Manchester roles (06-09), not the London AI Ops Specialist itself. No founder/recruiter social post naming this seat found. Confirmed STILL in active AI-hiring mode — not dormant."
+    ]
+  }
 }

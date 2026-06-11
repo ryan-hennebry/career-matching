@@ -55,5 +55,17 @@
   "D_spike_operator": 72,
   "callback_op": 55,
   "operator_fit_note": "YES - founder-level generalist ownership (financial model + investor pitch + workflow design + strategy doc in one day) at an early AI co with direct-founder apply; maps strongly to Ryan's FA/fundraising-ops/ambiguity-to-structure spikes. Standalone financial-modelling depth is the one stretch.",
-  "momentum_note": "Neutral / low-confidence. governr is very early with a thin public footprint - no announced raise, but a shipping product (AI Atlas), a favourable EU AI Act tailwind, an expanding role count, and a responsive direct-founder process. No red flags. H=48 (thin data band). callback_v2 51 -> callback_v3 51 (unchanged; neutral momentum neither helps nor hurts)."
+  "momentum_note": "Neutral / low-confidence. governr is very early with a thin public footprint - no announced raise, but a shipping product (AI Atlas), a favourable EU AI Act tailwind, an expanding role count, and a responsive direct-founder process. No red flags. H=48 (thin data band). callback_v2 51 -> callback_v3 51 (unchanged; neutral momentum neither helps nor hurts).",
+  "active_hiring_signal": {
+    "score": 30,
+    "tier": "STALE",
+    "last_evidence_date": "2026-03",
+    "signals": [
+      "PRIMARY LISTING EXPIRED (defining negative): the original LinkedIn CoS posting (job 4315378460) 301-redirects to '?trk=expired_jd_redirect' (re-confirmed live 2026-06-11) — LinkedIn has formally EXPIRED this posting. ZipRecruiter mirror (453289607) now returns HTTP 403, and the StudySmarter mirror 404s. No live, dated, refreshable listing remains on any board.",
+      "NO OWN-SITE CAREERS PAGE: governr.ai/careers and /jobs both return HTTP 404, and the homepage (HTTP 200) contains ZERO careers/hiring/'we're hiring'/CoS links or ATS embed. The company has no active hiring surface of its own for this seat.",
+      "NO FRESH FOUNDER/SOCIAL HIRING SIGNAL: WebSearch (founder Rajen Madan) surfaced no dated 'we're hiring a Chief of Staff' post; no recent funding announcement (pre-seed/seed, unannounced) to trigger a hiring push. Last datable footprint is ~March 2026 site indexing.",
+      "ONLY EVERGREEN CHANNEL REMAINS: the warm path is a direct 300-word email to rajen@governr.ai (48h response promise) — this is evergreen and outlives the dead listing, so the SEAT may still be fillable, but there is NO current evidence it is being actively recruited. Treat as DORMANT/quiet: apply via email to test live status, do not assume an active search.",
+      "MILD OFFSET: governr has posted multiple roles over time (CoS + newer 'Agentic Developer', ZipRec IDs ~47M apart) so the company is alive and adding seats — but the CoS req specifically is the OLDER, now-expired one. Net active-THIS-seat signal is weak."
+    ]
+  }
 }

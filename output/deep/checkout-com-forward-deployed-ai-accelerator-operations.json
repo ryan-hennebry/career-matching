@@ -27,6 +27,18 @@
   "momentum_flag": "MIXED — 70% valuation haircut ($40B -> $12B) and a 2023 layoff history are real negatives, but the current 2025-2026 story is a credible recovery (30%+ revenue growth two years, return to EBITDA profitability, employee buyback liquidity, Jan-2026 Blue/EMI acquisition). Not a fresh-funding tailwind and not a death-spiral; net neutral-to-slightly-positive on hiring momentum.",
   "callback_op": 61,
   "callback_v3": 61,
+  "active_hiring_signal": {
+    "score": 92,
+    "tier": "HOT",
+    "last_evidence_date": "2026-06-11",
+    "signals": [
+      "2026-06-11 (TODAY) — STRONGEST SIGNAL: the role was REPOSTED/REFRESHED today. The FDAI-Accelerator seat now appears under a NEW Ashby id (9b0c8785-6c02-4388-aa65-a2a45ab44969) with publishedAt=2026-06-11T09:51:38Z. The OLD id from this file (f6a1e1a2) is now ABSENT from api.ashbyhq.com/posting-api/job-board/checkout.com (0 results in the live list; old URL still renders a 200 but is superseded). Exactly ONE 'Forward Deployed AI Accelerator' posting exists and it carries today's timestamp — an unmistakable fresh active-fill signal, not a role sitting on a board.",
+      "2026-06-11 — CONCURRENT AI-HIRING WAVE: Checkout.com has 215 open reqs and a visible internal-AI build-out cohort: 'AI & Automation Specialist' (London, pub 2026-06-05), 'Manager, Operations and Strategy (CEO Office)' (London, pub 2026-06-03), 'Software Engineer / Senior Software Engineer, AI Centre of Excellence' (London, Apr 2026), 'Manager, Product Marketing, AI and Agentic Commerce' (London). The FDAI seat is part of a live, dated AI-transformation hiring push.",
+      "2026-06 — COMPANY NEWS/RECOVERY (not a fresh raise): no new funding tied to this req, but credible recovery narrative (30%+ revenue growth two years, return to EBITDA profitability, Jan-2026 Blue/EMI acquisition) sustaining headcount.",
+      "NEGATIVE/MISSING: no founder/recruiter 'we're hiring this seat' social post found (large ~2,000-person regulated fintech = ATS/recruiter-driven, not founder-broadcast). WebSearch for Checkout-specific FDAI hiring returned only the Stripe-template press, not a Checkout recruiter post. Funnel is ATS — apply-now exists but no warm social push naming the seat."
+    ],
+    "signal_note": "HOT on the single most decisive axis: the seat was re-published TODAY (2026-06-11) under a fresh id while the prior id was purged from the live API — a textbook repost/refresh that resets the applicant window. This is 'actively filling this seat right now', the opposite of a stale board listing. Capped at 92 (not higher) only because the hiring motion is ATS/recruiter-driven with no founder/recruiter social post naming the role. Re-verify the NEW URL (9b0c8785) is the one to apply through; the f6a1e1a2 link in direct_url is now stale."
+  },
   "hidden_gates": [
     {
       "requirement": "'5+ years of professional experience in a role requiring analytical thinking, problem-solving and cross-functional collaboration'",

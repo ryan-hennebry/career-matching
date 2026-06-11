@@ -52,5 +52,16 @@
   "callback_op": 56,
   "availability": "open",
   "availability_note": "Re-verified LIVE 2026-06-10 via join.studiob.net (HTTP200, 'Apply for this job' active). JSON-LD datePosted CORRECTED to 2026-04-08 (was recorded 2026-04-21) = 63 days, now 8-12wk band. No repost. G_recency 32->18; callback_op 59->56.",
-  "operator_fit_note": "PARTIAL - true FA/force-multiplier-to-founder role owning AI workflows + strategic projects (good operator map, founder-facing), but front-loads EA/diary/scheduling work and is a non-AI creative studio (off-domain)."
+  "operator_fit_note": "PARTIAL - true FA/force-multiplier-to-founder role owning AI workflows + strategic projects (good operator map, founder-facing), but front-loads EA/diary/scheduling work and is a non-AI creative studio (off-domain).",
+  "active_hiring_signal": {
+    "score": 40,
+    "tier": "COOL",
+    "last_evidence_date": "2026-04-08",
+    "signals": [
+      "LIVE BUT STALE / NO REPOST, NO REFRESH (defining signal): StudioB uses Teamtailor (join.studiob.net). The jobs.json feed + JSON-LD confirm Founders Associate date_published 2026-04-08 with NO date_modified and NO repost — 64 days old and untouched. The 'Apply' button is active (still open), but the listing is simply sitting on the board with zero freshening.",
+      "NO HIRING VELOCITY: only 4 concurrent roles on the ATS, and ALL are aging — Production Accountant (2026-03-26), Social Media Manager/Analyst (2026-02-11), VFX Artist (2025-04-16, evergreen/perma-open). No role posted or refreshed in the last 8+ weeks. This is a low-cadence board, not an actively-staffing one.",
+      "NO FOUNDER/RECRUITER 'WE'RE HIRING' POST: WebSearch surfaced busy client/PR work (Borderlands 4 tour, M&S campaign) but NO dated post promoting this seat or 'we're hiring/growing the team'. Privately-held creative studio, no funding catalyst.",
+      "NET: this is the clearest 'just sitting on a board' case in the batch — genuinely open and founder-read-able, but no current evidence the seat is being actively pushed or prioritised. A FA hire at a 40-person studio can stay open passively for months."
+    ]
+  }
 }

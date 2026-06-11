@@ -28,5 +28,17 @@
   "apply_move": "Lead with the founding-operator narrative: first employee 1->30 at Minima, turned ambiguous founder priorities into workstreams, $4.5m community-led presale (15x ROI on $300k) and $6.5m Series A investor events as proof of 'build from zero + own outcomes'. Reframe community-led GTM as repeatable demand generation. Show Claude Code agents as the 'reach for AI before doing it manually' proof. Address the outbound-sales gap head-on with the presale revenue ownership.",
   "availability": "Open / live as of 2026-06-10",
   "source": "delta-direct-careers",
-  "agentic": "AI-powered fintech (builder culture, AI-fluency-required), not an AI-agent product company"
+  "agentic": "AI-powered fintech (builder culture, AI-fluency-required), not an AI-agent product company",
+  "active_hiring_signal": {
+    "score": 90,
+    "tier": "HOT",
+    "last_evidence_date": "2026-06-10",
+    "signals": [
+      "RECRUITER ACTIVELY SOURCING (strongest): Ramp recruiter Vida Han posted 'update: Ramp is hiring for our founding GTM associate in London! no traditional GTM background required' on LinkedIn — activity ID 7465054357793787905 decodes to 2026-05-26 (~16 days ago), with the Ashby apply link in the comments. A named recruiter promoting THIS exact seat <3 weeks ago = unmistakable active fill. (linkedin.com/posts/vida-han_...)",
+      "ATS LIVE & LISTED: Ashby posting-api (ramp board) confirms id 20331539-c49c-4bf7-a719-a7e1b6e55537 'Founding GTM', isListed=true, publishedAt 2026-05-08, location London. No updatedAt (original posting, not reposted — but recruiter push compensates). Verified 2026-06-11.",
+      "HEADCOUNT MOMENTUM / CONCURRENT LONDON REQS: 4 live London roles on Ashby — Founding GTM (pub 05-08), Customer Experience Associate (pub 05-26), Account Executive (pub 2026-06-08), Engagement Manager (pub 2026-06-10). TWO new London reqs posted in the last 3 days = London office actively staffing up right now, not a single dormant listing.",
+      "FUNDING/NEWS CATALYST (recent): Ramp completed the Billhop acquisition (Stockholm/London payments platform) giving it UK+EU regulatory payments authorization, and publicly announced 'Ramp is coming to Europe' with London + Stockholm offices being opened and grown THIS year — a fresh expansion catalyst directly driving this founding seat. (ramp.com/blog/ramp-is-launching-in-europe)",
+      "110 total open reqs company-wide on Ashby — hyper-growth fintech in active hiring mode across the board."
+    ]
+  }
 }
