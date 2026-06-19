@@ -1549,6 +1549,7 @@ _SOURCE_PATTERNS: dict[str, re.Pattern[str]] = {
     "ashby": re.compile(r"ashbyhq\.com", re.IGNORECASE),
     "lever": re.compile(r"lever\.co", re.IGNORECASE),
     "workable": re.compile(r"workable\.com", re.IGNORECASE),
+    "gem": re.compile(r"jobs\.gem\.com", re.IGNORECASE),
     "rippling": re.compile(r"rippling\.com", re.IGNORECASE),
     "breezy": re.compile(r"breezy\.hr", re.IGNORECASE),
     "jazz": re.compile(r"jazz\.co", re.IGNORECASE),
