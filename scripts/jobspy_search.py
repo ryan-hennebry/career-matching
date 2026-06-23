@@ -26,6 +26,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--results", type=int, default=25, help="Max results per site")
     parser.add_argument("--output", help="Output JSON file (default: stdout)")
     parser.add_argument("--country", default="UK", help="Country for Indeed (default: UK)")
+    parser.add_argument("--hours-old", type=int, default=None, help="Only jobs posted within N hours")
     return parser.parse_args()
 
 
@@ -51,14 +52,18 @@ def main() -> None:
     args = parse_args()
 
     try:
-        jobs_df = scrape_jobs(
-            site_name=["indeed", "linkedin", "glassdoor"],
+        scrape_kwargs = dict(
+            site_name=["indeed", "linkedin"],
             search_term=args.query,
             location=args.location,
             results_wanted=args.results,
             is_remote=args.remote,
             country_indeed=args.country,
         )
+        if args.hours_old is not None:
+            scrape_kwargs["hours_old"] = args.hours_old
+
+        jobs_df = scrape_jobs(**scrape_kwargs)
 
         # Convert to list of dicts
         results: list[dict[str, Any]] = jobs_df.to_dict(orient="records") if not jobs_df.empty else []
