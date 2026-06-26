@@ -11,3 +11,20 @@ output/digests/*.pdf
 *.txt
 !requirements.txt
 .vercel
+# --- private job-search artifacts (never publish) ---
+output/_final_board_*
+output/session-state.md
+output/*_exclusion.json
+output/RESUME-HANDOFF.md
+output/_cv_parsed*.json
+output/deep/
+output/rerank/
+output/strict/
+output/verified/
+output/verified-prior/
+output/.channels/
+output/*.xlsx
+# keep placeholder structure only
+!output/**/.gitkeep
+# durable private state (sidecar, see 4d)
+.private/
