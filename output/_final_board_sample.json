@@ -1,0 +1,223 @@
+{
+  "_note": "Synthetic sample board — fake data illustrating output format.",
+  "run_date": "2026-01-15",
+  "jobs": [
+    {
+      "title": "Senior Product Manager",
+      "company": "Acme Robotics",
+      "location": "London, England, UK",
+      "job_type": "Full-time",
+      "work_arrangement": "Hybrid",
+      "salary_min": 85000,
+      "salary_max": 110000,
+      "currency": "GBP",
+      "job_url": "https://example.com/jobs/acme-robotics/senior-product-manager",
+      "source": "example-board",
+      "date_posted": "2026-01-09",
+      "active_status": "active",
+      "industry": "Robotics / AI",
+      "requirements_met": [
+        "5+ years product management experience",
+        "Track record shipping B2B SaaS products",
+        "Strong analytical and roadmap prioritisation skills"
+      ],
+      "gaps": [
+        "Hardware product experience"
+      ],
+      "preferred_met": [
+        "Startup-to-scale environment experience"
+      ],
+      "score": 87,
+      "score_breakdown": {
+        "required_skills": {
+          "matched": 6,
+          "total": 7,
+          "points": 34,
+          "calculation": "40 * (6/7) = 34.3 rounded to 34"
+        },
+        "preferred_skills": {
+          "matched": 2,
+          "total": 3,
+          "points": 13,
+          "calculation": "20 * (2/3) = 13.3 rounded to 13"
+        },
+        "experience_fit": {
+          "points": 15,
+          "calculation": "Strong level match = 15 points"
+        },
+        "industry_match": {
+          "points": 15,
+          "calculation": "Direct match with target industry = 15 points"
+        },
+        "location_match": {
+          "points": 10,
+          "calculation": "London matches user preference = 10 points"
+        },
+        "total": 87
+      },
+      "notes": "Example entry — Acme Robotics is a fictional company."
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "Globex SaaS",
+      "location": "Remote (UK)",
+      "job_type": "Full-time",
+      "work_arrangement": "Remote",
+      "salary_min": 65000,
+      "salary_max": 80000,
+      "currency": "GBP",
+      "job_url": "https://example.com/jobs/globex-saas/marketing-manager",
+      "source": "example-board",
+      "date_posted": "2026-01-11",
+      "active_status": "active",
+      "industry": "SaaS",
+      "requirements_met": [
+        "Demand generation and lifecycle marketing experience",
+        "Owned a marketing budget and reported on ROI",
+        "Cross-functional GTM coordination"
+      ],
+      "gaps": [
+        "Paid acquisition at scale"
+      ],
+      "preferred_met": [
+        "Fintech or SaaS background"
+      ],
+      "score": 79,
+      "score_breakdown": {
+        "required_skills": {
+          "matched": 5,
+          "total": 7,
+          "points": 29,
+          "calculation": "40 * (5/7) = 28.6 rounded to 29"
+        },
+        "preferred_skills": {
+          "matched": 1,
+          "total": 2,
+          "points": 10,
+          "calculation": "20 * (1/2) = 10"
+        },
+        "experience_fit": {
+          "points": 15,
+          "calculation": "Level match = 15 points"
+        },
+        "industry_match": {
+          "points": 15,
+          "calculation": "Direct match with target industry = 15 points"
+        },
+        "location_match": {
+          "points": 10,
+          "calculation": "Remote (UK) matches user preference = 10 points"
+        },
+        "total": 79
+      },
+      "notes": "Example entry — Globex SaaS is a fictional company."
+    },
+    {
+      "title": "Growth Manager",
+      "company": "Initech Fintech",
+      "location": "London, England, UK",
+      "job_type": "Full-time",
+      "work_arrangement": "Hybrid",
+      "salary_min": 55000,
+      "salary_max": 70000,
+      "currency": "GBP",
+      "job_url": "https://example.com/jobs/initech-fintech/growth-manager",
+      "source": "example-board",
+      "date_posted": "2026-01-07",
+      "active_status": "active",
+      "industry": "Fintech",
+      "requirements_met": [
+        "Experimentation and growth-loop design",
+        "Comfort with analytics and SQL"
+      ],
+      "gaps": [
+        "People management experience",
+        "Performance marketing budget ownership"
+      ],
+      "preferred_met": [
+        "Fintech domain knowledge"
+      ],
+      "score": 72,
+      "score_breakdown": {
+        "required_skills": {
+          "matched": 4,
+          "total": 7,
+          "points": 23,
+          "calculation": "40 * (4/7) = 22.9 rounded to 23"
+        },
+        "preferred_skills": {
+          "matched": 2,
+          "total": 2,
+          "points": 20,
+          "calculation": "20 * (2/2) = 20"
+        },
+        "experience_fit": {
+          "points": 9,
+          "calculation": "Slightly junior for level = 9 points"
+        },
+        "industry_match": {
+          "points": 15,
+          "calculation": "Direct match with target industry = 15 points"
+        },
+        "location_match": {
+          "points": 10,
+          "calculation": "London matches user preference = 10 points"
+        },
+        "total": 72
+      },
+      "notes": "Example entry — Initech Fintech is a fictional company."
+    },
+    {
+      "title": "Product Manager",
+      "company": "Umbrella Cloud",
+      "location": "Manchester, England, UK",
+      "job_type": "Full-time",
+      "work_arrangement": "Hybrid",
+      "salary_min": 50000,
+      "salary_max": 62000,
+      "currency": "GBP",
+      "job_url": "https://example.com/jobs/umbrella-cloud/product-manager",
+      "source": "example-board",
+      "date_posted": "2026-01-05",
+      "active_status": "active",
+      "industry": "SaaS",
+      "requirements_met": [
+        "Product discovery and user research",
+        "Roadmap ownership for a SaaS product"
+      ],
+      "gaps": [
+        "Enterprise sales-led product experience"
+      ],
+      "preferred_met": [],
+      "score": 68,
+      "score_breakdown": {
+        "required_skills": {
+          "matched": 4,
+          "total": 7,
+          "points": 23,
+          "calculation": "40 * (4/7) = 22.9 rounded to 23"
+        },
+        "preferred_skills": {
+          "matched": 0,
+          "total": 2,
+          "points": 0,
+          "calculation": "20 * (0/2) = 0"
+        },
+        "experience_fit": {
+          "points": 12,
+          "calculation": "Reasonable level match = 12 points"
+        },
+        "industry_match": {
+          "points": 15,
+          "calculation": "Direct match with target industry = 15 points"
+        },
+        "location_match": {
+          "points": 8,
+          "calculation": "Manchester is acceptable but not preferred = 8 points"
+        },
+        "total": 68
+      },
+      "notes": "Example entry — Umbrella Cloud is a fictional company. Below the 70 threshold; shown to illustrate scoring only."
+    }
+  ]
+}

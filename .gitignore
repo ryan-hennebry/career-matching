@@ -13,6 +13,8 @@ output/digests/*.pdf
 .vercel
 # --- private job-search artifacts (never publish) ---
 output/_final_board_*
+# ...except the synthetic sample board, which is safe to publish (fake data)
+!output/_final_board_sample.json
 output/session-state.md
 output/*_exclusion.json
 output/RESUME-HANDOFF.md
