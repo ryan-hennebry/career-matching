@@ -1,0 +1,85 @@
+<!-- Example profile. Copy to context.md and fill in. All values below are placeholders. -->
+
+## Profile
+
+Name: Jane Doe
+CV Summary: Generalist with 3 years of experience in operations, strategy, and project management at early-stage companies. Background spans go-to-market coordination, data analysis, and cross-functional stakeholder communication.
+
+Skills (CV):
+- Project management (Notion, Asana, Linear)
+- SQL and spreadsheet-based data analysis
+- Stakeholder communication and exec reporting
+- Go-to-market coordination and launch planning
+
+Skills (self-reported):
+- Rapid prototyping of internal tooling (self-reported)
+- Fundraising support and investor materials (self-reported)
+
+## Target
+
+Role Types:
+- Founder Associate
+- Strategy & Operations Lead
+- Growth Lead
+- BizOps Associate
+
+Seniority: IC (individual contributor), 2-4 years experience band
+
+## Industries
+
+Primary:
+- B2B SaaS
+- AI / Machine Learning
+- Climate Tech
+
+Secondary (acceptable):
+- FinTech
+- Data & Analytics
+- Developer Tooling
+
+## Constraints
+
+Location:
+- London, UK (preferred)
+- Remote (UK-based) (acceptable)
+- Hybrid (London) (acceptable)
+- Relocation: no
+
+Salary minimum (GBP, annual): 45000
+
+Title exclusions:
+- Senior (excluded — above target seniority)
+- Director (excluded — above target seniority)
+- Intern / Internship (excluded — below target seniority)
+- Manager (excluded unless role is IC-framed)
+
+## Scoring Weights
+
+These weights are fixed and not user-configurable.
+
+| Factor           | Weight |
+|------------------|--------|
+| Required skills  | 40     |
+| Preferred skills | 20     |
+| Experience fit   | 15     |
+| Industry match   | 15     |
+| Location match   | 10     |
+| Total            | 100    |
+
+Score threshold: 70 (inclusive). Jobs below 70 are not presented.
+
+## Delivery
+
+Email: jane@example.com
+Dashboard: https://example.com/dashboard
+
+## Search Progress
+
+_(populated at runtime — do not edit manually)_
+
+| Role Type              | Status    | Jobs Found | Last Run  |
+|------------------------|-----------|------------|-----------|
+| Founder Associate      | pending   | —          | —         |
+| Strategy & Ops Lead    | pending   | —          | —         |
+| Growth Lead            | pending   | —          | —         |
+| BizOps Associate       | pending   | —          | —         |
