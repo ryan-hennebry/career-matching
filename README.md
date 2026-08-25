@@ -1,85 +1,49 @@
-# Career Matching Agent
+# Career Matching
 
-Find live roles that fit your background, rank the strongest matches, and get application briefs only for the ones worth pursuing.
+Find live roles and rank them by experience and career-goal fit.
+
+It turns your CV and preferences into a search profile, searches job boards, and keeps track of what is new, active, rejected or expired.
 
 No coding experience required.
 
-<img src="assets/cli-demo-full.gif" alt="Career Matching CLI onboarding, ranked matches, and application brief preview demo" width="896" />
+<img src="assets/cli-demo-full.gif" alt="Career Matching onboarding and ranked matches demo" width="896" />
 
 ## Quick start
 
-**Prerequisite:** Claude Code installed and authenticated. [Setup instructions](https://code.claude.com/docs/en/quickstart).
-
-1. Paste this command into **Terminal** (Mac) or **PowerShell** (Windows):
+1. [Install Claude Code](https://code.claude.com/docs/en/quickstart).
+2. Paste this into **Terminal** (Mac) or **PowerShell** (Windows):
 
 ```bash
-git clone https://github.com/ryan-hennebry/career-matching.git && cd career-matching && claude --dangerously-skip-permissions
+git clone https://github.com/ryan-hennebry/career-matching.git && cd career-matching && claude --permission-mode auto
 ```
 
-2. In Claude Code, upload your CV when the agent asks, then answer the onboarding questions one at a time.
+Upload your CV and follow the onboarding. It builds your search profile, asks what you're looking for, then finds and ranks live roles.
 
-The Claude Code flow works on its own. The dashboard in this repo is an optional companion, not required for first use.
+## Matches
 
-## The onboarding flow
+- Score, title, company, location and source
+- Why each role fits and where the gaps are
+- What's new today and what's still active
 
-- Paste or upload your CV
-- Confirm or correct the profile the agent extracts
-- Add any skills that are missing from the CV
-- Choose the role types and industries you want to target
-- Set location preferences and minimum salary
-- The agent searches job boards, ranks the results, and asks which roles you want application briefs for
-- If you want, you can set up email digests later in chat
-
-## What you receive
-
-Each run produces a shortlist with:
-
-- Job matches scored across required and preferred skills, experience, industry, location, and salary
-- A clear view of what is new today versus still active
-- Reasons each role fits, where the gaps are, and which opportunities look strongest
-- Application briefs for chosen roles, including CV tailoring, cover letter talking points, and outreach drafts
-- If configured, an email digest delivered to your inbox
-
-## Once your first output has been generated
-
-Keep working with the agent in Claude Code for deeper analysis:
+## Ask follow-up questions
 
 - "Show only the jobs that are new today."
-- "Which roles mention AI agents or Claude Code?"
 - "Why did this role score higher than the others?"
-- "Prepare application briefs for roles 1 and 3."
 - "Mark this one rejected and keep tracking the rest."
 
-## Optional delivery
+For any role you want to pursue, ask it to prepare an application brief.
 
-If you want ongoing updates:
+## Dashboard
 
-- **Receive an email digest:** if you choose digests later, the agent walks you through a one-time [Resend](https://resend.com/api-keys) setup
+The optional dashboard tracks roles through new, reviewing, applied, rejected and expired, with a score breakdown for each job.
 
-## The agent's output
+## Updates
 
-In Claude Code you get:
-
-- Ranked roles in a table showing score, title, company, location, and source links
-- Application briefs with CV tailoring, cover letter talking points, outreach drafts, and application checklists
-- If configured, an email digest for ongoing updates on new roles that are a good fit
-
-If you deploy the optional dashboard in this repo, you also get:
-
-- A pipeline view of new, reviewing, brief-requested, applied, rejected, and expired jobs
-- Per-job detail views with requirements met, gaps, score breakdown, and the original listing
+Set up an email digest if you want new matches sent to you.
 
 ## How it works
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/how-it-works-dark.svg">
-  <img src="assets/how-it-works-light.svg" alt="How Career Matching Agent works" width="560" />
+  <img src="assets/how-it-works-light.svg" alt="How Career Matching works" width="560" />
 </picture>
-
-*Diagram source: `assets/how-it-works.mmd`.*
-
-## Project standards
-
-- [MIT License](LICENSE)
-- [Security Policy](SECURITY.md)
-- [Contributing Guide](CONTRIBUTING.md)
