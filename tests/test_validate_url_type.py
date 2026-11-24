@@ -60,7 +60,7 @@ class TestValidateUrlType:
         assert output["pattern_matched"] == "indeed"
 
     def test_linkedin_url_is_aggregator(self) -> None:
-        output = _run_validate_url_type("https://www.linkedin.com/jobs/view/4344764433")
+        output = _run_validate_url_type("https://www.linkedin.com/jobs/view/123456789")
         assert output["type"] == "aggregator"
         assert output["pattern_matched"] == "linkedin"
 

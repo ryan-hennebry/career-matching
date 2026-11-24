@@ -1,2 +1,2 @@
-upstash-redis>=1.0.0
-markdown>=3.5
+# Optional HTTP dependency for the legacy verify-before-archive command.
+requests==2.32.5

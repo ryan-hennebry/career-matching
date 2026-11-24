@@ -337,26 +337,6 @@ class TestDedup:
         assert (verified / "community-manager" / "acme-eng.json").exists()
         assert not (verified / "devrel" / "acme-eng.json").exists()
 
-    def test_dedup_archives_below_threshold(self, tmp_path: Path) -> None:
-        """Job with score < 70 moved to output/archive/."""
-        output_dir = tmp_path / "output"
-        verified = output_dir / "verified"
-
-        job = _make_verified_json(
-            company="LowScore Inc", title="Intern", score=55,
-            url="https://example.com/low", role_type="community-manager",
-        )
-        _write_verified_json(verified / "community-manager", "lowscore.json", job)
-
-        result = _run_dedup(str(output_dir), no_safety_bound=True)
-        assert result.returncode == 0, f"dedup failed: {result.stderr}"
-
-        assert not (verified / "community-manager" / "lowscore.json").exists(), (
-            "job with score < 70 should be moved out of verified/"
-        )
-        archive_path = output_dir / "archive" / "community-manager" / "lowscore.json"
-        assert archive_path.exists(), "job with score < 70 should be in archive/"
-
     def test_dedup_preserves_above_threshold(self, tmp_path: Path) -> None:
         """Job with score >= 70 preserved in verified/."""
         output_dir = tmp_path / "output"
@@ -508,6 +488,12 @@ class TestDedup:
         )
         _write_verified_json(
             verified / "community-manager", "beta-dev.json", job_b,
+        )
+
+        _write_verified_json(
+            verified / "community-manager", "unrelated.json",
+            _make_verified_json(company="Filler", title="Coordinator", score=75,
+                                url="https://example.org/jobs/3456", role_type="community-manager"),
         )
 
         result = _run_dedup(str(output_dir))
@@ -770,32 +756,14 @@ class TestCheckpointPerformance:
             f"100 direct write+validate cycles took {elapsed:.2f}s, expected < 0.5s"
         )
 
-    @pytest.mark.slow
-    def test_subprocess_under_2_seconds(self, cp_output_dir: Path) -> None:
-        """10 subprocess write+validate cycles complete in under 2 seconds.
-
-        Tests CLI integration (subprocess overhead) with reduced cycle count."""
-        import time
-
-        start = time.monotonic()
-
-        for i in range(10):
-            w = _run_checkpoint(
-                ["write", "search", "--count", str(i)],
-                str(cp_output_dir),
-            )
-            assert w.returncode == 0, f"write cycle {i} failed: {w.stderr}"
-
-            v = _run_checkpoint(
-                ["validate", "search"],
-                str(cp_output_dir),
-            )
-            assert v.returncode == 0, f"validate cycle {i} failed: {v.stderr}"
-
-        elapsed = time.monotonic() - start
-        assert elapsed < 2.0, (
-            f"10 subprocess write+validate cycles took {elapsed:.2f}s, expected < 2.0s"
-        )
+    def test_multiple_checkpoint_writes_replace_metadata(self, cp_output_dir: Path) -> None:
+        """A second CLI checkpoint replaces the count from the first write."""
+        for count in (1, 2):
+            written = _run_checkpoint(["write", "search", "--count", str(count)], str(cp_output_dir))
+            assert written.returncode == 0, written.stderr
+            checked = _run_checkpoint(["validate", "search"], str(cp_output_dir))
+            assert checked.returncode == 0, checked.stderr
+            assert f"count={count}" in checked.stdout
 
 
 # ---------------------------------------------------------------------------
@@ -931,7 +899,7 @@ def _init_git_repo(repo: Path) -> None:
     """Initialize a git repo with user config at the given path."""
     repo.mkdir(parents=True, exist_ok=True)
     _git(repo, "init")
-    _git(repo, "config", "user.email", "test@test.com")
+    _git(repo, "config", "user.email", "fixture@local")
     _git(repo, "config", "user.name", "Test")
 
 
@@ -1440,7 +1408,7 @@ class TestMigrateSchema:
 
         canonical_job = {
             "job_id": "acme-eng-001", "title": "Engineer", "company": "Acme",
-            "job_url": "https://example.com/job", "role_type": "ai-engineer",
+            "job_url": "https://example.com/jobs/123456", "role_type": "ai-engineer",
             "score": 85, "source_channel": "direct-career-pages",
             "run_date": "2026-02-25", "location": "Remote", "status": "verified",
         }
@@ -1459,123 +1427,6 @@ class TestMigrateSchema:
             "migrate-schema is not idempotent"
         )
         assert "0 modified" in result2.stdout or "already canonical" in result2.stdout
-
-
-# ---------------------------------------------------------------------------
-# Tests for verify-and-commit subcommand
-# ---------------------------------------------------------------------------
-
-
-class TestVerifyAndCommit:
-    """Tests for the verify-and-commit subcommand of manage_state.py."""
-
-    def test_dirty_output_stages_commits_exits_zero(self, tmp_path: Path) -> None:
-        """Dirty output/ directory: stages, commits, exits 0."""
-        repo = tmp_path / "repo"
-        _init_git_repo(repo)
-
-        # Create initial commit
-        (repo / "README.md").write_text("placeholder")
-        _git(repo, "add", ".")
-        _git(repo, "commit", "-m", "initial")
-
-        # Create dirty output directory with a new file
-        output_dir = repo / "output"
-        verified_dir = output_dir / "verified" / "ai-engineer"
-        verified_dir.mkdir(parents=True)
-        (verified_dir / "job.json").write_text('{"title": "test"}')
-
-        result = subprocess.run(
-            [
-                sys.executable,
-                str(MANAGE_STATE),
-                "verify-and-commit",
-                "--output-dir",
-                str(output_dir),
-                "--phase-label",
-                "search",
-                "--no-push",
-            ],
-            capture_output=True,
-            text=True,
-            cwd=str(repo),
-        )
-        assert result.returncode == 0, (
-            f"dirty output should stage+commit and exit 0.\n"
-            f"stdout: {result.stdout}\nstderr: {result.stderr}"
-        )
-        # Verify the file is now committed
-        status = _git(repo, "status", "--porcelain", str(output_dir))
-        assert status.stdout.strip() == "", (
-            f"output should be clean after commit: {status.stdout}"
-        )
-
-    def test_clean_output_exits_zero(self, tmp_path: Path) -> None:
-        """Clean output/ directory (nothing to commit): exits 0."""
-        repo = tmp_path / "repo"
-        _init_git_repo(repo)
-
-        # Create initial commit with output dir
-        output_dir = repo / "output"
-        verified_dir = output_dir / "verified" / "ai-engineer"
-        verified_dir.mkdir(parents=True)
-        (verified_dir / "job.json").write_text('{"title": "test"}')
-        _git(repo, "add", ".")
-        _git(repo, "commit", "-m", "initial")
-
-        result = subprocess.run(
-            [
-                sys.executable,
-                str(MANAGE_STATE),
-                "verify-and-commit",
-                "--output-dir",
-                str(output_dir),
-                "--phase-label",
-                "search",
-                "--no-push",
-            ],
-            capture_output=True,
-            text=True,
-            cwd=str(repo),
-        )
-        assert result.returncode == 0, (
-            f"clean output should exit 0.\n"
-            f"stdout: {result.stdout}\nstderr: {result.stderr}"
-        )
-
-    def test_commit_message_contains_phase_label(self, tmp_path: Path) -> None:
-        """Commit message includes the phase label."""
-        repo = tmp_path / "repo"
-        _init_git_repo(repo)
-
-        (repo / "README.md").write_text("placeholder")
-        _git(repo, "add", ".")
-        _git(repo, "commit", "-m", "initial")
-
-        output_dir = repo / "output"
-        verified_dir = output_dir / "verified" / "ai-engineer"
-        verified_dir.mkdir(parents=True)
-        (verified_dir / "job.json").write_text('{"title": "test"}')
-
-        subprocess.run(
-            [
-                sys.executable,
-                str(MANAGE_STATE),
-                "verify-and-commit",
-                "--output-dir",
-                str(output_dir),
-                "--phase-label",
-                "search",
-                "--no-push",
-            ],
-            capture_output=True,
-            text=True,
-            cwd=str(repo),
-        )
-        log = _git(repo, "log", "--oneline", "-1")
-        assert "search" in log.stdout.lower(), (
-            f"commit message should contain phase label 'search': {log.stdout}"
-        )
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+{
+  "provider": "ashby",
+  "company": "Larkspur Works",
+  "board": "larkspur",
+  "observed_at": "2025-11-27",
+  "jobs": [
+    {
+      "id": "21002",
+      "title": "Implementation Playbook Lead",
+      "location": "Remote within the UK",
+      "jobUrl": "https://larkspur.example.org/jobs/21002",
+      "isListed": true,
+      "descriptionPlain": "Build playbooks for implementation teams and own the handoff from sales to delivery. Service operations experience is required.",
+      "publishedAt": "2025-11-21"
+    }
+  ]
+}

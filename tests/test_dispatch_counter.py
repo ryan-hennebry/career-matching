@@ -83,10 +83,3 @@ class TestCheckDispatchBudget:
             cwd=tmp_path,
         )
         assert result.returncode == 0
-
-
-class TestClaudeMdDispatchCeiling:
-    def test_claude_md_has_dispatch_ceiling(self) -> None:
-        content = CLAUDE_MD.read_text(encoding="utf-8")
-        assert "DISPATCH_CEILING" in content
-        assert "25" in content

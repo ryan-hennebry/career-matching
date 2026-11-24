@@ -16,7 +16,7 @@ def _make_job(**overrides) -> dict:
     """Single factory for verified job JSON. All 10 canonical fields with defaults."""
     defaults = {
         "job_id": "job-001", "title": "Engineer", "company": "Acme",
-        "job_url": "https://example.com/job", "role_type": "ai-engineer",
+        "job_url": "https://example.com/jobs/123456", "role_type": "ai-engineer",
         "score": 85, "source_channel": "direct-career-pages",
         "run_date": "2026-02-25", "location": "Remote", "status": "verified",
     }
@@ -40,6 +40,7 @@ def _run_dedup(
     run_date: str | None = None,
     dry_run: bool = False,
     no_safety_bound: bool = False,
+    legacy_score_archive: bool = False,
 ) -> subprocess.CompletedProcess:
     """Unified dedup helper supporting explicit role-types, auto-scope, and dry-run."""
     cmd = [
@@ -59,4 +60,6 @@ def _run_dedup(
         cmd.append("--dry-run")
     if no_safety_bound:
         cmd.append("--no-safety-bound")
+    if legacy_score_archive:
+        cmd.append("--legacy-score-archive")
     return subprocess.run(cmd, capture_output=True, text=True)

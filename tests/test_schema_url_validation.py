@@ -66,7 +66,7 @@ class TestSchemaURLValidation:
 
     def test_linkedin_url_passes(self, tmp_path: Path) -> None:
         output_dir = tmp_path / "output"
-        job = make_valid_job(job_url="https://www.linkedin.com/jobs/view/4344764433")
+        job = make_valid_job(job_url="https://www.linkedin.com/jobs/view/123456789")
         write_job(output_dir / "verified" / "ai-engineer", "li.json", job)
         result = _run_validate_schema(str(output_dir))
         assert result.returncode == 0

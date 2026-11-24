@@ -173,7 +173,7 @@ class TestCheckDashboardUrl:
         context_file = tmp_path / "context.md"
         _write_context(
             context_file,
-            "## Delivery\nDashboard: https://jsa-dashboard.vercel.app/#digest\n\n## Other\nfoo\n",
+            "## Delivery\nDashboard: https://dashboard.example.org/#digest\n\n## Other\nfoo\n",
         )
 
         result = _run([
@@ -182,7 +182,7 @@ class TestCheckDashboardUrl:
         ])
 
         assert result.returncode == 0
-        assert "https://jsa-dashboard.vercel.app/#digest" in result.stdout
+        assert "https://dashboard.example.org/#digest" in result.stdout
 
     def test_exits_one_with_empty_url(self, tmp_path: Path) -> None:
         """context.md with Dashboard: (empty) causes exit 1."""
@@ -205,7 +205,7 @@ class TestCheckDashboardUrl:
         context_file = tmp_path / "context.md"
         _write_context(
             context_file,
-            "## Delivery\nEmail: user@example.com\n\n## Other\nfoo\n",
+            "## Delivery\nEmail: fixture@local\n\n## Other\nfoo\n",
         )
 
         result = _run([

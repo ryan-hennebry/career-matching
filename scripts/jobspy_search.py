@@ -10,13 +10,6 @@ import sys
 from datetime import datetime
 from typing import Any
 
-try:
-    from jobspy import scrape_jobs
-except ImportError:
-    print("Error: python-jobspy not installed. Run: pip install python-jobspy", file=sys.stderr)
-    sys.exit(1)
-
-
 def parse_args() -> argparse.Namespace:
     """Parse command line arguments."""
     parser = argparse.ArgumentParser(description="Search job boards using JobSpy")
@@ -25,7 +18,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--remote", action="store_true", help="Remote jobs only")
     parser.add_argument("--results", type=int, default=25, help="Max results per site")
     parser.add_argument("--output", help="Output JSON file (default: stdout)")
-    parser.add_argument("--country", default="UK", help="Country for Indeed (default: UK)")
+    parser.add_argument("--country", required=True, help="Country for Indeed")
     parser.add_argument("--hours-old", type=int, default=None, help="Only jobs posted within N hours")
     return parser.parse_args()
 
@@ -50,6 +43,10 @@ def build_output(
 def main() -> None:
     """Main entry point."""
     args = parse_args()
+    try:
+        from jobspy import scrape_jobs
+    except ImportError:
+        sys.exit("Install optional discovery tools with: python -m pip install -r requirements-jobspy.txt")
 
     try:
         scrape_kwargs = dict(
@@ -66,7 +63,7 @@ def main() -> None:
         jobs_df = scrape_jobs(**scrape_kwargs)
 
         # Convert to list of dicts
-        results: list[dict[str, Any]] = jobs_df.to_dict(orient="records") if not jobs_df.empty else []
+        results: list[dict[str, Any]] = json.loads(jobs_df.to_json(orient="records", date_format="iso"))
 
         # Build output
         output = build_output(
@@ -77,7 +74,7 @@ def main() -> None:
         )
 
         if args.output:
-            with open(args.output, "w") as f:
+            with open(args.output, "w", encoding="utf-8") as f:
                 json.dump(output, f, indent=2, default=str)
             msg = f"Wrote {len(results)} jobs to {args.output}"
             print(msg)
