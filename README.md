@@ -2,8 +2,6 @@
 
 Career Matching helps you decide where to apply. It checks employer listings and shows why each recommended job fits your experience and the work you want.
 
-In the fictional demo, an employer reposts a job under a new title. The repost is a day old. The original listing is 55 days old, outside the 35-day window, so Career Matching skips the job. A live listing with an update date and no original posting date stays in **Apply if time**.
-
 ## Try the demo
 
 Install [Git](https://git-scm.com/downloads) and [Python 3.11 or later](https://www.python.org/downloads/).
