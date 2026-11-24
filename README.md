@@ -1,10 +1,14 @@
 # Career Matching
 
-Decide which jobs to apply for. Career Matching checks whether listings are still open and explains how each recommended role fits your experience and the work you want.
+I built this to find open jobs that fit my experience and help me decide which ones to apply for.
+
+Tell it what you've done and what you'd like to do next. It looks for roles and checks whether they're still open. You get a shortlist split into **Apply now** and **Apply if time**. Each recommendation links to the listing and explains why it fits and what you still need to check.
+
+If it doesn't find a confirmed match, it tells you where it looked and what it couldn't verify. Once you mark a job as submitted, it stays off future shortlists.
 
 ## Try the demo
 
-You need [Git](https://git-scm.com/downloads) and [Python 3.11 or later](https://www.python.org/downloads/). After cloning, the demo runs offline with fictional jobs and needs no account.
+The demo uses fictional jobs and needs no account. You'll need [Git](https://git-scm.com/downloads) and [Python 3.11 or later](https://www.python.org/downloads/). Once you've cloned the repo, the demo runs offline.
 
 ```sh
 git clone https://github.com/ryan-hennebry/career-matching.git
@@ -16,12 +20,8 @@ On Windows, use `py -3` in place of `python3`. To see the shortlist in your brow
 
 ## Search for your own roles
 
-The shortlist groups roles into **Apply now** and **Apply if time**, with links, reasons and open questions. Each search shows which sources it checked and where it hit a limit. Mark a role as submitted to keep it off future shortlists.
+Install and sign in to [Claude Code](https://code.claude.com/docs/en/quickstart) or [Codex CLI](https://learn.chatgpt.com/docs/codex/cli). In the project folder, run `claude` or `codex` and ask for help setting up your search. When you find a role you like, ask for an application brief. [Usage guide](docs/usage.md)
 
-Install and sign in to [Claude Code](https://code.claude.com/docs/en/quickstart) or [Codex CLI](https://learn.chatgpt.com/docs/codex/cli). In the project folder, run `claude` or `codex` and ask for help setting up your profile and finding roles that fit.
-
-Ask for a brief when you find a role you want to pursue. [Usage guide](docs/usage.md)
-
-Your search records stay on your computer. Your AI client may process what you share with it. You decide whether to apply.
+Your search files stay on your computer. Your AI client may process what you share with it.
 
 [MIT license](LICENSE)
