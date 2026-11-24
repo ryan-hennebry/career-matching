@@ -14,8 +14,6 @@ python3 scripts/career_match.py demo
 
 On Windows, use `py -3` in place of `python3`. The example uses fictional jobs and runs offline without an account. It shows why a recent listing is recommended and why a republished one is skipped. Run `python3 scripts/career_match.py preview` to open the result in your browser.
 
-<img src="assets/demo-shortlist.png" alt="Example shortlist with Apply now and Apply if time tiers, plus the evidence behind a recommendation" width="896">
-
 ## Search for your own roles
 
 Install and sign in to [Claude Code](https://code.claude.com/docs/en/quickstart) or [Codex CLI](https://learn.chatgpt.com/docs/codex/cli). From the repo, run `claude` or `codex` with its normal permissions and ask: **"Help me set up my search profile and find roles that fit it."**
