@@ -31,6 +31,8 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: python -m pip install -r requirements-test.txt
+      - run: python scripts/career_match.py demo --run ci-demo
+      - run: python scripts/manage_state.py validate-run --manifest output/ci-demo/ranked/_run-manifest.json
       - run: python -m pytest -q --ignore=tests/test_preview_browser.py
       - run: python -m ruff check scripts tests
 

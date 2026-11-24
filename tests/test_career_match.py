@@ -214,8 +214,9 @@ def test_checkout_ignores_private_paths():
         ".env.local", ".claude/agent-memory/example/state.json", ".codex/config.toml", "private-cv.pdf",
     ]
     result = subprocess.run(
-        ["git", "check-ignore", "--stdin"], input="\n".join(paths) + "\n",
-        text=True, capture_output=True, check=True, cwd=root,
+        ["git", "check-ignore", "-z", "--stdin"],
+        input=("\0".join(paths) + "\0").encode("utf-8"),
+        capture_output=True, check=True, cwd=root,
     )
-    assert result.stdout.splitlines() == paths
+    assert result.stdout.decode("utf-8").rstrip("\0").split("\0") == paths
     assert sys.version_info >= (3, 11)
