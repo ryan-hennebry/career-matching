@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import os
 import re
 import shutil
@@ -16,9 +17,11 @@ import subprocess
 import sys
 import tempfile
 from dataclasses import asdict, dataclass, field
+from dataclasses import fields as dataclass_fields
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import parse_qs, urlparse
 
 try:
     import requests
@@ -47,7 +50,13 @@ CANONICAL_FIELDS: dict[str, type | tuple[type, ...]] = {
 }
 """Canonical 10-field schema. Keys are required field names, values are expected types.
 All consumers (validate-schema, migrate-schema, tests) derive from this constant.
-To add an 11th field: add it here — all downstream consumers pick it up automatically."""
+To add an 11th field: add it here — all downstream consumers pick it up automatically.
+
+Optional fields (validated when present, never required — missing = legacy default):
+  - hard_gate_pass (bool): False = role's must-have requirements trip a context.md
+    ## Hard-Gate Exclusions rule. Missing = legacy pass (True). Consumed by
+    filter-presentation to suppress gated jobs from chat (files left in place).
+  - hard_gate_reasons (list[str]): rule-id + quoted requirement per tripped rule."""
 
 CANONICAL_FIELD_DEFAULTS: dict[str, Any] = {
     field: 0 if expected_type is int else ""
@@ -70,6 +79,7 @@ class JobEntry:
     requirements_met: list[str]
     user_action: str | None = None
     expired_date: str | None = None
+    applied_date: str | None = None
     reappeared: bool = False
 
 
@@ -88,13 +98,17 @@ def load_state(path: Path) -> State:
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
 
+    _known = {f.name for f in dataclass_fields(JobEntry)}
+
     jobs = {}
     for key, entry in data.get("jobs", {}).items():
-        jobs[key] = JobEntry(**entry)
+        # Tolerate unknown fields written by newer/older sessions so a single
+        # stray key never crash-wipes applied stamps (V27 regression guard).
+        jobs[key] = JobEntry(**{k: v for k, v in entry.items() if k in _known})
 
     expired_jobs = {}
     for key, entry in data.get("expired_jobs", {}).items():
-        expired_jobs[key] = JobEntry(**entry)
+        expired_jobs[key] = JobEntry(**{k: v for k, v in entry.items() if k in _known})
 
     return State(
         last_run_date=data.get("last_run_date"),
@@ -376,21 +390,47 @@ def _load_verified_jobs(
     return jobs
 
 
+def _optional_score(job: dict[str, Any]) -> int | None:
+    """Legacy score as int, or None when absent/invalid (never raises, never fabricates)."""
+    score = job.get("score")
+    if isinstance(score, bool):
+        return None
+    if isinstance(score, int):
+        return score
+    if isinstance(score, float) and math.isfinite(score):
+        return int(score)
+    return None
+
+
+def _record_recency(job: dict[str, Any]) -> str:
+    """Most recent checked_at/date_verified string ('' if neither present)."""
+    return max(str(job.get("checked_at") or ""), str(job.get("date_verified") or ""))
+
+
+def _order_duplicates(group: list[dict[str, Any]]) -> None:
+    """Prefer recent records if a group contains new-format or unscored data."""
+    group.sort(key=lambda job: str(job["_filepath"]))
+    if all(_optional_score(job) is not None for job in group):
+        group.sort(key=_optional_score, reverse=True)
+    else:
+        group.sort(key=_record_recency, reverse=True)
+
+
 def _find_cross_role_duplicates(
     jobs_by_key: dict[str, list[dict[str, Any]]],
 ) -> list[tuple[dict[str, Any], dict[str, Any]]]:
     """Find cross-role duplicates.
 
     For each (company, title) key that appears in multiple roles, keep the
-    highest-scoring copy and return (keep, archive) pairs for the rest.
+    winning copy (see _order_duplicates) and return (keep, archive) pairs
+    for the rest.
     """
     pairs: list[tuple[dict[str, Any], dict[str, Any]]] = []
 
     for _key, group in jobs_by_key.items():
         if len(group) <= 1:
             continue
-        # Sort by score descending, then by filepath for stability
-        group.sort(key=lambda j: (-_extract_score(j), str(j["_filepath"])))
+        _order_duplicates(group)
         keeper = group[0]
         for dup in group[1:]:
             pairs.append((keeper, dup))
@@ -404,14 +444,15 @@ def _find_same_url_duplicates(
     """Find within-role same-URL duplicates.
 
     For each (role, normalized_url) key that has multiple entries, keep the
-    highest-scoring copy and return (keep, archive) pairs for the rest.
+    winning copy (see _order_duplicates) and return (keep, archive) pairs
+    for the rest.
     """
     pairs: list[tuple[dict[str, Any], dict[str, Any]]] = []
 
     for _key, group in jobs_by_url.items():
         if len(group) <= 1:
             continue
-        group.sort(key=lambda j: (-_extract_score(j), str(j["_filepath"])))
+        _order_duplicates(group)
         keeper = group[0]
         for dup in group[1:]:
             pairs.append((keeper, dup))
@@ -433,6 +474,10 @@ def _apply_archive(
         filename = job["_filename"]
         dest_dir = archive_base / role
         dest = dest_dir / filename
+        serial = 1
+        while dest.exists():
+            dest = dest_dir / f"{src.stem}-{serial}{src.suffix}"
+            serial += 1
 
         if dry_run:
             print(f"[dry-run] would archive: {src} -> {dest}")
@@ -534,7 +579,12 @@ def _check_safety_bound(
 
 
 def _cli_dedup(args: argparse.Namespace) -> None:
-    """CLI dedup subcommand: cross-role + same-URL dedup + score threshold.
+    """CLI dedup subcommand: cross-role + same-URL dedup.
+
+    The legacy numeric score is diagnostic only: it never archives a record
+    by default (matching-policy.md section 8). The old score < 70 archival
+    runs only with --legacy-score-archive. Archival moves files to
+    output/archive (history preserved).
 
     Supports three scoping modes:
     1. --auto-scope --run-date DATE: derive active role types from run_date field
@@ -604,7 +654,7 @@ def _cli_dedup(args: argparse.Namespace) -> None:
     remaining = [j for j in jobs if j["_filepath"] not in to_archive]
     jobs_by_url: dict[str, list[dict[str, Any]]] = {}
     for job in remaining:
-        url = (job.get("job_url") or "").lower().strip()
+        url = (job.get("job_url") or job.get("url") or "").lower().strip()
         if not url:
             continue
         role = job["_role"]
@@ -615,11 +665,13 @@ def _cli_dedup(args: argparse.Namespace) -> None:
     for _keeper, dup in same_url_pairs:
         to_archive[dup["_filepath"]] = dup
 
-    # --- 3. Score threshold ---
-    remaining = [j for j in jobs if j["_filepath"] not in to_archive]
-    for job in remaining:
-        if _extract_score(job) < SCORE_THRESHOLD:
-            to_archive[job["_filepath"]] = job
+    # --- 3. Score threshold (legacy, opt-in only; score has no archival authority) ---
+    if getattr(args, "legacy_score_archive", False):
+        remaining = [j for j in jobs if j["_filepath"] not in to_archive]
+        for job in remaining:
+            score = _optional_score(job)
+            if score is not None and score < SCORE_THRESHOLD:
+                to_archive[job["_filepath"]] = job
 
     # --- 4. Safety bound (all modes — use --no-safety-bound to opt out) ---
     no_safety_bound: bool = getattr(args, "no_safety_bound", False)
@@ -979,6 +1031,67 @@ def _cli_check_session_resume(args: argparse.Namespace) -> None:
 
 
 # ---------------------------------------------------------------------------
+# verify-state-clean subcommand
+# ---------------------------------------------------------------------------
+
+
+def _cli_verify_state_clean(args: argparse.Namespace) -> None:
+    """Verify state.json is a clean, complete, inspectable state file.
+
+    Exits 0 (clean) when the file is fully-formed OR when it is absent. An
+    absent file is treated as clean because load_state() returns an empty
+    State() for a missing path -- there is nothing corrupt to inspect.
+
+    Exits 1 with a human-readable diagnostic on stderr (no traceback) when the
+    file is corrupt JSON, is not a JSON object, is missing a required top-level
+    key (the save_state contract: last_run_date, jobs, expired_jobs), or
+    contains an entry that fails to load into JobEntry.
+    """
+    path = Path(args.state)
+
+    if not path.exists():
+        # Absent == empty state, per load_state(). Nothing corrupt to inspect.
+        sys.exit(0)
+
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"state.json is corrupt: {path}: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    if not isinstance(data, dict):
+        print(
+            f"state.json is not a JSON object (got {type(data).__name__}): {path}",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    required = ("last_run_date", "jobs", "expired_jobs")
+    missing = [k for k in required if k not in data]
+    if missing:
+        print(
+            f"state.json is missing required keys {missing}: {path}",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    # Reuse load_state to verify entries deserialize into JobEntry. Any
+    # structural load failure is converted into a clean diagnostic rather than
+    # escaping as a traceback.
+    try:
+        load_state(path)
+    except Exception as e:
+        print(
+            f"state.json has an entry that fails to load: {path}: {e}",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    sys.exit(0)
+
+
+# ---------------------------------------------------------------------------
 # check-model-settings subcommand
 # ---------------------------------------------------------------------------
 
@@ -1091,6 +1204,21 @@ def _handle_validate_schema(args: argparse.Namespace) -> None:
                     file_errors.append(
                         f"field 'score' must be int, got {type(data['score']).__name__!r} "
                         f"(value: {data['score']!r})"
+                    )
+
+                # Optional field: hard_gate_pass. Missing = legacy pass (True),
+                # so the ~270 existing files without it are NOT rejected. When
+                # present it must be a bool; hard_gate_reasons (if present) a list.
+                if "hard_gate_pass" in data and not isinstance(data["hard_gate_pass"], bool):
+                    file_errors.append(
+                        f"field 'hard_gate_pass' must be bool, "
+                        f"got {type(data['hard_gate_pass']).__name__!r} "
+                        f"(value: {data['hard_gate_pass']!r})"
+                    )
+                if "hard_gate_reasons" in data and not isinstance(data["hard_gate_reasons"], list):
+                    file_errors.append(
+                        f"field 'hard_gate_reasons' must be list, "
+                        f"got {type(data['hard_gate_reasons']).__name__!r}"
                     )
 
                 # URL quality check: reject generic career pages
@@ -1290,137 +1418,6 @@ def _cli_record_action(args: argparse.Namespace) -> None:
 
 
 # ---------------------------------------------------------------------------
-# verify-and-commit subcommand
-# ---------------------------------------------------------------------------
-
-
-def _cli_verify_and_commit(args: argparse.Namespace) -> None:
-    """Stage and commit all changes under output/, then optionally push.
-
-    Exit codes:
-      0 — success (committed, pushed if --push)
-      0 — nothing to commit (clean)
-      1 — commit failure or push failure (transient)
-      2 — merge conflict (unrecoverable)
-    """
-    output_dir = Path(args.output_dir)
-    phase_label = args.phase_label
-    do_push = getattr(args, "push", True)
-
-    if getattr(args, "check_only", False):
-        # Check for uncommitted changes in output directory
-        result = subprocess.run(
-            ["git", "status", "--porcelain", str(Path(args.output_dir))],
-            capture_output=True, text=True,
-        )
-        uncommitted = [
-            line for line in result.stdout.strip().splitlines()
-            if line.strip()
-        ]
-        if uncommitted:
-            print(
-                f"FAIL: {len(uncommitted)} uncommitted output files detected",
-                file=sys.stderr,
-            )
-            for line in uncommitted:
-                print(f"  {line}", file=sys.stderr)
-            sys.exit(1)
-        print(json.dumps({"status": "ok", "uncommitted_files": 0}))
-        return
-
-    # Check if output/ has any uncommitted changes
-    status_result = subprocess.run(
-        ["git", "status", "--porcelain", str(output_dir)],
-        capture_output=True,
-        text=True,
-    )
-    if not status_result.stdout.strip():
-        print("Nothing to commit (output/ is clean)")
-        return  # exit 0
-
-    # Stage all changes under output/
-    add_result = subprocess.run(
-        ["git", "add", str(output_dir)],
-        capture_output=True,
-        text=True,
-    )
-    if add_result.returncode != 0:
-        print(f"ERROR: git add failed: {add_result.stderr}", file=sys.stderr)
-        sys.exit(1)
-
-    # Commit with phase label
-    commit_msg = f"chore(jsa): {phase_label} — auto-commit verified output"
-    commit_result = subprocess.run(
-        ["git", "commit", "-m", commit_msg],
-        capture_output=True,
-        text=True,
-    )
-    if commit_result.returncode != 0:
-        print(f"ERROR: git commit failed: {commit_result.stderr}", file=sys.stderr)
-        sys.exit(1)
-
-    print(f"Committed output/ changes ({phase_label})")
-
-    # Push (optional, separate from commit)
-    if not do_push:
-        return  # exit 0 — committed but not pushed
-
-    push_result = subprocess.run(
-        ["git", "push"],
-        capture_output=True,
-        text=True,
-    )
-    if push_result.returncode != 0:
-        stderr = push_result.stderr.lower()
-        if "conflict" in stderr or "merge" in stderr:
-            print(
-                f"ERROR: merge conflict during push: {push_result.stderr}",
-                file=sys.stderr,
-            )
-            sys.exit(2)
-        # Non-fast-forward rejection: attempt pull --ff-only before retry
-        if "non-fast-forward" in stderr or "fetch first" in stderr:
-            print(
-                "Non-fast-forward rejection — attempting git pull --ff-only before retry",
-                file=sys.stderr,
-            )
-            pull_result = subprocess.run(
-                ["git", "pull", "--ff-only"],
-                capture_output=True,
-                text=True,
-            )
-            if pull_result.returncode != 0:
-                print(
-                    f"ERROR: git pull --ff-only failed: {pull_result.stderr}",
-                    file=sys.stderr,
-                )
-                sys.exit(2)
-            # Retry push after successful pull
-            retry_result = subprocess.run(
-                ["git", "push"],
-                capture_output=True,
-                text=True,
-            )
-            if retry_result.returncode != 0:
-                print(
-                    f"ERROR: git push failed after pull: {retry_result.stderr}",
-                    file=sys.stderr,
-                )
-                sys.exit(1)
-            print(f"Pushed output/ changes ({phase_label}) after pull --ff-only")
-            return
-        print(
-            f"WARNING: git push failed (commit succeeded locally): {push_result.stderr}",
-            file=sys.stderr,
-        )
-        sys.exit(1)
-
-    print(f"Pushed output/ changes ({phase_label})")
-
-
-# ---------------------------------------------------------------------------
-# verify-session-state-written subcommand
-# ---------------------------------------------------------------------------
 
 
 def _cli_verify_session_state_written(args: argparse.Namespace) -> None:
@@ -1558,6 +1555,7 @@ _SOURCE_PATTERNS: dict[str, re.Pattern[str]] = {
     "recruitee": re.compile(r"recruitee\.com", re.IGNORECASE),
     "bamboohr": re.compile(r"bamboohr\.com", re.IGNORECASE),
     "personio": re.compile(r"personio\.de|personio\.com", re.IGNORECASE),
+    "factorial": re.compile(r"factorialhr\.com", re.IGNORECASE),
     "icims": re.compile(r"icims\.com", re.IGNORECASE),
     "taleo": re.compile(r"taleo\.net", re.IGNORECASE),
     "successfactors": re.compile(r"successfactors\.com|successfactors\.eu", re.IGNORECASE),
@@ -1570,7 +1568,7 @@ _AGGREGATOR_PATTERNS: dict[str, re.Pattern[str]] = {
     "linkedin": re.compile(r"linkedin\.com", re.IGNORECASE),
     "glassdoor": re.compile(r"glassdoor\.com|glassdoor\.co", re.IGNORECASE),
     "studysmarter": re.compile(r"studysmarter\.co", re.IGNORECASE),
-    "ziprecruiter": re.compile(r"ziprecruiter\.com|ziprecruiter\.co\.", re.IGNORECASE),
+    "ziprecruiter": re.compile(r"ziprecruiter\.com|ziprecruiter\.co\.[a-z]{2}", re.IGNORECASE),
     "monster": re.compile(r"monster\.com", re.IGNORECASE),
     "simplyhired": re.compile(r"simplyhired\.com", re.IGNORECASE),
 }
@@ -1581,14 +1579,14 @@ def classify_url(url: str) -> dict[str, str]:
 
     Returns a dict with keys: url, type, pattern_matched.
     """
-    for name, pattern in _SOURCE_PATTERNS.items():
-        if pattern.search(url):
-            return {"url": url, "type": "source", "pattern_matched": name}
+    from run_validation import web_url
 
-    for name, pattern in _AGGREGATOR_PATTERNS.items():
-        if pattern.search(url):
-            return {"url": url, "type": "aggregator", "pattern_matched": name}
-
+    host = urlparse(url).hostname if web_url(url) else ""
+    for kind, patterns in (("source", _SOURCE_PATTERNS), ("aggregator", _AGGREGATOR_PATTERNS)):
+        for name, pattern in patterns.items():
+            for match in pattern.finditer(host):
+                if match.end() == len(host) and (match.start() == 0 or host[match.start() - 1] == "."):
+                    return {"url": url, "type": kind, "pattern_matched": name}
     return {"url": url, "type": "unknown", "pattern_matched": "unknown"}
 
 
@@ -1704,75 +1702,64 @@ def _cli_verify_before_archive(args: argparse.Namespace) -> None:
 # validate-presentation subcommand
 # ---------------------------------------------------------------------------
 
-# Generic career page patterns — only checked for URLs that classify_url()
-# returns "unknown" for. Known source/aggregator URLs bypass this check entirely
-# via the classify_url delegation at the top of _is_specific_job_url.
-_GENERIC_CAREER_PATTERNS = [
-    r"^https?://[^/]+/careers/?$",
-    r"^https?://[^/]+/jobs/?$",
-    r"^https?://[^/]+/careers/?\?",
-    r"^https?://[^/]+/jobs/?\?",
-    r"/careers/?#",
-    r"/jobs/?#",
-]
+_GENERIC_PAGES = {
+    "open-positions", "open-roles", "all-jobs", "all-roles", "join-us", "current-openings",
+    "job-openings", "view-all", "see-all", "search-results", "our-team", "life-at", "search",
+    "careers", "jobs", "positions", "departments",
+}
+_ROLE_PREFIXES = {"careers", "jobs", "job", "roles", "role", "positions", "vacancies", "openings", "o"}
 
 
 def _is_specific_job_url(url: str) -> bool:
-    """Check if a URL points to a specific job listing (not a generic career page).
+    """Check URL shape. The employer or a reviewed source establishes liveness."""
+    from run_validation import web_url
 
-    Returns True if the URL matches a known ATS pattern, contains a job-ID-like
-    path segment (4+ digits or UUID), is from a known source/aggregator, or has
-    sufficient path depth (>2 segments after domain) suggesting a specific listing.
-
-    NOTE: This function maintains _GENERIC_CAREER_PATTERNS alongside classify_url.
-    The classify_url delegation at the top handles known sources/aggregators.
-    The fallback heuristics (job-ID, path depth, generic patterns) only apply
-    to unknown domains. Flag for future cleanup if unknown-URL heuristics grow.
-    """
-    if not url:
+    if not web_url(url):
         return False
-
-    # Known ATS sources and aggregators are always specific enough
-    classification = classify_url(url)
-    if classification["type"] in ("source", "aggregator"):
+    parsed = urlparse(url)
+    path = [segment for segment in parsed.path.strip("/").lower().split("/") if segment]
+    query = parse_qs(parsed.query)
+    provider = classify_url(url)["pattern_matched"]
+    if any(value.isdigit() for value in query.get("gh_jid", [])):
         return True
+    if provider in ("ashby", "lever"):
+        return len(path) >= 2 and path[1] not in _GENERIC_PAGES
+    if provider == "greenhouse":
+        return (len(path) >= 3 and path[1] == "jobs" and path[2].isdigit()) or (
+            path == ["embed", "job_app"] and bool(query.get("token"))
+        )
+    if provider == "linkedin":
+        return len(path) == 3 and path[:2] == ["jobs", "view"] and path[2][-1:].isdigit()
+    if provider == "indeed":
+        return path in (["viewjob"], ["rc", "clk"]) and bool(query.get("jk"))
+    if provider == "workable":
+        return len(path) >= 3 and path[-2] == "j"
 
-    # Check for job-ID-like path segment: 4+ digits (optionally followed by slug) or UUID
-    path_segments = url.split("/")
-    for segment in path_segments:
-        if re.match(r"^\d{4,}(-|$)", segment):
-            return True
-        if re.match(r"^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$",
-                     segment, re.IGNORECASE):
-            return True
+    if not path:
+        host = parsed.hostname
+        return any(
+            host.endswith("." + domain) and "-" in host[: -len(domain) - 1]
+            for domain in ("lovable.app", "framer.website", "framer.app", "webflow.io", "carrd.co")
+        )
+    if path[-1] in _GENERIC_PAGES:
+        return False
+    if any(re.match(r"^\d{4,}(?:-|$)", segment) or re.fullmatch(
+        r"[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}", segment
+    ) for segment in path):
+        return True
+    if len(path) == 2:
+        return path[0] in _ROLE_PREFIXES and bool(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)+", path[1]))
+    return len(path) >= 3
 
-    # Reject generic career page patterns
-    for pattern in _GENERIC_CAREER_PATTERNS:
-        if re.search(pattern, url, re.IGNORECASE):
-            return False
 
-    # Path depth heuristic: URLs with >2 meaningful path segments after domain
-    # (e.g., careers.stripe.com/listing/senior-engineer) are likely specific
-    try:
-        from urllib.parse import urlparse
-        parsed = urlparse(url)
-        meaningful_segments = [s for s in parsed.path.split("/") if s]
-        if len(meaningful_segments) > 2:
-            return True
-        # 2-segment paths where one is a listing prefix and the other is a
-        # hyphenated slug (3+ parts) are specific job listings, not generic pages
-        # e.g., /careers/founders-associate-growth, /o/social-media-manager-role
-        if len(meaningful_segments) == 2:
-            listing_prefixes = {"careers", "jobs", "job", "o", "positions", "openings"}
-            slug_like = re.compile(r"^[a-z0-9]+-[a-z0-9]+-[a-z0-9]+", re.IGNORECASE)
-            if (meaningful_segments[0].lower() in listing_prefixes
-                    and slug_like.match(meaningful_segments[1])):
-                return True
-    except Exception:
-        pass
+def _cli_validate_run(args: argparse.Namespace) -> None:
+    """Validate a completed tier-based run and its exact presentation set."""
+    from run_validation import validate_run
 
-    # Unknown URL with no job ID and shallow path — reject conservatively
-    return False
+    result, _ = validate_run(Path(args.manifest), today=args.today, max_age_days=args.max_age_days)
+    print(json.dumps(result, indent=2))
+    if not result["passed"]:
+        sys.exit(1)
 
 
 def _cli_validate_presentation(args: argparse.Namespace) -> None:
@@ -1799,7 +1786,21 @@ def _cli_validate_presentation(args: argparse.Namespace) -> None:
                 continue
 
             job_url = data.get("job_url", "")
-            active_status = data.get("active_status")
+            # Liveness lives in `active_status` (legacy schema) or `status`
+            # (current schema). Fall back to `status` only when the
+            # `active_status` key is absent; an explicit null means
+            # verification left it unresolved and must fail.
+            if "active_status" in data:
+                active_status = data["active_status"]
+            else:
+                active_status = data.get("status")
+
+            # Normalize: values that mean "verified live" across both schemas.
+            live_values = {
+                "active", "verified", "live", "live-uk", "open", "new",
+            }
+            dead_values = {"expired", "dead", "closed", "inactive", "gone", "404"}
+            normalized = active_status.lower() if isinstance(active_status, str) else None
 
             if not _is_specific_job_url(job_url):
                 violations.append(
@@ -1807,12 +1808,16 @@ def _cli_validate_presentation(args: argparse.Namespace) -> None:
                     f"not a specific listing - {job_url}"
                 )
 
-            if active_status is None:
-                violations.append(f"{json_file.name}: active_status is null")
-
-            if active_status == "expired":
+            if normalized is None:
+                violations.append(f"{json_file.name}: active_status/status is null")
+            elif normalized in dead_values:
                 violations.append(
-                    f"{json_file.name}: expired job in active verified list"
+                    f"{json_file.name}: expired/dead job in active verified list"
+                    f" (status={active_status})"
+                )
+            elif normalized not in live_values:
+                violations.append(
+                    f"{json_file.name}: liveness unconfirmed (status={active_status})"
                 )
 
     passed = len(violations) == 0
@@ -1821,6 +1826,98 @@ def _cli_validate_presentation(args: argparse.Namespace) -> None:
 
     if not passed:
         sys.exit(1)
+
+
+# ---------------------------------------------------------------------------
+# filter-presentation subcommand (hard-gate enforcement)
+# ---------------------------------------------------------------------------
+
+
+def _hard_gate_passes(data: dict[str, Any]) -> bool:
+    """Return True if a verified job passes the hard gate.
+
+    A job passes unless it explicitly carries ``hard_gate_pass == false``.
+    A MISSING field is treated as a legacy pass (True) so the ~270 existing
+    files written before this field existed are never silently suppressed.
+    """
+    value = data.get("hard_gate_pass")
+    if value is None:
+        return True  # legacy / un-evaluated file -> pass
+    return bool(value)
+
+
+def _cli_filter_presentation(args: argparse.Namespace) -> None:
+    """Produce the chat-facing set by EXCLUDING hard-gated jobs (flag, not archive).
+
+    Scans output/verified/{role_type}/ for the given role types. Jobs with
+    ``hard_gate_pass == false`` are recorded to a suppressed-list file
+    (default output/_hard_gated.json) so the board-builder can flag them 🔴
+    while the parent omits them from chat. Files are LEFT IN PLACE — nothing
+    is moved or deleted.
+
+    Safety bound: if suppressing would empty an entire role type (all jobs in
+    that role gated), a WARNING is logged to stderr — never silently empty a
+    whole role type without logging.
+    """
+    output_dir = Path(args.output_dir)
+    verified_dir = output_dir / "verified"
+    role_types = [rt.strip() for rt in args.role_types.split(",") if rt.strip()]
+    out_path = Path(args.out) if getattr(args, "out", None) else output_dir / "_hard_gated.json"
+
+    suppressed: list[dict[str, Any]] = []
+    presented_count = 0
+    role_total: dict[str, int] = {}
+    role_suppressed: dict[str, int] = {}
+
+    for role_type in role_types:
+        role_dir = verified_dir / role_type
+        if not role_dir.is_dir():
+            continue
+
+        for json_file in sorted(role_dir.glob("*.json")):
+            if json_file.name.startswith("_"):
+                continue
+            try:
+                data = json.loads(json_file.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+
+            role_total[role_type] = role_total.get(role_type, 0) + 1
+
+            if _hard_gate_passes(data):
+                presented_count += 1
+                continue
+
+            role_suppressed[role_type] = role_suppressed.get(role_type, 0) + 1
+            suppressed.append(
+                {
+                    "job_id": data.get("job_id", json_file.stem),
+                    "company": data.get("company", ""),
+                    "title": data.get("title", ""),
+                    "role_type": role_type,
+                    "hard_gate_reasons": data.get("hard_gate_reasons", []),
+                }
+            )
+
+    # Safety bound: log (do NOT abort) if a whole role type was emptied.
+    for role_type, total in role_total.items():
+        if total > 0 and role_suppressed.get(role_type, 0) == total:
+            print(
+                f"WARNING: hard-gate would suppress ALL {total} job(s) in role "
+                f"type {role_type!r} from chat presentation (files left in place)",
+                file=sys.stderr,
+            )
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(suppressed, indent=2) + "\n", encoding="utf-8")
+
+    summary = {
+        "total_scanned": presented_count + len(suppressed),
+        "presented": presented_count,
+        "suppressed": len(suppressed),
+        "suppressed_file": str(out_path),
+    }
+    sys.stdout.write(json.dumps(summary, indent=2) + "\n")
 
 
 # ---------------------------------------------------------------------------
@@ -1865,7 +1962,11 @@ def main() -> None:
     cleanup_parser.set_defaults(func=_cli_cleanup)
 
     # --- dedup ---
-    dedup_parser = subparsers.add_parser("dedup", help="Cross-role + URL deduplication")
+    dedup_parser = subparsers.add_parser(
+        "dedup",
+        help="Cross-role + URL deduplication (legacy score is diagnostic only; "
+        "never archives by default)",
+    )
     dedup_parser.add_argument(
         "--output-dir",
         dest="output_dir",
@@ -1915,6 +2016,14 @@ def main() -> None:
         dest="context_path",
         default="context.md",
         help="Path to context.md for --active-only filtering (default: context.md)",
+    )
+    dedup_parser.add_argument(
+        "--legacy-score-archive",
+        action="store_true",
+        dest="legacy_score_archive",
+        default=False,
+        help="Opt in to legacy archival of records with score < 70 "
+        "(score is otherwise diagnostic only)",
     )
     dedup_parser.set_defaults(func=_cli_dedup)
 
@@ -2049,6 +2158,14 @@ def main() -> None:
     )
     csr_parser.set_defaults(func=_cli_check_session_resume)
 
+    # --- verify-state-clean ---
+    vsc_parser = subparsers.add_parser(
+        "verify-state-clean",
+        help="Exit 0 if state.json is clean/complete (or absent); exit 1 with a stderr diagnostic if corrupt or partial",
+    )
+    vsc_parser.add_argument("--state", default="state.json")
+    vsc_parser.set_defaults(func=_cli_verify_state_clean)
+
     # --- check-model-settings ---
     cms_parser = subparsers.add_parser(
         "check-model-settings",
@@ -2106,38 +2223,6 @@ def main() -> None:
         help="Path to context.md (default: context.md)",
     )
     cdu_parser.set_defaults(func=_cli_check_dashboard_url)
-
-    # --- verify-and-commit ---
-    vac_parser = subparsers.add_parser(
-        "verify-and-commit",
-        help="Stage, commit, and push all changes under output/",
-    )
-    vac_parser.add_argument(
-        "--output-dir",
-        dest="output_dir",
-        default="output",
-        help="Path to output directory (default: output)",
-    )
-    vac_parser.add_argument(
-        "--phase-label",
-        dest="phase_label",
-        default="search",
-        help="Phase label for commit message (default: search)",
-    )
-    vac_parser.add_argument(
-        "--no-push",
-        dest="push",
-        action="store_false",
-        default=True,
-        help="Commit only, do not push (useful when network is unavailable)",
-    )
-    vac_parser.add_argument(
-        "--check-only",
-        action="store_true",
-        default=False,
-        help="Check git status for uncommitted output files and exit non-zero without committing",
-    )
-    vac_parser.set_defaults(func=_cli_verify_and_commit)
 
     # --- verify-session-state-written ---
     vssw_parser = subparsers.add_parser(
@@ -2232,6 +2317,41 @@ def main() -> None:
         help="Comma-separated role type slugs to validate",
     )
     vp_parser.set_defaults(func=_cli_validate_presentation)
+
+    # --- validate-run ---
+    vr_parser = subparsers.add_parser(
+        "validate-run",
+        help="Validate the exact presentation set of a current run manifest",
+    )
+    vr_parser.add_argument("--manifest", required=True, help="Path to _run-manifest.json")
+    vr_parser.add_argument(
+        "--today", default=None, help="Override today's date YYYY-MM-DD (default: system date)"
+    )
+    vr_parser.add_argument(
+        "--max-age-days", dest="max_age_days", type=int, default=2,
+        help="Maximum manifest age in days (default: 2)",
+    )
+    vr_parser.set_defaults(func=_cli_validate_run)
+
+    # --- filter-presentation (hard-gate enforcement) ---
+    fp_parser = subparsers.add_parser(
+        "filter-presentation",
+        help="Suppress hard-gated jobs from the chat-facing set (flag, not archive)",
+    )
+    fp_parser.add_argument(
+        "--output-dir", dest="output_dir",
+        default=str(Path(__file__).resolve().parent.parent / "output"),
+        help="Base output directory",
+    )
+    fp_parser.add_argument(
+        "--role-types", required=True,
+        help="Comma-separated role type slugs to scan",
+    )
+    fp_parser.add_argument(
+        "--out", dest="out", default=None,
+        help="Path to write the suppressed-job list (default output/_hard_gated.json)",
+    )
+    fp_parser.set_defaults(func=_cli_filter_presentation)
 
     args = parser.parse_args()
     args.func(args)

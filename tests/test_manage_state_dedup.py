@@ -25,6 +25,7 @@ def _run_dedup(
     role_types: str | None = None,
     dry_run: bool = False,
     no_safety_bound: bool = False,
+    legacy_score_archive: bool = False,
 ) -> subprocess.CompletedProcess:
     """Run dedup subcommand with optional --role-types flag."""
     cmd = [
@@ -40,6 +41,8 @@ def _run_dedup(
         cmd.append("--dry-run")
     if no_safety_bound:
         cmd.append("--no-safety-bound")
+    if legacy_score_archive:
+        cmd.append("--legacy-score-archive")
     return subprocess.run(cmd, capture_output=True, text=True)
 
 
@@ -106,7 +109,10 @@ class TestDedupRoleTypes:
         )
         _write_job(verified / "devrel", "excludedco-assoc.json", excluded_job)
 
-        result = _run_dedup(str(output_dir), role_types="community-manager", no_safety_bound=True)
+        result = _run_dedup(
+            str(output_dir), role_types="community-manager", no_safety_bound=True,
+            legacy_score_archive=True,
+        )
         assert result.returncode == 0, f"dedup failed: {result.stderr}"
 
         # Included role: low-score job should be archived
@@ -157,6 +163,7 @@ class TestDedupRoleTypes:
 
         result = _run_dedup(
             str(output_dir), role_types="community-manager,devrel", no_safety_bound=True,
+            legacy_score_archive=True,
         )
         assert result.returncode == 0, f"dedup failed: {result.stderr}"
 
@@ -197,7 +204,9 @@ class TestDedupRoleTypes:
         _write_job(verified / "devrel", "omitdevco-jr.json", job_devrel)
 
         # No --role-types flag
-        result = _run_dedup(str(output_dir), no_safety_bound=True)
+        result = _run_dedup(
+            str(output_dir), no_safety_bound=True, legacy_score_archive=True,
+        )
         assert result.returncode == 0, f"dedup failed: {result.stderr}"
 
         # Both low-score jobs should be archived (all dirs processed)
@@ -447,10 +456,13 @@ class TestDedupRoleTypes:
         job_low = _make_job(
             company="UrlDupeRepost",
             title="Engineer",
-            score=68,
+            score=72,
             url=shared_url,
             role_type="community-manager",
         )
+        # dedup reads job_url (not url)
+        job_high["job_url"] = shared_url
+        job_low["job_url"] = shared_url
         _write_job(verified / "community-manager", "urldupe-senior.json", job_high)
         _write_job(verified / "community-manager", "urldupe-eng.json", job_low)
 
@@ -583,7 +595,9 @@ class TestDedupAutoScoping:
         )
         _write_canonical_job(verified / "stale-role", "staleco-old.json", stale_job)
 
-        result = _run_canonical_dedup(str(output_dir), auto_scope=True, run_date=TODAY)
+        result = _run_canonical_dedup(
+            str(output_dir), auto_scope=True, run_date=TODAY, legacy_score_archive=True,
+        )
         assert result.returncode == 0, (
             f"dedup auto-scope failed: {result.stderr}\nstdout: {result.stdout}"
         )
@@ -612,7 +626,9 @@ class TestDedupAutoScoping:
             )
             _write_canonical_job(verified / "ai-engineer", f"lowco{i}-temp.json", low_job)
 
-        result = _run_canonical_dedup(str(output_dir), auto_scope=True, run_date=TODAY)
+        result = _run_canonical_dedup(
+            str(output_dir), auto_scope=True, run_date=TODAY, legacy_score_archive=True,
+        )
         assert result.returncode == 1, (
             f"dedup with 100% archive rate should fail safety bound (exit 1), "
             f"got {result.returncode}.\nstdout: {result.stdout}"

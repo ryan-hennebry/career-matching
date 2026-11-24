@@ -1,26 +1,21 @@
 # Contributing
 
-Thanks for improving this project.
+Use synthetic postings and profiles in issues, tests and screenshots. Use the `examples/offline` fixtures as a starting point.
 
-## Scope
+## Run the checks
 
-- Keep onboarding simple and non-technical.
-- Keep README claims aligned with actual agent behavior in `CLAUDE.md`, `context.md`, `references/`, `scripts/`, and the dashboard files in `api/` and `public/`.
-- Prefer small, focused pull requests.
+Create a Python virtual environment and install the test dependencies.
 
-## Local checks
-
-Run before opening a PR:
-
-```bash
-# from the repo root
-python3 -m pytest
-bash scripts/preflight.sh --structure
+```sh
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements-test.txt
+python -m playwright install chromium
+python -m pytest -q
+ruff check scripts tests
+node --check public/js/app.js
 ```
 
-## Pull request checklist
+On Windows, run `py -3 -m venv .venv` and activate it with `.venv\Scripts\Activate.ps1`. Node is needed only for the JavaScript syntax check. See the [usage guide](docs/usage.md) for the command-line workflow.
 
-- Describe what changed and why.
-- Include before/after screenshots or GIFs for README visual changes.
-- Note any behavior changes in `CLAUDE.md`, `references/`, or dashboard endpoints.
-- Confirm setup, delivery, and output details in README are still accurate.
+For a policy change, add a case that shows the new decision and check the run manifest. Use public source documentation when changing an adapter. Keep live requests out of automated tests.

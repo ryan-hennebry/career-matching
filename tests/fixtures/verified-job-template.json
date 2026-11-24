@@ -1,13 +1,13 @@
 {
   "title": "Founder Associate",
-  "company": "Duku AI",
+  "company": "Example Research",
   "location": "London, England, UK",
   "job_type": "Full-time",
   "work_arrangement": "Hybrid",
   "salary_min": 36000,
   "salary_max": 60000,
   "currency": "GBP",
-  "job_url": "https://www.linkedin.com/jobs/view/4344764433",
+  "job_url": "https://www.linkedin.com/jobs/view/123456789",
   "source": "linkedin",
   "date_posted": "2025-12-18",
   "active_status": "unverified",
@@ -56,7 +56,7 @@
     "total": 78
   },
   "benefits": [],
-  "notes": "Duku AI builds an autonomous testing platform using AI agents.",
+  "notes": "Example Research builds an autonomous testing platform using AI agents.",
   "run_date": "2026-02-08",
   "verified_at": "2026-02-08"
 }

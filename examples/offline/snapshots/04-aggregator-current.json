@@ -1,0 +1,26 @@
+{
+  "provider": "aggregator",
+  "company": "Mallow Systems",
+  "board": "example-board",
+  "observed_at": "2026-01-15",
+  "cap_hit": true,
+  "jobs": [
+    {
+      "id": "43001",
+      "title": "Customer Enablement Partner",
+      "location": "Work location unclear",
+      "url": "https://board.example.org/jobs/43001",
+      "active": true,
+      "publication": "2026-01-14",
+      "description": "Build an onboarding library. The copy omits work location and eligibility details."
+    },
+    {
+      "id": "43002",
+      "title": "Operations Programme Manager",
+      "location": "Unknown",
+      "url": "https://board.example.org/jobs/43002",
+      "active": false,
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "greenhouse",
+  "company": "Bracken Studio",
+  "board": "bracken",
+  "observed_at": "2026-01-15",
+  "jobs": [
+    {
+      "id": 29001,
+      "title": "Customer Education Lead",
+      "location": {
+        "name": "Remote within the UK"
+      },
+      "absolute_url": "https://bracken.example.org/jobs/29001",
+      "updated_at": "2026-01-14",
+      "content": "<p>Build a self-service learning programme. Design workshops and measure product adoption.</p>"
+    }
+  ]
+}

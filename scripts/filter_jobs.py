@@ -71,7 +71,7 @@ def main() -> None:
     filtered_count = len(data["jobs"])
 
     save_jobs(args.output, data)
-    print(f"Filtered {original_count} → {filtered_count} (excluded {original_count - filtered_count})")
+    print(f"Filtered {original_count} to {filtered_count} (excluded {original_count - filtered_count})")
 
 
 if __name__ == "__main__":

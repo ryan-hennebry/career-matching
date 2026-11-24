@@ -40,13 +40,13 @@ def write_job(dir_path: Path, filename: str, job_dict: dict) -> Path:
 def make_verified_json(
     *,
     title: str = "Founder Associate",
-    company: str = "Duku AI",
+    company: str = "Example Research",
     score: int = 78,
     role_type: str = "founders-associate",
     source: str = "linkedin",
     location: str = "London, England, UK",
     active_status: str = "verified",
-    job_url: str = "https://www.linkedin.com/jobs/view/4344764433",
+    job_url: str = "https://www.linkedin.com/jobs/view/123456789",
     **overrides: Any,
 ) -> dict[str, Any]:
     """Create a verified job JSON dict from the fixture template.

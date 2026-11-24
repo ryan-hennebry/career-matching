@@ -1,0 +1,79 @@
+{
+  "reviews": {
+    "Customer Operations Manager": {
+      "review_status": "assessed",
+      "review_method": "human",
+      "practical_eligibility": "eligible",
+      "preference_fit": "wanted",
+      "interview_prospect": "stronger",
+      "confidence": "high",
+      "screener": "talent_team",
+      "central_work": "Own customer onboarding and improve time to first value.",
+      "fit_reason": "The example candidate redesigned onboarding for two product teams and measured how long customers took to get started.",
+      "practical_notes": "The posting confirms UK remote work. Ask how the team measures onboarding today.",
+      "requirements": [
+        {
+          "kind": "hard",
+          "text": "Prior ownership of customer onboarding.",
+          "fit": "met",
+          "visibility": "cv",
+          "evidence": "CV shows ownership of onboarding redesign."
+        }
+      ],
+      "recommended_effort": "Read the onboarding flow before the initial conversation.",
+      "screener_evidence": "The employer says its talent partner reviews forms first."
+    },
+    "Implementation Operations Lead": {
+      "review_status": "assessed",
+      "review_method": "human",
+      "practical_eligibility": "eligible",
+      "preference_fit": "wanted",
+      "interview_prospect": "stronger",
+      "confidence": "high",
+      "screener": "unknown",
+      "central_work": "Improve implementation handoffs with repeatable playbooks.",
+      "fit_reason": "The example candidate ran weekly service handoffs and wrote a playbook for recurring issues.",
+      "practical_notes": "The current listing replaces an older posting about the same seat.",
+      "requirements": [
+        {
+          "kind": "hard",
+          "text": "Service operations experience is required.",
+          "fit": "met",
+          "visibility": "cv",
+          "evidence": "CV lists ownership of weekly service handoffs."
+        }
+      ]
+    },
+    "Customer Education Lead": {
+      "review_status": "assessed",
+      "review_method": "human",
+      "practical_eligibility": "eligible",
+      "preference_fit": "wanted",
+      "interview_prospect": "plausible",
+      "confidence": "medium",
+      "screener": "hiring_manager",
+      "central_work": "Build self-service learning and measure adoption.",
+      "fit_reason": "A public portfolio workshop shows relevant teaching experience. The CV carries less direct evidence.",
+      "practical_notes": "The employer board is live. The update date does not establish the original posting date.",
+      "requirements": [],
+      "screener_evidence": "The education manager handles initial reviews."
+    },
+    "Customer Enablement Partner": {
+      "review_status": "assessed-provisional",
+      "review_method": "human",
+      "practical_eligibility": "conditional",
+      "preference_fit": "wanted",
+      "interview_prospect": "plausible",
+      "confidence": "low",
+      "screener": "unknown",
+      "central_work": "Build an onboarding library for customers.",
+      "fit_reason": "An onboarding guide in the example portfolio shows similar work.",
+      "practical_notes": "Confirm the employer posting, location and right-to-work requirements.",
+      "requirements": [],
+      "optional_reason": "Check the employer listing if you still have time after the shortlist."
+    },
+    "Operations Programme Manager": {
+      "review_status": "pending"
+    }
+  }
+}

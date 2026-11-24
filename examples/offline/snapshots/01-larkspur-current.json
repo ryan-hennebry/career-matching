@@ -1,0 +1,26 @@
+{
+  "provider": "ashby",
+  "company": "Larkspur Works",
+  "board": "larkspur",
+  "observed_at": "2026-01-15",
+  "jobs": [
+    {
+      "id": "21001",
+      "title": "Customer Operations Manager",
+      "location": "Remote within the UK",
+      "jobUrl": "https://larkspur.example.org/jobs/21001",
+      "isListed": true,
+      "descriptionPlain": "Own customer onboarding and track time to first value. Requirements: prior ownership of customer onboarding.",
+      "publishedAt": "2026-01-11"
+    },
+    {
+      "id": "21003",
+      "title": "Implementation Operations Lead",
+      "location": "Remote within the UK",
+      "jobUrl": "https://larkspur.example.org/jobs/21003",
+      "isListed": true,
+      "descriptionPlain": "Improve implementation handoffs and translate recurring problems into playbooks. Experience with service operations is required.",
+      "publishedAt": "2026-01-14"
+    }
+  ]
+}

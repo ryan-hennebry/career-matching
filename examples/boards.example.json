@@ -1,0 +1,6 @@
+{
+  "boards": [
+    {"provider": "ashby", "board": "your-ashby-board", "company": "Example Employer"},
+    {"provider": "greenhouse", "board": "your-greenhouse-board", "company": "Example Studio"}
+  ]
+}
