@@ -1,10 +1,10 @@
 # Career Matching
 
-I built this to find open jobs that fit my experience and help me decide which ones to apply for.
+I built this for my own job search. It gives me a shortlist and shows why each role fits and what I'd still need to check before applying.
 
-Tell it what you've done and what you'd like to do next. It looks for roles and checks whether they're still open. You get a shortlist split into **Apply now** and **Apply if time**. Each recommendation links to the listing and explains why it fits and what you still need to check.
+I tell it what I've done and what I'd like to do next. It looks for roles, checks whether the listings are still open and puts the matches under **Apply now** or **Apply if time**. Each recommendation links to the listing.
 
-If it doesn't find a confirmed match, it tells you where it looked and what it couldn't verify. Once you mark a job as submitted, it stays off future shortlists.
+If I get no confirmed matches, I can see where it looked and what it couldn't verify. Jobs I've marked as submitted stay off later shortlists.
 
 ## Try the demo
 
