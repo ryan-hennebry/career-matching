@@ -1,10 +1,12 @@
 # Career Matching
 
-Find open roles and see which ones fit your experience and the work you want. Career Matching checks employer listings, explains each recommendation and keeps your search history on your computer.
+Decide which jobs are worth applying for. Career Matching checks employer listings and explains how each recommended role fits your experience and the work you want.
 
-## Try an example
+In the fictional demo, an employer reposts a job under a new title. The repost is a day old. The original listing is 55 days old, so Career Matching skips it under the 35-day rule. A live listing with an update date and no original posting date stays in **Apply if time**. [See the replay test](tests/test_career_match.py).
 
-Install [Git](https://git-scm.com/downloads) and [Python 3.11 or later](https://www.python.org/downloads/). Then run:
+## Try the demo
+
+Install [Git](https://git-scm.com/downloads) and [Python 3.11 or later](https://www.python.org/downloads/).
 
 ```sh
 git clone https://github.com/ryan-hennebry/career-matching.git
@@ -12,25 +14,18 @@ cd career-matching
 python3 scripts/career_match.py demo
 ```
 
-On Windows, use `py -3` in place of `python3`. The example uses fictional jobs and runs offline without an account. It shows why a recent listing is recommended and why a republished one is skipped. Run `python3 scripts/career_match.py preview` to open the result in your browser.
+On Windows, use `py -3` in place of `python3`. After cloning, the demo runs offline without an account. For a browser view, run `python3 scripts/career_match.py preview` and open the address it prints.
 
 ## Search for your own roles
 
-Install and sign in to [Claude Code](https://code.claude.com/docs/en/quickstart) or [Codex CLI](https://learn.chatgpt.com/docs/codex/cli). From the repo, run `claude` or `codex` with its normal permissions and ask: **"Help me set up my search profile and find roles that fit it."**
+Install and sign in to [Claude Code](https://code.claude.com/docs/en/quickstart) or [Codex CLI](https://learn.chatgpt.com/docs/codex/cli). Run `claude` or `codex` in the project folder and ask it to help set up your profile and find jobs that fit.
 
-The agent asks about your experience, interests and constraints. It reads the postings, checks the evidence and produces an **Apply now** and **Apply if time** shortlist. You can ask why a role moved, mark a role as submitted or request a brief for a role you choose.
+The shortlist groups recommendations into **Apply now** and **Apply if time**. Each role comes with a reason and any open questions. Mark a role as submitted to keep that job off future shortlists. You can ask for a brief for any role you want to pursue. [Usage guide](docs/usage.md).
 
-The [usage guide](docs/usage.md) explains sources and setup. The [matching policy](references/matching-policy.md) explains how roles are assessed and ranked.
+## What gets checked
 
-## How it works
+To make the shortlist, a role needs a review, a link to the specific job, and a record that the listing was checked and open on the day of the search. The search report shows where the agent looked, which sources it couldn’t check, and where it hit a result limit. [Matching policy](references/matching-policy.md), [design notes](docs/design.md) and [automated checks](https://github.com/ryan-hennebry/career-matching/actions/workflows/ci.yml?query=branch%3Amain)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/how-it-works-dark.svg">
-  <img src="assets/how-it-works-light.svg" alt="A profile and employer listings feed a review. The run validator checks the ranked shortlist before you see it." width="760">
-</picture>
-
-The agent reviews the work and records what it found. Python checks and orders the records, including older posting dates across confirmed relists. Each run records which sources were checked and what remains unresolved. The [design notes](docs/design.md) explain the tradeoffs and tests.
-
-The dashboard runs locally. Your AI client may process files or text you share with it. The project has no mail or application submission path.
+The project stores search records locally. Your AI client may process the information you share with it. You decide whether to apply.
 
 [MIT license](LICENSE)
